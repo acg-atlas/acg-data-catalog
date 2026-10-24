@@ -1,0 +1,37 @@
+<script>
+// Quarto has one navbar for the whole site. On Spanish pages (es/), translate
+// its labels, point its links at the Spanish pages, and turn the language
+// switch into "English".
+document.addEventListener("DOMContentLoaded", function () {
+  if (document.documentElement.lang !== "es") return;
+  var labels = {
+    "Data": "Datos", "Search data": "Buscar datos", "All data (table)": "Todos los datos (tabla)",
+    "Map": "Mapa", "Publications": "Publicaciones", "Search papers": "Buscar publicaciones",
+    "All papers (table)": "Todas las publicaciones (tabla)", "Contribute": "Contribuir",
+    "About": "Acerca de", "Privacy": "Privacidad"
+  };
+  var page = location.pathname.split("/").pop() || "index.html";
+  document.querySelectorAll(".navbar a, .navbar .menu-text").forEach(function (el) {
+    var text = el.querySelector ? (el.querySelector(".menu-text") || el) : el;
+    var t = text.textContent.trim();
+    if (labels[t]) text.textContent = labels[t];
+    if (el.tagName === "A") {
+      var href = el.getAttribute("href") || "";
+      if (t === "Español") {               // language switch -> same page in English
+        el.setAttribute("href", "../" + page);
+        text.textContent = "English";
+      } else if (/^\.\.\/[^/]+\.html$/.test(href)) {
+        el.setAttribute("href", href.slice(3));   // ../explore.html -> explore.html (es/)
+      } else if (href === "../index.html" || href === "../") {
+        el.setAttribute("href", "index.html");
+      }
+    }
+  });
+  var foot = document.querySelector(".nav-footer-center");
+  if (foot) foot.innerHTML = foot.innerHTML
+    .replace("Metadata CC0", "Metadatos CC0")
+    .replace("Each dataset and paper keeps its own license and citation", "Cada conjunto de datos y publicación conserva su licencia y cita")
+    .replace("Paper metadata from OpenAlex (CC0) and Crossref", "Metadatos de publicaciones de OpenAlex (CC0) y Crossref")
+    .replace("Boundary", "Límite");
+});
+</script>

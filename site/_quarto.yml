@@ -8,7 +8,7 @@ project:
 website:
   title: "ACG Atlas"
   site-url: https://acg-atlas.pages.dev   # change to the final domain
-  description: "Research data and publications from the Área de Conservación Guanacaste, Costa Rica."
+  description: "Research data and publications from Área de Conservación Guanacaste, Costa Rica."
   navbar:
     left:
       - text: Data
@@ -38,6 +38,7 @@ website:
 format:
   html:
     theme: [cosmo, assets/custom.scss]
+    include-after-body: assets/nav-es.html
     toc: false
     grid:
       body-width: 1100px
