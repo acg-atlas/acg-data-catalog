@@ -1,9 +1,8 @@
 # ACG boundary ---------------------------------------------------------------
 #
-# INTERIM: data-raw/acg_boundary.geojson is a hand-drawn bounding box around
-# the terrestrial + marine sectors. Replace it with the official SIG-ACG layer
-# (Areas-protegidas, credit: Waldy Medina/SIG-ACG, CC BY 4.0) when available.
-# Nothing else needs to change: every function reads the boundary from here.
+# data-raw/acg_boundary.geojson is the SIG-ACG outline (credit: Waldy
+# Medina/SIG-ACG, CC BY 4.0) plus RNVS Bahia Junquillal; rebuild it with
+# data-raw/make_boundary.R. Every function reads the boundary from here.
 
 read_boundary <- function(path) {
   b <- sf::st_read(path, quiet = TRUE)
