@@ -108,7 +108,7 @@ $("submit-form").addEventListener("submit", async (e) => {
     const j = await r.json();
     if (j.ok && j.duplicate) return say(`${t.already} ${j.status}`);
     if (j.ok) { say(t.thanks); e.target.reset(); return; }
-    say({ invalid_doi: t.invalid, not_found: t.notFound, captcha: t.captcha }[j.error] || t.error);
+    say({ invalid_doi: t.invalid, not_found: t.notFound, captcha: t.captcha, rate_limited: t.rateLimited }[j.error] || t.error);
   } catch { say(t.error); }
 });
 </script>

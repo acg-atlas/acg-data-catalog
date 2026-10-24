@@ -10,6 +10,14 @@ binding = "DB"
 database_name = "acg-submissions"
 database_id = "940fb77c-9061-48d0-a9cd-2e02868356d9"
 
+# At most 3 submissions per minute per visitor (on top of Turnstile)
+[[ratelimits]]
+name = "SUBMIT_LIMITER"
+namespace_id = "1001"
+  [ratelimits.simple]
+  limit = 3
+  period = 60
+
 # Secrets (never commit these):
 #   npx wrangler secret put ADMIN_TOKEN
 #   npx wrangler secret put TURNSTILE_SECRET

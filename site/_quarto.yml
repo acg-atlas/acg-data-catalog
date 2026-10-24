@@ -5,6 +5,7 @@ project:
   resources:
     - data/*.json
     - data/*.geojson
+    - _headers
 
 website:
   title: "ACG Atlas"
@@ -36,7 +37,7 @@ website:
       - href: es/index.qmd
         text: Español
   page-footer:
-    center: "Metadata CC0 · Each dataset and paper keeps its own license and citation · Paper metadata from OpenAlex (CC0) and Crossref · Boundary © SIG-ACG, CC BY 4.0 · [GitHub](https://github.com/acg-atlas)"
+    center: "Metadata CC0 · Each dataset and paper keeps its own license and citation · Paper metadata from OpenAlex (CC0) and Crossref · Boundary © SIG-ACG, CC BY 4.0 · [Privacy and terms](privacy.qmd) · [GitHub](https://github.com/acg-atlas)"
 
 format:
   html:
