@@ -13,7 +13,8 @@ A searchable, bilingual (EN/ES) index of publicly available research data from t
                               ▼                     ▼
                    PR: new `pending` entries   site/data/catalog.json ─► Quarto ─► Cloudflare Pages
                    in catalog/datasets.yaml                          └─► Worker /status (submissions)
- OpenAlex ─► site/data/literature.json
+ OpenAlex ─► catalog/papers.yaml (pending) ─► site/data/papers.json (approved)
+ Web of Science (local, private) ─► scripts/import_wos.R ─┘
 ```
 
 - **`catalog/datasets.yaml`** is the only file humans edit. Each entry has `review: pending | approved | excluded`. Only `approved` entries are published. `excluded` entries are never re-queued.

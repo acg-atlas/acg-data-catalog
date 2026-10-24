@@ -39,5 +39,5 @@ jobs:
           commit-message: "Weekly harvest: new pending entries"
           add-paths: |
             catalog/datasets.yaml
-            site/data/literature.json
+            catalog/papers.yaml
           labels: review

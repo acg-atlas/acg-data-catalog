@@ -31,8 +31,18 @@ list(
   tar_target(from_gbif, harvest_gbif(boundary_wkt(boundary)),
              cue = tar_cue("always")),
   tar_target(from_form, fetch_submissions(), cue = tar_cue("always")),
-  tar_target(literature, harvest_openalex(search_terms),
+
+  # Publications (OpenAlex only; Web of Science is added locally with
+  # scripts/import_wos.R because its export cannot leave VCU's licence)
+  tar_target(papers_file, "catalog/papers.yaml", format = "file"),
+  tar_target(papers_curated, read_papers(papers_file)),
+  tar_target(papers_core, search_openalex_papers(gazetteer, "core"),
              cue = tar_cue("always")),
+  tar_target(papers_fulltext, search_openalex_papers(gazetteer, "fulltext"),
+             cue = tar_cue("always")),
+  tar_target(papers_scored,
+             combine_papers(papers_core, papers_fulltext) |> score_papers(gazetteer)),
+  tar_target(papers_queue, new_papers(papers_scored, papers_curated)),
 
   # Combine, score, queue
   tar_target(candidates,
@@ -41,18 +51,17 @@ list(
                collapse_versions()),
   tar_target(scored, score_relevance(candidates, gazetteer)),
   tar_target(queue, new_candidates(scored, curated)),
-  tar_target(queue_summary, review_summary(queue, "review_summary.md"),
+  tar_target(queue_summary,
+             review_summary(queue, "review_summary.md", papers = papers_queue),
              format = "file"),
 
   # Site data (approved entries only)
   tar_target(catalog_json, build_catalog_json(curated, "site/data/catalog.json"),
              format = "file"),
-  tar_target(literature_json,
-             build_literature_json(literature, gazetteer,
-                                   "site/data/literature.json"),
+  tar_target(papers_json, build_papers_json(papers_curated, "site/data/papers.json"),
              format = "file")
 )
 
-# Appending the queue to catalog/datasets.yaml is done by
-# scripts/update_queue.R after tar_make(), not inside the pipeline, so the
-# pipeline never rewrites one of its own tracked inputs.
+# Appending the queues to catalog/datasets.yaml and catalog/papers.yaml is
+# done by scripts/update_queue.R after tar_make(), not inside the pipeline, so
+# the pipeline never rewrites one of its own tracked inputs.

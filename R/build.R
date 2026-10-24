@@ -18,19 +18,10 @@ build_catalog_json <- function(curated, path) {
   path
 }
 
-build_literature_json <- function(literature, gazetteer, path) {
-  lit <- literature |>
-    dplyr::mutate(sectors = guess_sectors(paste(title, abstract), gazetteer,
-                                          rep(NA_character_, dplyr::n()))) |>
-    dplyr::select(-abstract)  # keep the site light; abstracts stay in OpenAlex
-  jsonlite::write_json(lit, path, auto_unbox = TRUE, na = "null")
-  path
-}
-
 #' Short markdown summary used as the pull-request body.
-review_summary <- function(new, path) {
+review_summary <- function(new, path, papers = NULL) {
   lines <- c(
-    sprintf("## %d new candidate(s) for review", nrow(new)), "",
+    sprintf("## %d new dataset candidate(s) for review", nrow(new)), "",
     "Set `review: approved` or `review: excluded` in `catalog/datasets.yaml`,",
     "then merge. Pending entries can stay pending across PRs.", ""
   )
@@ -40,6 +31,12 @@ review_summary <- function(new, path) {
                    new$source, new$relevance_reason)
     lines <- c(lines, "| relevance | title | source | why |",
                "|---|---|---|---|", tbl)
+  }
+  if (!is.null(papers) && nrow(papers) > 0) {
+    lines <- c(lines, "",
+      sprintf("## %d new paper(s) in `catalog/papers.yaml`", nrow(papers)), "",
+      sprintf("%d likely, %d check. Review in bulk with `scripts/review_papers_export.R`.",
+              sum(papers$relevance == "likely"), sum(papers$relevance == "check")))
   }
   writeLines(lines, path)
   path
