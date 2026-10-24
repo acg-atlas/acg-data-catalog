@@ -7,7 +7,8 @@ t = strings[lang]
 catalog = d3.json(root + "data/catalog.json")
 fold = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
 haystack = new Map(catalog.map(d => [d, fold([d.title, d.creators, d.publisher, d.taxa,
-                                               d.sectors, d.doi, d.year].join(" "))]))
+                                               d.sectors, d.themes, d.doi, d.year].join(" "))]))
+themeList = Object.keys(t.themeNames).filter(th => catalog.some(d => split(d.themes).includes(th)))
 sectorList = [...new Set(catalog.flatMap(d => split(d.sectors)))].sort()
 taxonList = [...new Set(catalog.flatMap(d => split(d.taxa)))].sort()
 repoList = [...new Set(catalog.map(d => d.publisher).filter(Boolean))].sort()
@@ -25,6 +26,8 @@ viewof q = Inputs.text({ placeholder: t.search, width: "100%",
 ::: {.filters}
 ```{ojs}
 //| echo: false
+viewof theme = Inputs.select(new Map([[t.allThemes, ""], ...themeList.map(th => [t.themeNames[th], th])]),
+                             { label: t.theme })
 viewof sector = Inputs.select([t.all, ...sectorList], { label: t.sector })
 viewof taxon = Inputs.select([t.allTaxa, ...taxonList], { label: t.taxa })
 viewof repo = Inputs.select([t.allRepos, ...repoList], { label: t.publisher })
@@ -48,6 +51,7 @@ sorters = ({
 })
 filtered = catalog.filter(d =>
   terms.every(w => haystack.get(d).includes(w)) &&
+  (!theme || split(d.themes).includes(theme)) &&
   (sector === t.all || split(d.sectors).includes(sector)) &&
   (taxon === t.allTaxa || split(d.taxa).includes(taxon)) &&
   (repo === t.allRepos || d.publisher === repo) &&
@@ -80,6 +84,7 @@ card = d => htl.html`<div class="dataset-card">
   </div>
   <div class="chips">
     ${d.featured ? htl.html`<span class="chip featured">${t.featuredBadge}</span>` : ""}
+    ${split(d.themes).map(x => htl.html`<span class="chip theme">${t.themeNames[x] || x}</span>`)}
     ${split(d.taxa).map(x => htl.html`<span class="chip taxon">${x}</span>`)}
     ${split(d.sectors).map(x => htl.html`<span class="chip">${x}</span>`)}
     ${d.acg_records ? htl.html`<span class="chip">${d.acg_records.toLocaleString()} ${t.records}</span>` : ""}
