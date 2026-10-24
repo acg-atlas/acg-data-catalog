@@ -1,0 +1,11 @@
+---
+title: "Buscar publicaciones"
+---
+
+```{ojs}
+//| echo: false
+lang = "es"
+root = "../"
+```
+
+{{< include ../_papers.qmd >}}

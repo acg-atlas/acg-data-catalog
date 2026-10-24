@@ -1,8 +1,9 @@
-// ACG data catalog: DOI submission Worker
+// ACG Atlas: DOI submission Worker
 //
 // Public:
 //   GET  /api/resolve?doi=...   look up a DOI, return a metadata preview
-//   POST /api/submit            store a submission (Turnstile-protected)
+//   POST /api/submit            store a submission (Turnstile-protected);
+//                               kind = "dataset" (default) or "paper"
 // Admin (Authorization: Bearer ADMIN_TOKEN):
 //   GET  /api/pending           pending submissions, WITHOUT contact emails
 //   POST /api/status            {updates: [{doi, status}]} after review
@@ -117,13 +118,14 @@ export default {
       const meta = await resolveDoi(doi, fetchImpl);
       if (!meta) return json({ ok: false, error: "not_found" }, 404, env);
       const sector = SECTORS.includes(body.sector) ? body.sector : null;
+      const kind = body.kind === "paper" ? "paper" : "dataset";
 
       await env.DB.prepare(
         `INSERT INTO submissions
-           (doi, title, creators, year, publisher, resource_type, sector,
+           (doi, kind, title, creators, year, publisher, resource_type, sector,
             note, contact, lang, status, created_at, updated_at)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'pending', datetime('now'), datetime('now'))`,
-      ).bind(doi, meta.title, meta.creators, meta.year, meta.publisher,
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'pending', datetime('now'), datetime('now'))`,
+      ).bind(doi, kind, meta.title, meta.creators, meta.year, meta.publisher,
         meta.resource_type, sector, clip(body.note, 1000), clip(body.contact, 200),
         body.lang === "es" ? "es" : "en").run();
       return json({ ok: true, metadata: meta }, 201, env);
@@ -133,7 +135,7 @@ export default {
     if (url.pathname === "/api/pending" && request.method === "GET") {
       if (!isAdmin(request, env)) return json({ ok: false }, 401, env);
       const { results } = await env.DB.prepare(
-        `SELECT doi, title, creators, year, publisher, resource_type, sector, note,
+        `SELECT doi, kind, title, creators, year, publisher, resource_type, sector, note,
                 lang, created_at
            FROM submissions WHERE status = 'pending' ORDER BY created_at`).all();
       return json({ ok: true, submissions: results }, 200, env);

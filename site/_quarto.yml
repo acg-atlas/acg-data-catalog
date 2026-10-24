@@ -6,26 +6,34 @@ project:
     - data/*.geojson
 
 website:
-  title: "ACG Data Catalog"
+  title: "ACG Atlas"
   site-url: https://acg-atlas.pages.dev   # change to the final domain
-  description: "Find publicly available research data from the Área de Conservación Guanacaste, Costa Rica."
+  description: "Research data and publications from the Área de Conservación Guanacaste, Costa Rica."
   navbar:
     left:
-      - href: explore.qmd
-        text: Search
-      - href: browse.qmd
-        text: All data
-      - href: map.qmd
-        text: Map
-      - href: submit.qmd
-        text: Submit a DOI
+      - text: Data
+        menu:
+          - href: explore.qmd
+            text: Search data
+          - href: browse.qmd
+            text: All data (table)
+          - href: map.qmd
+            text: Map
+      - text: Publications
+        menu:
+          - href: papers.qmd
+            text: Search papers
+          - href: papers-table.qmd
+            text: All papers (table)
+      - href: contribute.qmd
+        text: Contribute
       - href: about.qmd
         text: About
     right:
       - href: es/index.qmd
         text: Español
   page-footer:
-    center: "Metadata CC0 · Each dataset keeps its own license and citation · Boundary © SIG-ACG, CC BY 4.0 · [GitHub](https://github.com/acg-atlas)"
+    center: "Metadata CC0 · Each dataset and paper keeps its own license and citation · Paper metadata from OpenAlex (CC0) and Crossref · Boundary © SIG-ACG, CC BY 4.0 · [GitHub](https://github.com/acg-atlas)"
 
 format:
   html:

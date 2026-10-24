@@ -1,5 +1,5 @@
 ---
-pagetitle: "ACG Data Catalog"
+pagetitle: "ACG Atlas"
 ---
 
 ```{ojs}

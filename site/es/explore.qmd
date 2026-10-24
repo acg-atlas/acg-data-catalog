@@ -1,5 +1,5 @@
 ---
-title: "Buscar"
+title: "Buscar datos"
 ---
 
 ```{ojs}

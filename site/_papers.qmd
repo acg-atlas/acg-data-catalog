@@ -1,0 +1,94 @@
+<!-- Shared by papers.qmd and es/papers.qmd. Expects OJS variables `lang`, `root`. -->
+```{ojs}
+//| echo: false
+import { strings } from "/assets/strings.js"
+import { paperLink, split, surname, fmt, typeGroup, typeOrder } from "/assets/catalog.js"
+t = strings[lang]
+papers = d3.json(root + "data/papers.json")
+fold = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
+haystack = new Map(papers.map(d => [d, fold([d.title, d.authors, d.venue, d.sectors,
+                                             d.doi, d.year].join(" "))]))
+langName = new Intl.DisplayNames([lang], { type: "language" })
+sectorList = [...new Set(papers.flatMap(d => split(d.sectors)))].sort()
+groupList = typeOrder.filter(g => papers.some(d => typeGroup(d.type) === g))
+langList = [...new Set(papers.map(d => d.language).filter(Boolean))]
+  .sort((a, b) => d3.descending(papers.filter(d => d.language === a).length,
+                               papers.filter(d => d.language === b).length))
+yearExtent = d3.extent(papers, d => d.year)
+```
+
+```{ojs}
+//| echo: false
+// Prefill from ?s=…  (not ?q=, which Quarto's site search reads and strips)
+viewof q = Inputs.text({ placeholder: t.paperSearch, width: "100%",
+                         value: new URLSearchParams(location.search).get("s") ?? "" })
+```
+
+::: {.filters}
+```{ojs}
+//| echo: false
+viewof sector = Inputs.select([t.all, ...sectorList], { label: t.sector })
+viewof group = Inputs.select(new Map([[t.allTypes, ""], ...groupList.map(g => [t[g], g])]),
+                             { label: t.ptype })
+viewof language = Inputs.select(new Map([[t.allLanguages, ""], ...langList.map(l => [langName.of(l), l])]),
+                                { label: t.language })
+viewof fromYear = Inputs.range(yearExtent, { label: t.year + " ≥", step: 1, value: yearExtent[0] })
+viewof sortBy = Inputs.select(new Map([[t.sortNewest, "new"], [t.sortOldest, "old"],
+                                       [t.sortTitle, "title"]]), { label: t.sort })
+viewof oaOnly = Inputs.toggle({ label: t.oaOnly })
+```
+:::
+
+```{ojs}
+//| echo: false
+terms = fold(q).split(/\s+/).filter(Boolean)
+sorters = ({
+  new: (a, b) => (b.year ?? 0) - (a.year ?? 0),
+  old: (a, b) => (a.year ?? 9999) - (b.year ?? 9999),
+  title: (a, b) => (a.title || "").localeCompare(b.title || "")
+})
+filtered = papers.filter(d =>
+  terms.every(w => haystack.get(d).includes(w)) &&
+  (sector === t.all || split(d.sectors).includes(sector)) &&
+  (!group || typeGroup(d.type) === group) &&
+  (!language || d.language === language) &&
+  (d.year ?? yearExtent[1]) >= fromYear &&
+  (!oaOnly || d.is_oa)
+).sort(sorters[sortBy])
+```
+
+```{ojs}
+//| echo: false
+viewof shown = {
+  let n = 50;
+  const wrap = htl.html`<div></div>`;
+  wrap.value = n;
+  wrap.more = () => { n += 50; wrap.value = n; wrap.dispatchEvent(new Event("input")); };
+  return wrap;
+}
+searchFor = name => {
+  const input = viewof q.querySelector("input");
+  input.value = surname(name);
+  input.dispatchEvent(new Event("input", { bubbles: true }));
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+card = d => htl.html`<div class="dataset-card paper-card">
+  <h4><a href="${paperLink(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
+  <div class="dataset-meta">
+    ${split(d.authors).slice(0, 8).map((c, i) => htl.html`${i ? "; " : ""}<a class="creator-link"
+        title="${t.searchPersonPapers}" onclick=${() => searchFor(c)}>${c}</a>`)}${split(d.authors).length > 8 ? " et al." : ""}
+    ${[d.year, d.venue].filter(Boolean).map(x => " · " + x)}
+  </div>
+  <div class="chips">
+    <span class="chip kind">${t[typeGroup(d.type)]}</span>
+    ${d.is_oa ? htl.html`<a class="chip oa" href="${d.oa_url || paperLink(d)}" target="_blank" rel="noopener">${t.readFree}</a>` : ""}
+    ${d.language && d.language !== lang ? htl.html`<span class="chip">${langName.of(d.language)}</span>` : ""}
+    ${split(d.sectors).map(x => htl.html`<span class="chip">${x}</span>`)}
+  </div>
+</div>`
+htl.html`<p class="result-count"><strong>${filtered.length}</strong> ${t.paperResults}
+  ${q.trim() ? htl.html`<a class="cross-link" href="explore.html?s=${encodeURIComponent(q.trim())}">${fmt(t.crossToData, { q: q.trim() })}</a>` : ""}</p>
+${papers.length === 0 ? htl.html`<p>${t.noPapers}</p>` :
+  filtered.length === 0 ? htl.html`<p>${t.noMatch}</p>` : filtered.slice(0, shown).map(card)}
+${filtered.length > shown ? htl.html`<button class="btn btn-outline-primary" onclick=${() => viewof shown.more()}>${t.showMore}</button>` : ""}`
+```

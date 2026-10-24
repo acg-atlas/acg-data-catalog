@@ -3,6 +3,8 @@
 CREATE TABLE IF NOT EXISTS submissions (
   id            INTEGER PRIMARY KEY AUTOINCREMENT,
   doi           TEXT NOT NULL UNIQUE,
+  kind          TEXT NOT NULL DEFAULT 'dataset'
+                CHECK (kind IN ('dataset', 'paper')),
   title         TEXT,
   creators      TEXT,
   year          INTEGER,

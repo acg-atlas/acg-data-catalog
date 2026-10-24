@@ -1,7 +1,0 @@
----
-title: "Enviar un DOI"
----
-
-¿Tiene un conjunto de datos recolectado en el ACG? Envíe su DOI. No alojamos datos, así que deposítelos primero en un repositorio que asigne DOI (EDI, Dryad, Zenodo, GBIF, Figshare, ...). Cada envío se revisa antes de publicarse.
-
-{{< include ../_submit.qmd >}}
