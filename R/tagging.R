@@ -64,6 +64,25 @@ tag_themes <- function(title, body, rules, max = 3, min_score = 2) {
   })
 }
 
+#' Themes for datasets (taxa are already curated). Title and description
+#' (`text`, e.g. from DataCite) are matched like papers; taxonomic treatments
+#' default to Taxonomy, and GBIF occurrence datasets with no other match to
+#' Populations & communities. Only empty `themes` are filled.
+tag_dataset_themes <- function(datasets, text, theme_rules) {
+  th <- tag_themes(datasets$title, dplyr::coalesce(text, ""), theme_rules, max = 2)
+  category <- if ("category" %in% names(datasets)) datasets$category else rep(NA, nrow(datasets))
+  fallback <- dplyr::case_when(
+    category %in% "taxonomic treatment" ~ "Taxonomy & systematics",
+    grepl("gbif", dplyr::coalesce(datasets$source, "")) ~ "Populations & communities",
+    TRUE ~ ""
+  )
+  th <- ifelse(nzchar(th), th, fallback)
+  if (!"themes" %in% names(datasets)) datasets$themes <- NA_character_
+  empty <- is.na(datasets$themes) | !nzchar(datasets$themes)
+  datasets$themes[empty & nzchar(th)] <- th[empty & nzchar(th)]
+  datasets
+}
+
 #' Fill empty taxa/themes. `texts` has openalex_id, abstract and topics (from
 #' OpenAlex); it is used for matching only and never stored. Taxa come from the
 #' title when it names any (abstracts mention fruit, trees or predators in

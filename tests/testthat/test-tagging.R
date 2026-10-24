@@ -29,6 +29,14 @@ test_that("tag_papers fills only empty fields", {
   expect_equal(out$themes[2], "Evolution & genetics")
 })
 
+test_that("dataset themes: text first, then category and source fallbacks", {
+  d <- tibble::tibble(title = c("Soil carbon flux", "Moths of Costa Rica", "Occurrences"),
+                      category = c("dataset", "taxonomic treatment", "dataset"),
+                      source = c("datacite", "datacite", "gbif"), themes = c(NA, NA, "Evolution & genetics"))
+  out <- tag_dataset_themes(d, c("", "", ""), theme_rules)
+  expect_equal(out$themes, c("Ecosystem processes", "Taxonomy & systematics", "Evolution & genetics"))
+})
+
 test_that("links attach to papers without dropping hand-entered ones", {
   p <- tibble::tibble(doi = c("10.1/a", "10.1/b"), datasets = c("10.5/x", NA))
   l <- tibble::tibble(paper_doi = c("10.1/a", "10.1/b"), dataset_id = c("10.5/y", "10.5/z"), source = "scholix")

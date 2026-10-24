@@ -60,7 +60,8 @@ list(
                dedupe_candidates() |>
                collapse_versions()),
   tar_target(scored, score_relevance(candidates, gazetteer)),
-  tar_target(queue, new_candidates(scored, curated)),
+  tar_target(queue, new_candidates(scored, curated) |>
+               tag_queue(read_tag_rules(theme_terms_file))),
   tar_target(queue_summary,
              review_summary(queue, "review_summary.md", papers = papers_queue),
              format = "file"),

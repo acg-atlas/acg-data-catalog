@@ -22,6 +22,12 @@ build_catalog_json <- function(curated, path, links = empty_links()) {
   path
 }
 
+#' Suggested themes for new dataset candidates (title + harvested text).
+tag_queue <- function(queue, theme_rules) {
+  if (!nrow(queue)) return(queue)
+  tag_dataset_themes(queue, queue$text, theme_rules)
+}
+
 #' Short markdown summary used as the pull-request body.
 review_summary <- function(new, path, papers = NULL) {
   lines <- c(
