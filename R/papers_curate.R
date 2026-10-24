@@ -68,10 +68,12 @@ append_pending_papers <- function(path, curated, new, today = Sys.Date()) {
   path
 }
 
-#' site/data/papers.json: approved papers only, lightest fields.
-build_papers_json <- function(curated, path) {
+#' site/data/papers.json: approved papers only, lightest fields. `datasets`
+#' combines hand-entered links with those in catalog/links.csv.
+build_papers_json <- function(curated, path, links = empty_links()) {
   out <- curated |>
     dplyr::filter(review == "approved") |>
+    link_papers(links) |>
     dplyr::select(-review, -relevance, -relevance_reason, -found_by) |>
     dplyr::arrange(dplyr::desc(year))
   jsonlite::write_json(out, path, auto_unbox = TRUE, na = "null")

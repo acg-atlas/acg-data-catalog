@@ -46,7 +46,13 @@ list(
   tar_target(papers_scored,
              combine_papers(papers_core, papers_fulltext, papers_form) |>
                score_papers(gazetteer)),
-  tar_target(papers_queue, new_papers(papers_scored, papers_curated)),
+  # Suggested taxa/themes for new papers (rules in data-raw/*_terms.csv)
+  tar_target(taxon_terms_file, "data-raw/taxon_terms.csv", format = "file"),
+  tar_target(theme_terms_file, "data-raw/theme_terms.csv", format = "file"),
+  tar_target(papers_tagged,
+             tag_papers(papers_scored, papers_scored, read_tag_rules(taxon_terms_file),
+                        read_tag_rules(theme_terms_file))),
+  tar_target(papers_queue, new_papers(papers_tagged, papers_curated)),
 
   # Combine, score, queue
   tar_target(candidates,
@@ -59,10 +65,13 @@ list(
              review_summary(queue, "review_summary.md", papers = papers_queue),
              format = "file"),
 
-  # Site data (approved entries only)
-  tar_target(catalog_json, build_catalog_json(curated, "site/data/catalog.json"),
+  # Site data (approved entries only). Paper-dataset links are rebuilt by
+  # scripts/update_links.R into catalog/links.csv.
+  tar_target(links_file, "catalog/links.csv", format = "file"),
+  tar_target(links, read_links(links_file)),
+  tar_target(catalog_json, build_catalog_json(curated, "site/data/catalog.json", links),
              format = "file"),
-  tar_target(papers_json, build_papers_json(papers_curated, "site/data/papers.json"),
+  tar_target(papers_json, build_papers_json(papers_curated, "site/data/papers.json", links),
              format = "file")
 )
 

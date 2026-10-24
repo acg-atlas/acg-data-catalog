@@ -89,6 +89,11 @@ a.way {
 .chip.featured { background: #fff3cd; color: #7a5b00; }
 .paper-card { border-left: 4px solid $clay; }
 .chip.kind { background: #f4e9dc; color: $clay-dark; }
+.chip.theme { background: #ece8f5; color: #4a3d78; }
+a.chip.used-by { background: #f4e9dc; color: $clay-dark; text-decoration: none; }
+a.chip.used-by:hover { text-decoration: underline; }
+.linked { margin-top: .45rem; font-size: .85rem; color: $gray-700; }
+.linked span { font-weight: 600; margin-right: .3rem; }
 a.chip.oa { background: #e3f0f7; color: #1d5b7a; text-decoration: none; }
 a.chip.oa:hover { text-decoration: underline; }
 .result-count { color: $gray-700; margin: .5rem 0 1rem; }
@@ -120,13 +125,13 @@ input[type=text], input[type=search] { border-radius: .5rem; border: 1px solid r
 .browse-table th:nth-child(6) { width: 10%; }   // taxon
 .browse-table th:nth-child(7) { width: 7%; }    // sectors
 .browse-table th:nth-child(8) { width: 7%; }    // type
-// papers table: title, authors, year, venue, type, sectors
-.papers-table th:nth-child(2) { width: 36%; }
-.papers-table th:nth-child(3) { width: 24%; }
+// papers table: title, authors, year, venue, themes, taxa
+.papers-table th:nth-child(2) { width: 32%; }
+.papers-table th:nth-child(3) { width: 20%; }
 .papers-table th:nth-child(4) { width: 6%; }
-.papers-table th:nth-child(5) { width: 16%; }
-.papers-table th:nth-child(6) { width: 9%; }
-.papers-table th:nth-child(7) { width: 9%; }
+.papers-table th:nth-child(5) { width: 14%; }
+.papers-table th:nth-child(6) { width: 16%; }
+.papers-table th:nth-child(7) { width: 12%; }
 
 // Map --------------------------------------------------------------------------
 .acg-map { height: min(70vh, 620px); border-radius: .9rem; border: 1px solid rgba(0, 0, 0, .1); }

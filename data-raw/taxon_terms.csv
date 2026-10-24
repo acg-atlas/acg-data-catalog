@@ -1,0 +1,31 @@
+taxon,parent,pattern
+Lepidoptera,Insecta,lepidopter|butterfl|\bmoths?\b|caterpillar|saturnii|sphingid|hesperii|skippers?\b|noctuid|geometrid|erebid|nymphalid|lycaenid|riodinid|hawkmoth|silkmoth|arctiin|pyralid|crambid|limacodid|notodontid|tortricid|apatelodid|megalopygid|euteliid|dyopsin|papilionid|pieridae|mariposa|polilla|oruga
+Hymenoptera,Insecta,hymenopter|braconid|ichneumon|microgastr|chalcid|encyrtid|eulophid|trichogrammat|\bwasps?\b|\bbees?\b|\bants?\b|formicid|apidae|meliponin|sawfl|tenthredin|pompilid|vespid|dryinid|rhopalosomat|avispa|abejas?\b|hormigas?\b
+Diptera,Insecta,dipter|tachinid|\bfl(y|ies)\b|mosquito|sarcophagid|phorid|chironomid|micropezid|drosophil|culicid|syrphid|\bmoscas?\b
+Coleoptera,Insecta,coleopter|beetle|weevil|curculion|scarab|chrysomelid|cerambycid|cicindel|bruchid|scolytid|staphylin|hybosor|escarabajo
+Hemiptera,Insecta,hemipter|heteropter|pentatomid|coreidae|cicada|psyllid|aphid|leafhopper|scutellerid|fulgorid|auchenorrhyn|homopter|chinche
+Odonata,Insecta,odonat|dragonfl|damselfl
+Trichoptera,Insecta,trichopter|caddisfl|hydroptilid|polycentropod|xiphocentron
+Insecta,Arthropoda,\binsects?\b|insecta\b|entomofaun|ephemeropter|mayfl|neuropter|lacewing|antlion|myrmeleont|collembol|springtail|termite|isopter|orthopter|grasshopper|katydid|phasm|stick insect|insectos?\b
+Arachnida,Arthropoda,arachnid|\bspiders?\b(?! monkey)|araneae|scorpion|\bmites?\b|\bticks?\b|acari|opilion|aranas?\b
+Myriapoda,Arthropoda,myriapod|millipede|centipede|diplopod
+Crustacea,Arthropoda,crustace|\bcrabs?\b|shrimp|isopod|copepod|amphipod|cangrejo
+Arthropoda,,arthropod
+Mollusca,,mollus|\bsnails?\b|gastropod|bivalv|nudibranch|octopus|squid|caracol
+Annelida,,annelid|earthworm|polychaet|\bleech
+Nematoda,,nematod
+Platyhelminthes,,trematod|cestod|platyhelminth|monogen
+Cnidaria,,cnidari|\bcorals?\b(?! snake)|anemone|jellyfish|hydrozo|octocoral|scleractin|coral reef|corales
+Porifera,,\bsponges?\b|porifera|spongill
+Bryozoa,,bryozo
+Echinodermata,,echinoderm|sea urchin|sea star|starfish|sea cucumber|holothur
+Mammalia,,mammal|primate|monkeys?\b|capuchin|\bcebus\b|howler|alouatta|ateles|\bbats?\b|chiropter|rodent|\bmice\b|\bmouse\b|\brats?\b|\bdeer\b|odocoileus|peccar|tapir|jaguar|\bpuma\b|ocelot|felid|carnivor|coati|\bnasua\b|armadillo|sloth|opossum|marsupial|cetacean|whale|dolphin|coyote|kinkajou|raccoon|murcielagos\b|mamifero|\bmonos?\b
+Aves,,\bbirds?\b|avian|\baves\b|avifaun|\bwrens?\b|manakin|trogon|parrot(?!fish)|amazona|hummingbird|flycatcher|\bjays?\b|seabird|vulture|raptor|\bowls?\b|toucan|motmot|\bguans?\b|curassow|cracid|songbird|passerine|tinamou|heron|pelican|booby|thick-knee|kingfisher|warbler|tanager|antbird|ornitholog|pajaros?\b|\baves?\b
+Reptilia,,reptil|lizard|\bsnakes?\b|turtle|tortoise|iguana|ctenosaur|\banol|gecko|crocodil|caiman|chelonia|lepidochelys|dermochelys|eretmochelys|serpiente|tortuga|lagart
+Amphibia,,amphibian|\bfrogs?\b|\btoads?\b|salamander|anura|caecilian|batrachochytrium|eleutherodactyl|craugastor|incilius|anfibio|\branas?\b|\bsapos?\b
+Actinopterygii,,\bfish(es)?\b|ichthy|poeciliid|poeciliopsis|cichlid|actinopteryg|\bpeces\b|\bpez\b
+Chondrichthyes,,\bsharks?\b|\brays?\b|manta|mobula|elasmobranch|tibur
+Plantae,,\bplants?\b|\btrees?\b|seedling|\bflora\b|botan|vegetation|liana|orchid|\bferns?\b|fabaceae|legum|\bleaf\b|leaves|flower|\bfruits?\b|\bseeds?\b|woody|angiosperm|grass|bromeliad|epiphyt|\bpalms?\b|enterolobium|quercus|\boaks?\b|bursera|pollen|plantas?\b|arbol|semilla|hojas?\b
+Fungi,,\bfung|mycorrh|mushroom|polypor|basidiomyc|ascomyc|lichen|hongos?\b|endophyt|agaric
+Myxomycetes,,myxomycet|slime mold|myxogastr
+Microorganisms,,bacteri|microb|archae|\bvirus|viral\b|virome|sulfolobus|cyanobacteri|diatom|euglena

@@ -2,7 +2,7 @@
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"
-import { paperLink, fmt, typeGroup, papersCSV, papersBibTeX, papersRIS, downloadButton } from "/assets/catalog.js"
+import { paperLink, fmt, papersCSV, papersBibTeX, papersRIS, downloadButton } from "/assets/catalog.js"
 t = strings[lang]
 papers = d3.json(root + "data/papers.json")
 htl.html`<p>${t.papersTableIntro}</p>`
@@ -28,14 +28,14 @@ htl.html`<div class="export-bar">
 ```{ojs}
 //| echo: false
 Inputs.table(rows, {
-  columns: ["title", "authors", "year", "venue", "type", "sectors"],
+  columns: ["title", "authors", "year", "venue", "themes", "taxa"],
   header: { title: t.title, authors: t.authors, year: t.year, venue: t.venue,
-            type: t.ptype, sectors: t.sectors },
+            themes: t.themes, taxa: t.taxa },
   format: {
     title: (x, i, data) => htl.html`<a href="${paperLink(data[i])}" target="_blank" rel="noopener">${x}</a>`,
     authors: x => (x || "").split(";").length > 6 ? x.split(";").slice(0, 6).join(";") + "; et al." : x,
     year: x => x ?? "",
-    type: x => t[typeGroup(x)]
+    themes: x => (x || "").split(";").map(s => t.themeNames[s.trim()] || s.trim()).filter(Boolean).join("; ")
   },
   layout: "fixed",
   rows: 25,

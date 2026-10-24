@@ -5,16 +5,21 @@ import { strings } from "/assets/strings.js"
 import { paperLink, split, surname, fmt, typeGroup, typeOrder } from "/assets/catalog.js"
 t = strings[lang]
 papers = d3.json(root + "data/papers.json")
+catalog = d3.json(root + "data/catalog.json")
+datasetById = new Map(catalog.map(d => [d.id, d]))
 fold = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
-haystack = new Map(papers.map(d => [d, fold([d.title, d.authors, d.venue, d.sectors,
-                                             d.doi, d.year].join(" "))]))
+haystack = new Map(papers.map(d => [d, fold([d.title, d.authors, d.venue, d.sectors, d.taxa,
+                                             d.themes, d.datasets, d.doi, d.year].join(" "))]))
 langName = new Intl.DisplayNames([lang], { type: "language" })
+decadeOf = y => y ? Math.floor(y / 10) * 10 : null
 sectorList = [...new Set(papers.flatMap(d => split(d.sectors)))].sort()
+taxonList = [...new Set(papers.flatMap(d => split(d.taxa)))].sort()
+themeList = Object.keys(t.themeNames).filter(th => papers.some(d => split(d.themes).includes(th)))
 groupList = typeOrder.filter(g => papers.some(d => typeGroup(d.type) === g))
 langList = [...new Set(papers.map(d => d.language).filter(Boolean))]
   .sort((a, b) => d3.descending(papers.filter(d => d.language === a).length,
                                papers.filter(d => d.language === b).length))
-yearExtent = d3.extent(papers, d => d.year)
+decadeList = [...new Set(papers.map(d => decadeOf(d.year)).filter(Boolean))].sort((a, b) => b - a)
 ```
 
 ```{ojs}
@@ -27,15 +32,20 @@ viewof q = Inputs.text({ placeholder: t.paperSearch, width: "100%",
 ::: {.filters}
 ```{ojs}
 //| echo: false
+viewof theme = Inputs.select(new Map([[t.allThemes, ""], ...themeList.map(th => [t.themeNames[th], th])]),
+                             { label: t.theme })
+viewof taxon = Inputs.select([t.allTaxa, ...taxonList], { label: t.taxa })
 viewof sector = Inputs.select([t.all, ...sectorList], { label: t.sector })
+viewof decade = Inputs.select(new Map([[t.allDecades, 0], ...decadeList.map(d => [`${d}s`, d])]),
+                              { label: t.decade })
 viewof group = Inputs.select(new Map([[t.allTypes, ""], ...groupList.map(g => [t[g], g])]),
                              { label: t.ptype })
 viewof language = Inputs.select(new Map([[t.allLanguages, ""], ...langList.map(l => [langName.of(l), l])]),
                                 { label: t.language })
-viewof fromYear = Inputs.range(yearExtent, { label: t.year + " ≥", step: 1, value: yearExtent[0] })
 viewof sortBy = Inputs.select(new Map([[t.sortNewest, "new"], [t.sortOldest, "old"],
                                        [t.sortTitle, "title"]]), { label: t.sort })
 viewof oaOnly = Inputs.toggle({ label: t.oaOnly })
+viewof dataOnly = Inputs.toggle({ label: t.hasData })
 ```
 :::
 
@@ -49,11 +59,14 @@ sorters = ({
 })
 filtered = papers.filter(d =>
   terms.every(w => haystack.get(d).includes(w)) &&
+  (!theme || split(d.themes).includes(theme)) &&
+  (taxon === t.allTaxa || split(d.taxa).includes(taxon)) &&
   (sector === t.all || split(d.sectors).includes(sector)) &&
+  (!decade || decadeOf(d.year) === decade) &&
   (!group || typeGroup(d.type) === group) &&
   (!language || d.language === language) &&
-  (d.year ?? yearExtent[1]) >= fromYear &&
-  (!oaOnly || d.is_oa)
+  (!oaOnly || d.is_oa) &&
+  (!dataOnly || split(d.datasets).length > 0)
 ).sort(sorters[sortBy])
 ```
 
@@ -72,6 +85,11 @@ searchFor = name => {
   input.dispatchEvent(new Event("input", { bubbles: true }));
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+dataLinks = d => {
+  const ds = split(d.datasets).map(id => datasetById.get(id)).filter(Boolean);
+  return ds.length ? htl.html`<div class="linked"><span>${t.dataUsed}</span>
+    ${ds.map((x, i) => htl.html`${i ? " · " : ""}<a href="explore.html?s=${encodeURIComponent(x.doi || x.id)}">${x.title.length > 70 ? x.title.slice(0, 70) + "…" : x.title}</a>`)}</div>` : "";
+}
 card = d => htl.html`<div class="dataset-card paper-card">
   <h4><a href="${paperLink(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
   <div class="dataset-meta">
@@ -82,9 +100,12 @@ card = d => htl.html`<div class="dataset-card paper-card">
   <div class="chips">
     <span class="chip kind">${t[typeGroup(d.type)]}</span>
     ${d.is_oa ? htl.html`<a class="chip oa" href="${d.oa_url || paperLink(d)}" target="_blank" rel="noopener">${t.readFree}</a>` : ""}
-    ${d.language && d.language !== lang ? htl.html`<span class="chip">${langName.of(d.language)}</span>` : ""}
+    ${split(d.themes).map(x => htl.html`<span class="chip theme">${t.themeNames[x] || x}</span>`)}
+    ${split(d.taxa).map(x => htl.html`<span class="chip taxon">${x}</span>`)}
     ${split(d.sectors).map(x => htl.html`<span class="chip">${x}</span>`)}
+    ${d.language && d.language !== lang ? htl.html`<span class="chip">${langName.of(d.language)}</span>` : ""}
   </div>
+  ${dataLinks(d)}
 </div>`
 htl.html`<p class="result-count"><strong>${filtered.length}</strong> ${t.paperResults}
   ${q.trim() ? htl.html`<a class="cross-link" href="explore.html?s=${encodeURIComponent(q.trim())}">${fmt(t.crossToData, { q: q.trim() })}</a>` : ""}</p>

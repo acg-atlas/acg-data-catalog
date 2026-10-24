@@ -95,10 +95,13 @@ export const typeOrder = ["tArticle", "tThesis", "tBook", "tPreprint", "tConfere
 
 export function papersCSV(rows) {
   const cols = ["title", "authors", "year", "venue", "type", "doi", "openalex_id",
-                "language", "is_oa", "oa_url", "sectors", "added"];
+                "language", "is_oa", "oa_url", "sectors", "taxa", "themes", "datasets", "added"];
   return "﻿" + [cols.join(","), ...rows.map(r => cols.map(c => csvCell(r[c])).join(","))]
     .join("\r\n");
 }
+
+// Themes, taxa and sectors as reference-manager keywords
+const paperKeywords = d => [...split(d.themes), ...split(d.taxa), ...split(d.sectors)];
 
 const bibTypes = { tArticle: "article", tThesis: "phdthesis", tBook: "book", tConference: "inproceedings" };
 const venueField = { article: "journal", inproceedings: "booktitle", phdthesis: "school", book: "publisher" };
@@ -114,7 +117,8 @@ export function papersBibTeX(rows) {
       ["year", `{${d.year ?? ""}}`],
       [venueField[kind] || "howpublished", d.venue ? `{${bibEscape(d.venue)}}` : null],
       ["doi", d.doi ? `{${d.doi}}` : null],
-      ["url", `{${paperLink(d)}}`]
+      ["url", `{${paperLink(d)}}`],
+      ["keywords", paperKeywords(d).length ? `{${paperKeywords(d).map(bibEscape).join(", ")}}` : null]
     ].filter(([, v]) => v);
     const key = bibKey({ creators: d.authors, year: d.year, title: d.title }, used);
     return `@${kind}{${key},\n${f.map(([k, v]) => `  ${k} = ${v}`).join(",\n")}\n}`;
@@ -132,7 +136,7 @@ export function papersRIS(rows) {
     d.venue ? `T2  - ${d.venue}` : null,
     d.doi ? `DO  - ${d.doi}` : null,
     `UR  - ${paperLink(d)}`,
-    ...split(d.sectors).map(k => `KW  - ${k}`),
+    ...paperKeywords(d).map(k => `KW  - ${k}`),
     "ER  - "
   ].filter(Boolean).join("\r\n")).join("\r\n\r\n") + "\r\n";
 }

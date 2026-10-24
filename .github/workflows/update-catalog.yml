@@ -1,5 +1,6 @@
 # Weekly: harvest DataCite + GBIF + OpenAlex, pull form submissions from the
-# Worker, and open (or update) a pull request with new pending entries.
+# Worker, refresh paper-dataset links, and open (or update) a pull request
+# with new pending entries.
 name: Update catalog
 
 on:
@@ -31,6 +32,7 @@ jobs:
         run: |
           Rscript -e 'targets::tar_make()'
           Rscript scripts/update_queue.R
+          Rscript scripts/update_links.R
       - uses: peter-evans/create-pull-request@v7
         with:
           branch: harvest/weekly
@@ -40,4 +42,5 @@ jobs:
           add-paths: |
             catalog/datasets.yaml
             catalog/papers.yaml
+            catalog/links.csv
           labels: review

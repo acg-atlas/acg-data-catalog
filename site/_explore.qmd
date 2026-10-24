@@ -83,6 +83,7 @@ card = d => htl.html`<div class="dataset-card">
     ${split(d.taxa).map(x => htl.html`<span class="chip taxon">${x}</span>`)}
     ${split(d.sectors).map(x => htl.html`<span class="chip">${x}</span>`)}
     ${d.acg_records ? htl.html`<span class="chip">${d.acg_records.toLocaleString()} ${t.records}</span>` : ""}
+    ${split(d.papers).length ? htl.html`<a class="chip used-by" href="papers.html?s=${encodeURIComponent(d.id)}">${fmt(t.usedBy, { n: split(d.papers).length })}</a>` : ""}
   </div>
 </div>`
 htl.html`<p class="result-count"><strong>${filtered.length}</strong> ${t.results}

@@ -58,3 +58,29 @@ used for tagging only. Datasets, errata, paratext and peer reviews are dropped.
 | 2026-10-24 | OpenAlex, full text, strong names ("fulltext") | v1 | 2,465 | |
 | 2026-10-24 | Combined, deduplicated (DOI, else OpenAlex id) | | 2,673 | After dropping 99 Zenodo/Plazi fragments (single figures or species descriptions of papers already listed). 1,032 likely (WoS, core or strong ACG name), 1,641 check (full text only). OpenAlex core found 265 of 473 WoS DOIs. |
 | 2026-10-24 | Title and abstract screening | | 917 approved | Rule: research done in the ACG (any sector, including marine), using ACG specimens or data, or mainly about the ACG. Claude screened all 2,673; the 220 unsure records were decided by C. Hulshof (219 approved, 1 excluded). 15 same-record duplicates (repository copies, preprints) excluded. 1,756 excluded in total. |
+
+## Tagging and links
+
+**Themes** (up to 3 per paper): Taxonomy & systematics; Evolution & genetics;
+Natural history & behavior; Species interactions; Populations & communities;
+Ecosystem processes; Succession & restoration; Climate & environmental change;
+Conservation, management & people; Geology & volcanology. Place (marine, Santa
+Rosa, ...) is in `sectors`, not themes. **Taxa** use the same vocabulary as the
+dataset catalog (orders for insects, classes for vertebrates, kingdoms for
+plants and fungi).
+
+Suggestions come from the rules in `data-raw/taxon_terms.csv` and
+`data-raw/theme_terms.csv` (`R/tagging.R`): taxa from the title, else the
+abstract, else OpenAlex topics; a theme needs a title match or two abstract
+matches; ACG place names ("Area de Conservacion", "National Park") are removed
+first. In October 2026 all 917 approved papers were then checked by title and
+abstract and 548 were corrected by hand. New papers from the weekly harvest
+arrive with suggested tags; tags already in `papers.yaml` are never
+overwritten. Decade is derived from the year.
+
+**Paper-dataset links** (`catalog/links.csv`, rebuilt by
+`scripts/update_links.R`): DataCite `relatedIdentifiers` of each dataset,
+OpenAIRE ScholeXplorer (Scholix), and GBIF literature tracking (papers citing a
+GBIF download that included the dataset). Only links where both the paper and
+the dataset are in the Atlas are kept. Links typed by hand go in the
+`datasets` field of `papers.yaml`.

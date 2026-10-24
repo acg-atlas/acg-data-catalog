@@ -45,6 +45,15 @@ export const strings = {
     tArticle: "Articles", tPreprint: "Preprints", tThesis: "Theses", tBook: "Books and chapters",
     tConference: "Conference papers", tOther: "Reports and other",
     papersTableIntro: "Every approved paper. Filter the table, then download exactly what you see, ready for a reference manager or spreadsheet.",
+    theme: "Theme", themes: "Themes", allThemes: "All themes", decade: "Decade", allDecades: "All decades",
+    hasData: "With linked data only", dataUsed: "Data:", usedBy: "Used in {n} paper(s)",
+    themeNames: {
+      "Taxonomy & systematics": "Taxonomy & systematics", "Evolution & genetics": "Evolution & genetics",
+      "Natural history & behavior": "Natural history & behavior", "Species interactions": "Species interactions",
+      "Populations & communities": "Populations & communities", "Ecosystem processes": "Ecosystem processes",
+      "Succession & restoration": "Succession & restoration", "Climate & environmental change": "Climate & environmental change",
+      "Conservation, management & people": "Conservation, management & people", "Geology & volcanology": "Geology & volcanology"
+    },
     // contribute
     contributeIntro: "The Atlas holds two separate resources, so there are two separate forms. Every submission is reviewed before it appears.",
     kindDataset: "Submit a dataset",
@@ -104,6 +113,15 @@ export const strings = {
     tArticle: "Artículos", tPreprint: "Preprints", tThesis: "Tesis", tBook: "Libros y capítulos",
     tConference: "Ponencias", tOther: "Informes y otros",
     papersTableIntro: "Todas las publicaciones aprobadas. Filtre la tabla y descargue exactamente lo que ve, listo para un gestor de referencias o una hoja de cálculo.",
+    theme: "Tema", themes: "Temas", allThemes: "Todos los temas", decade: "Década", allDecades: "Todas las décadas",
+    hasData: "Solo con datos enlazados", dataUsed: "Datos:", usedBy: "Usado en {n} publicación(es)",
+    themeNames: {
+      "Taxonomy & systematics": "Taxonomía y sistemática", "Evolution & genetics": "Evolución y genética",
+      "Natural history & behavior": "Historia natural y comportamiento", "Species interactions": "Interacciones entre especies",
+      "Populations & communities": "Poblaciones y comunidades", "Ecosystem processes": "Procesos ecosistémicos",
+      "Succession & restoration": "Sucesión y restauración", "Climate & environmental change": "Clima y cambio ambiental",
+      "Conservation, management & people": "Conservación, manejo y sociedad", "Geology & volcanology": "Geología y vulcanología"
+    },
     contributeIntro: "El Atlas reúne dos recursos distintos, así que hay dos formularios distintos. Cada envío se revisa antes de publicarse.",
     kindDataset: "Enviar un conjunto de datos",
     kindDatasetText: "El DOI de datos que depositó en un repositorio (EDI, Dryad, Zenodo, GBIF, Figshare…). No alojamos datos, así que deposítelos primero.",
