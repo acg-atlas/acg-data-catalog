@@ -6,7 +6,7 @@
 
 - id: 10.7910/dvn/iyi4oo
   doi: 10.7910/dvn/iyi4oo
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication data for: Accuracy assessment on the number of flux terms needed
@@ -25,7 +25,7 @@
   added: '2026-10-24'
 - id: 10.7910/dvn/ybyo7w
   doi: 10.7910/dvn/ybyo7w
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: Guzmán, J.A., Sanchez-Azofeifa, G. A. (2021). Prediction
@@ -43,10 +43,11 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; coordinates
     inside ACG
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.3897/bdj.7.e29553
   doi: 10.3897/bdj.7.e29553
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Twenty-two new species in the genus Hyphantrophaga Townsend (Diptera: Tachinidae)
@@ -63,10 +64,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 642 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.3.e4597
   doi: 10.3897/bdj.3.e4597
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Seven new species of Spathidexia Townsend (Diptera: Tachinidae) reared from
@@ -83,10 +85,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 238 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.6.e11223
   doi: 10.3897/bdj.6.e11223
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Revision of the Mesoamerican species of Calolydella Townsend (Diptera: Tachinidae)
@@ -104,10 +107,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 212 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.8.e47157
   doi: 10.3897/bdj.8.e47157
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Revision of Telothyria van der Wulp (Diptera: Tachinidae) and twenty-five
@@ -125,10 +129,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 116 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5281/zenodo.20637315
   doi: 10.5281/zenodo.20637315
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'ACG-Growth-Forecasting: Tree diameter data in the Guanacaste province of
@@ -144,10 +149,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa
   versions: 10.5281/zenodo.20637316
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5061/dryad.xwdbrv1ff
   doi: 10.5061/dryad.xwdbrv1ff
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Admixture in Africanized honey bees (Apis mellifera) from Panamá to San Diego,
@@ -162,10 +168,11 @@
   relevance: likely
   relevance_reason: names Guanacaste National Park; sector Santa Rosa
   sectors: Guanacaste; Santa Rosa
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.17632/bhy9dp4r7z
   doi: 10.17632/bhy9dp4r7z
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Bonellia-nervosa Avalos et al 2024
@@ -181,10 +188,11 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   versions: 10.17632/bhy9dp4r7z.1
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.7910/dvn/p1ptyb/uykavw
   doi: 10.7910/dvn/p1ptyb/uykavw
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Daily_Precipitation_2013_to_2016.tab
@@ -200,7 +208,7 @@
   added: '2026-10-24'
 - id: 10.5061/dryad.44j0zpcxc
   doi: 10.5061/dryad.44j0zpcxc
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Data from a camera trapping study on contrasting interactions between vegetation
@@ -216,10 +224,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Mammalia; Plantae
   added: '2026-10-24'
 - id: 10.5061/dryad.69kq2
   doi: 10.5061/dryad.69kq2
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Can terrestrial laser scanners (TLSs) and hemispherical photographs
@@ -237,10 +246,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5061/dryad.1tv72
   doi: 10.5061/dryad.1tv72
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Conservation genetics of American crocodile, Crocodylus acutus,
@@ -256,10 +266,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Reptilia
   added: '2026-10-24'
 - id: 10.5061/dryad.3cf36
   doi: 10.5061/dryad.3cf36
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Estimation of aboveground net primary productivity in secondary
@@ -274,10 +285,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5061/dryad.4j0zpc874
   doi: 10.5061/dryad.4j0zpc874
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Habitat size thresholds for predators: why damselflies only occur
@@ -293,10 +305,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Pitilla
   sectors: Pitilla
+  taxa: Odonata
   added: '2026-10-24'
 - id: 10.5061/dryad.1m90s
   doi: 10.5061/dryad.1m90s
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Lianas abundance is positively related with the avian acoustic
@@ -311,10 +324,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae; Aves
   added: '2026-10-24'
 - id: 10.5061/dryad.3b3v4
   doi: 10.5061/dryad.3b3v4
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Mapping tropical dry forest succession using multiple criteria
@@ -330,10 +344,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5061/dryad.0bq52
   doi: 10.5061/dryad.0bq52
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Modeling seasonal surface temperature variations in secondary
@@ -351,7 +366,7 @@
   added: '2026-10-24'
 - id: 10.5061/dryad.xpnvx0kj5
   doi: 10.5061/dryad.xpnvx0kj5
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: one ant’s trash is another ant’s treasure: army ant middens provide
@@ -367,10 +382,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa; Maritza
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.5061/dryad.x95x69pwz
   doi: 10.5061/dryad.x95x69pwz
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Factors maintaining floral oil gland polymorphism in a population of <em>Banisteriopsis
@@ -386,10 +402,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5061/dryad.qfttdz0jk
   doi: 10.5061/dryad.qfttdz0jk
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Long-term comparison of the euglossine community
@@ -404,10 +421,11 @@
   relevance: likely
   relevance_reason: names Guanacaste Conservation Area; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.5683/sp3/milx7c
   doi: 10.5683/sp3/milx7c
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Meteorological data for Pitilla Biological Station, Guanacaste, Costa Rica
@@ -424,7 +442,7 @@
   added: '2026-10-24'
 - id: 10.14288/1.0447131
   doi: 10.14288/1.0447131
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Meteorological data for Pitilla Biological Station, Guanacaste, Costa Rica
@@ -440,7 +458,7 @@
   added: '2026-10-24'
 - id: 10.7910/dvn/p1ptyb/rpnsrh
   doi: 10.7910/dvn/p1ptyb/rpnsrh
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Micrometeorological_Biomet_Parameters_2013_to_2016.tab
@@ -456,7 +474,7 @@
   added: '2026-10-24'
 - id: 10.5061/dryad.5dv41ns89
   doi: 10.5061/dryad.5dv41ns89
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Microsatellite data for rufous-and-white wren population genetics
@@ -471,10 +489,11 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; sector Santa Rosa
   sectors: Rincón de la Vieja; Santa Rosa
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.7910/dvn/p1ptyb/valrhu
   doi: 10.7910/dvn/p1ptyb/valrhu
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Monthly_NEE_GPP_Reco_2013_to_2016.tab
@@ -490,7 +509,7 @@
   added: '2026-10-24'
 - id: 10.7910/dvn/p1ptyb/ef3yxu
   doi: 10.7910/dvn/p1ptyb/ef3yxu
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: NDVI_2013_to_2016.tab
@@ -503,10 +522,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5683/sp3/ln0vdn
   doi: 10.5683/sp3/ln0vdn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: A step-by-step protocol for surveying bromeliad micro-ecosystems
@@ -522,10 +542,11 @@
   relevance: likely
   relevance_reason: sector Pitilla; coordinates inside ACG
   sectors: Pitilla
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.7910/dvn/7qbi5u
   doi: 10.7910/dvn/7qbi5u
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: Calibration of Co-Located Identical PAR Sensors Using
@@ -544,7 +565,7 @@
   added: '2026-10-24'
 - id: 10.7910/dvn/ixmiyl
   doi: 10.7910/dvn/ixmiyl
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: Dynamics of Carbon Accumulation in Tropical Dry Forests
@@ -560,10 +581,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.7910/dvn/p1ptyb
   doi: 10.7910/dvn/p1ptyb
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: Effect of drought on productivity in a Costa Rican
@@ -577,10 +599,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.7910/dvn/u2hvb6
   doi: 10.7910/dvn/u2hvb6
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: Lianas Abundance is Positively Related with the Avian
@@ -595,10 +618,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Plantae; Aves
   added: '2026-10-24'
 - id: 10.5281/zenodo.15144984
   doi: 10.5281/zenodo.15144984
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: 'Table 1 in A remarkable new genus and species of Euryproctini (Hymenoptera:
@@ -614,10 +638,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Pitilla
   versions: 10.5281/zenodo.15144985
   sectors: Pitilla
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.5683/sp3/lqyqjz
   doi: 10.5683/sp3/lqyqjz
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Temperature, precipitation and soil characteristics of Volcan Cacao - Area
@@ -635,7 +660,7 @@
   added: '2026-10-24'
 - id: 10.5281/zenodo.1410459
   doi: 10.5281/zenodo.1410459
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Trophic Metacommunities In Bromeliad-Dwelling Insects
@@ -651,10 +676,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Pitilla
   versions: 10.5281/zenodo.1410460
   sectors: Pitilla
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.3897/bdj.11.e103667
   doi: 10.3897/bdj.11.e103667
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Revision of Belvosia Robineau-Desvoidy (Diptera, Tachinidae) and 33 new species
@@ -672,10 +698,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 95 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.5.e10967
   doi: 10.3897/bdj.5.e10967
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Five new species of Vibrissina Rondani (Diptera: Tachinidae) from Area de
@@ -692,10 +719,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 83 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.5.e9649
   doi: 10.3897/bdj.5.e9649
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Nine new species of Uramya Robineau-Desvoidy (Diptera: Tachinidae) from
@@ -713,10 +741,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 64 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.9.e68598
   doi: 10.3897/bdj.9.e68598
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Revison of Metaplagia Coquillett (Diptera: Tachinidae) with description
@@ -734,10 +763,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 62 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/cbzkje
   doi: 10.15468/cbzkje
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: A new species of Cordyligaster Macquart, reared from caterpillars in Area
@@ -755,10 +785,11 @@
     ACG
   versions: 10.15468/sdyzbb
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.3.e5039
   doi: 10.3897/bdj.3.e5039
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Three new species of Ametadoria Townsend (Diptera: Tachinidae) from Area
@@ -775,10 +806,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 52 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/ztg85h
   doi: 10.15468/ztg85h
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: A revision of the parasitoid wasp genus Dolichogenidea Viereck (Hymenoptera,
@@ -795,10 +827,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 51 GBIF records inside
     ACG
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.3.e4596
   doi: 10.3897/bdj.3.e4596
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Nine new species of Itaplectops (Diptera: Tachinidae) reared from caterpillars
@@ -816,10 +849,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 25 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/526fo6
   doi: 10.15468/526fo6
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'First record of the genus Venanus (Hymenoptera: Braconidae: Microgastrinae)
@@ -836,10 +870,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 22 GBIF records inside
     ACG
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.13.e161853
   doi: 10.3897/bdj.13.e161853
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: A new genus and a new species in the tribe Eryciini (Diptera, Tachinidae)
@@ -856,10 +891,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 11 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.3897/bdj.3.e4595
   doi: 10.3897/bdj.3.e4595
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Three new species of Trigonospila Pokorny (Diptera: Tachinidae), from Area
@@ -876,10 +912,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 11 GBIF records inside
     ACG
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/inygc6
   doi: 10.15468/inygc6
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: International Barcode of Life project (iBOL)
@@ -894,10 +931,11 @@
   relevance: likely
   relevance_reason: 3,991,206 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/mykn0u
   doi: 10.15468/mykn0u
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Insecta of Costa Rica (INBio)
@@ -912,10 +950,11 @@
   relevance: likely
   relevance_reason: 825,894 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/aomfnb
   doi: 10.15468/aomfnb
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: EOD – eBird Observation Dataset
@@ -930,10 +969,11 @@
   relevance: likely
   relevance_reason: 405,425 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.15468/sbmztx
   doi: 10.15468/sbmztx
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: INSDC Sequences
@@ -948,10 +988,11 @@
   relevance: likely
   relevance_reason: 130,370 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/tgno8a
   doi: 10.15468/tgno8a
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Plantae of Costa Rica (INBio)
@@ -966,10 +1007,11 @@
   relevance: likely
   relevance_reason: 40,558 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/ab3s5x
   doi: 10.15468/ab3s5x
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: iNaturalist Research-grade Observations
@@ -984,10 +1026,11 @@
   relevance: likely
   relevance_reason: 23,024 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/hja69f
   doi: 10.15468/hja69f
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Tropicos MO Specimen Data
@@ -1002,10 +1045,11 @@
   relevance: likely
   relevance_reason: 19,213 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/rxbp4w
   doi: 10.15468/rxbp4w
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Tropicos Specimens Non-MO
@@ -1020,10 +1064,11 @@
   relevance: likely
   relevance_reason: 8,857 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/fhntpy
   doi: 10.15468/fhntpy
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Snow Entomological Museum Collection
@@ -1038,10 +1083,11 @@
   relevance: likely
   relevance_reason: 8,439 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/yhvbj8
   doi: 10.15468/yhvbj8
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: herbario
@@ -1056,10 +1102,11 @@
   relevance: likely
   relevance_reason: 7,862 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/iek4ov
   doi: 10.15468/iek4ov
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Mollusca of Costa Rica (INBio)
@@ -1074,10 +1121,11 @@
   relevance: likely
   relevance_reason: 7,830 GBIF records inside ACG
   sectors: ''
+  taxa: Mollusca
   added: '2026-10-24'
 - id: 10.71819/lr0yrg
   doi: 10.71819/lr0yrg
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Jaguar Movement Database: a GPS-based movement dataset of the apex predator
@@ -1093,10 +1141,11 @@
   relevance: likely
   relevance_reason: 5,924 GBIF records inside ACG
   sectors: ''
+  taxa: Mammalia
   added: '2026-10-24'
 - id: 10.15468/kc9hyp
   doi: 10.15468/kc9hyp
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: LACM Entomology Collection
@@ -1111,10 +1160,11 @@
   relevance: likely
   relevance_reason: 5,116 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/ahwyqb
   doi: 10.15468/ahwyqb
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: University of Minnesota Insect Collection
@@ -1129,10 +1179,11 @@
   relevance: likely
   relevance_reason: 4,924 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/4s84qm
   doi: 10.15468/4s84qm
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Fototrampeo del Departamento de Propuestas, Dirección de Desarrollo y Comercialización
@@ -1148,10 +1199,11 @@
   relevance: likely
   relevance_reason: 3,858 GBIF records inside ACG
   sectors: Horizontes
+  taxa: Mammalia; Aves
   added: '2026-10-24'
 - id: 10.15468/wqmjjt
   doi: 10.15468/wqmjjt
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: AntWeb
@@ -1166,10 +1218,11 @@
   relevance: likely
   relevance_reason: 3,605 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.15468/k6b8yj
   doi: 10.15468/k6b8yj
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Registros de mamíferos y aves obtenidos mediante cámaras trampa en fincas
@@ -1185,10 +1238,11 @@
   relevance: likely
   relevance_reason: 3,100 GBIF records inside ACG
   sectors: ''
+  taxa: Mammalia; Aves
   added: '2026-10-24'
 - id: 10.15468/1gkeqq
   doi: 10.15468/1gkeqq
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Fungi of Costa Rica (INBio)
@@ -1203,10 +1257,11 @@
   relevance: likely
   relevance_reason: 3,020 GBIF records inside ACG
   sectors: ''
+  taxa: Fungi
   added: '2026-10-24'
 - id: 10.15468/g3fy4c
   doi: 10.15468/g3fy4c
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Resultados de los monitoreos en los Campos Geotérmicos ICE 2023
@@ -1221,10 +1276,11 @@
   relevance: likely
   relevance_reason: 2,454 GBIF records inside ACG
   sectors: Rincón de la Vieja
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/8eyzmu
   doi: 10.15468/8eyzmu
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Distribución potencial en taxones hiperdiversos y poco conocidos (Insecta:  Coleoptera:
@@ -1241,10 +1297,11 @@
   relevance: likely
   relevance_reason: 2,270 GBIF records inside ACG
   sectors: ''
+  taxa: Coleoptera
   added: '2026-10-24'
 - id: 10.15468/hcagxu
   doi: 10.15468/hcagxu
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Monitoreos en los Campos Geotérmicos-ICE
@@ -1259,10 +1316,11 @@
   relevance: likely
   relevance_reason: 1,699 GBIF records inside ACG
   sectors: Rincón de la Vieja
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/ly60bx
   doi: 10.15468/ly60bx
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Royal Botanic Gardens, Kew - Herbarium Specimens
@@ -1277,10 +1335,11 @@
   relevance: likely
   relevance_reason: 1,596 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/0ywfpc
   doi: 10.15468/0ywfpc
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Field Museum of Natural History (Zoology) Insect, Arachnid and Myriapod Collection
@@ -1295,10 +1354,11 @@
   relevance: likely
   relevance_reason: 1,592 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta; Arachnida; Myriapoda
   added: '2026-10-24'
 - id: 10.15468/5nilie
   doi: 10.15468/5nilie
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Observation.org, Nature data from around the World
@@ -1313,10 +1373,11 @@
   relevance: likely
   relevance_reason: 1,511 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/efb17f
   doi: 10.15468/efb17f
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Triplehorn Insect Collection, The Ohio State University
@@ -1331,10 +1392,11 @@
   relevance: likely
   relevance_reason: 1,426 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/hnhrg3
   doi: 10.15468/hnhrg3
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: NMNH Extant Specimen Records (USNM, US)
@@ -1349,10 +1411,11 @@
   relevance: likely
   relevance_reason: 1,421 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/p5rupv
   doi: 10.15468/p5rupv
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Museum of Comparative Zoology, Harvard University
@@ -1367,10 +1430,11 @@
   relevance: likely
   relevance_reason: 1,418 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/9uut5l
   doi: 10.15468/9uut5l
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Digitalización y Sistematización de las Colecciones Biológicas Nacionales
@@ -1386,10 +1450,11 @@
   relevance: likely
   relevance_reason: 1,262 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/77rmwd
   doi: 10.15468/77rmwd
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: LACM Vertebrate Collection
@@ -1404,10 +1469,11 @@
   relevance: likely
   relevance_reason: 1,031 GBIF records inside ACG
   sectors: ''
+  taxa: Vertebrata
   added: '2026-10-24'
 - id: 10.15468/dlwwhz
   doi: 10.15468/dlwwhz
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Herbarium Berolinense, Berlin (B)
@@ -1422,10 +1488,11 @@
   relevance: likely
   relevance_reason: 1,013 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5886/hgagiy
   doi: 10.5886/hgagiy
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: J. B. Wallis / R. E. Roughley Museum of Entomology
@@ -1440,10 +1507,11 @@
   relevance: likely
   relevance_reason: 850 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/e8txdn
   doi: 10.15468/e8txdn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Santa Barbara Museum of Natural History - Invertebrate Zoology
@@ -1458,10 +1526,11 @@
   relevance: likely
   relevance_reason: 834 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/lxe6h4
   doi: 10.15468/lxe6h4
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: CM Herps Collection
@@ -1476,10 +1545,11 @@
   relevance: likely
   relevance_reason: 824 GBIF records inside ACG
   sectors: ''
+  taxa: Amphibia; Reptilia
   added: '2026-10-24'
 - id: 10.15468/xxm2eb
   doi: 10.15468/xxm2eb
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: LACM Malacology
@@ -1494,10 +1564,11 @@
   relevance: likely
   relevance_reason: 775 GBIF records inside ACG
   sectors: ''
+  taxa: Mollusca
   added: '2026-10-24'
 - id: 10.15468/cfddho
   doi: 10.15468/cfddho
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: UTEP Insects (Arctos)
@@ -1512,10 +1583,11 @@
   relevance: likely
   relevance_reason: 701 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/vv6k58
   doi: 10.15468/vv6k58
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Arizona State University Hasbrouck Insect Collection
@@ -1530,10 +1602,11 @@
   relevance: likely
   relevance_reason: 691 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/uc1apo
   doi: 10.15468/uc1apo
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: NABU|naturgucker
@@ -1548,10 +1621,11 @@
   relevance: likely
   relevance_reason: 684 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/ajtxhi
   doi: 10.15468/ajtxhi
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Nematoda of Costa Rica (INBio)
@@ -1566,10 +1640,11 @@
   relevance: likely
   relevance_reason: 676 GBIF records inside ACG
   sectors: ''
+  taxa: Nematoda
   added: '2026-10-24'
 - id: 10.15468/mma2ec
   doi: 10.15468/mma2ec
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Pl@ntNet automatically identified occurrences
@@ -1584,10 +1659,11 @@
   relevance: likely
   relevance_reason: 650 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/irppio
   doi: 10.15468/irppio
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Entomological collections, UiB
@@ -1602,10 +1678,11 @@
   relevance: likely
   relevance_reason: 632 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/hg5ph7
   doi: 10.15468/hg5ph7
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Hymenoptera Institute Collection
@@ -1620,10 +1697,11 @@
   relevance: likely
   relevance_reason: 625 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.5886/q79vhp1e
   doi: 10.5886/q79vhp1e
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Lyman Entomological Museum (LEMQ)
@@ -1638,10 +1716,11 @@
   relevance: likely
   relevance_reason: 582 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/6e8nje
   doi: 10.15468/6e8nje
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: The New York Botanical Garden Herbarium (NY)
@@ -1656,10 +1735,11 @@
   relevance: likely
   relevance_reason: 506 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/x767j5
   doi: 10.15468/x767j5
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Bird Collection (MHNG-AVES) of Muséum d'histoire naturelle de Genève
@@ -1674,10 +1754,11 @@
   relevance: likely
   relevance_reason: 390 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.15468/q9c4mn
   doi: 10.15468/q9c4mn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Invertebrate Collections made by R/V Velero III, IV, Atlantic, and Hubbs
@@ -1692,10 +1773,11 @@
   relevance: likely
   relevance_reason: 390 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/jb9tdf
   doi: 10.15468/jb9tdf
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: NMNH Material Samples (USNM)
@@ -1710,10 +1792,11 @@
   relevance: likely
   relevance_reason: 387 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/6xjrdn
   doi: 10.15468/6xjrdn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Fungarium, Oslo (O) UiO
@@ -1728,10 +1811,11 @@
   relevance: likely
   relevance_reason: 374 GBIF records inside ACG
   sectors: ''
+  taxa: Fungi
   added: '2026-10-24'
 - id: 10.15472/anmswd
   doi: 10.15472/anmswd
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Registros Biológicos de abejas euglosinas priorizadas para evaluación de
@@ -1747,10 +1831,11 @@
   relevance: likely
   relevance_reason: 363 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.15468/zxmhsy
   doi: 10.15468/zxmhsy
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Planetary Biodiversity Inventory Eumycetozoan Databank
@@ -1765,10 +1850,11 @@
   relevance: likely
   relevance_reason: 347 GBIF records inside ACG
   sectors: ''
+  taxa: Myxomycetes
   added: '2026-10-24'
 - id: 10.15468/fbywtn
   doi: 10.15468/fbywtn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Datos de ocurrencia de triatominos americanos del Laboratorio de Triatominos
@@ -1784,10 +1870,11 @@
   relevance: likely
   relevance_reason: 337 GBIF records inside ACG
   sectors: ''
+  taxa: Hemiptera
   added: '2026-10-24'
 - id: 10.15468/7gudyo
   doi: 10.15468/7gudyo
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: CAS Botany (BOT)
@@ -1802,10 +1889,11 @@
   relevance: likely
   relevance_reason: 335 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/tmxd7n
   doi: 10.15468/tmxd7n
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: University of Michigan Museum of Zoology, Division of Insects
@@ -1820,10 +1908,11 @@
   relevance: likely
   relevance_reason: 328 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/e97kmy
   doi: 10.15468/e97kmy
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: INSDC Host Organism Sequences
@@ -1838,10 +1927,11 @@
   relevance: likely
   relevance_reason: 320 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/ckcdpy
   doi: 10.15468/ckcdpy
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Macaulay Library Audio and Video Collection
@@ -1856,10 +1946,11 @@
   relevance: likely
   relevance_reason: 304 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.15468/z3wee5
   doi: 10.15468/z3wee5
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Registros de Invertebrados Marinos del LEMACO, UNA
@@ -1874,10 +1965,11 @@
   relevance: likely
   relevance_reason: 304 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/gqf6no
   doi: 10.15468/gqf6no
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Brigham Young University Arthropod Collection
@@ -1892,10 +1984,11 @@
   relevance: likely
   relevance_reason: 274 GBIF records inside ACG
   sectors: ''
+  taxa: Arthropoda
   added: '2026-10-24'
 - id: 10.15468/kfgfzr
   doi: 10.15468/kfgfzr
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Harold W. Manter Laboratory of Parasitology Collection (HWML) Parasite Collection
@@ -1911,10 +2004,11 @@
   relevance: likely
   relevance_reason: 260 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/ydqvcq
   doi: 10.15468/ydqvcq
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: World Plant Specimen from the Herbaria in China
@@ -1929,10 +2023,11 @@
   relevance: likely
   relevance_reason: 259 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/ajgxva
   doi: 10.15468/ajgxva
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Arachnida of Costa Rica (INBio)
@@ -1947,10 +2042,11 @@
   relevance: likely
   relevance_reason: 255 GBIF records inside ACG
   sectors: ''
+  taxa: Arachnida
   added: '2026-10-24'
 - id: 10.82144/d9dc2ab2
   doi: 10.82144/d9dc2ab2
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Green sea turtle telemetry in Northwest Costa Rica
@@ -1965,10 +2061,11 @@
   relevance: likely
   relevance_reason: 255 GBIF records inside ACG
   sectors: ''
+  taxa: Reptilia
   added: '2026-10-24'
 - id: 10.15468/xhg8jr
   doi: 10.15468/xhg8jr
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Registros de Vertebrados en Arrecifes Rocosos - LEMACO/UNA
@@ -1983,10 +2080,11 @@
   relevance: likely
   relevance_reason: 253 GBIF records inside ACG
   sectors: ''
+  taxa: Actinopterygii
   added: '2026-10-24'
 - id: 10.15468/3vhkol
   doi: 10.15468/3vhkol
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Denver Museum of Nature & Science - Entomology
@@ -2001,10 +2099,11 @@
   relevance: likely
   relevance_reason: 247 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/mug7kr
   doi: 10.15468/mug7kr
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: CSIC-Real Jardín Botánico-Colección de Plantas Vasculares (MA)
@@ -2019,10 +2118,11 @@
   relevance: likely
   relevance_reason: 226 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/tiac99
   doi: 10.15468/tiac99
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: CAS Invertebrate Zoology (IZ)
@@ -2037,10 +2137,11 @@
   relevance: likely
   relevance_reason: 209 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/a3woj7
   doi: 10.15468/a3woj7
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: KUBI Mammalogy Collection
@@ -2055,10 +2156,11 @@
   relevance: likely
   relevance_reason: 202 GBIF records inside ACG
   sectors: ''
+  taxa: Mammalia
   added: '2026-10-24'
 - id: 10.15468/efh2ib
   doi: 10.15468/efh2ib
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: CAS Ichthyology (ICH)
@@ -2073,10 +2175,11 @@
   relevance: likely
   relevance_reason: 200 GBIF records inside ACG
   sectors: ''
+  taxa: Actinopterygii
   added: '2026-10-24'
 - id: 10.5519/qd.dyj48ok9
   doi: 10.5519/qd.dyj48ok9
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Natural History Museum (London) Collection Specimens
@@ -2091,10 +2194,11 @@
   relevance: likely
   relevance_reason: 199 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/pi1mts
   doi: 10.15468/pi1mts
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: MVZ Herp Collection (Arctos)
@@ -2109,10 +2213,11 @@
   relevance: likely
   relevance_reason: 198 GBIF records inside ACG
   sectors: ''
+  taxa: Amphibia; Reptilia
   added: '2026-10-24'
 - id: 10.15468/gtebaa
   doi: 10.15468/gtebaa
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Pl@ntNet observations
@@ -2127,10 +2232,11 @@
   relevance: likely
   relevance_reason: 189 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/6kud7x
   doi: 10.15468/6kud7x
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Birda - Global Observation Dataset
@@ -2145,10 +2251,11 @@
   relevance: likely
   relevance_reason: 186 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.82144/4991ec34
   doi: 10.82144/4991ec34
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Happywhale - Humpback whale in North Pacific Ocean
@@ -2163,10 +2270,11 @@
   relevance: likely
   relevance_reason: 181 GBIF records inside ACG
   sectors: ''
+  taxa: Mammalia
   added: '2026-10-24'
 - id: 10.15468/fi4vfu
   doi: 10.15468/fi4vfu
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: University of Kentucky Insect Collection
@@ -2181,10 +2289,11 @@
   relevance: likely
   relevance_reason: 181 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/w9b6ap
   doi: 10.15468/w9b6ap
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Cornell University Insect Collection (CUIC)
@@ -2199,10 +2308,11 @@
   relevance: likely
   relevance_reason: 177 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/eeqtx0
   doi: 10.15468/eeqtx0
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Arizona State University Charles W. O'Brien Collection
@@ -2217,10 +2327,11 @@
   relevance: likely
   relevance_reason: 166 GBIF records inside ACG
   sectors: ''
+  taxa: Coleoptera
   added: '2026-10-24'
 - id: 10.15468/jyrthk
   doi: 10.15468/jyrthk
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: A global database for the distributions of crop wild relatives
@@ -2235,10 +2346,11 @@
   relevance: likely
   relevance_reason: 163 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/hxfuwr
   doi: 10.15468/hxfuwr
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Lund University Biological Museum - Insect collections Specimens
@@ -2253,10 +2365,11 @@
   relevance: likely
   relevance_reason: 162 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/fvigdc
   doi: 10.15468/fvigdc
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Clemson University Arthropod Collection
@@ -2271,10 +2384,11 @@
   relevance: likely
   relevance_reason: 161 GBIF records inside ACG
   sectors: ''
+  taxa: Arthropoda
   added: '2026-10-24'
 - id: 10.15468/anyror
   doi: 10.15468/anyror
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Bee Biology and Systematics Laboratory
@@ -2289,10 +2403,11 @@
   relevance: likely
   relevance_reason: 150 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.15468/ib5ypt
   doi: 10.15468/ib5ypt
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Naturalis Biodiversity Center (NL) - Botany
@@ -2307,10 +2422,11 @@
   relevance: likely
   relevance_reason: 147 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/xp1dhx
   doi: 10.15468/xp1dhx
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Malacology Collection at the Academy of Natural Sciences of Philadelphia
@@ -2325,10 +2441,11 @@
   relevance: likely
   relevance_reason: 143 GBIF records inside ACG
   sectors: ''
+  taxa: Mollusca
   added: '2026-10-24'
 - id: 10.15468/ehkbkt
   doi: 10.15468/ehkbkt
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'EUKARYOME: the rRNA gene reference database for identification of eukaryotes'
@@ -2343,10 +2460,11 @@
   relevance: likely
   relevance_reason: 137 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/5sl7sh
   doi: 10.15468/5sl7sh
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Natural History Museum, Vienna - Herbarium W
@@ -2361,10 +2479,11 @@
   relevance: likely
   relevance_reason: 131 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/wrthhx
   doi: 10.15468/wrthhx
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Meise Botanic Garden Herbarium (BR)
@@ -2379,10 +2498,11 @@
   relevance: likely
   relevance_reason: 117 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/qsfjvq
   doi: 10.15468/qsfjvq
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: American Museum of Natural History (AMNH) Crustacea Collection
@@ -2397,10 +2517,11 @@
   relevance: likely
   relevance_reason: 115 GBIF records inside ACG
   sectors: ''
+  taxa: Crustacea
   added: '2026-10-24'
 - id: 10.15468/qv0ksn
   doi: 10.15468/qv0ksn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Xeno-canto - Bird sounds from around the world
@@ -2415,10 +2536,11 @@
   relevance: likely
   relevance_reason: 113 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.15468/ak8aax
   doi: 10.15468/ak8aax
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Datos de ocurrencia de triatominos presentes en Argentina del Laboratorio
@@ -2434,10 +2556,11 @@
   relevance: likely
   relevance_reason: 111 GBIF records inside ACG
   sectors: ''
+  taxa: Hemiptera
   added: '2026-10-24'
 - id: 10.15468/w78rwb
   doi: 10.15468/w78rwb
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: USDA United States National Fungus Collections
@@ -2452,10 +2575,11 @@
   relevance: likely
   relevance_reason: 111 GBIF records inside ACG
   sectors: ''
+  taxa: Fungi
   added: '2026-10-24'
 - id: 10.15468/szomia
   doi: 10.15468/szomia
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Biodiversity Research and Teaching Collections - TCWC Vertebrates
@@ -2470,10 +2594,11 @@
   relevance: likely
   relevance_reason: 102 GBIF records inside ACG
   sectors: ''
+  taxa: Vertebrata
   added: '2026-10-24'
 - id: 10.7910/dvn/gwuike/weecr4
   doi: 10.7910/dvn/gwuike/weecr4
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 2013_SR_data.tab
@@ -2489,7 +2614,7 @@
   added: '2026-10-24'
 - id: 10.7910/dvn/gwuike/9q4gje
   doi: 10.7910/dvn/gwuike/9q4gje
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 2014_SR_data.tab
@@ -2505,7 +2630,7 @@
   added: '2026-10-24'
 - id: 10.5883/ds-aschorot
   doi: 10.5883/ds-aschorot
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'A new genus and new species in the Uramyiini (Diptera: Tachinidae) from
@@ -2520,10 +2645,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-ascordy
   doi: 10.5883/ds-ascordy
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: A new species of Cordyligaster Macquart (Tachinidae), reared from caterpillars
@@ -2537,10 +2663,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d45td
   doi: 10.48580/d45td
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: A new species of Cordyligaster Macquart, reared from caterpillars in Area
@@ -2556,10 +2683,11 @@
   versions: 10.48580/d45td.v14; 10.48580/d45td.v16; 10.48580/d45td.v18; 10.48580/d45td.v20;
     10.48580/d45td.v21
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asphoc
   doi: 10.5883/ds-asphoc
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'A new species of Phosocephala Townsend, 1908 (Diptera: Tachinidae) from
@@ -2573,10 +2701,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-astris
   doi: 10.5883/ds-astris
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'A new species of Trismegistomya Reinhard (Diptera: Tachinidae) from Area
@@ -2590,10 +2719,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asvoria
   doi: 10.5883/ds-asvoria
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: A new species of Voria Robineau-Desvoidy from Area de Conservacion Guanacaste
@@ -2607,10 +2737,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asdolich
   doi: 10.5883/ds-asdolich
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'A revision of Dolichogenidea (Hymenoptera: Braconidae, Microgastrinae) with
@@ -2626,10 +2757,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.6084/m9.figshare.825620
   doi: 10.6084/m9.figshare.825620
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'An eyespot that “blinks”: an open and shut case of eye mimicry in <i>Eumorpha</i>
@@ -2646,10 +2778,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.6084/m9.figshare.825620.v1; 10.6084/m9.figshare.825620.v2; 10.6084/m9.figshare.825620.v3
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-aseupl
   doi: 10.5883/ds-aseupl
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Biological and taxonomic review of Euplectrus Westwood (Hymenoptera: Eulophidae)
@@ -2664,10 +2797,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.17632/24hsbhw6wc
   doi: 10.17632/24hsbhw6wc
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Bonellia nervosa Duff, McBride, Avalos, 2025
@@ -2682,10 +2816,11 @@
   relevance_reason: names Santa Rosa National Park
   versions: 10.17632/24hsbhw6wc.1
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5281/zenodo.20546770
   doi: 10.5281/zenodo.20546770
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Burn Severity Rasters and Analysis Code — Guanacaste Conservation Area, Costa
@@ -2704,7 +2839,7 @@
   added: '2026-10-24'
 - id: 10.5883/ds-asanot
   doi: 10.5883/ds-asanot
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Decoding Anotylus (Thomson 1859) beetle diversity: DNA and external morphology
@@ -2719,10 +2854,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Coleoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asuramya
   doi: 10.5883/ds-asuramya
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Eight new species in the genus Uramya Robineau-Desvoidy (Diptera: Tachinidae),
@@ -2737,10 +2873,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-acgbra
   doi: 10.5883/ds-acgbra
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Forty-five years of caterpillar rearing in Area de Conservacion Guanacaste
@@ -2757,10 +2894,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.5883/ds-acgich; 10.5883/ds-acgmes
   sectors: ''
+  taxa: Lepidoptera; Hymenoptera; Diptera
   added: '2026-10-24'
 - id: 10.15468/5kwtmk
   doi: 10.15468/5kwtmk
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Identity of the ailanthus webworm moth (Lepidoptera, Yponomeutidae), a complex
@@ -2776,10 +2914,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/h3b96r
   doi: 10.15468/h3b96r
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Integrative taxonomy of New World Euplectrus Westwood (Hymenoptera, Eulophidae),
@@ -2795,10 +2934,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asleu
   doi: 10.5883/ds-asleu
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Leurus of Area de Conservacion Guanacaste
@@ -2811,10 +2951,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5281/zenodo.10588095
   doi: 10.5281/zenodo.10588095
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Linked collectors and determiners for: A new species of Cordyligaster Macquart,
@@ -2834,10 +2975,11 @@
     10.5281/zenodo.11225924; 10.5281/zenodo.12614495; 10.5281/zenodo.13125840; 10.5281/zenodo.13388844;
     10.5281/zenodo.13974920
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5281/zenodo.10585348
   doi: 10.5281/zenodo.10585348
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Linked collectors and determiners for: A new species of Trismegistomya Reinhard
@@ -2856,10 +2998,11 @@
     10.5281/zenodo.11050148; 10.5281/zenodo.11224303; 10.5281/zenodo.12611519; 10.5281/zenodo.13123857;
     10.5281/zenodo.13386765; 10.5281/zenodo.13973101
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/akbby3
   doi: 10.15468/akbby3
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Lytopylus Foerster (Hymenoptera, Braconidae, Agathidinae) species from Costa
@@ -2876,10 +3019,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/tzraa4
   doi: 10.15468/tzraa4
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: New species and faunistic records of Chironomidae (Diptera, Insecta) from
@@ -2894,10 +3038,11 @@
   relevance: likely
   relevance_reason: names Guanacaste National Park
   sectors: Guanacaste
+  taxa: Diptera
   added: '2026-10-24'
 - id: 10.15468/m353xz
   doi: 10.15468/m353xz
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: New species and faunistic records of Chironomidae (Diptera, Insecta) from
@@ -2912,10 +3057,11 @@
   relevance: likely
   relevance_reason: names Guanacaste National Park
   sectors: Guanacaste
+  taxa: Diptera
   added: '2026-10-24'
 - id: 10.5883/ds-asitaple
   doi: 10.5883/ds-asitaple
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Nine new species in the genus Itaplectops reared from caterpillars in Area
@@ -2930,10 +3076,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.6084/m9.figshare.20025841
   doi: 10.6084/m9.figshare.20025841
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Plant galls recorded from Guanacaste Conservation Area-Costa Rica as an integrated
@@ -2950,10 +3097,11 @@
   relevance_reason: names Guanacaste Conservation Area
   versions: 10.6084/m9.figshare.20025841.v1
   sectors: ''
+  taxa: Plantae; Insecta
   added: '2026-10-24'
 - id: 10.7910/dvn/kav5ld
   doi: 10.7910/dvn/kav5ld
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: A Machine learning approach for filling long gaps
@@ -2971,7 +3119,7 @@
   added: '2026-10-24'
 - id: 10.7910/dvn/bdcjnp
   doi: 10.7910/dvn/bdcjnp
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: MODIS and PROBA-V NDVI Products Differ when Compared
@@ -2987,10 +3135,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.7910/dvn/dynawt
   doi: 10.7910/dvn/dynawt
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: On the relationship of the fractal geometry and tree-stand
@@ -3005,10 +3154,11 @@
   relevance: likely
   relevance_reason: names Santa Rosa National Park
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5883/dataset-acgap1
   doi: 10.5883/dataset-acgap1
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Review of Apanteles (Hymenoptera: Braconidae, Microgastrinae) from Area
@@ -3024,10 +3174,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-aspse
   doi: 10.5883/ds-aspse
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Review of the genus Pseudapanteles (Hymenoptera: Braconidae, Microgastrinae),
@@ -3043,10 +3194,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-aspras
   doi: 10.5883/ds-aspras
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Review of the Neotropical genus Prasmodon (Hymenoptera: Braconidae, Microgastrinae),
@@ -3062,10 +3214,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-ashou
   doi: 10.5883/ds-ashou
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Revision of New World species of Houghia Coquillett (Diptera: Tachinidae):
@@ -3080,10 +3233,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/3tf6hn
   doi: 10.15468/3tf6hn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Revision of the genera Microplitis and Snellenius (Hymenoptera, Braconidae,
@@ -3100,10 +3254,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asmicrsn
   doi: 10.5883/ds-asmicrsn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Revision of the genera Microplitis and Snellenius (Hymenoptera: Braconidae,
@@ -3118,10 +3273,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-aspromic
   doi: 10.5883/ds-aspromic
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Revision of the genus Promicrogaster (Hymenoptera, Braconidae, Microgastrinae)
@@ -3137,10 +3293,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/32dz6h
   doi: 10.15468/32dz6h
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Revision of the genus Pseudapanteles (Hymenoptera, Braconidae, Microgastrinae),
@@ -3157,10 +3314,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-ascalol
   doi: 10.5883/ds-ascalol
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Revision of the Mesoamerican species of Calolydella Townsend (Diptera: Tachinidae)
@@ -3175,10 +3333,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asmetapl
   doi: 10.5883/ds-asmetapl
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Revison of Metaplagia Coquillett (Diptera: Tachinidae) with description
@@ -3193,10 +3352,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asteloth
   doi: 10.5883/ds-asteloth
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Revison of Telothyria van der Wulp (Diptera: Tachinidae) and twenty four
@@ -3212,10 +3372,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asspathi
   doi: 10.5883/ds-asspathi
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Seven new species of Spathidexia Townsend from Area de Conservacion Guanacaste,
@@ -3230,10 +3391,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/rb2zdn
   doi: 10.15468/rb2zdn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Systematics of Agrophaspidium, a new genus of Neotropical Chloropidae (Diptera)
@@ -3247,10 +3409,11 @@
   relevance: likely
   relevance_reason: names Guanacaste National Park
   sectors: Guanacaste
+  taxa: Diptera
   added: '2026-10-24'
 - id: 10.5883/ds-asameta
   doi: 10.5883/ds-asameta
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Three new species of Ametadoria Townsend (Diptera: Tachinidae), from Area
@@ -3264,10 +3427,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-astrigon
   doi: 10.5883/ds-astrigon
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Three new species of Trigonospila Pokorny, from Area de Conservacion Guanacaste,
@@ -3281,10 +3445,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-asacghyp
   doi: 10.5883/ds-asacghyp
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Twenty two new species in the genus Hyphantrophaga Townsend from Area de
@@ -3299,10 +3464,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5883/ds-aseryth
   doi: 10.5883/ds-aseryth
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Two new species of Erythromelana Townsend 1919 (Diptera: Tachinidae) from
@@ -3316,10 +3482,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5061/dryad.jdfn2z3nb
   doi: 10.5061/dryad.jdfn2z3nb
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Challenges in the early ontogeny of a mutualistic plant: Resource availability
@@ -3335,10 +3502,11 @@
   relevance: check
   relevance_reason: sector Santa Rosa
   sectors: Santa Rosa; Pitilla; Maritza
+  taxa: Plantae; Hymenoptera
   added: '2026-10-24'
 - id: 10.5061/dryad.31zcrjdw7
   doi: 10.5061/dryad.31zcrjdw7
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data for: Colonization and extinction processes mediate environmental effects
@@ -3353,10 +3521,11 @@
   relevance: check
   relevance_reason: sector Pitilla
   sectors: Pitilla
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.14288/1.0451737
   doi: 10.14288/1.0451737
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: A step-by-step protocol for surveying bromeliad micro-ecosystems
@@ -3371,10 +3540,11 @@
   relevance: check
   relevance_reason: sector Pitilla
   sectors: Pitilla
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/nl8bvi
   doi: 10.15468/nl8bvi
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of Michigan Herbarium
@@ -3389,10 +3559,11 @@
   relevance: check
   relevance_reason: 95 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/yo3mmu
   doi: 10.15468/yo3mmu
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Phanerogamic Botanical Collections (S)
@@ -3407,10 +3578,11 @@
   relevance: check
   relevance_reason: 93 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/4w9oc7
   doi: 10.15468/4w9oc7
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: SIO Benthic Invertebrate Collection
@@ -3425,10 +3597,11 @@
   relevance: check
   relevance_reason: 86 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/a2cmfl
   doi: 10.15468/a2cmfl
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: UWBM Ornithology Collection
@@ -3443,10 +3616,11 @@
   relevance: check
   relevance_reason: 82 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.15468/rvjdu1
   doi: 10.15468/rvjdu1
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: General Herbarium – Cryptogamy & Phanerogamy (CJBG-G) of Jardin botanique
@@ -3462,10 +3636,11 @@
   relevance: check
   relevance_reason: 81 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/bihrxd
   doi: 10.15468/bihrxd
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Bell Museum plants
@@ -3480,10 +3655,11 @@
   relevance: check
   relevance_reason: 80 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/dx3rcj
   doi: 10.15468/dx3rcj
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of Michigan Museum of Zoology, Division of Mammals
@@ -3498,10 +3674,11 @@
   relevance: check
   relevance_reason: 79 GBIF records inside ACG
   sectors: ''
+  taxa: Mammalia
   added: '2026-10-24'
 - id: 10.15468/kc98s8
   doi: 10.15468/kc98s8
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Colección Vertebrada de Nicaragua - Observaciones de Campo
@@ -3516,10 +3693,11 @@
   relevance: check
   relevance_reason: 76 GBIF records inside ACG
   sectors: ''
+  taxa: Vertebrata
   added: '2026-10-24'
 - id: 10.15468/d51v1f
   doi: 10.15468/d51v1f
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Carnegie Museum of Natural History Herbarium
@@ -3534,10 +3712,11 @@
   relevance: check
   relevance_reason: 72 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/sanyq7
   doi: 10.15468/sanyq7
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of Texas, Biodiversity Center, Entomology Collection (UTIC)
@@ -3552,10 +3731,11 @@
   relevance: check
   relevance_reason: 72 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/k0aett
   doi: 10.15468/k0aett
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: C.P. Gillette Museum of Arthropod Diversity
@@ -3570,10 +3750,11 @@
   relevance: check
   relevance_reason: 69 GBIF records inside ACG
   sectors: ''
+  taxa: Arthropoda
   added: '2026-10-24'
 - id: 10.15468/uw1buh
   doi: 10.15468/uw1buh
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: The System-wide Information Network for Genetic Resources (SINGER)
@@ -3588,10 +3769,11 @@
   relevance: check
   relevance_reason: 64 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/oirgxw
   doi: 10.15468/oirgxw
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: MSB Mammal Collection (Arctos)
@@ -3606,10 +3788,11 @@
   relevance: check
   relevance_reason: 63 GBIF records inside ACG
   sectors: ''
+  taxa: Mammalia
   added: '2026-10-24'
 - id: 10.15468/mk34sj
   doi: 10.15468/mk34sj
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Universidad de Costa Rica Sede Guanacaste - Colección Entomológica de la
@@ -3625,10 +3808,11 @@
   relevance: check
   relevance_reason: 63 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/ga4bmd
   doi: 10.15468/ga4bmd
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Museum at Texas Tech University Invertebrate Zoology Collection
@@ -3644,10 +3828,11 @@
   relevance: check
   relevance_reason: 59 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/wk3zk7
   doi: 10.15468/wk3zk7
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: FishBase Database
@@ -3662,10 +3847,11 @@
   relevance: check
   relevance_reason: 58 GBIF records inside ACG
   sectors: ''
+  taxa: Actinopterygii
   added: '2026-10-24'
 - id: 10.71819/airqcp
   doi: 10.71819/airqcp
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Coleção de Lepidoptera do MZUSP
@@ -3680,10 +3866,11 @@
   relevance: check
   relevance_reason: 56 GBIF records inside ACG
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/ubdwdc
   doi: 10.15468/ubdwdc
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: KUBI Herpetology Collection
@@ -3698,10 +3885,11 @@
   relevance: check
   relevance_reason: 55 GBIF records inside ACG
   sectors: ''
+  taxa: Amphibia; Reptilia
   added: '2026-10-24'
 - id: 10.15472/blceaa
   doi: 10.15472/blceaa
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: 'Registros geográficos de escarabajos visitantes florales (Coleoptera: Scarabaeidae
@@ -3717,10 +3905,11 @@
   relevance: check
   relevance_reason: 54 GBIF records inside ACG
   sectors: ''
+  taxa: Coleoptera
   added: '2026-10-24'
 - id: 10.15468/pftzpd
   doi: 10.15468/pftzpd
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Myriapoda of Costa Rica (INBio)
@@ -3735,10 +3924,11 @@
   relevance: check
   relevance_reason: 53 GBIF records inside ACG
   sectors: ''
+  taxa: Myriapoda
   added: '2026-10-24'
 - id: 10.15468/gbnym3
   doi: 10.15468/gbnym3
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: LSUMZ (LSU MNS) Fishes Collection
@@ -3753,10 +3943,11 @@
   relevance: check
   relevance_reason: 52 GBIF records inside ACG
   sectors: ''
+  taxa: Actinopterygii
   added: '2026-10-24'
 - id: 10.15468/xj1ovu
   doi: 10.15468/xj1ovu
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: 'Occurrence dataset for Neotropical species of Bolitogyrus (Insecta: Coleoptera:
@@ -3772,10 +3963,11 @@
   relevance: check
   relevance_reason: 50 GBIF records inside ACG
   sectors: ''
+  taxa: Coleoptera
   added: '2026-10-24'
 - id: 10.15468/g85t8z
   doi: 10.15468/g85t8z
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Plant Resources Center
@@ -3790,10 +3982,11 @@
   relevance: check
   relevance_reason: 47 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/oya7kn
   doi: 10.15468/oya7kn
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: SINGER Coordinator
@@ -3808,10 +4001,11 @@
   relevance: check
   relevance_reason: 47 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/xdzgbt
   doi: 10.15468/xdzgbt
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Potential host plant records recovered from ECOAB wild bee collection, Mexico
@@ -3826,10 +4020,11 @@
   relevance: check
   relevance_reason: 46 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera; Plantae
   added: '2026-10-24'
 - id: 10.15468/ynhhty
   doi: 10.15468/ynhhty
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Eastern Pacific Zaca Expedition 1937–1938
@@ -3844,10 +4039,11 @@
   relevance: check
   relevance_reason: 45 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/eol0pe
   doi: 10.15468/eol0pe
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Illinois Natural History Survey Insect Collection
@@ -3863,10 +4059,11 @@
   relevance: check
   relevance_reason: 45 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/2axacp
   doi: 10.15468/2axacp
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: The University and Jepson Herbaria -- Algae
@@ -3881,10 +4078,11 @@
   relevance: check
   relevance_reason: 45 GBIF records inside ACG
   sectors: ''
+  taxa: Algae
   added: '2026-10-24'
 - id: 10.15468/x2hjnp
   doi: 10.15468/x2hjnp
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Field Museum of Natural History (Botany) Fungi Collection
@@ -3899,10 +4097,11 @@
   relevance: check
   relevance_reason: 42 GBIF records inside ACG
   sectors: ''
+  taxa: Fungi
   added: '2026-10-24'
 - id: 10.71819/spmy0y
   doi: 10.71819/spmy0y
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Coleção de Trichoptera do MZUSP
@@ -3917,10 +4116,11 @@
   relevance: check
   relevance_reason: 41 GBIF records inside ACG
   sectors: ''
+  taxa: Trichoptera
   added: '2026-10-24'
 - id: 10.15468/mdnmzb
   doi: 10.15468/mdnmzb
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of South Florida Herbarium (USF)
@@ -3935,10 +4135,11 @@
   relevance: check
   relevance_reason: 41 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/zsgiog
   doi: 10.15468/zsgiog
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of Vermont, Pringle Herbarium
@@ -3953,10 +4154,11 @@
   relevance: check
   relevance_reason: 41 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/lns1qm
   doi: 10.15468/lns1qm
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of Michigan Museum of Zoology, Division of Birds
@@ -3971,10 +4173,11 @@
   relevance: check
   relevance_reason: 40 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.15468/a2o8vy
   doi: 10.15468/a2o8vy
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Arizona State University Vascular Plant Herbarium
@@ -3989,10 +4192,11 @@
   relevance: check
   relevance_reason: 38 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/sl8svt
   doi: 10.15468/sl8svt
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Computarización del Herbario ENCB, IPN. Fase IV. Base de datos de la familia
@@ -4009,10 +4213,11 @@
   relevance: check
   relevance_reason: 38 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/lkc3vq
   doi: 10.15468/lkc3vq
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Collection Herpetology SMF
@@ -4027,10 +4232,11 @@
   relevance: check
   relevance_reason: 37 GBIF records inside ACG
   sectors: ''
+  taxa: Amphibia; Reptilia
   added: '2026-10-24'
 - id: 10.15468/jn7fkc
   doi: 10.15468/jn7fkc
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Wisconsin State Herbarium, Vascular Plants
@@ -4045,10 +4251,11 @@
   relevance: check
   relevance_reason: 35 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/tw2y9b
   doi: 10.15468/tw2y9b
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Mosquito Occurrence Dataset
@@ -4063,10 +4270,11 @@
   relevance: check
   relevance_reason: 34 GBIF records inside ACG
   sectors: ''
+  taxa: Diptera
   added: '2026-10-24'
 - id: 10.15468/zbwmb8
   doi: 10.15468/zbwmb8
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Depredacion de Ganado por felinos en Costa Rica
@@ -4081,10 +4289,11 @@
   relevance: check
   relevance_reason: 30 GBIF records inside ACG
   sectors: ''
+  taxa: Mammalia
   added: '2026-10-24'
 - id: 10.15468/hdpruf
   doi: 10.15468/hdpruf
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Fairchild Tropical Botanic Garden (FTG)
@@ -4099,10 +4308,11 @@
   relevance: check
   relevance_reason: 29 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/v5wjn7
   doi: 10.15468/v5wjn7
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of Florida Herbarium (FLAS)
@@ -4117,10 +4327,11 @@
   relevance: check
   relevance_reason: 29 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/ykxm8x
   doi: 10.15468/ykxm8x
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: eButterfly Surveys
@@ -4135,10 +4346,11 @@
   relevance: check
   relevance_reason: 28 GBIF records inside ACG
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/tacqs9
   doi: 10.15468/tacqs9
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: SDNHM Herpetology Collection
@@ -4153,10 +4365,11 @@
   relevance: check
   relevance_reason: 28 GBIF records inside ACG
   sectors: ''
+  taxa: Amphibia; Reptilia
   added: '2026-10-24'
 - id: 10.15468/qqawta
   doi: 10.15468/qqawta
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Wisconsin State Herbarium, Bryophytes
@@ -4171,10 +4384,11 @@
   relevance: check
   relevance_reason: 28 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/nmny7h
   doi: 10.15468/nmny7h
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: The University and Jepson Herbaria -- Vascular Plants
@@ -4189,10 +4403,11 @@
   relevance: check
   relevance_reason: 27 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/w6mfte
   doi: 10.15468/w6mfte
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Digitalización y sistematización de las colecciones biológicas del INECOL
@@ -4209,10 +4424,11 @@
   relevance_reason: 26 GBIF records inside ACG
   versions: 10.15468/w933ra
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/9quk9d
   doi: 10.15468/9quk9d
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Registros de Averías de Fauna Silvestre en líneas de Distribución Eléctrica
@@ -4227,10 +4443,11 @@
   relevance: check
   relevance_reason: 26 GBIF records inside ACG
   sectors: ''
+  taxa: Mammalia; Aves
   added: '2026-10-24'
 - id: 10.15468/3ibpmo
   doi: 10.15468/3ibpmo
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: CAS Entomology (ENT)
@@ -4245,10 +4462,11 @@
   relevance: check
   relevance_reason: 25 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/nprbvk
   doi: 10.15468/nprbvk
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: HRCB - Herbário Rioclarense
@@ -4263,10 +4481,11 @@
   relevance: check
   relevance_reason: 25 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/gmyyyu
   doi: 10.15468/gmyyyu
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Lichens at Herbarium Berolinense, Berlin (B)
@@ -4281,10 +4500,11 @@
   relevance: check
   relevance_reason: 25 GBIF records inside ACG
   sectors: ''
+  taxa: Fungi
   added: '2026-10-24'
 - id: 10.15468/jfqhiu
   doi: 10.15468/jfqhiu
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Paleobiology Database
@@ -4299,10 +4519,11 @@
   relevance: check
   relevance_reason: 25 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/epw1ws
   doi: 10.15468/epw1ws
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Frost Entomological Museum
@@ -4317,10 +4538,11 @@
   relevance: check
   relevance_reason: 24 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/ad1ovc
   doi: 10.15468/ad1ovc
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: SIO Marine Vertebrate Collection
@@ -4335,10 +4557,11 @@
   relevance: check
   relevance_reason: 24 GBIF records inside ACG
   sectors: ''
+  taxa: Vertebrata
   added: '2026-10-24'
 - id: 10.15468/7uigwo
   doi: 10.15468/7uigwo
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: The AAU Herbarium Database
@@ -4353,10 +4576,11 @@
   relevance: check
   relevance_reason: 24 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/ynjblx
   doi: 10.15468/ynjblx
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: ZOBODAT (Zoological Botanical Database)
@@ -4371,10 +4595,11 @@
   relevance: check
   relevance_reason: 24 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/7nd66f
   doi: 10.15468/7nd66f
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Botanical Research Institute of Texas, Philecology Herbarium
@@ -4389,10 +4614,11 @@
   relevance: check
   relevance_reason: 21 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/c89vhk
   doi: 10.15468/c89vhk
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: R/V Searcher Expedition
@@ -4407,10 +4633,11 @@
   relevance: check
   relevance_reason: 20 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/mr0ayo
   doi: 10.15468/mr0ayo
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: MEXU/Plantas Vasculares
@@ -4425,10 +4652,11 @@
   relevance: check
   relevance_reason: 19 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.1007/s13225-012-0209-2
   doi: 10.1007/s13225-012-0209-2
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: NEOTROPICMYXO. A database of Myxomycetes from the Neotropics
@@ -4443,10 +4671,11 @@
   relevance: check
   relevance_reason: 19 GBIF records inside ACG
   sectors: ''
+  taxa: Myxomycetes
   added: '2026-10-24'
 - id: 10.15468/e7susi
   doi: 10.15468/e7susi
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Australian Museum provider for OZCAM
@@ -4461,10 +4690,11 @@
   relevance: check
   relevance_reason: 18 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/bmfgag
   doi: 10.15468/bmfgag
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Cleveland Museum of Natural History
@@ -4479,10 +4709,11 @@
   relevance: check
   relevance_reason: 18 GBIF records inside ACG
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.15468/ypsd84
   doi: 10.15468/ypsd84
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Colisión de aves contra ventanas en Costa Rica
@@ -4497,10 +4728,11 @@
   relevance: check
   relevance_reason: 18 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.15468/xrorih
   doi: 10.15468/xrorih
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: TNHC Herpetology Collection
@@ -4515,10 +4747,11 @@
   relevance: check
   relevance_reason: 18 GBIF records inside ACG
   sectors: ''
+  taxa: Amphibia; Reptilia
   added: '2026-10-24'
 - id: 10.15468/khwbzb
   doi: 10.15468/khwbzb
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Canadian Museum of Nature Parasite Collection
@@ -4533,10 +4766,11 @@
   relevance: check
   relevance_reason: 17 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15468/4rfubm
   doi: 10.15468/4rfubm
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Carnegie Museum of Natural History - Mollusks
@@ -4551,10 +4785,11 @@
   relevance: check
   relevance_reason: 17 GBIF records inside ACG
   sectors: ''
+  taxa: Mollusca
   added: '2026-10-24'
 - id: 10.15468/w35jmd
   doi: 10.15468/w35jmd
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: G. S. Torrey Herbarium at the University of Connecticut (CONN)
@@ -4569,10 +4804,11 @@
   relevance: check
   relevance_reason: 17 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/zxbhda
   doi: 10.15468/zxbhda
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: LACM Echinoderms
@@ -4587,10 +4823,11 @@
   relevance: check
   relevance_reason: 17 GBIF records inside ACG
   sectors: ''
+  taxa: Echinodermata
   added: '2026-10-24'
 - id: 10.15468/g3bard
   doi: 10.15468/g3bard
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of Michigan Museum of Zoology, Division of Reptiles & Amphibians
@@ -4605,10 +4842,11 @@
   relevance: check
   relevance_reason: 17 GBIF records inside ACG
   sectors: ''
+  taxa: Amphibia; Reptilia
   added: '2026-10-24'
 - id: 10.15468/ulk1iz
   doi: 10.15468/ulk1iz
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Bioversity Collecting Mission Database
@@ -4623,10 +4861,11 @@
   relevance: check
   relevance_reason: 15 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/8a3pzs
   doi: 10.15468/8a3pzs
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: mel
@@ -4644,7 +4883,7 @@
   added: '2026-10-24'
 - id: 10.15468/pq7j4a
   doi: 10.15468/pq7j4a
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Museo de Insectos, Centro de Investigaciones en Protección de Cultivos (CIPROC),
@@ -4660,10 +4899,11 @@
   relevance: check
   relevance_reason: 15 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/v6umy8
   doi: 10.15468/v6umy8
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Academy of Natural Sciences Ichthyology Collection
@@ -4678,10 +4918,11 @@
   relevance: check
   relevance_reason: 14 GBIF records inside ACG
   sectors: ''
+  taxa: Actinopterygii
   added: '2026-10-24'
 - id: 10.15468/igjr8k
   doi: 10.15468/igjr8k
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Museu Paraense Emilio Goeldi Herbarium
@@ -4696,10 +4937,11 @@
   relevance: check
   relevance_reason: 14 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/wwcmna
   doi: 10.15468/wwcmna
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Mushroom Observer
@@ -4714,10 +4956,11 @@
   relevance: check
   relevance_reason: 14 GBIF records inside ACG
   sectors: ''
+  taxa: Fungi
   added: '2026-10-24'
 - id: 10.15468/tnj8wm
   doi: 10.15468/tnj8wm
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: University of Vienna, Institute for Botany - Herbarium WU
@@ -4732,10 +4975,11 @@
   relevance: check
   relevance_reason: 14 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/asgd85
   doi: 10.15468/asgd85
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Herbarium GB, University of Gothenburg
@@ -4750,10 +4994,11 @@
   relevance: check
   relevance_reason: 13 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/on4axg
   doi: 10.15468/on4axg
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: DAV - University of California, Davis Center for Plant Diversity - Vascular
@@ -4769,10 +5014,11 @@
   relevance: check
   relevance_reason: 12 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/fpzyjx
   doi: 10.15468/fpzyjx
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Entomological Collections (NHRS), Swedish Museum of Natural History (NRM)
@@ -4787,10 +5033,11 @@
   relevance: check
   relevance_reason: 12 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/cepqls
   doi: 10.15468/cepqls
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Louisiana State University, Shirley C. Tucker Herbarium - Lichens
@@ -4805,10 +5052,11 @@
   relevance: check
   relevance_reason: 12 GBIF records inside ACG
   sectors: ''
+  taxa: Fungi
   added: '2026-10-24'
 - id: 10.15468/ce7fox
   doi: 10.15468/ce7fox
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: United States National Plant Germplasm System Collection
@@ -4823,10 +5071,11 @@
   relevance: check
   relevance_reason: 12 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/hqrtbv
   doi: 10.15468/hqrtbv
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: WFVZ Bird Collections
@@ -4841,10 +5090,11 @@
   relevance: check
   relevance_reason: 12 GBIF records inside ACG
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.15468/95waq3
   doi: 10.15468/95waq3
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Entomology Division, Yale Peabody Museum
@@ -4859,10 +5109,11 @@
   relevance: check
   relevance_reason: 11 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/0lkr3w
   doi: 10.15468/0lkr3w
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Invertebrate Zoology Division, Yale Peabody Museum
@@ -4877,10 +5128,11 @@
   relevance: check
   relevance_reason: 11 GBIF records inside ACG
   sectors: ''
+  taxa: Invertebrata
   added: '2026-10-24'
 - id: 10.15472/hyvyhz
   doi: 10.15472/hyvyhz
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Registros biológicos del género Piper en el herbario HUA
@@ -4895,10 +5147,11 @@
   relevance: check
   relevance_reason: 11 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/fax7cj
   doi: 10.15468/fax7cj
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Vanderbilt University Herbarium
@@ -4913,10 +5166,11 @@
   relevance: check
   relevance_reason: 11 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/tsn1az
   doi: 10.15468/tsn1az
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: CNIN/Coleoptera
@@ -4931,10 +5185,11 @@
   relevance: check
   relevance_reason: 10 GBIF records inside ACG
   sectors: ''
+  taxa: Coleoptera
   added: '2026-10-24'
 - id: 10.15468/iyehoe
   doi: 10.15468/iyehoe
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Entomology Collection at the Natural History Museum of Utah
@@ -4949,10 +5204,11 @@
   relevance: check
   relevance_reason: 10 GBIF records inside ACG
   sectors: ''
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.15468/giuq7w
   doi: 10.15468/giuq7w
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Fungal Biodiversity Centre (CBS) - Fungi strains
@@ -4967,10 +5223,11 @@
   relevance: check
   relevance_reason: 10 GBIF records inside ACG
   sectors: ''
+  taxa: Fungi
   added: '2026-10-24'
 - id: 10.15468/uxvuhx
   doi: 10.15468/uxvuhx
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: JPB - Herbário Lauro Pires Xavier
@@ -4985,10 +5242,11 @@
   relevance: check
   relevance_reason: 10 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/zayand
   doi: 10.15468/zayand
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: MEXU/Leguminosae
@@ -5003,10 +5261,11 @@
   relevance: check
   relevance_reason: 10 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/vzkvuf
   doi: 10.15468/vzkvuf
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Miami University Turrell Herbarium - Vascular Plants
@@ -5021,10 +5280,11 @@
   relevance: check
   relevance_reason: 10 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/ipvekh
   doi: 10.15468/ipvekh
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Modelación de la distribución geográfica de las Orchidaceae del Soconusco
@@ -5039,10 +5299,11 @@
   relevance: check
   relevance_reason: 10 GBIF records inside ACG
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.15468/cqf8gk
   doi: 10.15468/cqf8gk
-  review: pending
+  review: excluded
   featured: false
   category: dataset
   title: Platyhelminthes Collection (MHNG-PLAT) of Muséum d'histoire naturelle de
@@ -5058,10 +5319,11 @@
   relevance: check
   relevance_reason: 10 GBIF records inside ACG
   sectors: ''
+  taxa: Platyhelminthes
   added: '2026-10-24'
 - id: 10.15468/jhvr9g
   doi: 10.15468/jhvr9g
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Endoparasitoid wasps of the genus Cubus (Hymenoptera, Ichneumonidae, Metopiinae)
@@ -5078,10 +5340,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 11 GBIF records inside
     ACG
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/dtaqgw
   doi: 10.15468/dtaqgw
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'Cryptic diversity of Leurus wasps (Hymenoptera: Ichneumonidae: Metopiinae),
@@ -5098,10 +5361,11 @@
   relevance_reason: names Area de Conservacion Guanacaste; 10 GBIF records inside
     ACG
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/dgmyf
   doi: 10.48580/dgmyf
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: 'A new species of Trismegistomya Reinhard (Diptera: Tachinidae) from Area
@@ -5117,10 +5381,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/dgmyf.v5; 10.48580/dgmyf.v6; 10.48580/dgmyf.v7
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/o9kmc1
   doi: 10.15468/o9kmc1
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: 'A new species of Trismegistomya Reinhard (Diptera: Tachinidae) from Area
@@ -5136,10 +5401,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d35lh
   doi: 10.48580/d35lh
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: A revision of Dolichogenidea (Hymenoptera, Braconidae, Microgastrinae) with
@@ -5156,10 +5422,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d35lh.v88; 10.48580/d35lh.v89
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/5oxfe1
   doi: 10.15468/5oxfe1
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: A revision of Dolichogenidea (Hymenoptera, Braconidae, Microgastrinae) with
@@ -5176,10 +5443,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d375s
   doi: 10.48580/d375s
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'A synopsis of the genus Ethmia Huebner in Costa Rica: biology, distribution,
@@ -5196,10 +5464,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d375s.v87; 10.48580/d375s.v88; 10.48580/d375s.v89
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/gqm0ho
   doi: 10.15468/gqm0ho
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: 'A synopsis of the genus Ethmia Huebner in Costa Rica: biology, distribution,
@@ -5216,10 +5485,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3hty
   doi: 10.48580/d3hty
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: Hyperparasitoid wasps (Hymenoptera, Trigonalidae) reared from dry forest
@@ -5234,10 +5504,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3hty.v25; 10.48580/d3hty.v26
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/58j6jn
   doi: 10.15468/58j6jn
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Hyperparasitoid wasps (Hymenoptera, Trigonalidae) reared from dry forest
@@ -5252,10 +5523,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.15468/v4scdj
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3gxh
   doi: 10.48580/d3gxh
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Integrative taxonomy of New World Euplectrus Westwood (Hymenoptera, Eulophidae),
@@ -5271,10 +5543,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3gxh.v85; 10.48580/d3gxh.v86; 10.48580/d3gxh.v87
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/grzsvc
   doi: 10.15468/grzsvc
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Integrative taxonomy of New World Euplectrus Westwood (Hymenoptera, Eulophidae),
@@ -5290,10 +5563,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3fzm
   doi: 10.48580/d3fzm
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Lytopylus Foerster (Hymenoptera, Braconidae, Agathidinae) species from Costa
@@ -5310,10 +5584,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3fzm.v74; 10.48580/d3fzm.v75; 10.48580/d3fzm.v76
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/a5f62f
   doi: 10.15468/a5f62f
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Lytopylus Foerster (Hymenoptera, Braconidae, Agathidinae) species from Costa
@@ -5330,10 +5605,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.15468/dllig4
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/zj6rzl
   doi: 10.15468/zj6rzl
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Review of Apanteles sensu stricto (Hymenoptera, Braconidae, Microgastrinae)
@@ -5348,10 +5624,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3hxg
   doi: 10.48580/d3hxg
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Review of Apantelessensu stricto (Hymenoptera, Braconidae, Microgastrinae)
@@ -5370,10 +5647,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3hxg.v86; 10.48580/d3hxg.v87
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/x2zy5j
   doi: 10.15468/x2zy5j
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Review of Apantelessensu stricto (Hymenoptera, Braconidae, Microgastrinae)
@@ -5389,10 +5667,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3h7w
   doi: 10.48580/d3h7w
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Review of the Neotropical genus Prasmodon (Hymenoptera, Braconidae, Microgastrinae),
@@ -5409,10 +5688,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3h7w.v27; 10.48580/d3h7w.v28
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/l1sxkn
   doi: 10.15468/l1sxkn
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Review of the Neotropical genus Prasmodon (Hymenoptera, Braconidae, Microgastrinae),
@@ -5428,10 +5708,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.15468/sbmax7
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3gdx
   doi: 10.48580/d3gdx
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Revision of the genera Microplitis and Snellenius (Hymenoptera, Braconidae,
@@ -5448,10 +5729,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3gdx.v91; 10.48580/d3gdx.v92; 10.48580/d3gdx.v93
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/sseauo
   doi: 10.15468/sseauo
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Revision of the genera Microplitis and Snellenius (Hymenoptera, Braconidae,
@@ -5467,10 +5749,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3fb8
   doi: 10.48580/d3fb8
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Revision of the genus Promicrogaster (Hymenoptera, Braconidae, Microgastrinae)
@@ -5487,10 +5770,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3fb8.v75; 10.48580/d3fb8.v76
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/choive
   doi: 10.15468/choive
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Revision of the genus Promicrogaster (Hymenoptera, Braconidae, Microgastrinae)
@@ -5506,10 +5790,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3gfn
   doi: 10.48580/d3gfn
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Revision of the genus Pseudapanteles (Hymenoptera, Braconidae, Microgastrinae),
@@ -5526,10 +5811,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3gfn.v82; 10.48580/d3gfn.v83; 10.48580/d3gfn.v84
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/zdprlb
   doi: 10.15468/zdprlb
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Revision of the genus Pseudapanteles (Hymenoptera, Braconidae, Microgastrinae),
@@ -5545,10 +5831,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.48580/d3b46
   doi: 10.48580/d3b46
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: Revision of the species of Lytopylus from Area de Conservacion Guanacaste,
@@ -5564,10 +5851,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/d3b46.v87; 10.48580/d3b46.v88; 10.48580/d3b46.v89
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/y4nwyg
   doi: 10.15468/y4nwyg
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Revision of the species of Lytopylus from Area de Conservacion Guanacaste,
@@ -5582,10 +5870,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/up4887
   doi: 10.15468/up4887
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'A New Genus And Species Of Lachnophorini And Two New Species Of Lebiini
@@ -5600,10 +5889,11 @@
   relevance: check
   relevance_reason: sector Pitilla
   sectors: Pitilla
+  taxa: Coleoptera
   added: '2026-10-24'
 - id: 10.11646/zootaxa.4401.1.1
   doi: 10.11646/zootaxa.4401.1.1
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'Complex diversity in a mainly tropical group of ant parasitoids: Revision
@@ -5619,10 +5909,11 @@
   relevance: check
   relevance_reason: 76 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.11646/zootaxa.5087.3.4
   doi: 10.11646/zootaxa.5087.3.4
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: 'New species in Rejectaria Guenée (Lepidoptera: Erebidae: Herminiinae) with
@@ -5638,10 +5929,11 @@
   relevance: check
   relevance_reason: 70 GBIF records inside ACG
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/25xvy6
   doi: 10.15468/25xvy6
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'Four new species of Acronyctodes Edwards (Geometridae: Ennominae) from Mesoamerica'
@@ -5656,10 +5948,11 @@
   relevance: check
   relevance_reason: 65 GBIF records inside ACG
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/xk4hpz
   doi: 10.15468/xk4hpz
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'Revision of carpenter bees of the subgenus Neoxylocopa Michener (Hymenoptera:
@@ -5675,10 +5968,11 @@
   relevance: check
   relevance_reason: 41 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.15468/8jkead
   doi: 10.15468/8jkead
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'Ten new species and thirteen new country records for the Neotrichia canixa
@@ -5694,10 +5988,11 @@
   relevance: check
   relevance_reason: 37 GBIF records inside ACG
   sectors: ''
+  taxa: Trichoptera
   added: '2026-10-24'
 - id: 10.15468/3dnwq3
   doi: 10.15468/3dnwq3
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'ENCYRTIDAE OF COSTA RICA (HYMENOPTERA: CHALCIDOIDEA), 4 Subfamily Encyrtinae:
@@ -5716,10 +6011,11 @@
   relevance: check
   relevance_reason: 36 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.15468/t3br7v
   doi: 10.15468/t3br7v
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'EULOPHIDAE OF COSTA RICA (HYMENOPTERA: CHALCIDOIDEA), 5: The genus Galeopsomyia
@@ -5735,10 +6031,11 @@
   relevance: check
   relevance_reason: 36 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.5281/zenodo.3702985
   doi: 10.5281/zenodo.3702985
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'Revision of New World Cosmorrhyncha Meyrick, 1913 (Lepidoptera: Tortricidae:
@@ -5754,10 +6051,11 @@
   relevance: check
   relevance_reason: 30 GBIF records inside ACG
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/w9gj39
   doi: 10.15468/w9gj39
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'Anurocampa (Lepidoptera: Notodontidae): two new species, systematics and
@@ -5773,10 +6071,11 @@
   relevance: check
   relevance_reason: 23 GBIF records inside ACG
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/p3jrog
   doi: 10.15468/p3jrog
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa
@@ -5792,10 +6091,11 @@
   relevance: check
   relevance_reason: 20 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.1080/00222933.2020.1747651
   doi: 10.1080/00222933.2020.1747651
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'New species of Orasema (Hymenoptera: Eucharitidae) from Central and South
@@ -5811,10 +6111,11 @@
   relevance: check
   relevance_reason: 20 GBIF records inside ACG
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.1111/zoj.12032
   doi: 10.1111/zoj.12032
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: Cladistics and revision of Alitocoris with considerations on the phylogeny
@@ -5830,10 +6131,11 @@
   relevance: check
   relevance_reason: 11 GBIF records inside ACG
   sectors: ''
+  taxa: Hemiptera
   added: '2026-10-24'
 - id: 10.5061/dryad.k98sf7mn0
   doi: 10.5061/dryad.k98sf7mn0
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Forest type and leaf habit mediate thermal and drought tolerance
@@ -5849,10 +6151,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Maritza
   sectors: Maritza
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.5061/dryad.hdr7sqvgg
   doi: 10.5061/dryad.hdr7sqvgg
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Diversity and phylogenetic community structure across elevation during climate
@@ -5867,10 +6170,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Volcan Cacao
   sectors: Cacao
+  taxa: Coleoptera
   added: '2026-10-24'
 - id: 10.5061/dryad.2bvq83bmr
   doi: 10.5061/dryad.2bvq83bmr
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Influence of sea turtle nesting on hunting behavior and movements of jaguars
@@ -5886,10 +6190,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Mammalia; Reptilia
   added: '2026-10-24'
 - id: 10.5061/dryad.0rxwdbs29
   doi: 10.5061/dryad.0rxwdbs29
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Molecular food webs of bat-plant interactions during an extreme El Nino event
@@ -5903,10 +6208,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Mammalia; Plantae
   added: '2026-10-24'
 - id: 10.5683/sp3/xw5uhr
   doi: 10.5683/sp3/xw5uhr
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication data for: Heat tolerance decreases and cold tolerance increases
@@ -5922,10 +6228,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Volcan Cacao
   sectors: Cacao
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.5683/sp4/rmebzj
   doi: 10.5683/sp4/rmebzj
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Replication Data for: The relative abundance of cuticular hydrocarbon does
@@ -5942,10 +6249,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; sector Volcan Cacao
   sectors: Cacao
+  taxa: Insecta
   added: '2026-10-24'
 - id: 10.5061/dryad.3xsj3txb2
   doi: 10.5061/dryad.3xsj3txb2
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'A five-gene molecular phylogeny reveals <em>Parapanteles</em> Ashmead (Hymenoptera:
@@ -5961,10 +6269,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5061/dryad.76hdr7stn
   doi: 10.5061/dryad.76hdr7stn
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'BioMar-ACG: A successful partnership to inventory and promulgate marine
@@ -5979,10 +6288,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Multiple taxa
   added: '2026-10-24'
 - id: 10.5683/sp2/yhvvbt
   doi: 10.5683/sp2/yhvvbt
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Habitat size thresholds for predators: why damselflies only occur
@@ -5997,10 +6307,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Odonata
   added: '2026-10-24'
 - id: 10.14288/1.0398020
   doi: 10.14288/1.0398020
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Habitat size thresholds for predators: why damselflies only occur
@@ -6015,10 +6326,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Odonata
   added: '2026-10-24'
 - id: 10.5061/dryad.559m9
   doi: 10.5061/dryad.559m9
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'Data from: Six new cryptic species of Xylodonta Becker, 2014 (Notodontidae:
@@ -6034,10 +6346,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/2qba5h
   doi: 10.15468/2qba5h
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Endoparasitoid wasps of the genus Cubus (Hymenoptera, Ichneumonidae, Metopiinae)
@@ -6053,10 +6366,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.5061/dryad.zgmsbcc8q
   doi: 10.5061/dryad.zgmsbcc8q
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Functional and genetic diversity changes through time in a cloud forest ant
@@ -6071,10 +6385,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Hymenoptera
   added: '2026-10-24'
 - id: 10.5281/zenodo.18597716
   doi: 10.5281/zenodo.18597716
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Metabarcoding arthropods in the Área de Conservación Guanacaste (ACG)
@@ -6089,10 +6404,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.5281/zenodo.18597717
   sectors: ''
+  taxa: Arthropoda
   added: '2026-10-24'
 - id: 10.15468/anbxew
   doi: 10.15468/anbxew
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: 'New species in Rejectaria Guenée (Lepidoptera: Erebidae: Herminiinae) with
@@ -6107,10 +6423,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Lepidoptera
   added: '2026-10-24'
 - id: 10.5061/dryad.hx3ffbgcj
   doi: 10.5061/dryad.hx3ffbgcj
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Spider diversity across an elevation gradient in Área de Conservación Guanacaste
@@ -6125,10 +6442,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Arachnida
   added: '2026-10-24'
 - id: 10.15468/26cz6c
   doi: 10.15468/26cz6c
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Sthenelais onca sp. nov. (Phyllodocida, Sigalionidae) from a sandy beach
@@ -6143,10 +6461,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Annelida
   added: '2026-10-24'
 - id: 10.17632/gxmwwbff2r
   doi: 10.17632/gxmwwbff2r
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Wood Thrush Hylocichla mustelina occupancy patterns reveal sensitivity to
@@ -6163,10 +6482,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.17632/gxmwwbff2r.1
   sectors: ''
+  taxa: Aves
   added: '2026-10-24'
 - id: 10.5061/dryad.6t1g1jx9k
   doi: 10.5061/dryad.6t1g1jx9k
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Urine washing and urinary odor profiles in relation to dominance rank status
@@ -6183,10 +6503,11 @@
   relevance: check
   relevance_reason: sector Santa Rosa
   sectors: Santa Rosa
+  taxa: Mammalia
   added: '2026-10-24'
 - id: 10.15468/6tepjs
   doi: 10.15468/6tepjs
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: A new species of Heterogorgia Verrill, 1868 (Octocorallia, Malacalcyonacea)
@@ -6201,10 +6522,11 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Cnidaria
   added: '2026-10-24'
 - id: 10.48580/dgnq7
   doi: 10.48580/dgnq7
-  review: pending
+  review: excluded
   featured: false
   category: taxonomic treatment
   title: Endoparasitoid wasps of the genus Cubus (Hymenoptera, Ichneumonidae, Metopiinae)
@@ -6220,10 +6542,11 @@
   relevance_reason: names Area de Conservacion Guanacaste
   versions: 10.48580/dgnq7.v8; 10.48580/dgnq7.v9
   sectors: ''
+  taxa: Hymenoptera; Lepidoptera
   added: '2026-10-24'
 - id: 10.15468/wjgwpb
   doi: 10.15468/wjgwpb
-  review: pending
+  review: approved
   featured: false
   category: taxonomic treatment
   title: 'Some remarkably common, but undescribed, Megaselia Rondani (Diptera: Phoridae)
@@ -6238,5 +6561,6 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste
   sectors: ''
+  taxa: Diptera
   added: '2026-10-24'
 
