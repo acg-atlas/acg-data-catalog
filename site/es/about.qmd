@@ -24,3 +24,18 @@ Hola, soy Catherine Hulshof, ecóloga de Virginia Commonwealth University. Área
 **Créditos.** Cada conjunto de datos y cada publicación pertenece a sus autores; por favor cite el trabajo original, con su DOI. La capa del límite de ACG es cortesía de SIG-ACG (Waldy Medina), CC BY 4.0. Los mosaicos del mapa vienen de la API de mapas de GBIF y de Esri.
 
 **Abierto por diseño.** Todo el código y las decisiones de curaduría son públicos en [github.com/acg-atlas](https://github.com/acg-atlas).
+
+## ACG a lo largo de las estaciones
+
+<div class="photo-grid">
+<figure><img src="../assets/photos/mirador-dry-season.jpg" alt="El bosque seco desde el mirador en la época seca, con árboles en flor amarilla" loading="lazy"><figcaption>El bosque seco desde el mirador en la época seca, con árboles en flor amarilla</figcaption></figure>
+<figure><img src="../assets/photos/mirador.jpg" alt="La misma vista en la época lluviosa, al atardecer" loading="lazy"><figcaption>La misma vista en la época lluviosa, al atardecer</figcaption></figure>
+<figure class="tall"><img src="../assets/photos/amarillo.jpg" alt="Corteza amarilla (Tabebuia ochracea) en flor" loading="lazy"><figcaption>Corteza amarilla (Tabebuia ochracea) en flor</figcaption></figure>
+<figure><img src="../assets/photos/samanea.jpg" alt="Un cenízaro gigante (Samanea saman)" loading="lazy"><figcaption>Un cenízaro gigante (Samanea saman)</figcaption></figure>
+<figure><img src="../assets/photos/cacao.jpg" alt="Nubes sobre el Volcán Cacao" loading="lazy"><figcaption>Nubes sobre el Volcán Cacao</figcaption></figure>
+<figure><img src="../assets/photos/cacao-2.jpg" alt="El Volcán Cacao sobre los potreros" loading="lazy"><figcaption>El Volcán Cacao sobre los potreros</figcaption></figure>
+<figure><img src="../assets/photos/gongora.jpg" alt="El camino a Góngora" loading="lazy"><figcaption>El camino a Góngora</figcaption></figure>
+<figure><img src="../assets/photos/bahia.jpg" alt="Luz de tormenta sobre la bahía" loading="lazy"><figcaption>Luz de tormenta sobre la bahía</figcaption></figure>
+<figure><img src="../assets/photos/junquillal.jpg" alt="Atardecer en Junquillal" loading="lazy"><figcaption>Atardecer en Junquillal</figcaption></figure>
+</div>
+<p class="photo-note">Fotos © Catherine Hulshof. Por favor pregunte antes de reutilizarlas.</p>
