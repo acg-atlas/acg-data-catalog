@@ -6563,4 +6563,22 @@
   sectors: ''
   taxa: Diptera
   added: '2026-10-24'
+- id: 10.5061/dryad.h44j0zpg3
+  doi: 10.5061/dryad.h44j0zpg3
+  review: approved
+  featured: true
+  category: dataset
+  title: 'Long-term shifts in the functional composition and diversity of a tropical
+    dry forest: a 30-yr study'
+  creators: Swenson, Nathan; Hulshof, Catherine; Katabuchi, Masatoshi; Enquist, Brian
+  year: 2020
+  publisher: Dryad
+  url: https://doi.org/10.5061/dryad.h44j0zpg3
+  resource_type: dataset
+  source: submission
+  relevance: check
+  relevance_reason: submitted via form
+  sectors: Santa Rosa
+  taxa: Plantae
+  added: '2026-10-24'
 
