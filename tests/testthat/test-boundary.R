@@ -11,9 +11,20 @@ test_that("geolocations inside/outside the boundary", {
   expect_false(geolocations_inside(list(), boundary))
 })
 
-test_that("boundary_wkt is a closed counter-clockwise polygon", {
+test_that("boundary_wkt follows the outline and fits in a GBIF URL", {
   wkt <- boundary_wkt(boundary)
-  expect_match(wkt, "^POLYGON\\(\\(")
+  expect_match(wkt, "^(MULTI)?POLYGON\\(\\(")
+  expect_lte(nchar(wkt), 3000)
   g <- sf::st_as_sfc(wkt, crs = 4326)
-  expect_true(sf::st_is_valid(g))
+  expect_true(all(sf::st_is_valid(g)))
+  # Close to the real area, i.e. not a convex hull
+  ratio <- as.numeric(sf::st_area(sf::st_union(g))) / as.numeric(sf::st_area(boundary))
+  expect_gt(ratio, 0.95)
+  expect_lt(ratio, 1.05)
+})
+
+test_that("polygons_wkt orients outer rings counter-clockwise", {
+  sq <- sf::st_sfc(sf::st_polygon(list(rbind(c(0, 0), c(0, 1), c(1, 1), c(1, 0), c(0, 0)))))
+  expect_equal(polygons_wkt(sq),
+               "POLYGON((0.0000 0.0000,1.0000 0.0000,1.0000 1.0000,0.0000 1.0000,0.0000 0.0000))")
 })
