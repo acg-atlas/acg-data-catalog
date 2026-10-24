@@ -6565,8 +6565,8 @@
   added: '2026-10-24'
 - id: 10.5061/dryad.h44j0zpg3
   doi: 10.5061/dryad.h44j0zpg3
-  review: pending
-  featured: false
+  review: approved
+  featured: true
   category: dataset
   title: 'Long-term shifts in the functional composition and diversity of a tropical
     dry forest: a 30-yr study'
@@ -6579,5 +6579,6 @@
   relevance: check
   relevance_reason: submitted via form
   sectors: Santa Rosa
+  taxa: Plantae
   added: '2026-10-24'
 
