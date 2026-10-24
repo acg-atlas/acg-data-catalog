@@ -1,0 +1,28 @@
+---
+title: "Privacidad y condiciones"
+description: "Qué recopila el ACG Atlas (casi nada), cómo se manejan los envíos y por qué las entradas pueden tener errores."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/es/privacy">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/privacy">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/privacy">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/privacy">
+---
+
+**En resumen.** No le rastreo. Si envía un conjunto de datos o una publicación, su correo (si lo da) se mantiene privado y se borra una vez revisado el envío. El Atlas se arma a partir de muchas fuentes, en parte de forma automática, así que tendrá errores. Verifique siempre la fuente original antes de usarla.
+
+**Qué recopilo.** Solo lo que escribe en el formulario [Contribuir](contribute.qmd): un DOI y, de forma opcional, un sector de ACG, una nota y su correo. Se guarda en una base de datos privada (Cloudflare D1) a la que solo yo tengo acceso. Su correo se usa solo si tengo una pregunta sobre su envío, nunca se publica y se borra cuando el envío se aprueba o se excluye. El DOI y su nota pueden aparecer en el registro público de revisión en GitHub; su correo nunca.
+
+**Qué no hago.** Sin analíticas, sin publicidad, sin píxeles de seguimiento. Este sitio no usa cookies propias.
+
+**Servicios de los que depende.** El sitio se aloja en Cloudflare Pages, que guarda registros estándar del servidor. El formulario Contribuir usa Cloudflare Turnstile para evitar bots. Las páginas cargan fuentes de Google Fonts, mosaicos de mapa de GBIF y Esri, y bibliotecas de código de unpkg y jsDelivr; como en cualquier sitio web, estos servicios ven su dirección IP. Cada uno tiene su propia política de privacidad. Los enlaces a publicaciones y datos le llevan a otros sitios con sus propias políticas.
+
+**Exactitud.** El Atlas se ofrece tal cual, para investigación y educación, sin garantía alguna. Los registros vienen de DataCite, GBIF, OpenAlex, Crossref y envíos de personas, y los temas, taxones y enlaces se asignaron en parte con reglas. Habrá errores, omisiones y entradas desactualizadas. Verifique la información en el conjunto de datos o la publicación original antes de usarla o citarla, y [avíseme](#contacto) cuando algo esté mal.
+
+**No es un sitio oficial.** El ACG Atlas es un proyecto independiente. No lo administra, respalda ni revisa Área de Conservación Guanacaste, el SINAC ni el MINAE (Costa Rica), ni Virginia Commonwealth University.
+
+**Contenido y derechos de autor.** El Atlas enlaza a conjuntos de datos y publicaciones; no los aloja. Cada uno pertenece a sus autores y conserva su propia licencia y cita. Los metadatos del catálogo se publican bajo CC0. Si es autor y quiere que se corrija o elimine un registro, escríbame y lo atenderé pronto.
+
+[]{#contacto}**Contacto.** <span class="eml" data-a="fohsluh.enirehtac" data-b="moc.liamg"></span> (o un [issue de GitHub](https://github.com/acg-atlas/acg-data-catalog/issues) para lo que pueda ser público).
+
+*Última actualización: 24 de octubre de 2026.*

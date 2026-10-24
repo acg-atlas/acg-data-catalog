@@ -6,7 +6,8 @@
 //                               kind = "dataset" (default) or "paper"
 // Admin (Authorization: Bearer ADMIN_TOKEN):
 //   GET  /api/pending           pending submissions, WITHOUT contact emails
-//   POST /api/status            {updates: [{doi, status}]} after review
+//   POST /api/status            {updates: [{doi, status}]} after review;
+//                               approved/excluded also erases the contact email
 //
 // Bindings (wrangler.toml / secrets): DB (D1), ADMIN_TOKEN, TURNSTILE_SECRET,
 // ALLOWED_ORIGIN (the catalog site, e.g. https://acg-atlas.pages.dev).
@@ -103,6 +104,12 @@ export default {
 
     // -- Public: submit --------------------------------------------------
     if (url.pathname === "/api/submit" && request.method === "POST") {
+      // Rate limit per visitor (Cloudflare rate-limiting binding; absent in tests)
+      if (env.SUBMIT_LIMITER) {
+        const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+        const { success } = await env.SUBMIT_LIMITER.limit({ key: ip });
+        if (!success) return json({ ok: false, error: "rate_limited" }, 429, env);
+      }
       let body;
       try { body = await request.json(); } catch { return json({ ok: false, error: "bad_json" }, 400, env); }
       const doi = normalizeDoi(body.doi);
@@ -148,7 +155,10 @@ export default {
         ["approved", "excluded", "pending"].includes(u.status));
       if (valid.length) {
         await env.DB.batch(valid.map((u) => env.DB.prepare(
-          "UPDATE submissions SET status = ?, updated_at = datetime('now') WHERE doi = ?",
+          // Once decided, the submitter's email is no longer needed: erase it.
+          `UPDATE submissions SET status = ?1,
+             contact = CASE WHEN ?1 IN ('approved', 'excluded') THEN NULL ELSE contact END,
+             updated_at = datetime('now') WHERE doi = ?2`,
         ).bind(u.status, normalizeDoi(u.doi))));
       }
       return json({ ok: true, updated: valid.length }, 200, env);

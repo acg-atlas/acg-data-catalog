@@ -71,7 +71,7 @@ export const strings = {
     already: "Already submitted. Status:", thanks: "Thank you! Your DOI is in the review queue.",
     invalid: "That does not look like a DOI (e.g. 10.5061/dryad.abc123).",
     notFound: "We could not find that DOI.", captcha: "Please complete the captcha.",
-    error: "Something went wrong. Please try again later."
+    error: "Something went wrong. Please try again later.", rateLimited: "Too many submissions in a short time. Please wait a minute and try again."
   },
   es: {
     search: "Buscar títulos, personas, repositorios, taxones…", sector: "Sector", all: "Todos los sectores",
@@ -138,6 +138,6 @@ export const strings = {
     already: "Ya fue enviado. Estado:", thanks: "¡Gracias! Su DOI está en la cola de revisión.",
     invalid: "Eso no parece un DOI (p. ej. 10.5061/dryad.abc123).",
     notFound: "No encontramos ese DOI.", captcha: "Por favor complete el captcha.",
-    error: "Algo salió mal. Intente de nuevo más tarde."
+    error: "Algo salió mal. Intente de nuevo más tarde.", rateLimited: "Demasiados envíos en poco tiempo. Espere un minuto e intente de nuevo."
   }
 };

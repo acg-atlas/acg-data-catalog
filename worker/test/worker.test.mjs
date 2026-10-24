@@ -67,6 +67,16 @@ test("resolve, submit, duplicate, pending hides contact, status update", async (
   assert.equal((await r.json()).updated, 1);
   r = await call(e, "/api/pending", { headers: { Authorization: "Bearer s3cret" } });
   assert.equal((await r.json()).submissions.length, 0);
+  const row = e.DB._db.prepare("SELECT contact FROM submissions WHERE doi = '10.1234/abc'").get();
+  assert.equal(row.contact, null);   // email erased once decided
+});
+
+test("rate limiter blocks a visitor over the limit", async () => {
+  const e = env();
+  let n = 0;
+  e.SUBMIT_LIMITER = { limit: async () => ({ success: ++n <= 1 }) };
+  assert.equal((await call(e, "/api/submit", post({ doi: "10.1234/r1", turnstileToken: "t" }))).status, 201);
+  assert.equal((await call(e, "/api/submit", post({ doi: "10.1234/r2", turnstileToken: "t" }))).status, 429);
 });
 
 test("submissions record kind: dataset by default, paper when asked", async () => {

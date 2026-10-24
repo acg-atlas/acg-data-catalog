@@ -1,4 +1,17 @@
 <script>
+// Spam-proof email: the address is stored reversed in data attributes and
+// only assembled in the visitor's browser (see privacy.qmd).
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".eml").forEach(function (el) {
+    var r = function (s) { return s.split("").reverse().join(""); };
+    var addr = r(el.dataset.a) + "@" + r(el.dataset.b);
+    var a = document.createElement("a");
+    a.href = "mailto:" + addr;
+    a.textContent = addr;
+    el.replaceWith(a);
+  });
+});
+
 // Quarto has one navbar for the whole site. On Spanish pages (es/), translate
 // its labels, point its links at the Spanish pages, and turn the language
 // switch into "English".
@@ -28,6 +41,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
   var foot = document.querySelector(".nav-footer-center");
+  if (foot) foot.querySelectorAll("a").forEach(function (a) {
+    if (/privacy\.html$/.test(a.getAttribute("href") || "")) {
+      a.setAttribute("href", "privacy.html");
+      a.textContent = "Privacidad y condiciones";
+    }
+  });
   if (foot) foot.innerHTML = foot.innerHTML
     .replace("Metadata CC0", "Metadatos CC0")
     .replace("Each dataset and paper keeps its own license and citation", "Cada conjunto de datos y publicación conserva su licencia y cita")
