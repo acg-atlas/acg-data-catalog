@@ -51,7 +51,7 @@ as_candidates <- function(df) {
 get_json <- function(url, query = list(), headers = list()) {
   req <- httr2::request(url) |>
     httr2::req_url_query(!!!query) |>
-    httr2::req_user_agent("acg-data-catalog (https://github.com/acg-data)") |>
+    httr2::req_user_agent("acg-data-catalog (https://github.com/acg-atlas)") |>
     httr2::req_retry(max_tries = 4, backoff = function(i) 2^i) |>
     httr2::req_throttle(rate = 5)
   if (length(headers)) req <- httr2::req_headers(req, !!!headers)

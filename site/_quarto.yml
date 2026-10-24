@@ -22,7 +22,7 @@ website:
       - href: es/index.qmd
         text: Español
   page-footer:
-    center: "Metadata CC0 · Each dataset keeps its own license and citation · [GitHub](https://github.com/acg-data)"
+    center: "Metadata CC0 · Each dataset keeps its own license and citation · [GitHub](https://github.com/acg-atlas)"
 
 format:
   html:

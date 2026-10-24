@@ -10,4 +10,4 @@ title: "Acerca de"
 
 **Límite.** Capa del límite del ACG cortesía de SIG-ACG (Waldy Medina), CC BY 4.0.
 
-**Código.** Todo el código y las decisiones de curaduría son públicos en [github.com/acg-data](https://github.com/acg-data).
+**Código.** Todo el código y las decisiones de curaduría son públicos en [github.com/acg-atlas](https://github.com/acg-atlas).

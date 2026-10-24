@@ -48,7 +48,7 @@ To preview the site: `quarto preview site`.
 
 ## One-time setup
 
-1. **GitHub.** Create the `acg-data` organization and push this repo. Put your username in `.github/CODEOWNERS` and protect `main` (require a PR and code-owner review).
+1. **GitHub.** Create the `acg-atlas` organization and push this repo. Put your username in `.github/CODEOWNERS` and protect `main` (require a PR and code-owner review).
 2. **Cloudflare D1 and Worker** (from `worker/`):
    ```sh
    npm install

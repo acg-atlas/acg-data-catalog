@@ -10,4 +10,4 @@ title: "About"
 
 **Boundary.** ACG boundary layer courtesy of SIG-ACG (Waldy Medina), CC BY 4.0.
 
-**Code.** All code and curation decisions are public at [github.com/acg-data](https://github.com/acg-data).
+**Code.** All code and curation decisions are public at [github.com/acg-atlas](https://github.com/acg-atlas).
