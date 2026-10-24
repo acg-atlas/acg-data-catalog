@@ -73,7 +73,7 @@ npx wrangler d1 execute acg-submissions --remote \
 
 ## Boundary
 
-`data-raw/acg_boundary.geojson` is the official SIG-ACG outline (credit: Waldy Medina/SIG-ACG, CC BY 4.0), with RNVS Bahía Junquillal added, which the dissolved outline omits. `data-raw/make_boundary.R` rebuilds it from the shapefiles. The GBIF query uses a simplified convex hull of this outline, so GBIF counts still include some land just outside the ACG.
+`data-raw/acg_boundary.geojson` is the official SIG-ACG outline (credit: Waldy Medina/SIG-ACG, CC BY 4.0), with RNVS Bahía Junquillal added, which the dissolved outline omits. `data-raw/make_boundary.R` rebuilds it from the shapefiles. The GBIF query sends the outline itself, simplified just enough to fit in a GBIF request URL (currently 750 m, within 0.5% of the true area).
 
 ## Licenses
 
