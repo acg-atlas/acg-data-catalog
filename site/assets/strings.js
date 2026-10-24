@@ -16,6 +16,7 @@ export const strings = {
     // home
     tagline: "Research data and publications from Área de Conservación Guanacaste, in one searchable place.",
     lede: "An index, not a repository: every dataset and paper links to its permanent home, with its own DOI, license and citation.",
+    heroCredit: "Sunset over the forest, ACG · Photo © Catherine Hulshof",
     panelData: "Data", panelDataText: "Datasets deposited in GBIF, EDI, Dryad, Zenodo and other archives.",
     panelPapers: "Publications", panelPapersText: "Articles, theses, books and reports about research done in ACG.",
     statDatasets: "datasets", statRepos: "data publishers", statTaxa: "taxonomic groups",
@@ -87,6 +88,7 @@ export const strings = {
     crossToPapers: "Buscar publicaciones sobre «{q}» →",
     tagline: "Datos y publicaciones de investigación de Área de Conservación Guanacaste, en un solo lugar.",
     lede: "Un índice, no un repositorio: cada conjunto de datos y cada publicación enlaza a su sitio permanente, con su propio DOI, licencia y cita.",
+    heroCredit: "Atardecer sobre el bosque, ACG · Foto © Catherine Hulshof",
     panelData: "Datos", panelDataText: "Conjuntos de datos depositados en GBIF, EDI, Dryad, Zenodo y otros archivos.",
     panelPapers: "Publicaciones", panelPapersText: "Artículos, tesis, libros e informes sobre investigaciones hechas en ACG.",
     statDatasets: "conjuntos de datos", statRepos: "publicadores de datos", statTaxa: "grupos taxonómicos",

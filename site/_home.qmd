@@ -7,9 +7,10 @@ t = strings[lang]
 catalog = d3.json(root + "data/catalog.json")
 papers = d3.json(root + "data/papers.json")
 paperYears = papers.map(d => d.year).filter(Boolean)
-htl.html`<section class="hero">
+htl.html`<section class="hero hero-photo" style="background-image: linear-gradient(100deg, rgba(20,45,28,.88) 0%, rgba(20,45,28,.55) 55%, rgba(20,45,28,.15) 100%), url(${root}assets/photos/hero.jpg)">
   <h1>${t.tagline}</h1>
   <p>${t.lede}</p>
+  <span class="photo-credit">${t.heroCredit}</span>
 </section>`
 ```
 

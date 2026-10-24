@@ -6,13 +6,16 @@ project:
     - data/*.json
     - data/*.geojson
     - _headers
+    - assets/photos/*.jpg
 
 website:
   title: "ACG Atlas"
   site-url: https://acg-atlas.pages.dev   # change to the final domain
   description: "Research data and publications from Área de Conservación Guanacaste, Costa Rica."
+  image: assets/photos/og.jpg
   open-graph: true
-  twitter-card: true
+  twitter-card:
+    card-style: summary_large_image
   navbar:
     left:
       - text: Data

@@ -22,3 +22,18 @@ include-in-header:
 **Credit.** Each dataset and paper belongs to its authors; please cite the original work, using its DOI. The ACG boundary layer is courtesy of SIG-ACG (Waldy Medina), CC BY 4.0. Map tiles come from the GBIF maps API and Esri.
 
 **Open by design.** All code and curation decisions are public at [github.com/acg-atlas](https://github.com/acg-atlas).
+
+## ACG through the seasons
+
+<div class="photo-grid">
+<figure><img src="assets/photos/mirador-dry-season.jpg" alt="Dry forest from the mirador in the dry season, with trees in yellow bloom" loading="lazy"><figcaption>Dry forest from the mirador in the dry season, with trees in yellow bloom</figcaption></figure>
+<figure><img src="assets/photos/mirador.jpg" alt="The same view in the rainy season, at sunset" loading="lazy"><figcaption>The same view in the rainy season, at sunset</figcaption></figure>
+<figure class="tall"><img src="assets/photos/amarillo.jpg" alt="Corteza amarilla (Tabebuia ochracea) in bloom" loading="lazy"><figcaption>Corteza amarilla (Tabebuia ochracea) in bloom</figcaption></figure>
+<figure><img src="assets/photos/samanea.jpg" alt="A giant cenízaro (Samanea saman)" loading="lazy"><figcaption>A giant cenízaro (Samanea saman)</figcaption></figure>
+<figure><img src="assets/photos/cacao.jpg" alt="Clouds over Volcán Cacao" loading="lazy"><figcaption>Clouds over Volcán Cacao</figcaption></figure>
+<figure><img src="assets/photos/cacao-2.jpg" alt="Volcán Cacao above the pastures" loading="lazy"><figcaption>Volcán Cacao above the pastures</figcaption></figure>
+<figure><img src="assets/photos/gongora.jpg" alt="The road to Góngora" loading="lazy"><figcaption>The road to Góngora</figcaption></figure>
+<figure><img src="assets/photos/bahia.jpg" alt="Storm light over the bay" loading="lazy"><figcaption>Storm light over the bay</figcaption></figure>
+<figure><img src="assets/photos/junquillal.jpg" alt="Sunset at Junquillal" loading="lazy"><figcaption>Sunset at Junquillal</figcaption></figure>
+</div>
+<p class="photo-note">Photos © Catherine Hulshof. Please ask before reusing them.</p>
