@@ -8,6 +8,10 @@ title: "Acerca de"
 
 **Créditos.** Cada conjunto de datos conserva sus autores, licencia y cita. Por favor cite el conjunto de datos mismo, con su DOI.
 
+**Mapa.** Mosaicos de densidad de ocurrencias de la API de mapas de GBIF; mapas base de Esri. Las celdas de densidad no se recortan al límite del ACG.
+
 **Límite.** Capa del límite del ACG cortesía de SIG-ACG (Waldy Medina), CC BY 4.0.
+
+**Próximamente.** Una base de datos aparte, con buscador, de publicaciones sobre el ACG, enlazada a los datos que usan.
 
 **Código.** Todo el código y las decisiones de curaduría son públicos en [github.com/acg-atlas](https://github.com/acg-atlas).

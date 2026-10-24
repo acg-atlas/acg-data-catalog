@@ -1,0 +1,11 @@
+---
+title: "Todos los datos"
+---
+
+```{ojs}
+//| echo: false
+lang = "es"
+root = "../"
+```
+
+{{< include ../_browse.qmd >}}

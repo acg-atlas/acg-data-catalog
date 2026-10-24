@@ -1,10 +1,6 @@
 ---
-title: "Catálogo de Datos del ACG"
+pagetitle: "Catálogo de Datos del ACG"
 ---
-
-Un índice de búsqueda de datos de investigación públicos del Área de Conservación Guanacaste (ACG), noroeste de Costa Rica. El catálogo no aloja datos: cada entrada enlaza a un conjunto de datos en un repositorio permanente (GBIF, EDI, Dryad, Zenodo y otros) con su propio DOI, licencia y cita.
-
-[Explorar el catálogo](explore.qmd){.btn .btn-primary} [Enviar un DOI](submit.qmd){.btn .btn-outline-primary}
 
 ```{ojs}
 //| echo: false
@@ -12,4 +8,4 @@ lang = "es"
 root = "../"
 ```
 
-{{< include ../_featured.qmd >}}
+{{< include ../_home.qmd >}}

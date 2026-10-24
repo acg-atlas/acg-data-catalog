@@ -1,0 +1,87 @@
+<!-- Shared by map.qmd and es/map.qmd. Expects OJS variables `lang`, `root`.
+     Leaflet CSS is loaded in each page's front matter. -->
+```{ojs}
+//| echo: false
+import { strings } from "/assets/strings.js"
+import { link, fmt } from "/assets/catalog.js"
+L = require("leaflet@1.9.4")
+t = strings[lang]
+catalog = d3.json(root + "data/catalog.json")
+boundary = d3.json(root + "data/acg_boundary.geojson")
+gbifSets = catalog.filter(d => d.gbif_key)
+  .sort((a, b) => (b.acg_records ?? 0) - (a.acg_records ?? 0))
+htl.html`<p>${t.mapIntro}</p>`
+```
+
+::: {.filters}
+```{ojs}
+//| echo: false
+viewof dsKey = Inputs.select(new Map([[t.mapAllGbif, ""],
+  ...gbifSets.map(d => [`${d.title} (${(d.acg_records ?? 0).toLocaleString()})`, d.gbif_key])]),
+  { label: t.mapDataset })
+viewof taxonName = Inputs.text({ label: t.mapTaxon, placeholder: t.mapTaxonHelp, submit: true })
+```
+:::
+
+```{ojs}
+//| echo: false
+taxonMatch = taxonName
+  ? fetch(`https://api.gbif.org/v1/species/match?name=${encodeURIComponent(taxonName)}`).then(r => r.json())
+  : null
+taxonKey = taxonMatch && taxonMatch.matchType !== "NONE" ? taxonMatch.usageKey : null
+selected = gbifSets.find(d => d.gbif_key === dsKey)
+htl.html`<div class="map-note">
+  ${taxonName ? (taxonKey
+     ? fmt(t.mapMatched, { name: taxonMatch.scientificName, rank: (taxonMatch.rank || "").toLowerCase() })
+     : t.mapNoMatch) : ""}
+  ${selected ? htl.html`${taxonName ? " · " : ""}<a href="${link(selected)}" target="_blank" rel="noopener">${t.mapOpen} ↗</a>` : ""}
+</div>`
+```
+
+```{ojs}
+//| echo: false
+mapDiv = htl.html`<div class="acg-map"></div>`
+```
+
+```{ojs}
+//| echo: false
+map = {
+  const m = L.map(mapDiv, { scrollWheelZoom: false });
+  const esri = "https://server.arcgisonline.com/ArcGIS/rest/services/";
+  const streets = L.layerGroup([
+    L.tileLayer(esri + "Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+                { attribution: "Basemap &copy; Esri, HERE, Garmin, OpenStreetMap contributors", maxZoom: 16 }),
+    L.tileLayer(esri + "Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
+                { maxZoom: 16, pane: "overlayPane" })
+  ]).addTo(m);
+  const satellite = L.tileLayer(esri + "World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                                { attribution: "Imagery &copy; Esri, Maxar, Earthstar Geographics", maxZoom: 18 });
+  const acg = L.geoJSON(boundary, { style: { color: "#1f5130", weight: 2.5, fill: false } }).addTo(m);
+  m.fitBounds(acg.getBounds(), { padding: [12, 12] });
+  L.control.layers({ [t.mapStreets]: streets, [t.mapSatellite]: satellite },
+                   { [t.mapBoundary]: acg }).addTo(m);
+  setTimeout(() => m.invalidateSize(), 250);
+  invalidation.then(() => m.remove());
+  return m;
+}
+```
+
+```{ojs}
+//| echo: false
+// GBIF density tiles; redrawn whenever the dataset or taxon changes.
+gbifLayer = {
+  const p = new URLSearchParams({ srs: "EPSG:3857", bin: "hex", hexPerTile: "60",
+                                  style: "purpleYellow.poly" });
+  if (dsKey) p.set("datasetKey", dsKey);
+  if (taxonKey) p.set("taxonKey", taxonKey);
+  const layer = L.tileLayer(`https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?${p}`,
+    { attribution: "Occurrences &copy; GBIF", opacity: 0.7 }).addTo(map);
+  invalidation.then(() => map.removeLayer(layer));
+  return layer;
+}
+```
+
+```{ojs}
+//| echo: false
+htl.html`<p class="map-note mt-2">${fmt(t.mapNotGbif, { n: catalog.length - gbifSets.length })}</p>`
+```

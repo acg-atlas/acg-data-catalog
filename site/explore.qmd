@@ -1,5 +1,5 @@
 ---
-title: "Explore"
+title: "Search"
 ---
 
 ```{ojs}

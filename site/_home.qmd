@@ -1,0 +1,44 @@
+<!-- Shared by index.qmd and es/index.qmd. Expects OJS variables `lang`, `root`. -->
+```{ojs}
+//| echo: false
+import { strings } from "/assets/strings.js"
+import { link, split } from "/assets/catalog.js"
+t = strings[lang]
+catalog = d3.json(root + "data/catalog.json")
+years = catalog.map(d => d.year).filter(Boolean)
+stats = [
+  [catalog.length, t.statDatasets],
+  [new Set(catalog.map(d => d.publisher)).size, t.statRepos],
+  [new Set(catalog.flatMap(d => split(d.taxa))).size, t.statTaxa],
+  [years.length ? `${d3.min(years)}–${d3.max(years)}` : "–", t.statYears]
+]
+htl.html`<section class="hero">
+  <h1>${t.tagline}</h1>
+  <p>${t.lede}</p>
+  <div class="stats">${stats.map(([n, l]) => htl.html`<div class="stat"><b>${n}</b><span>${l}</span></div>`)}</div>
+</section>`
+```
+
+```{ojs}
+//| echo: false
+ways = [
+  ["explore.html", t.cardExplore, t.cardExploreText],
+  ["browse.html", t.cardBrowse, t.cardBrowseText],
+  ["map.html", t.cardMap, t.cardMapText],
+  ["submit.html", t.cardSubmit, t.cardSubmitText]
+]
+htl.html`<h2>${t.waysIn}</h2>
+<div class="ways">${ways.map(([href, h, p]) => htl.html`<a class="way" href="${href}"><h3>${h}</h3><p>${p}</p></a>`)}</div>`
+```
+
+```{ojs}
+//| echo: false
+featured = catalog.filter(d => d.featured)
+htl.html`<h2>${t.featured}</h2>
+${featured.length === 0 ? htl.html`<p>${t.none}</p>` : featured.map(d => htl.html`
+  <div class="dataset-card">
+    <h4><a href="${link(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
+    <div class="dataset-meta">${d.creators || ""} · ${d.year ?? ""} · ${d.publisher || ""}</div>
+    ${(lang === "es" ? d.note_es : d.note_en) ? htl.html`<p class="mt-2 mb-0">${lang === "es" ? d.note_es : d.note_en}</p>` : ""}
+  </div>`)}`
+```

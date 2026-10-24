@@ -1,0 +1,14 @@
+---
+title: "Mapa"
+include-in-header:
+  text: |
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+---
+
+```{ojs}
+//| echo: false
+lang = "es"
+root = "../"
+```
+
+{{< include ../_map.qmd >}}

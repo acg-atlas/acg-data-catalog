@@ -1,11 +1,103 @@
 /*-- scss:defaults --*/
-$primary: #2f6b3a;
+$forest: #1f5130;
+$leaf: #3f8a4f;
+$sand: #f6f4ee;
+$ink: #1d2420;
+
+$primary: $leaf;
+$body-color: $ink;
+$link-color: $forest;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$headings-font-family: "Fraunces", Georgia, serif;
+$headings-font-weight: 600;
 $font-size-root: 17px;
+$border-radius: .6rem;
+$navbar-bg: #ffffff;
+$navbar-fg: $ink;
+$navbar-hl: $forest;
+$footer-bg: $sand;
 
 /*-- scss:rules --*/
-.dataset-card { border: 1px solid $gray-300; border-radius: .5rem; padding: 1rem; margin-bottom: 1rem; }
-.dataset-card h4 { margin-top: 0; font-size: 1.05rem; }
-.dataset-meta { color: $gray-600; font-size: .9rem; }
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap");
+
+.navbar { border-bottom: 1px solid rgba(0, 0, 0, .07); }
+.navbar-brand .navbar-title { font-family: $headings-font-family; color: $forest; }
+.nav-link.active { color: $forest !important; font-weight: 600; }
+
+// Home -------------------------------------------------------------------------
+.hero {
+  background: linear-gradient(135deg, $forest 0%, #2e6b3f 55%, #5c8f4a 100%);
+  color: #fff; border-radius: 1rem; padding: 2.5rem 2rem; margin: .5rem 0 2rem;
+  h1 { color: #fff; font-size: clamp(1.7rem, 4vw, 2.6rem); margin: 0 0 .75rem; line-height: 1.15; }
+  p { color: rgba(255, 255, 255, .88); max-width: 46rem; margin: 0; }
+}
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)); gap: .75rem; margin-top: 1.75rem; }
+.stat { background: rgba(255, 255, 255, .12); border-radius: .75rem; padding: .9rem 1rem; }
+.stat b { display: block; font-size: 1.7rem; line-height: 1.1; color: #fff; }
+.stat span { font-size: .85rem; color: rgba(255, 255, 255, .85); }
+
+.ways { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; margin-bottom: 2.5rem; }
+a.way {
+  display: block; background: #fff; border: 1px solid rgba(0, 0, 0, .08); border-radius: .9rem;
+  padding: 1.1rem 1.2rem; text-decoration: none; color: $ink; transition: transform .12s, box-shadow .12s;
+  &:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(31, 81, 48, .12); }
+  h3 { font-size: 1.1rem; margin: 0 0 .35rem; color: $forest; }
+  p { font-size: .9rem; color: $gray-600; margin: 0; }
+}
+
+// Dataset cards ----------------------------------------------------------------
+.dataset-card {
+  background: #fff; border: 1px solid rgba(0, 0, 0, .08); border-radius: .8rem;
+  padding: 1rem 1.15rem; margin-bottom: .85rem;
+  h4 { margin: 0 0 .3rem; font-family: $font-family-sans-serif; font-size: 1.02rem; font-weight: 600; line-height: 1.35; }
+  h4 a { text-decoration: none; }
+  h4 a:hover { text-decoration: underline; }
+}
+.dataset-meta { color: $gray-600; font-size: .88rem; }
+.creator-link { color: $gray-700; text-decoration: none; border-bottom: 1px dotted $gray-500; cursor: pointer; }
+.creator-link:hover { color: $forest; border-bottom-color: $forest; }
+.chips { margin-top: .45rem; display: flex; flex-wrap: wrap; gap: .35rem; }
+.chip { font-size: .75rem; padding: .12rem .55rem; border-radius: 999px; background: $sand; color: $gray-700; }
+.chip.taxon { background: #e7f1e8; color: $forest; }
+.chip.featured { background: #fff3cd; color: #7a5b00; }
+.result-count { color: $gray-700; margin: .5rem 0 1rem; }
+
+// Filters ----------------------------------------------------------------------
+// Quarto puts each OJS input of a block in its own .cell-output-display inside one .cell
+.filters .cell {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 0 1.5rem;
+  background: $sand; border-radius: .8rem; padding: .6rem 1rem; margin: .75rem 0 1rem;
+}
+.filters .cell-output-display { margin: 0; }
+.filters .code-copy-outer-scaffold { display: none; }
+.filters form { --label-width: 6.5rem; width: 100% !important; max-width: none !important; }
+.filters select, .filters input[type=number] { border-radius: .4rem; }
+input[type=text], input[type=search] { border-radius: .5rem; border: 1px solid rgba(0, 0, 0, .2); padding: .45rem .7rem; }
+
+// Browse table -----------------------------------------------------------------
+.export-bar { margin: .25rem 0 .75rem; }
+.browse-table form { max-width: none !important; }
+.browse-table table { font-size: .86rem; table-layout: fixed; width: 100%; }
+.browse-table th, .browse-table td { white-space: normal; overflow-wrap: anywhere; vertical-align: top; }
+// Inputs.table always adds a selection column; this page does not use it
+.browse-table th:nth-child(1), .browse-table td:nth-child(1) { display: none; }
+.browse-table th:nth-child(2) { width: 34%; }   // title
+.browse-table th:nth-child(3) { width: 22%; }   // creators
+.browse-table th:nth-child(4) { width: 6%; }    // year
+.browse-table th:nth-child(5) { width: 14%; }   // repository
+.browse-table th:nth-child(6) { width: 10%; }   // taxon
+.browse-table th:nth-child(7) { width: 7%; }    // sectors
+.browse-table th:nth-child(8) { width: 7%; }    // type
+
+// Map --------------------------------------------------------------------------
+.acg-map { height: min(70vh, 620px); border-radius: .9rem; border: 1px solid rgba(0, 0, 0, .1); }
+.map-note { font-size: .88rem; color: $gray-600; }
+
+// Submit form ------------------------------------------------------------------
 #submit-form label { display: block; margin-top: .8rem; font-weight: 600; }
 #submit-form input, #submit-form select, #submit-form textarea { width: 100%; max-width: 40rem; }
 #preview { margin-top: 1rem; }
+
+@media (max-width: 576px) {
+  .hero { padding: 1.6rem 1.2rem; border-radius: .8rem; }
+}

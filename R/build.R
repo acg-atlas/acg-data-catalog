@@ -9,6 +9,9 @@ build_catalog_json <- function(curated, path) {
     # some repositories put HTML (<em>Genus</em>) in titles
     dplyr::mutate(title = gsub("<[^>]+>", "", title)) |>
     dplyr::select(-review, -relevance, -relevance_reason) |>
+    # GBIF dataset key, used by the map page for GBIF's density tiles
+    dplyr::mutate(gbif_key = ifelse(source == "gbif",
+                                    sub("^.*/dataset/", "", url), NA_character_)) |>
     dplyr::arrange(dplyr::desc(featured), dplyr::desc(year))
   jsonlite::write_json(approved, path, auto_unbox = TRUE, na = "null",
                        pretty = FALSE)

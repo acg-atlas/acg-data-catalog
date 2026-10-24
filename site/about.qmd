@@ -8,6 +8,10 @@ title: "About"
 
 **Credit.** Each dataset keeps its creators, license and citation. Please cite the dataset itself, using its DOI.
 
+**Map.** Occurrence density tiles from the GBIF maps API; basemaps from Esri. Density cells are not clipped to the ACG boundary.
+
 **Boundary.** ACG boundary layer courtesy of SIG-ACG (Waldy Medina), CC BY 4.0.
+
+**Coming next.** A separate, searchable database of publications about the ACG, linked to the datasets they use.
 
 **Code.** All code and curation decisions are public at [github.com/acg-atlas](https://github.com/acg-atlas).
