@@ -57,3 +57,4 @@ used for tagging only. Datasets, errata, paratext and peer reviews are dropped.
 | 2026-10-24 | OpenAlex, title + abstract ("core") | v1 | 882 | after dropping non-paper types |
 | 2026-10-24 | OpenAlex, full text, strong names ("fulltext") | v1 | 2,465 | |
 | 2026-10-24 | Combined, deduplicated (DOI, else OpenAlex id) | | 2,673 | After dropping 99 Zenodo/Plazi fragments (single figures or species descriptions of papers already listed). 1,032 likely (WoS, core or strong ACG name), 1,641 check (full text only). OpenAlex core found 265 of 473 WoS DOIs. |
+| 2026-10-24 | Title and abstract screening | | 917 approved | Rule: research done in the ACG (any sector, including marine), using ACG specimens or data, or mainly about the ACG. Claude screened all 2,673; the 220 unsure records were decided by C. Hulshof (219 approved, 1 excluded). 15 same-record duplicates (repository copies, preprints) excluded. 1,756 excluded in total. |

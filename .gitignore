@@ -2,6 +2,7 @@ _targets/
 review_summary.md
 review_pending.csv
 review_papers.csv
+review_unsure.csv
 site/_site/
 site/.quarto/
 worker/node_modules/

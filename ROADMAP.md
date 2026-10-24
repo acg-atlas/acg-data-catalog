@@ -20,15 +20,15 @@ A combined "search everything" box can come later if users ask for it.
 
 **Sources.**
 
-1. OpenAlex (already harvested: 3,403 works in `site/data/literature.json`, not yet on the site). Open (CC0), so records can be republished.
+1. OpenAlex. Open (CC0), so records can be republished.
 2. Web of Science (through VCU). Use it for discovery and completeness, not as the published record: Clarivate's terms generally do not allow republishing WoS records or abstracts. Export the WoS result set privately, keep it out of this public repo, match on DOI, and fill the public database from OpenAlex or Crossref. Check VCU Libraries' license terms before building on this.
 3. Scopus, Google Scholar or SciELO for Spanish-language and grey literature, if coverage gaps show up. Comparing WoS and OpenAlex coverage is itself a methods result for the data paper.
 
 **Steps.**
 
-1. Fix the search string (place names from `data-raw/gazetteer.csv` plus "Guanacaste" variants) and document it, PRISMA-style.
-2. Run it in WoS and OpenAlex, deduplicate on DOI, record counts at each step.
-3. Review queue for papers, like the dataset queue (`catalog/papers.yaml`, approve or exclude).
+1. ~~Fix the search string and document it, PRISMA-style~~ (done: `data-raw/literature_search.md`).
+2. ~~Run it in WoS and OpenAlex, deduplicate on DOI, record counts~~ (done: 2,673 candidates).
+3. ~~Review queue for papers~~ (done, October 2026: 917 approved under the rule "research done in, or mainly about, the ACG"; 1,756 excluded, including duplicates).
 4. Tag: sector (gazetteer), taxon, theme, decade, linked datasets (DataCite `relatedIdentifiers` and Scholix links), open access.
 5. Publications page: search, filters, table view with BibTeX and RIS export.
 6. Evidence and gap map: taxon x theme x sector, cells coloured by number of papers and number of open datasets.
@@ -45,6 +45,10 @@ A combined "search everything" box can come later if users ask for it.
 - Spanish menu on Spanish pages (`babelquarto`).
 - One page per dataset with schema.org `Dataset` markup, so Google Dataset Search indexes the catalog.
 - Data paper describing the catalog (Data in Brief or Ecology).
+
+### 2.4 Important findings (after the site is polished)
+
+Goal: short, digestible summaries of what is known from the ACG data and papers, so readers can generate research questions and spot gaps. Possibly an "Important findings" page, and a synthesis paper before the LTER application. Builds on the tagging and the evidence and gap map in 2.1. Where it fits best is to be decided once the Publications page is live.
 
 ### Clean-ups
 
