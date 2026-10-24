@@ -17,8 +17,9 @@ yearExtent = d3.extent(catalog, d => d.year)
 
 ```{ojs}
 //| echo: false
+// Prefill from ?s=…  (not ?q=, which Quarto's site search reads and strips)
 viewof q = Inputs.text({ placeholder: t.search, width: "100%",
-                         value: new URLSearchParams(location.search).get("q") ?? "" })
+                         value: new URLSearchParams(location.search).get("s") ?? "" })
 ```
 
 ::: {.filters}
