@@ -1,0 +1,46 @@
+<!-- Shared by browse.qmd and es/browse.qmd. Expects OJS variables `lang`, `root`. -->
+```{ojs}
+//| echo: false
+import { strings } from "/assets/strings.js"
+import { link, fmt, toCSV, toBibTeX, toRIS, downloadButton } from "/assets/catalog.js"
+t = strings[lang]
+catalog = d3.json(root + "data/catalog.json")
+htl.html`<p>${t.browseIntro}</p>`
+```
+
+```{ojs}
+//| echo: false
+viewof rows = Inputs.search(catalog, { placeholder: t.filterTable, width: "100%",
+                                       format: n => fmt(t.showing, { n, total: catalog.length }) })
+```
+
+```{ojs}
+//| echo: false
+stamp = new Date().toISOString().slice(0, 10)
+htl.html`<div class="export-bar">
+  ${downloadButton("CSV", `acg-catalog-${stamp}.csv`, "text/csv;charset=utf-8", () => toCSV(rows))}
+  ${downloadButton("BibTeX", `acg-catalog-${stamp}.bib`, "application/x-bibtex;charset=utf-8", () => toBibTeX(rows))}
+  ${downloadButton("RIS", `acg-catalog-${stamp}.ris`, "application/x-research-info-systems;charset=utf-8", () => toRIS(rows))}
+</div>`
+```
+
+::: {.browse-table}
+```{ojs}
+//| echo: false
+Inputs.table(rows, {
+  columns: ["title", "creators", "year", "publisher", "taxa", "sectors", "category"],
+  header: { title: t.title, creators: t.creators, year: t.year, publisher: t.publisher,
+            taxa: t.taxa, sectors: t.sectors, category: t.category },
+  format: {
+    title: (x, i, data) => htl.html`<a href="${link(data[i])}" target="_blank" rel="noopener">${x}</a>`,
+    year: x => x ?? "",
+    category: x => t[x] || x
+  },
+  layout: "fixed",
+  rows: 25,
+  height: 640,
+  sort: "year",
+  reverse: true
+})
+```
+:::

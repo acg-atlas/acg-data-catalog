@@ -9,3 +9,5 @@ worker/.wrangler/
 .Rhistory
 .Rproj.user/
 .Renviron
+site/data/acg_boundary.geojson
+.claude/

@@ -2,33 +2,89 @@
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"
+import { link, split, surname } from "/assets/catalog.js"
 t = strings[lang]
 catalog = d3.json(root + "data/catalog.json")
-sectorList = [...new Set(catalog.flatMap(d => (d.sectors || "").split(";").map(s => s.trim()).filter(Boolean)))].sort()
+fold = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
+haystack = new Map(catalog.map(d => [d, fold([d.title, d.creators, d.publisher, d.taxa,
+                                               d.sectors, d.doi, d.year].join(" "))]))
+sectorList = [...new Set(catalog.flatMap(d => split(d.sectors)))].sort()
+taxonList = [...new Set(catalog.flatMap(d => split(d.taxa)))].sort()
+repoList = [...new Set(catalog.map(d => d.publisher).filter(Boolean))].sort()
 categoryList = [...new Set(catalog.map(d => d.category || "dataset"))]
+yearExtent = d3.extent(catalog, d => d.year)
 ```
 
 ```{ojs}
 //| echo: false
-viewof searched = Inputs.search(catalog, { placeholder: t.search, label: "", format: () => "" })
+viewof q = Inputs.text({ placeholder: t.search, width: "100%",
+                         value: new URLSearchParams(location.search).get("q") ?? "" })
+```
+
+::: {.filters}
+```{ojs}
+//| echo: false
 viewof sector = Inputs.select([t.all, ...sectorList], { label: t.sector })
+viewof taxon = Inputs.select([t.allTaxa, ...taxonList], { label: t.taxa })
+viewof repo = Inputs.select([t.allRepos, ...repoList], { label: t.publisher })
+viewof fromYear = Inputs.range(yearExtent, { label: t.year + " ≥", step: 1, value: yearExtent[0] })
+viewof sortBy = Inputs.select(new Map([[t.sortNewest, "new"], [t.sortOldest, "old"],
+                                       [t.sortTitle, "title"], [t.sortRecords, "records"]]),
+                              { label: t.sort })
 viewof category = Inputs.checkbox(categoryList, { label: t.category, value: ["dataset"],
-                                                   format: x => t[x] || x })
+                                                  format: x => t[x] || x })
+```
+:::
+
+```{ojs}
+//| echo: false
+terms = fold(q).split(/\s+/).filter(Boolean)
+sorters = ({
+  new: (a, b) => (b.year ?? 0) - (a.year ?? 0),
+  old: (a, b) => (a.year ?? 9999) - (b.year ?? 9999),
+  title: (a, b) => (a.title || "").localeCompare(b.title || ""),
+  records: (a, b) => (b.acg_records ?? -1) - (a.acg_records ?? -1)
+})
+filtered = catalog.filter(d =>
+  terms.every(w => haystack.get(d).includes(w)) &&
+  (sector === t.all || split(d.sectors).includes(sector)) &&
+  (taxon === t.allTaxa || split(d.taxa).includes(taxon)) &&
+  (repo === t.allRepos || d.publisher === repo) &&
+  (d.year ?? yearExtent[1]) >= fromYear &&
+  category.includes(d.category || "dataset")
+).sort(sorters[sortBy])
 ```
 
 ```{ojs}
 //| echo: false
-filtered = searched.filter(d =>
-  (sector === t.all || (d.sectors || "").includes(sector)) &&
-  category.includes(d.category || "dataset"))
-shown = 100
-link = d => d.doi ? "https://doi.org/" + d.doi : d.url
-htl.html`<p><strong>${filtered.length}</strong> ${t.results}</p>
-${filtered.slice(0, shown).map(d => htl.html`
-  <div class="dataset-card">
-    <h4><a href="${link(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
-    <div class="dataset-meta">${[d.creators, d.year, d.publisher, d.sectors]
-      .filter(x => x != null && x !== "").join(" · ")}</div>
-  </div>`)}
-${filtered.length > shown ? htl.html`<p class="dataset-meta">${t.refine.replace("{n}", shown)}</p>` : ""}`
+viewof shown = {
+  let n = 50;
+  const wrap = htl.html`<div></div>`;
+  wrap.value = n;
+  wrap.more = () => { n += 50; wrap.value = n; wrap.dispatchEvent(new Event("input")); };
+  return wrap;
+}
+searchFor = name => {
+  const input = viewof q.querySelector("input");
+  input.value = surname(name);
+  input.dispatchEvent(new Event("input", { bubbles: true }));
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+card = d => htl.html`<div class="dataset-card">
+  <h4><a href="${link(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
+  <div class="dataset-meta">
+    ${split(d.creators).slice(0, 8).map((c, i) => htl.html`${i ? "; " : ""}<a class="creator-link"
+        title="${t.searchPerson}" onclick=${() => searchFor(c)}>${c}</a>`)}${split(d.creators).length > 8 ? " et al." : ""}
+    ${[d.year, d.publisher].filter(Boolean).map(x => " · " + x)}
+  </div>
+  <div class="chips">
+    ${d.featured ? htl.html`<span class="chip featured">${t.featuredBadge}</span>` : ""}
+    ${split(d.taxa).map(x => htl.html`<span class="chip taxon">${x}</span>`)}
+    ${split(d.sectors).map(x => htl.html`<span class="chip">${x}</span>`)}
+    ${d.acg_records ? htl.html`<span class="chip">${d.acg_records.toLocaleString()} ${t.records}</span>` : ""}
+  </div>
+</div>`
+htl.html`<p class="result-count"><strong>${filtered.length}</strong> ${t.results}</p>
+${filtered.length === 0 ? htl.html`<p>${t.noMatch}</p>` : filtered.slice(0, shown).map(card)}
+${filtered.length > shown ? htl.html`<button class="btn btn-outline-primary" onclick=${() => viewof shown.more()}>${t.showMore}</button>` : ""}`
 ```
