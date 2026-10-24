@@ -5831,4 +5831,412 @@
   relevance_reason: 11 GBIF records inside ACG
   sectors: ''
   added: '2026-10-24'
+- id: 10.5061/dryad.k98sf7mn0
+  doi: 10.5061/dryad.k98sf7mn0
+  review: pending
+  featured: false
+  category: dataset
+  title: 'Data from: Forest type and leaf habit mediate thermal and drought tolerance
+    across a tropical elevational gradient'
+  creators: Terry, Caitlin; Ortiz-Colín, Perla; Powers, Jennifer; Vargas G., German;
+    Guadamúz, Adrián; Hulshof, Catherine
+  year: 2026
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.k98sf7mn0
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; sector Maritza
+  sectors: Maritza
+  added: '2026-10-24'
+- id: 10.5061/dryad.hdr7sqvgg
+  doi: 10.5061/dryad.hdr7sqvgg
+  review: pending
+  featured: false
+  category: dataset
+  title: Diversity and phylogenetic community structure across elevation during climate
+    change in a family of hyperdiverse neotropical beetles (Staphylinidae)
+  creators: Smith, M. Alex
+  year: 2021
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.hdr7sqvgg
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; sector Volcan Cacao
+  sectors: Cacao
+  added: '2026-10-24'
+- id: 10.5061/dryad.2bvq83bmr
+  doi: 10.5061/dryad.2bvq83bmr
+  review: pending
+  featured: false
+  category: dataset
+  title: Influence of sea turtle nesting on hunting behavior and movements of jaguars
+    in the dry forest of northwest Costa Rica
+  creators: Montalvo, Victor; Fuller, Todd K.; Saénz-Bolaños, Carolina; Cruz, Juan
+    Carlos; Hagnauer, Isabel; Herrera, Hansell; Carrillo, Eduardo
+  year: 2020
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.2bvq83bmr
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa
+  sectors: Santa Rosa
+  added: '2026-10-24'
+- id: 10.5061/dryad.0rxwdbs29
+  doi: 10.5061/dryad.0rxwdbs29
+  review: pending
+  featured: false
+  category: dataset
+  title: Molecular food webs of bat-plant interactions during an extreme El Nino event
+  creators: Oliveira, Hernani
+  year: 2022
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.0rxwdbs29
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa
+  sectors: Santa Rosa
+  added: '2026-10-24'
+- id: 10.5683/sp3/xw5uhr
+  doi: 10.5683/sp3/xw5uhr
+  review: pending
+  featured: false
+  category: dataset
+  title: 'Replication data for: Heat tolerance decreases and cold tolerance increases
+    with elevation for a species-rich insect family on a tropical volcano'
+  creators: Loureiro, Alexandre M. M. C.; Hallwachs, Winnie; Janzen, Daniel H.; Smith,
+    Alexander
+  year: 2026
+  publisher: Borealis
+  url: https://borealisdata.ca/citation?persistentId=doi:10.5683/SP3/XW5UHR
+  license: info:eu-repo/semantics/openAccess
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; sector Volcan Cacao
+  sectors: Cacao
+  added: '2026-10-24'
+- id: 10.5683/sp4/rmebzj
+  doi: 10.5683/sp4/rmebzj
+  review: pending
+  featured: false
+  category: dataset
+  title: 'Replication Data for: The relative abundance of cuticular hydrocarbon does
+    not change with elevation along a tropical elevation gradient for 100 species
+    of Staphylinidae'
+  creators: Loureiro Filho, Alexandre Marcos; Plazas, Erika; Anholeto, Luis Adriano;
+    Faraone, Nicoletta; Hallwachs, Winnie; Janzen, Daniel H.; Smith, Alexander
+  year: 2026
+  publisher: Borealis
+  url: https://borealisdata.ca/citation?persistentId=doi:10.5683/SP4/RMEBZJ
+  license: info:eu-repo/semantics/openAccess
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; sector Volcan Cacao
+  sectors: Cacao
+  added: '2026-10-24'
+- id: 10.5061/dryad.3xsj3txb2
+  doi: 10.5061/dryad.3xsj3txb2
+  review: pending
+  featured: false
+  category: dataset
+  title: 'A five-gene molecular phylogeny reveals <em>Parapanteles</em> Ashmead (Hymenoptera:
+    Braconidae) to be polyphyletic as currently composed'
+  creators: Parks, Kyle; Janzen, Daniel; Hallwachs, Winnie; Fernández-Triana, José;
+    Dyer, Lee; Rodriguez, Josephine; Arias-Penna, Diana; Whitfield, James
+  year: 2026
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.3xsj3txb2
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.5061/dryad.76hdr7stn
+  doi: 10.5061/dryad.76hdr7stn
+  review: pending
+  featured: false
+  category: dataset
+  title: 'BioMar-ACG: A successful partnership to inventory and promulgate marine
+    biodiversity'
+  creators: Cortés, Jorge; Joyce, Frank
+  year: 2020
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.76hdr7stn
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.5683/sp2/yhvvbt
+  doi: 10.5683/sp2/yhvvbt
+  review: pending
+  featured: false
+  category: dataset
+  title: 'Data from: Habitat size thresholds for predators: why damselflies only occur
+    in large bromeliads'
+  creators: Srivastava, Diane Sheila; Amundrud, Sarah Louise; Ngai, Jacqueline T.;
+    Starzomski, Brian M.; Ware, Jessica Lee
+  year: 2021
+  publisher: Borealis
+  url: https://borealisdata.ca/citation?persistentId=doi:10.5683/SP2/YHVVBT
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.14288/1.0398020
+  doi: 10.14288/1.0398020
+  review: pending
+  featured: false
+  category: dataset
+  title: 'Data from: Habitat size thresholds for predators: why damselflies only occur
+    in large bromeliads'
+  creators: Srivastava, Diane Sheila; Amundrud, Sarah Louise; Ngai, Jacqueline T.;
+    Starzomski, Brian M.; Ware, Jessica Lee
+  year: 2019
+  publisher: The University of British Columbia
+  url: https://doi.library.ubc.ca/10.14288/1.0398020
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.5061/dryad.559m9
+  doi: 10.5061/dryad.559m9
+  review: pending
+  featured: false
+  category: dataset
+  title: 'Data from: Six new cryptic species of Xylodonta Becker, 2014 (Notodontidae:
+    Nystaleinae) from Costa Rica'
+  creators: Chacón, Isidro A.; Janzen, Daniel H.; Hallwachs, Winnie; Dapkey, Tanya;
+    Harvey, Donald J.; Grishin, Nick V.
+  year: 2018
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.559m9
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.15468/2qba5h
+  doi: 10.15468/2qba5h
+  review: pending
+  featured: false
+  category: dataset
+  title: Endoparasitoid wasps of the genus Cubus (Hymenoptera, Ichneumonidae, Metopiinae)
+    reared from caterpillars of Área de Conservación Guanacaste, Costa Rica
+  creators: Ronald Zuñiga; Alejandro A. Valerio; Paul Hanson; Winnie Hallwachs; Daniel
+    H. Janzen
+  year: 2025
+  publisher: Catalogue of Life
+  url: https://www.gbif.org/dataset/bb157ab4-c3a3-48da-a766-39d894f94c74
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.5061/dryad.zgmsbcc8q
+  doi: 10.5061/dryad.zgmsbcc8q
+  review: pending
+  featured: false
+  category: dataset
+  title: Functional and genetic diversity changes through time in a cloud forest ant
+    assemblage
+  creators: Smith, M Alex
+  year: 2020
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.zgmsbcc8q
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.5281/zenodo.18597716
+  doi: 10.5281/zenodo.18597716
+  review: pending
+  featured: false
+  category: dataset
+  title: Metabarcoding arthropods in the Área de Conservación Guanacaste (ACG)
+  creators: Steinke, Dirk
+  year: 2026
+  publisher: Zenodo
+  url: https://zenodo.org/doi/10.5281/zenodo.18597716
+  license: https://creativecommons.org/licenses/by/4.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  versions: 10.5281/zenodo.18597717
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.15468/anbxew
+  doi: 10.15468/anbxew
+  review: pending
+  featured: false
+  category: dataset
+  title: 'New species in Rejectaria Guenée (Lepidoptera: Erebidae: Herminiinae) with
+    a focus on the Cyclanthaceae-feeders'
+  creators: Paul Z. Goldstein; Daniel H. Janzen; Winnie Hallwachs; Benjamin Proshek
+  year: 2026
+  publisher: Catalogue of Life
+  url: https://www.gbif.org/dataset/5201a2bb-ff17-4055-9a4a-0bd4012c5974
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.5061/dryad.hx3ffbgcj
+  doi: 10.5061/dryad.hx3ffbgcj
+  review: pending
+  featured: false
+  category: dataset
+  title: Spider diversity across an elevation gradient in Área de Conservación Guanacaste
+    (ACG), Costa Rica
+  creators: Smith, M. Alex
+  year: 2020
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.hx3ffbgcj
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.15468/26cz6c
+  doi: 10.15468/26cz6c
+  review: pending
+  featured: false
+  category: dataset
+  title: Sthenelais onca sp. nov. (Phyllodocida, Sigalionidae) from a sandy beach
+    on the North Pacific coast of Costa Rica
+  creators: Jeffrey A. Sibaja-Cordero; Waiomi Miranda-García
+  year: 2026
+  publisher: ZooKeys
+  url: https://www.gbif.org/dataset/c2221909-ce0e-4c56-a47e-68c80d5fda20
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.17632/gxmwwbff2r
+  doi: 10.17632/gxmwwbff2r
+  review: pending
+  featured: false
+  category: dataset
+  title: Wood Thrush Hylocichla mustelina occupancy patterns reveal sensitivity to
+    low precipitation on nonbreeding grounds in northern Costa Rica.
+  creators: 'Vargas Valverde, Isabel; Sánchez, Natalie V.; Avalos, Gerardo; Spínola
+    , Manuel '
+  year: 2026
+  publisher: Mendeley Data
+  url: https://data.mendeley.com/datasets/gxmwwbff2r
+  license: info:eu-repo/semantics/openAccess
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  versions: 10.17632/gxmwwbff2r.1
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.5061/dryad.6t1g1jx9k
+  doi: 10.5061/dryad.6t1g1jx9k
+  review: pending
+  featured: false
+  category: dataset
+  title: Urine washing and urinary odor profiles in relation to dominance rank status
+    in wild male capuchin monkeys (Cebus imitator)
+  creators: Poirier, Alice C.; Kulick, Nelle K.; Romero Morales, Suheidy; Kücklich,
+    Marlen; Weiß, Brigitte M.; Birkemeyer, Claudia; Widdig, Anja; Melin, Amanda; Jack,
+    Katharine
+  year: 2025
+  publisher: Dryad
+  url: https://datadryad.org/dataset/doi:10.5061/dryad.6t1g1jx9k
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: check
+  relevance_reason: sector Santa Rosa
+  sectors: Santa Rosa
+  added: '2026-10-24'
+- id: 10.15468/6tepjs
+  doi: 10.15468/6tepjs
+  review: pending
+  featured: false
+  category: taxonomic treatment
+  title: A new species of Heterogorgia Verrill, 1868 (Octocorallia, Malacalcyonacea)
+    from a mesophotic fishing shoal in the eastern Pacific
+  creators: Odalisca Breedy; Catalina Murillo-Cruz; Jorge Cortés
+  year: 2024
+  publisher: Plazi.org taxonomic treatments database
+  url: https://www.gbif.org/dataset/11246a53-e2d2-4bf1-a66b-47fee721400a
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.48580/dgnq7
+  doi: 10.48580/dgnq7
+  review: pending
+  featured: false
+  category: taxonomic treatment
+  title: Endoparasitoid wasps of the genus Cubus (Hymenoptera, Ichneumonidae, Metopiinae)
+    reared from caterpillars of Área de Conservación Guanacaste, Costa Rica
+  creators: Zuñiga, Ronald; Valerio, Alejandro A.; Hanson, Paul; Hallwachs, Winnie;
+    Janzen, Daniel H.
+  year: 2025
+  publisher: MagnoliaPress via Plazi
+  url: https://www.checklistbank.org/dataset/308391
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  versions: 10.48580/dgnq7.v8; 10.48580/dgnq7.v9
+  sectors: ''
+  added: '2026-10-24'
+- id: 10.15468/wjgwpb
+  doi: 10.15468/wjgwpb
+  review: pending
+  featured: false
+  category: taxonomic treatment
+  title: 'Some remarkably common, but undescribed, Megaselia Rondani (Diptera: Phoridae)
+    from northwestern Costa Rica'
+  creators: Brian V. Brown
+  year: 2022
+  publisher: Plazi.org taxonomic treatments database
+  url: https://www.gbif.org/dataset/a254f2d0-de7c-498d-9f89-6a8278563987
+  license: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-10-24'
 
