@@ -6,7 +6,7 @@ project:
 
 website:
   title: "ACG Data Catalog"
-  site-url: https://acg-data.pages.dev   # change to the final domain
+  site-url: https://acg-atlas.pages.dev   # change to the final domain
   description: "Find publicly available research data from the Área de Conservación Guanacaste, Costa Rica."
   navbar:
     left:

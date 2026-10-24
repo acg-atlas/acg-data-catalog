@@ -59,7 +59,7 @@ To preview the site: `quarto preview site`.
    npx wrangler deploy
    ```
    Then put the Worker URL and the Turnstile **site** key in `site/_submit.qmd`.
-3. **Cloudflare Pages.** Create a Pages project named `acg-data`.
+3. **Cloudflare Pages.** Create a Pages project named `acg-atlas`.
 4. **GitHub secrets:** `WORKER_URL`, `WORKER_ADMIN_TOKEN` (the same value as `ADMIN_TOKEN`), `OPENALEX_API_KEY` (free at openalex.org), `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`.
 
 ## Privacy
