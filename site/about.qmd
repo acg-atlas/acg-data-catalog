@@ -2,15 +2,13 @@
 title: "About"
 ---
 
-Hi, I'm Catherine Hulshof, an ecologist at Virginia Commonwealth University. Área de Conservación Guanacaste is a place I keep coming back to, as a researcher and as a teacher, and it is one of the most studied tropical landscapes on Earth.
-
 **Why I built this.** Decades of work have happened in ACG: caterpillars reared by the hundreds of thousands, forests followed as they regrow from pasture, sea turtles, monkeys, volcanoes, reefs. But the results are scattered across hundreds of journals, theses and data repositories. I wanted one place where anyone (a student in Liberia, a parataxonomist, a visiting researcher, or me before starting a new project) can see what has been done here and find the data behind it.
 
-**What it is, and what it isn't.** The ACG Atlas is an index, not a repository. It has two parts, searched separately but built the same way: **data** (datasets in permanent archives) and **publications** (papers about research done in ACG). Every entry links to its permanent home, with its own DOI, license and citation. It complements ACG's own information systems; it does not replace them.
+**What it is, and what it isn't.** The ACG Atlas is an index, not a repository. It has two parts, each you can search separately but built the same way: **data** (datasets in permanent archives) and **publications** (papers about research done in ACG). Every entry has a link to its original and with its own DOI, license and citation. It complements ACG's own information systems; it does not replace them.
 
 **How datasets get here.** Every week the site searches DataCite (which covers Dryad, Zenodo, EDI, Figshare, PANGAEA and more) and GBIF (by the ACG boundary), and researchers can add their own on the [Contribute](contribute.qmd) page. I review every entry before it appears.
 
-**How papers get here.** I searched Web of Science and OpenAlex for ACG place names, then read titles and abstracts. A paper is included if the research was done in ACG (any sector, including the marine one), uses ACG specimens or data, or is mainly about ACG. Records come from OpenAlex (CC0) or Crossref; nothing is copied from Web of Science. New papers are found automatically each week, and you can suggest any I missed. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+**How papers get here.** I searched OpenAlex for ACG place names, then read titles and abstracts. A paper is included if the research was done in ACG (any sector, including the marine one), uses ACG specimens or data, or is mainly about ACG. Records come from OpenAlex (CC0) or Crossref. New papers are found automatically each week, and you can suggest any I missed. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
 
 **Mistakes happen.** With more than a thousand entries tagged partly by rules and partly by hand, some will be wrong or missing. If you spot one, please tell me through the [Contribute](contribute.qmd) page or a [GitHub issue](https://github.com/acg-atlas/acg-data-catalog/issues).
 
