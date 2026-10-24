@@ -1,5 +1,12 @@
 ---
 title: "Acerca de"
+description: "Por qué existe el ACG Atlas, cómo se encuentran y revisan sus datos y publicaciones, y quién lo construyó."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/es/about">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/about">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/about">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/about">
 ---
 
 Hola, soy Catherine Hulshof, ecóloga de Virginia Commonwealth University. Área de Conservación Guanacaste es un lugar al que siempre vuelvo, como investigadora y como docente, y es uno de los paisajes tropicales más estudiados del mundo.

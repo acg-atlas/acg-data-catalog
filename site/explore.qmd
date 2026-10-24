@@ -1,5 +1,12 @@
 ---
 title: "Search data"
+description: "Search research datasets from Área de Conservación Guanacaste, Costa Rica, by scientist, taxon, theme, sector and repository."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/explore">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/explore">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/explore">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/explore">
 ---
 
 ```{ojs}
