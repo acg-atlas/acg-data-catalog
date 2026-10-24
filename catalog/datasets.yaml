@@ -3754,7 +3754,7 @@
   added: '2026-10-24'
 - id: 10.15468/uw1buh
   doi: 10.15468/uw1buh
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: The System-wide Information Network for Genetic Resources (SINGER)
@@ -3832,7 +3832,7 @@
   added: '2026-10-24'
 - id: 10.15468/wk3zk7
   doi: 10.15468/wk3zk7
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: FishBase Database
@@ -3947,7 +3947,7 @@
   added: '2026-10-24'
 - id: 10.15468/xj1ovu
   doi: 10.15468/xj1ovu
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: 'Occurrence dataset for Neotropical species of Bolitogyrus (Insecta: Coleoptera:
@@ -3986,7 +3986,7 @@
   added: '2026-10-24'
 - id: 10.15468/oya7kn
   doi: 10.15468/oya7kn
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: SINGER Coordinator
@@ -4255,7 +4255,7 @@
   added: '2026-10-24'
 - id: 10.15468/tw2y9b
   doi: 10.15468/tw2y9b
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: Mosquito Occurrence Dataset
@@ -4331,7 +4331,7 @@
   added: '2026-10-24'
 - id: 10.15468/ykxm8x
   doi: 10.15468/ykxm8x
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: eButterfly Surveys
@@ -4504,7 +4504,7 @@
   added: '2026-10-24'
 - id: 10.15468/jfqhiu
   doi: 10.15468/jfqhiu
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: Paleobiology Database
@@ -4580,7 +4580,7 @@
   added: '2026-10-24'
 - id: 10.15468/ynjblx
   doi: 10.15468/ynjblx
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: ZOBODAT (Zoological Botanical Database)
@@ -4656,7 +4656,7 @@
   added: '2026-10-24'
 - id: 10.1007/s13225-012-0209-2
   doi: 10.1007/s13225-012-0209-2
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: NEOTROPICMYXO. A database of Myxomycetes from the Neotropics
@@ -4675,7 +4675,7 @@
   added: '2026-10-24'
 - id: 10.15468/e7susi
   doi: 10.15468/e7susi
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: Australian Museum provider for OZCAM
@@ -4846,7 +4846,7 @@
   added: '2026-10-24'
 - id: 10.15468/ulk1iz
   doi: 10.15468/ulk1iz
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: Bioversity Collecting Mission Database
@@ -4941,7 +4941,7 @@
   added: '2026-10-24'
 - id: 10.15468/wwcmna
   doi: 10.15468/wwcmna
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: Mushroom Observer
@@ -5056,7 +5056,7 @@
   added: '2026-10-24'
 - id: 10.15468/ce7fox
   doi: 10.15468/ce7fox
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: United States National Plant Germplasm System Collection
