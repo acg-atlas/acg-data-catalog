@@ -1,5 +1,12 @@
 ---
 title: "Buscar datos"
+description: "Busque conjuntos de datos de investigación de Área de Conservación Guanacaste, Costa Rica, por investigador, taxón, tema, sector y repositorio."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/es/explore">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/explore">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/explore">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/explore">
 ---
 
 ```{ojs}

@@ -1,5 +1,12 @@
 ---
 title: "About"
+description: "Why the ACG Atlas exists, how its datasets and papers are found and reviewed, and who built it."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/about">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/about">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/about">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/about">
 ---
 
 **Why I built this.** Decades of work have happened in ACG: caterpillars reared by the hundreds of thousands, forests followed as they regrow from pasture, sea turtles, monkeys, volcanoes, reefs. But the results are scattered across hundreds of journals, theses and data repositories. I wanted one place where anyone (a student in Liberia, a parataxonomist, a visiting researcher, or me before starting a new project) can see what has been done here and find the data behind it.

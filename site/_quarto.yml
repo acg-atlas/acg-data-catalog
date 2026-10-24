@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  post-render: _seo.R
   resources:
     - data/*.json
     - data/*.geojson
@@ -9,6 +10,8 @@ website:
   title: "ACG Atlas"
   site-url: https://acg-atlas.pages.dev   # change to the final domain
   description: "Research data and publications from Área de Conservación Guanacaste, Costa Rica."
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - text: Data
