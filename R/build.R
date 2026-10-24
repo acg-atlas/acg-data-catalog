@@ -3,8 +3,12 @@
 # Only approved entries leave this repo. Output is plain JSON so the Quarto
 # site can read it with Observable JS; no server or database needed.
 
-build_catalog_json <- function(curated, path) {
+build_catalog_json <- function(curated, path, links = empty_links()) {
+  papers <- links |>
+    dplyr::group_by(dataset_id) |>
+    dplyr::summarise(papers = paste(paper_doi, collapse = "; "), .groups = "drop")
   approved <- curated |>
+    dplyr::left_join(papers, by = c("id" = "dataset_id")) |>
     dplyr::filter(review == "approved") |>
     # some repositories put HTML (<em>Genus</em>) in titles
     dplyr::mutate(title = gsub("<[^>]+>", "", title)) |>
