@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this catalog or its code, please cite it as below. Cite individual datasets by their own DOIs."
+title: "ACG Data Catalog"
+authors:
+  - family-names: Hulshof
+    given-names: Catherine M.
+    affiliation: Virginia Commonwealth University
+license: MIT
+repository-code: "https://github.com/acg-data/acg-data-catalog"

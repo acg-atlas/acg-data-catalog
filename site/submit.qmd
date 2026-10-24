@@ -1,0 +1,7 @@
+---
+title: "Submit a DOI"
+---
+
+Have a dataset collected in the ACG? Submit its DOI. We do not host data, so deposit it first in a repository that issues DOIs (EDI, Dryad, Zenodo, GBIF, Figshare, ...). Every submission is reviewed before it appears.
+
+{{< include _submit.qmd >}}

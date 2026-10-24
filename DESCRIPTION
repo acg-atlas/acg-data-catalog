@@ -1,0 +1,28 @@
+Package: acgcatalog
+Title: Harvest and Curation Pipeline for the ACG Data Catalog
+Version: 0.1.0
+Authors@R: person("Catherine", "Hulshof", email = "cmhulshof@vcu.edu",
+    role = c("aut", "cre"))
+Description: Finds publicly available datasets about the Area de Conservacion
+    Guanacaste (Costa Rica) in DataCite, GBIF and OpenAlex, queues them for
+    human review, and builds the data files for a static catalog website.
+    This is a project, not an installable package; DESCRIPTION lists its
+    dependencies for CI.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    dplyr,
+    httr2,
+    jsonlite,
+    purrr,
+    readr,
+    sf,
+    stringi,
+    stringr,
+    targets,
+    tibble,
+    yaml
+Suggests:
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3

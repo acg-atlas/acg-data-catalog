@@ -1,0 +1,13 @@
+---
+title: "About"
+---
+
+**What this is.** An index of data, not a repository. It complements the ACG's own information systems by making datasets findable and citable in one place.
+
+**How entries get here.** A weekly harvest searches DataCite (which covers Dryad, Zenodo, EDI, Figshare, PANGAEA and more) and GBIF (spatially, by the ACG boundary), and researchers can submit DOIs directly. Every entry is reviewed before it is published.
+
+**Credit.** Each dataset keeps its creators, license and citation. Please cite the dataset itself, using its DOI.
+
+**Boundary.** ACG boundary layer courtesy of SIG-ACG (Waldy Medina), CC BY 4.0.
+
+**Code.** All code and curation decisions are public at [github.com/acg-data](https://github.com/acg-data).

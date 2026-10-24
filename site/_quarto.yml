@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - data/*.json
+
+website:
+  title: "ACG Data Catalog"
+  site-url: https://acg-data.pages.dev   # change to the final domain
+  description: "Find publicly available research data from the Área de Conservación Guanacaste, Costa Rica."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: explore.qmd
+        text: Explore
+      - href: submit.qmd
+        text: Submit a DOI
+      - href: about.qmd
+        text: About
+    right:
+      - href: es/index.qmd
+        text: Español
+  page-footer:
+    center: "Metadata CC0 · Each dataset keeps its own license and citation · [GitHub](https://github.com/acg-data)"
+
+format:
+  html:
+    theme: [cosmo, assets/custom.scss]
+    toc: false

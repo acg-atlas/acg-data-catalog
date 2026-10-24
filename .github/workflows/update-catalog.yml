@@ -1,0 +1,43 @@
+# Weekly: harvest DataCite + GBIF + OpenAlex, pull form submissions from the
+# Worker, and open (or update) a pull request with new pending entries.
+name: Update catalog
+
+on:
+  schedule:
+    - cron: "17 11 * * 1"   # Mondays 11:17 UTC (07:17 Puerto Rico)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    env:
+      LANG: C.UTF-8
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+      WORKER_URL: ${{ secrets.WORKER_URL }}
+      WORKER_ADMIN_TOKEN: ${{ secrets.WORKER_ADMIN_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          dependencies: '"hard"'
+      - name: Run pipeline
+        run: |
+          Rscript -e 'targets::tar_make()'
+          Rscript scripts/update_queue.R
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: harvest/weekly
+          title: "Catalog review queue"
+          body-path: review_summary.md
+          commit-message: "Weekly harvest: new pending entries"
+          add-paths: |
+            catalog/datasets.yaml
+            site/data/literature.json
+          labels: review

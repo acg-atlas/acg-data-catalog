@@ -1,0 +1,10 @@
+_targets/
+review_summary.md
+review_pending.csv
+site/_site/
+site/.quarto/
+worker/node_modules/
+worker/.wrangler/
+.Rhistory
+.Rproj.user/
+.Renviron

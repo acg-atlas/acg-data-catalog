@@ -1,0 +1,34 @@
+<!-- Shared by explore.qmd and es/explore.qmd. Expects OJS variables `lang`, `root`. -->
+```{ojs}
+//| echo: false
+import { strings } from "/assets/strings.js"
+t = strings[lang]
+catalog = d3.json(root + "data/catalog.json")
+sectorList = [...new Set(catalog.flatMap(d => (d.sectors || "").split(";").map(s => s.trim()).filter(Boolean)))].sort()
+categoryList = [...new Set(catalog.map(d => d.category || "dataset"))]
+```
+
+```{ojs}
+//| echo: false
+viewof searched = Inputs.search(catalog, { placeholder: t.search, label: "", format: () => "" })
+viewof sector = Inputs.select([t.all, ...sectorList], { label: t.sector })
+viewof category = Inputs.checkbox(categoryList, { label: t.category, value: ["dataset"],
+                                                   format: x => t[x] || x })
+```
+
+```{ojs}
+//| echo: false
+filtered = searched.filter(d =>
+  (sector === t.all || (d.sectors || "").includes(sector)) &&
+  category.includes(d.category || "dataset"))
+shown = 100
+link = d => d.doi ? "https://doi.org/" + d.doi : d.url
+htl.html`<p><strong>${filtered.length}</strong> ${t.results}</p>
+${filtered.slice(0, shown).map(d => htl.html`
+  <div class="dataset-card">
+    <h4><a href="${link(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
+    <div class="dataset-meta">${[d.creators, d.year, d.publisher, d.sectors]
+      .filter(x => x != null && x !== "").join(" · ")}</div>
+  </div>`)}
+${filtered.length > shown ? htl.html`<p class="dataset-meta">${t.refine.replace("{n}", shown)}</p>` : ""}`
+```

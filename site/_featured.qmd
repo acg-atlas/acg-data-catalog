@@ -1,0 +1,15 @@
+<!-- Shared by index.qmd and es/index.qmd. Expects OJS variables `lang`, `root`. -->
+```{ojs}
+//| echo: false
+import { strings } from "/assets/strings.js"
+t = strings[lang]
+catalog = d3.json(root + "data/catalog.json")
+featured = catalog.filter(d => d.featured)
+htl.html`<h2>${t.featured}</h2>
+${featured.length === 0 ? htl.html`<p>${t.none}</p>` : featured.map(d => htl.html`
+  <div class="dataset-card">
+    <h4><a href="${d.doi ? "https://doi.org/" + d.doi : d.url}" target="_blank" rel="noopener">${d.title}</a></h4>
+    <div class="dataset-meta">${d.creators || ""} · ${d.year ?? ""} · ${d.publisher || ""}</div>
+    ${(lang === "es" ? d.note_es : d.note_en) ? htl.html`<p>${lang === "es" ? d.note_es : d.note_en}</p>` : ""}
+  </div>`)}`
+```

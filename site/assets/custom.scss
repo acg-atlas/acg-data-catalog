@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+$primary: #2f6b3a;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+.dataset-card { border: 1px solid $gray-300; border-radius: .5rem; padding: 1rem; margin-bottom: 1rem; }
+.dataset-card h4 { margin-top: 0; font-size: 1.05rem; }
+.dataset-meta { color: $gray-600; font-size: .9rem; }
+#submit-form label { display: block; margin-top: .8rem; font-weight: 600; }
+#submit-form input, #submit-form select, #submit-form textarea { width: 100%; max-width: 40rem; }
+#preview { margin-top: 1rem; }

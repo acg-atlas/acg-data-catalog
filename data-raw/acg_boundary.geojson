@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "acg_boundary_INTERIM_bbox",
+"features": [
+{ "type": "Feature",
+  "properties": { "name": "ACG interim bounding box (land + marine)", "source": "hand-drawn placeholder; replace with SIG-ACG Areas-protegidas layer" },
+  "geometry": { "type": "Polygon", "coordinates": [[[-86.05,10.65],[-85.25,10.65],[-85.25,11.15],[-86.05,11.15],[-86.05,10.65]]] } }
+]
+}

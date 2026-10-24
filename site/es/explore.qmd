@@ -1,0 +1,11 @@
+---
+title: "Explorar"
+---
+
+```{ojs}
+//| echo: false
+lang = "es"
+root = "../"
+```
+
+{{< include ../_explore.qmd >}}

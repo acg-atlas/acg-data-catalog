@@ -1,0 +1,15 @@
+---
+title: "ACG Data Catalog"
+---
+
+A searchable index of publicly available research data from the Área de Conservación Guanacaste (ACG), northwestern Costa Rica. The catalog does not host data: every entry links to a dataset in a permanent repository (GBIF, EDI, Dryad, Zenodo, and others) with its own DOI, license, and citation.
+
+[Explore the catalog](explore.qmd){.btn .btn-primary} [Submit a DOI](submit.qmd){.btn .btn-outline-primary}
+
+```{ojs}
+//| echo: false
+lang = "en"
+root = "./"
+```
+
+{{< include _featured.qmd >}}
