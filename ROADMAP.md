@@ -30,7 +30,7 @@ A combined "search everything" box can come later if users ask for it.
 2. ~~Run it in WoS and OpenAlex, deduplicate on DOI, record counts~~ (done: 2,673 candidates).
 3. ~~Review queue for papers~~ (done, October 2026: 917 approved under the rule "research done in, or mainly about, the ACG"; 1,756 excluded, including duplicates).
 4. Tag: sector (gazetteer), taxon, theme, decade, linked datasets (DataCite `relatedIdentifiers` and Scholix links), open access.
-5. Publications page: search, filters, table view with BibTeX and RIS export.
+5. ~~Publications page: search, filters, table view with BibTeX and RIS export~~ (done: Search papers and All papers, under a Publications menu; site renamed ACG Atlas; Contribute page with separate dataset and paper forms).
 6. Evidence and gap map: taxon x theme x sector, cells coloured by number of papers and number of open datasets.
 
 ### 2.2 Map

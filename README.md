@@ -1,6 +1,6 @@
-# ACG Data Catalog
+# ACG Atlas
 
-A searchable, bilingual (EN/ES) index of publicly available research data from the Área de Conservación Guanacaste, Costa Rica. The catalog **does not host data**: every entry points to a dataset in a permanent repository with its own DOI, license, and citation.
+A searchable, bilingual (EN/ES) index of research from the Área de Conservación Guanacaste, Costa Rica, in two parts: **data** (publicly available datasets, `catalog/datasets.yaml`) and **publications** (papers about research done in the ACG, `catalog/papers.yaml`). The Atlas **does not host anything**: every entry points to a dataset or paper in a permanent home with its own DOI, license, and citation.
 
 ## How it works
 
@@ -59,7 +59,7 @@ To preview the site: `quarto preview site`.
    npx wrangler secret put TURNSTILE_SECRET      # from Cloudflare Turnstile
    npx wrangler deploy
    ```
-   Then put the Worker URL and the Turnstile **site** key in `site/_submit.qmd`.
+   Then put the Worker URL and the Turnstile **site** key in `site/_contribute.qmd`.
 3. **Cloudflare Pages.** Create a Pages project named `acg-atlas`.
 4. **GitHub secrets:** `WORKER_URL`, `WORKER_ADMIN_TOKEN` (the same value as `ADMIN_TOKEN`), `OPENALEX_API_KEY` (free at openalex.org), `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`.
 

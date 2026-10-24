@@ -30,7 +30,9 @@ list(
              cue = tar_cue("always")),
   tar_target(from_gbif, harvest_gbif(boundary_wkt(boundary)),
              cue = tar_cue("always")),
-  tar_target(from_form, fetch_submissions(), cue = tar_cue("always")),
+  # Contribute page: datasets and paper suggestions arrive together
+  tar_target(submissions, fetch_submissions(), cue = tar_cue("always")),
+  tar_target(from_form, dataset_submissions(submissions)),
 
   # Publications (OpenAlex only; Web of Science is added locally with
   # scripts/import_wos.R because its export cannot leave VCU's licence)
@@ -40,8 +42,10 @@ list(
              cue = tar_cue("always")),
   tar_target(papers_fulltext, search_openalex_papers(gazetteer, "fulltext"),
              cue = tar_cue("always")),
+  tar_target(papers_form, paper_submissions(submissions)),
   tar_target(papers_scored,
-             combine_papers(papers_core, papers_fulltext) |> score_papers(gazetteer)),
+             combine_papers(papers_core, papers_fulltext, papers_form) |>
+               score_papers(gazetteer)),
   tar_target(papers_queue, new_papers(papers_scored, papers_curated)),
 
   # Combine, score, queue

@@ -1,5 +1,21 @@
-<!-- Shared by submit.qmd and es/submit.qmd. Set data-lang on the form. -->
-<form id="submit-form">
+<!-- Shared by contribute.qmd and es/contribute.qmd. -->
+<p class="lead-sm" data-t="contributeIntro"></p>
+
+<div class="kind-picker" role="radiogroup">
+  <label class="kind-card">
+    <input type="radio" name="kind" value="dataset">
+    <span class="kind-title" data-t="kindDataset"></span>
+    <span class="kind-text" data-t="kindDatasetText"></span>
+  </label>
+  <label class="kind-card">
+    <input type="radio" name="kind" value="paper">
+    <span class="kind-title" data-t="kindPaper"></span>
+    <span class="kind-text" data-t="kindPaperText"></span>
+  </label>
+</div>
+
+<form id="submit-form" hidden>
+  <h2 id="form-title"></h2>
   <label for="doi" data-t="doi"></label>
   <input id="doi" name="doi" required placeholder="10.5061/dryad.abc123">
   <button type="button" id="check" class="btn btn-outline-primary mt-2" data-t="check"></button>
@@ -15,14 +31,14 @@
     <option>Santa Elena</option><option>Marino</option><option>Other / Otro</option>
   </select>
 
-  <label for="note" data-t="note"></label>
+  <label for="note" id="note-label"></label>
   <textarea id="note" name="note" rows="3" maxlength="1000"></textarea>
 
   <label for="contact" data-t="contact"></label>
   <input id="contact" name="contact" type="email" maxlength="200">
 
   <div class="cf-turnstile mt-3" data-sitekey="0x4AAAAAAFj54k2qSoWe4-yj"></div>
-  <button type="submit" class="btn btn-primary mt-3" data-t="submit"></button>
+  <button type="submit" id="submit-btn" class="btn btn-primary mt-3"></button>
   <p id="status" role="status" class="mt-3"></p>
 </form>
 
@@ -31,22 +47,52 @@
 import { strings } from "/assets/strings.js";
 const WORKER = "https://acg-catalog-submit.catherine-hulshof.workers.dev";
 const lang = document.documentElement.lang === "es" ? "es" : "en";
+const root = lang === "es" ? "../" : "./";
 const t = strings[lang];
 document.querySelectorAll("[data-t]").forEach(el => el.textContent = t[el.dataset.t]);
 const $ = id => document.getElementById(id);
 const say = msg => $("status").textContent = msg;
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const normDoi = s => String(s || "").trim().toLowerCase()
+  .replace(/^(https?:\/\/)?(dx\.)?doi\.org\//, "").replace(/^doi:\s*/, "");
+
+// Entries already published, to tell people before they submit a duplicate
+const published = Promise.all(["catalog", "papers"].map(f =>
+  fetch(`${root}data/${f}.json`).then(r => r.json()).catch(() => []))).then(([data, papers]) =>
+  new Map([...data.map(d => [d.doi, d]), ...papers.map(d => [d.doi, d])].filter(([k]) => k)));
+
+let kind = null;
+function pick(k) {
+  kind = k;
+  document.querySelectorAll("input[name=kind]").forEach(r => {
+    r.checked = r.value === k;
+    r.closest(".kind-card").classList.toggle("selected", r.checked);
+  });
+  $("submit-form").hidden = false;
+  $("form-title").textContent = k === "paper" ? t.kindPaper : t.kindDataset;
+  $("note-label").textContent = k === "paper" ? t.notePaper : t.note;
+  $("submit-btn").textContent = k === "paper" ? t.submitPaper : t.submitDataset;
+  $("doi").placeholder = k === "paper" ? "10.1111/btp.12345" : "10.5061/dryad.abc123";
+  $("preview").innerHTML = ""; say("");
+  history.replaceState(null, "", "#" + k);
+}
+document.querySelectorAll("input[name=kind]").forEach(r => r.addEventListener("change", () => pick(r.value)));
+if (["#dataset", "#paper"].includes(location.hash)) pick(location.hash.slice(1));
 
 $("check").addEventListener("click", async () => {
   $("preview").innerHTML = ""; say("");
+  const have = (await published).get(normDoi($("doi").value));
   const r = await fetch(`${WORKER}/api/resolve?doi=${encodeURIComponent($("doi").value)}`);
   const j = await r.json();
   if (!j.ok) return say(j.error === "invalid_doi" ? t.invalid : t.notFound);
   const m = j.metadata;
+  const mismatch = kind === "dataset" && !m.is_dataset ? t.notDataset
+                 : kind === "paper" && m.is_dataset ? t.notPaper : "";
   $("preview").innerHTML = `<div class="dataset-card"><strong>${t.found}</strong>
     <h4>${esc(m.title)}</h4><div class="dataset-meta">${esc(m.creators)} · ${esc(m.year)} · ${esc(m.publisher)}</div>
-    ${m.is_dataset ? "" : `<p class="text-warning">${t.notDataset}</p>`}
-    ${j.already ? `<p>${t.already} ${esc(j.already)}</p>` : ""}</div>`;
+    ${mismatch ? `<p class="text-warning mb-0">${mismatch}</p>` : ""}
+    ${have ? `<p class="mb-0">${t.inAtlas} <em>${esc(have.title)}</em></p>` : ""}
+    ${j.already ? `<p class="mb-0">${t.already} ${esc(j.already)}</p>` : ""}</div>`;
 });
 
 $("submit-form").addEventListener("submit", async (e) => {
@@ -56,7 +102,7 @@ $("submit-form").addEventListener("submit", async (e) => {
   try {
     const r = await fetch(`${WORKER}/api/submit`, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ doi: $("doi").value, sector: $("sector").value,
+      body: JSON.stringify({ doi: $("doi").value, kind, sector: $("sector").value,
         note: $("note").value, contact: $("contact").value, lang, turnstileToken: token })
     });
     const j = await r.json();

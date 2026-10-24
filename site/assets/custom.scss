@@ -3,6 +3,8 @@ $forest: #1f5130;
 $leaf: #3f8a4f;
 $sand: #f6f4ee;
 $ink: #1d2420;
+$clay: #b5793e;       // publications accent
+$clay-dark: #7d4f22;
 
 $primary: $leaf;
 $body-color: $ink;
@@ -36,6 +38,31 @@ $footer-bg: $sand;
 .stat b { display: block; font-size: 1.7rem; line-height: 1.1; color: #fff; }
 .stat span { font-size: .85rem; color: rgba(255, 255, 255, .85); }
 
+// Data / Publications panels: same layout, different accent
+.panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 1.25rem; margin-bottom: 1.25rem; }
+.panel {
+  border: 1px solid rgba(0, 0, 0, .08); border-radius: 1rem; padding: 1.4rem 1.5rem; background: #fff;
+  border-top: 5px solid $leaf;
+  h2 { margin: 0 0 .3rem; font-size: 1.5rem; color: $forest; }
+  p { color: $gray-700; margin: 0 0 1rem; font-size: .95rem; }
+  .stats { margin-top: 0; grid-template-columns: repeat(3, 1fr); }
+  .stat { background: $sand; }
+  .stat b { color: $forest; font-size: 1.45rem; }
+  .stat span { color: $gray-700; }
+}
+.panel-papers { border-top-color: $clay; h2 { color: $clay-dark; } .stat b { color: $clay-dark; } }
+.panel-links { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.1rem; }
+a.contribute-strip {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+  background: $sand; border-radius: 1rem; padding: 1.1rem 1.5rem; margin-bottom: 2.5rem;
+  text-decoration: none; color: $ink;
+  h3 { margin: 0 0 .2rem; font-size: 1.15rem; color: $forest; }
+  p { margin: 0; color: $gray-700; font-size: .92rem; }
+  &:hover .btn { filter: brightness(1.08); }
+}
+.home-lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 0 2rem; }
+.home-lists h2 { font-size: 1.35rem; }
+
 .ways { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; margin-bottom: 2.5rem; }
 a.way {
   display: block; background: #fff; border: 1px solid rgba(0, 0, 0, .08); border-radius: .9rem;
@@ -60,7 +87,12 @@ a.way {
 .chip { font-size: .75rem; padding: .12rem .55rem; border-radius: 999px; background: $sand; color: $gray-700; }
 .chip.taxon { background: #e7f1e8; color: $forest; }
 .chip.featured { background: #fff3cd; color: #7a5b00; }
+.paper-card { border-left: 4px solid $clay; }
+.chip.kind { background: #f4e9dc; color: $clay-dark; }
+a.chip.oa { background: #e3f0f7; color: #1d5b7a; text-decoration: none; }
+a.chip.oa:hover { text-decoration: underline; }
 .result-count { color: $gray-700; margin: .5rem 0 1rem; }
+.cross-link { margin-left: 1rem; font-size: .9rem; }
 
 // Filters ----------------------------------------------------------------------
 // Quarto puts each OJS input of a block in its own .cell-output-display inside one .cell
@@ -88,12 +120,36 @@ input[type=text], input[type=search] { border-radius: .5rem; border: 1px solid r
 .browse-table th:nth-child(6) { width: 10%; }   // taxon
 .browse-table th:nth-child(7) { width: 7%; }    // sectors
 .browse-table th:nth-child(8) { width: 7%; }    // type
+// papers table: title, authors, year, venue, type, sectors
+.papers-table th:nth-child(2) { width: 36%; }
+.papers-table th:nth-child(3) { width: 24%; }
+.papers-table th:nth-child(4) { width: 6%; }
+.papers-table th:nth-child(5) { width: 16%; }
+.papers-table th:nth-child(6) { width: 9%; }
+.papers-table th:nth-child(7) { width: 9%; }
 
 // Map --------------------------------------------------------------------------
 .acg-map { height: min(70vh, 620px); border-radius: .9rem; border: 1px solid rgba(0, 0, 0, .1); }
 .map-note { font-size: .88rem; color: $gray-600; }
 
+// Contribute -------------------------------------------------------------------
+.lead-sm { color: $gray-700; max-width: 46rem; }
+.kind-picker { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; }
+.kind-picker > p { display: contents; }   // Pandoc wraps the two labels in one <p>
+.kind-card {
+  position: relative; display: block; cursor: pointer; background: #fff;
+  border: 2px solid rgba(0, 0, 0, .1); border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem 3rem;
+  transition: border-color .12s, box-shadow .12s;
+  input { position: absolute; left: 1.1rem; top: 1.35rem; width: 1.1rem; height: 1.1rem; accent-color: $leaf; }
+  &:hover { box-shadow: 0 6px 18px rgba(31, 81, 48, .1); }
+  &.selected { border-color: $leaf; box-shadow: 0 0 0 3px rgba(63, 138, 79, .15); }
+}
+.kind-title { display: block; font-family: $headings-font-family; font-size: 1.2rem; color: $forest; margin-bottom: .25rem; }
+.kind-text { display: block; font-size: .9rem; color: $gray-700; }
+#form-title { font-size: 1.35rem; margin-top: .5rem; }
+
 // Submit form ------------------------------------------------------------------
+#submit-form[hidden] { display: none; }
 #submit-form label { display: block; margin-top: .8rem; font-weight: 600; }
 #submit-form input, #submit-form select, #submit-form textarea { width: 100%; max-width: 40rem; }
 #preview { margin-top: 1rem; }

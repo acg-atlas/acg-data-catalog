@@ -1,0 +1,47 @@
+<!-- Shared by papers-table.qmd and es/papers-table.qmd. Expects OJS variables `lang`, `root`. -->
+```{ojs}
+//| echo: false
+import { strings } from "/assets/strings.js"
+import { paperLink, fmt, typeGroup, papersCSV, papersBibTeX, papersRIS, downloadButton } from "/assets/catalog.js"
+t = strings[lang]
+papers = d3.json(root + "data/papers.json")
+htl.html`<p>${t.papersTableIntro}</p>`
+```
+
+```{ojs}
+//| echo: false
+viewof rows = Inputs.search(papers, { placeholder: t.filterTable, width: "100%",
+                                      format: n => fmt(t.showing, { n, total: papers.length }) })
+```
+
+```{ojs}
+//| echo: false
+stamp = new Date().toISOString().slice(0, 10)
+htl.html`<div class="export-bar">
+  ${downloadButton("CSV", `acg-papers-${stamp}.csv`, "text/csv;charset=utf-8", () => papersCSV(rows))}
+  ${downloadButton("BibTeX", `acg-papers-${stamp}.bib`, "application/x-bibtex;charset=utf-8", () => papersBibTeX(rows))}
+  ${downloadButton("RIS", `acg-papers-${stamp}.ris`, "application/x-research-info-systems;charset=utf-8", () => papersRIS(rows))}
+</div>`
+```
+
+::: {.browse-table .papers-table}
+```{ojs}
+//| echo: false
+Inputs.table(rows, {
+  columns: ["title", "authors", "year", "venue", "type", "sectors"],
+  header: { title: t.title, authors: t.authors, year: t.year, venue: t.venue,
+            type: t.ptype, sectors: t.sectors },
+  format: {
+    title: (x, i, data) => htl.html`<a href="${paperLink(data[i])}" target="_blank" rel="noopener">${x}</a>`,
+    authors: x => (x || "").split(";").length > 6 ? x.split(";").slice(0, 6).join(";") + "; et al." : x,
+    year: x => x ?? "",
+    type: x => t[typeGroup(x)]
+  },
+  layout: "fixed",
+  rows: 25,
+  height: 640,
+  sort: "year",
+  reverse: true
+})
+```
+:::

@@ -69,6 +69,16 @@ test("resolve, submit, duplicate, pending hides contact, status update", async (
   assert.equal((await r.json()).submissions.length, 0);
 });
 
+test("submissions record kind: dataset by default, paper when asked", async () => {
+  const e = env();
+  await call(e, "/api/submit", post({ doi: "10.1234/data", turnstileToken: "t" }));
+  await call(e, "/api/submit", post({ doi: "10.1234/paper", kind: "paper", turnstileToken: "t" }));
+  await call(e, "/api/submit", post({ doi: "10.1234/odd", kind: "poem", turnstileToken: "t" }));
+  const r = await call(e, "/api/pending", { headers: { Authorization: "Bearer s3cret" } });
+  const kinds = Object.fromEntries((await r.json()).submissions.map((s) => [s.doi, s.kind]));
+  assert.deepEqual(kinds, { "10.1234/data": "dataset", "10.1234/paper": "paper", "10.1234/odd": "dataset" });
+});
+
 test("bad input is rejected", async () => {
   const e = env();
   assert.equal((await call(e, "/api/submit", post({ doi: "nope" }))).status, 400);

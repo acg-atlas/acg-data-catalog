@@ -223,13 +223,14 @@ combine_papers <- function(...) {
 }
 
 #' Relevance from the gazetteer (title + abstract) and which searches found it.
-#'   likely: strong ACG name, or found by WoS or the OpenAlex core search
+#'   likely: strong ACG name, found by WoS or the OpenAlex core search, or
+#'           suggested on the Contribute page
 #'   check:  full-text match only, or sector name without "Costa Rica"
 score_papers <- function(papers, gazetteer) {
   text <- paste(papers$title, papers$abstract)
   strong <- match_terms(text, gazetteer$term[gazetteer$type == "strong"])
   sector <- match_terms(text, gazetteer$term[gazetteer$type == "sector"])
-  core <- grepl("wos|openalex_core", papers$found_by)
+  core <- grepl("wos|openalex_core|submission", papers$found_by)
   papers |>
     dplyr::mutate(
       relevance = ifelse(lengths(strong) > 0 | core, "likely", "check"),

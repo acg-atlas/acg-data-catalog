@@ -2,43 +2,66 @@
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"
-import { link, split } from "/assets/catalog.js"
+import { link, paperLink, split } from "/assets/catalog.js"
 t = strings[lang]
 catalog = d3.json(root + "data/catalog.json")
-years = catalog.map(d => d.year).filter(Boolean)
-stats = [
-  [catalog.length, t.statDatasets],
-  [new Set(catalog.map(d => d.publisher)).size, t.statRepos],
-  [new Set(catalog.flatMap(d => split(d.taxa))).size, t.statTaxa],
-  [years.length ? `${d3.min(years)}–${d3.max(years)}` : "–", t.statYears]
-]
+papers = d3.json(root + "data/papers.json")
+paperYears = papers.map(d => d.year).filter(Boolean)
 htl.html`<section class="hero">
   <h1>${t.tagline}</h1>
   <p>${t.lede}</p>
-  <div class="stats">${stats.map(([n, l]) => htl.html`<div class="stat"><b>${n}</b><span>${l}</span></div>`)}</div>
 </section>`
 ```
 
 ```{ojs}
 //| echo: false
-ways = [
-  ["explore.html", t.cardExplore, t.cardExploreText],
-  ["browse.html", t.cardBrowse, t.cardBrowseText],
-  ["map.html", t.cardMap, t.cardMapText],
-  ["submit.html", t.cardSubmit, t.cardSubmitText]
-]
-htl.html`<h2>${t.waysIn}</h2>
-<div class="ways">${ways.map(([href, h, p]) => htl.html`<a class="way" href="${href}"><h3>${h}</h3><p>${p}</p></a>`)}</div>`
+stat = (n, label) => htl.html`<div class="stat"><b>${n.toLocaleString()}</b><span>${label}</span></div>`
+panel = (cls, title, text, stats, links) => htl.html`<section class="panel ${cls}">
+  <h2>${title}</h2>
+  <p>${text}</p>
+  <div class="stats">${stats}</div>
+  <div class="panel-links">${links.map(([href, label]) => htl.html`<a class="btn btn-outline-primary btn-sm" href="${href}">${label}</a>`)}</div>
+</section>`
+htl.html`<div class="panels">
+  ${panel("panel-data", t.panelData, t.panelDataText, [
+      stat(catalog.length, t.statDatasets),
+      stat(new Set(catalog.map(d => d.publisher)).size, t.statRepos),
+      stat(new Set(catalog.flatMap(d => split(d.taxa))).size, t.statTaxa)],
+    [["explore.html", t.linkSearchData], ["browse.html", t.linkAllData], ["map.html", t.linkMap]])}
+  ${panel("panel-papers", t.panelPapers, t.panelPapersText, [
+      stat(papers.length, t.statPapers),
+      stat(papers.filter(d => d.is_oa).length, t.statOA),
+      htl.html`<div class="stat"><b>${paperYears.length ? `${d3.min(paperYears)}–${d3.max(paperYears)}` : "–"}</b><span>${t.statSpan}</span></div>`],
+    [["papers.html", t.linkSearchPapers], ["papers-table.html", t.linkAllPapers]])}
+</div>
+<a class="contribute-strip" href="contribute.html">
+  <div><h3>${t.contributeTitle}</h3><p>${t.contributeText}</p></div>
+  <span class="btn btn-primary">${t.contributeLink}</span>
+</a>`
 ```
 
 ```{ojs}
 //| echo: false
 featured = catalog.filter(d => d.featured)
-htl.html`<h2>${t.featured}</h2>
+newest = papers.slice().sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || String(b.added).localeCompare(String(a.added))).slice(0, 5)
+htl.html`<div class="home-lists">
+<div>
+<h2>${t.featured}</h2>
 ${featured.length === 0 ? htl.html`<p>${t.none}</p>` : featured.map(d => htl.html`
   <div class="dataset-card">
     <h4><a href="${link(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
     <div class="dataset-meta">${d.creators || ""} · ${d.year ?? ""} · ${d.publisher || ""}</div>
     ${(lang === "es" ? d.note_es : d.note_en) ? htl.html`<p class="mt-2 mb-0">${lang === "es" ? d.note_es : d.note_en}</p>` : ""}
-  </div>`)}`
+  </div>`)}
+</div>
+<div>
+<h2>${t.newestPapers}</h2>
+${newest.length === 0 ? htl.html`<p>${t.noPapers}</p>` : newest.map(d => htl.html`
+  <div class="dataset-card paper-card">
+    <h4><a href="${paperLink(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
+    <div class="dataset-meta">${split(d.authors).slice(0, 3).join("; ")}${split(d.authors).length > 3 ? " et al." : ""} · ${d.year ?? ""}${d.venue ? " · " + d.venue : ""}</div>
+  </div>`)}
+<p><a href="papers.html">${t.allPapersLink}</a></p>
+</div>
+</div>`
 ```

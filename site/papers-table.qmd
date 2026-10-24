@@ -1,0 +1,11 @@
+---
+title: "All papers"
+---
+
+```{ojs}
+//| echo: false
+lang = "en"
+root = "./"
+```
+
+{{< include _papers_table.qmd >}}

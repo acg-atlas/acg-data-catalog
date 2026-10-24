@@ -1,4 +1,4 @@
-// Helpers shared by the catalog pages: links, splitting fields, exports.
+// Helpers shared by the data and publication pages: links, splitting fields, exports.
 
 export const link = d => d.doi ? "https://doi.org/" + d.doi : d.url;
 
@@ -75,6 +75,64 @@ export function toRIS(rows) {
     d.doi ? `DO  - ${d.doi}` : null,
     `UR  - ${link(d)}`,
     ...split(d.taxa).map(k => `KW  - ${k}`),
+    "ER  - "
+  ].filter(Boolean).join("\r\n")).join("\r\n\r\n") + "\r\n";
+}
+
+// ---- publications ----------------------------------------------------------
+
+export const paperLink = d => d.doi ? "https://doi.org/" + d.doi : "https://openalex.org/" + d.openalex_id;
+
+// OpenAlex/Crossref types, grouped for the filter (keys into strings.js)
+const typeGroups = {
+  article: "tArticle", "journal-article": "tArticle", review: "tArticle", "data-paper": "tArticle",
+  preprint: "tPreprint", dissertation: "tThesis",
+  book: "tBook", "book-chapter": "tBook", "reference-entry": "tBook",
+  "conference-paper": "tConference", "conference-abstract": "tConference"
+};
+export const typeGroup = type => typeGroups[type] || "tOther";
+export const typeOrder = ["tArticle", "tThesis", "tBook", "tPreprint", "tConference", "tOther"];
+
+export function papersCSV(rows) {
+  const cols = ["title", "authors", "year", "venue", "type", "doi", "openalex_id",
+                "language", "is_oa", "oa_url", "sectors", "added"];
+  return "﻿" + [cols.join(","), ...rows.map(r => cols.map(c => csvCell(r[c])).join(","))]
+    .join("\r\n");
+}
+
+const bibTypes = { tArticle: "article", tThesis: "phdthesis", tBook: "book", tConference: "inproceedings" };
+const venueField = { article: "journal", inproceedings: "booktitle", phdthesis: "school", book: "publisher" };
+
+export function papersBibTeX(rows) {
+  const used = new Set();
+  return rows.map(d => {
+    let kind = bibTypes[typeGroup(d.type)] || "misc";
+    if (d.type === "book-chapter") kind = "incollection";
+    const f = [
+      ["title", `{${bibEscape(d.title)}}`],
+      ["author", `{${split(d.authors).map(bibEscape).join(" and ")}}`],
+      ["year", `{${d.year ?? ""}}`],
+      [venueField[kind] || "howpublished", d.venue ? `{${bibEscape(d.venue)}}` : null],
+      ["doi", d.doi ? `{${d.doi}}` : null],
+      ["url", `{${paperLink(d)}}`]
+    ].filter(([, v]) => v);
+    const key = bibKey({ creators: d.authors, year: d.year, title: d.title }, used);
+    return `@${kind}{${key},\n${f.map(([k, v]) => `  ${k} = ${v}`).join(",\n")}\n}`;
+  }).join("\n\n") + "\n";
+}
+
+const risTypes = { tArticle: "JOUR", tThesis: "THES", tBook: "BOOK", tConference: "CONF", tPreprint: "UNPB" };
+
+export function papersRIS(rows) {
+  return rows.map(d => [
+    `TY  - ${d.type === "book-chapter" ? "CHAP" : risTypes[typeGroup(d.type)] || "GEN"}`,
+    `TI  - ${d.title ?? ""}`,
+    ...split(d.authors).map(a => `AU  - ${a}`),
+    d.year ? `PY  - ${d.year}` : null,
+    d.venue ? `T2  - ${d.venue}` : null,
+    d.doi ? `DO  - ${d.doi}` : null,
+    `UR  - ${paperLink(d)}`,
+    ...split(d.sectors).map(k => `KW  - ${k}`),
     "ER  - "
   ].filter(Boolean).join("\r\n")).join("\r\n\r\n") + "\r\n";
 }

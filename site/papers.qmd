@@ -1,0 +1,11 @@
+---
+title: "Search papers"
+---
+
+```{ojs}
+//| echo: false
+lang = "en"
+root = "./"
+```
+
+{{< include _papers.qmd >}}
