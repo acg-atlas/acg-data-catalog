@@ -2,18 +2,18 @@
 title: "Acerca de"
 ---
 
-**Qué es.** El ACG Atlas es un índice de la investigación sobre el Área de Conservación Guanacaste, no un repositorio. Tiene dos partes que se buscan por separado pero comparten el mismo diseño: **datos** (conjuntos de datos en archivos permanentes) y **publicaciones** (trabajos sobre investigaciones hechas en el ACG). Complementa los sistemas de información del ACG al reunir ambos en un solo lugar, fáciles de encontrar y citar.
+Hola, soy Catherine Hulshof, ecóloga de Virginia Commonwealth University. Área de Conservación Guanacaste es un lugar al que siempre vuelvo, como investigadora y como docente, y es uno de los paisajes tropicales más estudiados del mundo.
 
-**Cómo llegan los datos.** Una búsqueda semanal consulta DataCite (que incluye Dryad, Zenodo, EDI, Figshare, PANGAEA y más) y GBIF (espacialmente, con el límite del ACG), y cualquier investigador puede enviar un DOI en la página [Contribuir](contribute.qmd). Cada entrada se revisa antes de publicarse.
+**Por qué lo construí.** En ACG se han hecho décadas de trabajo: cientos de miles de orugas criadas, bosques que se siguen mientras se regeneran de potreros, tortugas marinas, monos, volcanes, arrecifes. Pero los resultados están dispersos en cientos de revistas, tesis y repositorios de datos. Quería un solo lugar donde cualquier persona (un estudiante en Liberia, un parataxónomo, una investigadora visitante, o yo misma antes de empezar un proyecto) pueda ver qué se ha hecho aquí y encontrar los datos que lo respaldan.
 
-**Cómo llegan las publicaciones.** Se buscan nombres de lugares del ACG en Web of Science y OpenAlex, y luego se revisan por título y resumen: se incluye una publicación si la investigación se hizo en el ACG (cualquier sector, incluido el marino), usa especímenes o datos del ACG, o trata principalmente sobre el ACG. Los registros publicados vienen de OpenAlex (CC0) o Crossref; no se republican registros de Web of Science. La búsqueda semanal agrega nuevas coincidencias de OpenAlex a la cola de revisión, y cualquiera puede sugerir una publicación que falte. La estrategia de búsqueda completa está en [`data-raw/literature_search.md`](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+**Qué es y qué no es.** El ACG Atlas es un índice, no un repositorio. Tiene dos partes, que se buscan por separado pero están construidas igual: **datos** (conjuntos de datos en archivos permanentes) y **publicaciones** (trabajos sobre investigación hecha en ACG). Cada entrada enlaza a su sitio permanente, con su propio DOI, licencia y cita. Complementa los sistemas de información propios de ACG; no los reemplaza.
 
-**Créditos.** Cada conjunto de datos y cada publicación conserva sus autores, licencia y cita. Por favor cite el trabajo original, con su DOI.
+**Cómo llegan los datos.** Cada semana el sitio busca en DataCite (que incluye Dryad, Zenodo, EDI, Figshare, PANGAEA y más) y en GBIF (con el límite de ACG), y cualquier investigador puede agregar los suyos en la página [Contribuir](contribute.qmd). Reviso cada entrada antes de publicarla.
 
-**Mapa.** Mosaicos de densidad de ocurrencias de la API de mapas de GBIF; mapas base de Esri. Las celdas de densidad no se recortan al límite del ACG.
+**Cómo llegan las publicaciones.** Busqué nombres de lugares de ACG en Web of Science y OpenAlex, y luego leí títulos y resúmenes. Se incluye una publicación si la investigación se hizo en ACG (cualquier sector, incluido el marino), usa especímenes o datos de ACG, o trata principalmente sobre ACG. Los registros vienen de OpenAlex (CC0) o Crossref; no se copia nada de Web of Science. Cada semana se encuentran nuevas publicaciones automáticamente, y usted puede sugerir las que me falten. La estrategia de búsqueda completa está [en GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
 
-**Límite.** Capa del límite del ACG cortesía de SIG-ACG (Waldy Medina), CC BY 4.0.
+**Puede haber errores.** Con más de mil entradas etiquetadas en parte por reglas y en parte a mano, algunas estarán mal o faltarán. Si encuentra una, avíseme en la página [Contribuir](contribute.qmd) o en un [issue de GitHub](https://github.com/acg-atlas/acg-data-catalog/issues).
 
-**Próximamente.** Enlaces entre publicaciones y los datos que usan, etiquetas de taxones y temas, y un mapa de evidencia y vacíos.
+**Créditos.** Cada conjunto de datos y cada publicación pertenece a sus autores; por favor cite el trabajo original, con su DOI. La capa del límite de ACG es cortesía de SIG-ACG (Waldy Medina), CC BY 4.0. Los mosaicos del mapa vienen de la API de mapas de GBIF y de Esri.
 
-**Código.** Todo el código y las decisiones de curaduría son públicos en [github.com/acg-atlas](https://github.com/acg-atlas).
+**Abierto por diseño.** Todo el código y las decisiones de curaduría son públicos en [github.com/acg-atlas](https://github.com/acg-atlas).
