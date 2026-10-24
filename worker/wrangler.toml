@@ -3,12 +3,12 @@ main = "src/index.js"
 compatibility_date = "2026-10-01"
 
 [vars]
-ALLOWED_ORIGIN = "https://acg-data.pages.dev"   # change to the final site URL
+ALLOWED_ORIGIN = "https://acg-atlas.pages.dev"   # change to the final site URL
 
 [[d1_databases]]
 binding = "DB"
 database_name = "acg-submissions"
-database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
+database_id = "940fb77c-9061-48d0-a9cd-2e02868356d9"
 
 # Secrets (never commit these):
 #   npx wrangler secret put ADMIN_TOKEN

@@ -30,6 +30,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy site/_site --project-name=acg-data
+          command: pages deploy site/_site --project-name=acg-atlas
       - name: Sync submission statuses to the Worker
         run: Rscript scripts/push_statuses.R

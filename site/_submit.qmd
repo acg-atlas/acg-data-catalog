@@ -21,7 +21,7 @@
   <label for="contact" data-t="contact"></label>
   <input id="contact" name="contact" type="email" maxlength="200">
 
-  <div class="cf-turnstile mt-3" data-sitekey="REPLACE_WITH_TURNSTILE_SITE_KEY"></div>
+  <div class="cf-turnstile mt-3" data-sitekey="0x4AAAAAAFj54k2qSoWe4-yj"></div>
   <button type="submit" class="btn btn-primary mt-3" data-t="submit"></button>
   <p id="status" role="status" class="mt-3"></p>
 </form>
@@ -29,7 +29,7 @@
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script type="module">
 import { strings } from "/assets/strings.js";
-const WORKER = "https://acg-catalog-submit.REPLACE.workers.dev";  // your Worker URL
+const WORKER = "https://acg-catalog-submit.catherine-hulshof.workers.dev";
 const lang = document.documentElement.lang === "es" ? "es" : "en";
 const t = strings[lang];
 document.querySelectorAll("[data-t]").forEach(el => el.textContent = t[el.dataset.t]);

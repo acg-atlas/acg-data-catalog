@@ -5,6 +5,7 @@ site/_site/
 site/.quarto/
 worker/node_modules/
 worker/.wrangler/
+.wrangler/
 .Rhistory
 .Rproj.user/
 .Renviron

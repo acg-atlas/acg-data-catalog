@@ -8,7 +8,7 @@
 //   POST /api/status            {updates: [{doi, status}]} after review
 //
 // Bindings (wrangler.toml / secrets): DB (D1), ADMIN_TOKEN, TURNSTILE_SECRET,
-// ALLOWED_ORIGIN (the catalog site, e.g. https://acg-data.org).
+// ALLOWED_ORIGIN (the catalog site, e.g. https://acg-atlas.pages.dev).
 
 const SECTORS = [
   "Santa Rosa", "Murciélago", "Pocosol", "Junquillal", "Horizontes",
