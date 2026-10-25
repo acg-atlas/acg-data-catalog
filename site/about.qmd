@@ -1,39 +1,41 @@
 ---
-title: "About"
-description: "Why the ACG Atlas exists, how its datasets and papers are found and reviewed, and who built it."
+title: "Acerca de"
+description: "Por qué existe el ACG Atlas, cómo se encuentran y revisan sus datos y publicaciones, y quién lo construyó."
 include-in-header:
   text: |
     <link rel="canonical" href="https://acg-atlas.pages.dev/about">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/about">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/about">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/en/about">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/about">
     <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/about">
 ---
 
-**Why I built this.** Decades of work have happened in ACG: caterpillars reared by the hundreds of thousands, forests followed as they regrow from pasture, sea turtles, monkeys, volcanoes, reefs. But the results are scattered across hundreds of journals, theses and data repositories. I wanted one place where anyone (a student in Liberia, a parataxonomist, a visiting researcher, or me before starting a new project) can see what has been done here and find the data behind it.
+Hola, soy Catherine Hulshof, ecóloga de Virginia Commonwealth University. Área de Conservación Guanacaste es un lugar al que siempre vuelvo, como investigadora y como docente, y es uno de los paisajes tropicales más estudiados del mundo.
 
-**What it is, and what it isn't.** The ACG Atlas is an index, not a repository. It has two parts, each you can search separately but built the same way: **data** (datasets in permanent archives) and **publications** (papers about research done in ACG). Every entry has a link to its original and with its own DOI, license and citation. It complements ACG's own information systems; it does not replace them.
+**Por qué lo construí.** En ACG se han hecho décadas de trabajo: cientos de miles de orugas criadas, bosques que se siguen mientras se regeneran de potreros, tortugas marinas, monos, volcanes, arrecifes. Pero los resultados están dispersos en cientos de revistas, tesis y repositorios de datos. Quería un solo lugar donde cualquier persona (un estudiante en Liberia, un parataxónomo, una investigadora visitante, o yo misma antes de empezar un proyecto) pueda ver qué se ha hecho aquí y encontrar los datos que lo respaldan.
 
-**How datasets get here.** Every week the site searches DataCite (which covers Dryad, Zenodo, EDI, Figshare, PANGAEA and more) and GBIF (by the ACG boundary), and researchers can add their own on the [Contribute](contribute.qmd) page. I review every entry before it appears.
+**Qué es y qué no es.** El ACG Atlas es un índice, no un repositorio. Tiene dos partes, que se buscan por separado pero están construidas igual: **datos** (conjuntos de datos en archivos permanentes) y **publicaciones** (trabajos sobre investigación hecha en ACG). Cada entrada enlaza a su sitio permanente, con su propio DOI, licencia y cita. Complementa los sistemas de información propios de ACG; no los reemplaza.
 
-**How papers get here.** I searched OpenAlex for ACG place names, then read titles and abstracts. A paper is included if the research was done in ACG (any sector, including the marine one), uses ACG specimens or data, or is mainly about ACG. Records come from OpenAlex (CC0) or Crossref. New papers are found automatically each week, and you can suggest any I missed. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+**Cómo llegan los datos.** Cada semana el sitio busca en DataCite (que incluye Dryad, Zenodo, EDI, Figshare, PANGAEA y más) y en GBIF (con el límite de ACG), y cualquier investigador puede agregar los suyos en la página [Contribuir](contribute.qmd). Reviso cada entrada antes de publicarla.
 
-**Mistakes happen.** With more than a thousand entries tagged partly by rules and partly by hand, some will be wrong or missing. If you spot one, please tell me through the [Contribute](contribute.qmd) page or a [GitHub issue](https://github.com/acg-atlas/acg-data-catalog/issues).
+**Cómo llegan las publicaciones.** Busqué nombres de lugares de ACG en Web of Science y OpenAlex, y luego leí títulos y resúmenes. Se incluye una publicación si la investigación se hizo en ACG (cualquier sector, incluido el marino), usa especímenes o datos de ACG, o trata principalmente sobre ACG. Los registros vienen de OpenAlex (CC0) o Crossref; no se copia nada de Web of Science. Cada semana se encuentran nuevas publicaciones automáticamente, y usted puede sugerir las que me falten. La estrategia de búsqueda completa está [en GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
 
-**Credit.** Each dataset and paper belongs to its authors; please cite the original work, using its DOI. The ACG boundary layer is courtesy of SIG-ACG (Waldy Medina), CC BY 4.0. Map tiles come from the GBIF maps API and Esri.
+**Puede haber errores.** Con más de mil entradas etiquetadas en parte por reglas y en parte a mano, algunas estarán mal o faltarán. Si encuentra una, avíseme en la página [Contribuir](contribute.qmd) o en un [issue de GitHub](https://github.com/acg-atlas/acg-data-catalog/issues).
 
-**Open by design.** All code and curation decisions are public at [github.com/acg-atlas](https://github.com/acg-atlas).
+**Créditos.** Cada conjunto de datos y cada publicación pertenece a sus autores; por favor cite el trabajo original, con su DOI. La capa del límite de ACG es cortesía de SIG-ACG (Waldy Medina), CC BY 4.0. Los mosaicos del mapa vienen de la API de mapas de GBIF y de Esri.
 
-## ACG through the seasons
+**Abierto por diseño.** Todo el código y las decisiones de curaduría son públicos en [github.com/acg-atlas](https://github.com/acg-atlas).
+
+## ACG a lo largo de las estaciones
 
 <div class="photo-grid">
-<figure><img src="assets/photos/mirador-dry-season.jpg" alt="Dry forest from the mirador in the dry season, with trees in yellow bloom" loading="lazy"><figcaption>Dry forest from the mirador in the dry season, with trees in yellow bloom</figcaption></figure>
-<figure><img src="assets/photos/mirador.jpg" alt="The same view in the rainy season, at sunset" loading="lazy"><figcaption>The same view in the rainy season, at sunset</figcaption></figure>
-<figure class="tall"><img src="assets/photos/amarillo.jpg" alt="Corteza amarilla (Tabebuia ochracea) in bloom" loading="lazy"><figcaption>Corteza amarilla (Tabebuia ochracea) in bloom</figcaption></figure>
-<figure><img src="assets/photos/samanea.jpg" alt="A giant cenízaro (Samanea saman)" loading="lazy"><figcaption>A giant cenízaro (Samanea saman)</figcaption></figure>
-<figure><img src="assets/photos/cacao.jpg" alt="Clouds over Volcán Cacao" loading="lazy"><figcaption>Clouds over Volcán Cacao</figcaption></figure>
-<figure><img src="assets/photos/cacao-2.jpg" alt="Volcán Cacao above the pastures" loading="lazy"><figcaption>Volcán Cacao above the pastures</figcaption></figure>
-<figure><img src="assets/photos/gongora.jpg" alt="The road to Góngora" loading="lazy"><figcaption>The road to Góngora</figcaption></figure>
-<figure><img src="assets/photos/bahia.jpg" alt="Storm light over the bay" loading="lazy"><figcaption>Storm light over the bay</figcaption></figure>
-<figure><img src="assets/photos/junquillal.jpg" alt="Sunset at Junquillal" loading="lazy"><figcaption>Sunset at Junquillal</figcaption></figure>
+<figure><img src="assets/photos/mirador-dry-season.jpg" alt="El bosque seco desde el mirador en la época seca, con árboles en flor amarilla" loading="lazy"><figcaption>El bosque seco desde el mirador en la época seca, con árboles en flor amarilla</figcaption></figure>
+<figure><img src="assets/photos/mirador.jpg" alt="La misma vista en la época lluviosa, al atardecer" loading="lazy"><figcaption>La misma vista en la época lluviosa, al atardecer</figcaption></figure>
+<figure class="tall"><img src="assets/photos/amarillo.jpg" alt="Corteza amarilla (Tabebuia ochracea) en flor" loading="lazy"><figcaption>Corteza amarilla (Tabebuia ochracea) en flor</figcaption></figure>
+<figure><img src="assets/photos/samanea.jpg" alt="Un cenízaro gigante (Samanea saman)" loading="lazy"><figcaption>Un cenízaro gigante (Samanea saman)</figcaption></figure>
+<figure><img src="assets/photos/cacao.jpg" alt="Nubes sobre el Volcán Cacao" loading="lazy"><figcaption>Nubes sobre el Volcán Cacao</figcaption></figure>
+<figure><img src="assets/photos/cacao-2.jpg" alt="El Volcán Cacao sobre los potreros" loading="lazy"><figcaption>El Volcán Cacao sobre los potreros</figcaption></figure>
+<figure><img src="assets/photos/gongora.jpg" alt="El camino a Góngora" loading="lazy"><figcaption>El camino a Góngora</figcaption></figure>
+<figure><img src="assets/photos/bahia.jpg" alt="Luz de tormenta sobre la bahía" loading="lazy"><figcaption>Luz de tormenta sobre la bahía</figcaption></figure>
+<figure><img src="assets/photos/junquillal.jpg" alt="Atardecer en Junquillal" loading="lazy"><figcaption>Atardecer en Junquillal</figcaption></figure>
 </div>
-<p class="photo-note">Photos © Catherine Hulshof. Please ask before reusing them.</p>
+<p class="photo-note">Fotos © Catherine Hulshof. Por favor pregunte antes de reutilizarlas.</p>

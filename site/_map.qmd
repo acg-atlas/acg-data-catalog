@@ -1,4 +1,4 @@
-<!-- Shared by map.qmd and es/map.qmd. Expects OJS variables `lang`, `root`.
+<!-- Shared by map.qmd and en/map.qmd. Expects OJS variables `lang`, `root`.
      Leaflet CSS is loaded in each page's front matter. -->
 ```{ojs}
 //| echo: false

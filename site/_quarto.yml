@@ -6,50 +6,56 @@ project:
     - data/*.json
     - data/*.geojson
     - _headers
+    - _redirects
     - assets/photos/*.jpg
+
+# Spanish is the default language: Spanish pages live at the site root and
+# English pages under en/ (en/_metadata.yml sets lang: en). The navbar below is
+# in Spanish; assets/nav-lang.html translates it on English pages.
+lang: es
 
 website:
   title: "ACG Atlas"
   site-url: https://acg-atlas.pages.dev   # change to the final domain
-  description: "Research data and publications from Área de Conservación Guanacaste, Costa Rica."
+  description: "Datos y publicaciones de investigación del Área de Conservación Guanacaste, Costa Rica."
   image: assets/photos/og.jpg
   open-graph: true
   twitter-card:
     card-style: summary_large_image
   navbar:
     left:
-      - text: Data
+      - text: Datos
         menu:
           - href: explore.qmd
-            text: Search data
+            text: Buscar datos
           - href: browse.qmd
-            text: All data (table)
+            text: Todos los datos (tabla)
           - href: map.qmd
-            text: Map
-      - text: Publications
+            text: Mapa
+      - text: Publicaciones
         menu:
           - href: papers.qmd
-            text: Search papers
+            text: Buscar publicaciones
           - href: papers-table.qmd
-            text: All papers (table)
+            text: Todas las publicaciones (tabla)
       - href: findings.qmd
-        text: Findings
+        text: Hallazgos
       - href: contribute.qmd
-        text: Contribute
+        text: Contribuir
       - href: about.qmd
-        text: About
+        text: Acerca de
       - href: faq.qmd
-        text: FAQ
+        text: Preguntas
     right:
-      - href: es/index.qmd
-        text: Español
+      - href: en/index.qmd
+        text: English
   page-footer:
-    center: "Metadata CC0 · Each dataset and paper keeps its own license and citation · Paper metadata from OpenAlex (CC0) and Crossref · Boundary © SIG-ACG, CC BY 4.0 · [Privacy and terms](privacy.qmd) · [GitHub](https://github.com/acg-atlas)"
+    center: "Metadatos CC0 · Cada conjunto de datos y publicación conserva su licencia y cita · Metadatos de publicaciones de OpenAlex (CC0) y Crossref · Límite © SIG-ACG, CC BY 4.0 · [Privacidad y condiciones](privacy.qmd) · [GitHub](https://github.com/acg-atlas)"
 
 format:
   html:
     theme: [cosmo, assets/custom.scss]
-    include-after-body: assets/nav-es.html
+    include-after-body: assets/nav-lang.html
     link-external-newwindow: true   # links to other sites open in a new tab
     toc: false
     grid:
