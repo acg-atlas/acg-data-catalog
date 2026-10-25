@@ -25,4 +25,27 @@
 /es/privacy.html             /privacidad                301
 /es/submit                   /contribuir                301
 /es/submit.html              /contribuir                301
+# English pages were briefly under /en/ (PR #20); they are back at their original addresses.
+/en/explore                  /explore                   301
+/en/explore.html             /explore                   301
+/en/browse                   /browse                    301
+/en/browse.html              /browse                    301
+/en/map                      /map                       301
+/en/map.html                 /map                       301
+/en/papers                   /papers                    301
+/en/papers.html              /papers                    301
+/en/papers-table             /papers-table              301
+/en/papers-table.html        /papers-table              301
+/en/findings                 /findings                  301
+/en/findings.html            /findings                  301
+/en/contribute               /contribute                301
+/en/contribute.html          /contribute                301
+/en/about                    /about                     301
+/en/about.html               /about                     301
+/en/faq                      /faq                       301
+/en/faq.html                 /faq                       301
+/en/privacy                  /privacy                   301
+/en/privacy.html             /privacy                   301
+/en/submit                   /contribute                301
+/en/submit.html              /contribute                301
 /es/*                        /                          301
