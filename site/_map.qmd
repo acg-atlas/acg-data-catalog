@@ -4,7 +4,7 @@
 //| echo: false
 import { strings } from "/assets/strings.js"
 import { link, fmt } from "/assets/catalog.js"
-L = require("leaflet@1.9.4")
+L = require("/assets/vendor/leaflet/leaflet.js")   // Leaflet 1.9.4, served from this site
 t = strings[lang]
 catalog = d3.json(root + "data/catalog.json")
 boundary = d3.json(root + "data/acg_boundary.geojson")
