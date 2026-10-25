@@ -1,12 +1,12 @@
 <!-- Hallazgos importantes (español). Traducción de ../_findings_text.md; cifras a octubre de 2026. -->
 
-La investigación en ACG abarca más de 40 años y, a octubre de 2026, 917 publicaciones en el Atlas. Algunos resultados destacan entre temas: un bosque seco dañado puede recuperarse, el área alberga muchas más especies de lo que nadie esperaba, y el monitoreo a largo plazo ya detecta pérdidas ligadas a un clima más seco y caliente.
+La investigación en ACG abarca más de 60 años y, a octubre de 2026, 917 publicaciones en el Atlas. Algunos resultados destacan entre temas: un bosque seco degradado puede recuperarse (a menudo en menos de 50 años), el área alberga muchas más especies de lo que nadie esperaba, y el monitoreo a largo plazo ya registra pérdidas ligadas a un clima más seco y caliente.
 
 ## Hallazgos importantes
 
-1. **La protección puede devolver un bosque seco tropical.** ACG se creó para comprar tierras, detener los incendios y dejar que el bosque se regenerara, con la gente local como aliada ([Janzen 1986](https://openalex.org/W2554935536); [Janzen 1988](https://doi.org/10.2307/2399468); [Janzen 2000](https://doi.org/10.1080/14888386.2000.9712501)). El bosque, los suelos, las aves y las ranas se recuperan en décadas sin necesidad de plantar ([Powers 2015](https://doi.org/10.1079/9781780642109.0149); [Owen 2020](https://doi.org/10.5751/ace-01615-150125); [Thompson 2023](https://doi.org/10.1017/s0266467423000305)). *Sucesión, Conservación, Ecosistemas*
+1. **La protección puede devolver un bosque seco tropical.** ACG se creó para comprar tierras, detener los incendios y dejar que el bosque se regenerara, con las comunidades vecinas como aliadas ([Janzen 1986](https://openalex.org/W2554935536); [Janzen 1988](https://doi.org/10.2307/2399468); [Janzen 2000](https://doi.org/10.1080/14888386.2000.9712501)). El bosque, los suelos, las aves y las ranas se recuperan en décadas sin necesidad de plantar ([Powers 2015](https://doi.org/10.1079/9781780642109.0149); [Owen 2020](https://doi.org/10.5751/ace-01615-150125); [Thompson 2023](https://doi.org/10.1017/s0266467423000305)). *Sucesión, Conservación, Ecosistemas*
 
-2. **Muchas más especies de lo esperado, muchas de ellas ocultas.** Parataxónomos locales (residentes capacitados que recolectan y crían especímenes) y el código de barras de ADN han documentado más de 11 000 de unas 15 000 especies estimadas de mariposas y polillas ([Janzen 2004](https://doi.org/10.1111/j.1365-2664.2004.00879.x); [Janzen 2016](https://doi.org/10.1139/gen-2016-0005)). Los códigos de barras muestran que muchas mariposas, avispas y moscas casi idénticas son especies distintas, y que los parasitoides "generalistas" suelen ser varias especies especialistas ([Hajibabaei 2006](https://doi.org/10.1073/pnas.0510466103); [Smith 2006](https://doi.org/10.1073/pnas.0511318103); [Smith 2008](https://doi.org/10.1073/pnas.0805319105); [Burns 2008](https://doi.org/10.1073/pnas.0712181105)). Los insectos con código de barras sugieren que en el mundo hay bastante más de seis millones de especies de insectos ([Colwell 2026](https://doi.org/10.1073/pnas.2524283123)). *Taxonomía, Interacciones*
+2. **Muchas más especies de lo esperado, muchas de ellas ocultas.** Taxónomos de ACG (residentes capacitados que recolectan y crían especímenes) y el código de barras de ADN han documentado más de 11 000 de unas 15 000 especies estimadas de mariposas y polillas ([Janzen 2004](https://doi.org/10.1111/j.1365-2664.2004.00879.x); [Janzen 2016](https://doi.org/10.1139/gen-2016-0005)). Los códigos de barras muestran que muchas mariposas, avispas y moscas casi idénticas son especies distintas, y que los parasitoides "generalistas" suelen ser varias especies especialistas ([Hajibabaei 2006](https://doi.org/10.1073/pnas.0510466103); [Smith 2006](https://doi.org/10.1073/pnas.0511318103); [Smith 2008](https://doi.org/10.1073/pnas.0805319105); [Burns 2008](https://doi.org/10.1073/pnas.0712181105)). Los insectos con código de barras sugieren que en el mundo hay bastante más de seis millones de especies de insectos ([Colwell 2026](https://doi.org/10.1073/pnas.2524283123)). *Taxonomía, Interacciones*
 
 3. **Uno de los registros más grandes de quién come a quién.** En unos 40 años, el inventario de orugas ha acumulado más de 430 000 registros de cría que vinculan orugas, plantas hospederas y parasitoides ([Quicke 2024](https://doi.org/10.3390/d16110683); [Quicke 2025](https://doi.org/10.3389/fevo.2025.1647436)). *Interacciones, Historia natural*
 
@@ -18,8 +18,8 @@ La investigación en ACG abarca más de 40 años y, a octubre de 2026, 917 publi
 
 ## Vacíos comunes
 
-- **Pocos datos abiertos.** 917 publicaciones y 235 conjuntos de datos abiertos. La brecha es mayor en tierra y ecosistemas (189 publicaciones, 36 conjuntos de datos) y en entorno y sociedad (222 publicaciones, 14 conjuntos de datos).
-- **Un sector domina.** Santa Rosa reúne cerca de tres cuartas partes de las publicaciones asignadas a un sector en todos los grupos salvo entorno y sociedad, donde lidera Rincón de la Vieja (96 de 148). El bosque lluvioso y nuboso, el Sector Marino y los demás sectores tienen poca investigación.
+- **Pocos datos abiertos.** 917 publicaciones y 235 conjuntos de datos abiertos. La brecha es mayor en tierra y ecosistemas (189 publicaciones, 36 conjuntos de datos) y en geología y sociedad (222 publicaciones, 14 conjuntos de datos).
+- **Un sector domina.** Santa Rosa reúne la mayoría (cerca de tres cuartas partes) de las publicaciones asignadas a un sector en todos los grupos salvo geología y sociedad, donde lidera Rincón de la Vieja (96 de 148). El bosque lluvioso y nuboso, el Sector Marino y los demás sectores están poco representados en estos datos.
 - **Pocos grupos de organismos dominan.** Predominan mamíferos, mariposas y polillas, y avispas; hay poco sobre microbios, hongos y vida marina.
 - **Pocas series de tiempo.** La mayoría de los estudios comparan lugares en un solo momento. Entre las excepciones están el inventario de orugas, el proyecto de primates iniciado en 1983 ([Melin 2020](https://doi.org/10.1111/btp.12867)) y los vuelos LiDAR repetidos ([Liu 2023](https://doi.org/10.3390/rs15194677)).
 - **La producción alcanzó su máximo en 2011–2020**, aunque de 2021 en adelante es una década incompleta. La literatura gris es común: en Sucesión y restauración, 23 de 77 publicaciones no tienen DOI.
@@ -28,7 +28,7 @@ La investigación en ACG abarca más de 40 años y, a octubre de 2026, 917 publi
 
 **Qué vive aquí** (Taxonomía, Historia natural, Evolución; 481 publicaciones, 128 conjuntos de datos)
 
-- El código de barras junto con los parataxónomos es un modelo para inventariar un país tropical ([Janzen 2011](https://doi.org/10.1371/journal.pone.0018123)).
+- El código de barras junto con los taxónomos comunitarios es un modelo para inventariar un país tropical ([Janzen 2011](https://doi.org/10.1371/journal.pone.0018123)).
 - El inventario marino, BioMar-ACG, comenzó en 2015 y suma especies con rapidez ([Cortés 2020](https://doi.org/10.1111/btp.12841)).
 - El proyecto de primates de Santa Rosa, iniciado en 1983, es uno de los estudios de primates más largos del mundo ([Melin 2020](https://doi.org/10.1111/btp.12867)).
 
@@ -43,7 +43,7 @@ La investigación en ACG abarca más de 40 años y, a octubre de 2026, 917 publi
 - La edad y la recuperación del bosque se pueden mapear desde el aire ([Arroyo-Mora 2005](https://doi.org/10.1111/j.1744-7429.2005.00068.x); [Duan 2023](https://doi.org/10.3390/rs15020479)).
 - La sequía mata a los árboles jóvenes y las lianas se están extendiendo ([Gerhardt 1993](https://doi.org/10.2307/3235736); [Becknell 2022](https://doi.org/10.3389/ffgc.2022.838357)).
 
-**El entorno y la sociedad** (Geología, Conservación y sociedad; 222 publicaciones, 14 conjuntos de datos)
+**Geología y sociedad** (Geología, Conservación y sociedad; 222 publicaciones, 14 conjuntos de datos)
 
 - El lago cratérico, caliente y ácido, del Rincón de la Vieja produce a menudo erupciones de vapor, pero el volcán está poco monitoreado ([Battaglia 2019](https://doi.org/10.3389/feart.2018.00247)). Trabajos recientes evalúan si la deformación del terreno sirve de aviso ([Mick 2026](https://doi.org/10.1016/j.jvolgeores.2026.108657)).
 - La península de Santa Elena conserva rocas de fondo oceánico del Cretácico que ayudan a reconstruir la historia de la placa del Caribe ([Baumgartner 2006](https://doi.org/10.1344/105.000000364); [Boschman 2019](https://doi.org/10.1029/2018jb016369)).
