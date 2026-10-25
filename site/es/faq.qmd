@@ -1,0 +1,80 @@
+---
+title: "Preguntas frecuentes"
+description: "Respuestas sobre el ACG Atlas, un índice gratuito de conjuntos de datos y publicaciones de investigación del Área de Conservación Guanacaste (ACG), Costa Rica: qué incluye, cómo buscar, cómo citar y cómo agregar su trabajo."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/es/faq">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/faq">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/faq">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/faq">
+---
+
+<!-- Cada pregunta "##" y su texto se convierten en una entrada schema.org FAQPage (ver _seo.R). -->
+
+## ¿Qué es el ACG Atlas?
+
+El ACG Atlas es un índice gratuito y bilingüe (español e inglés) de conjuntos de datos y publicaciones científicas del Área de Conservación Guanacaste (ACG), Costa Rica. Reúne trabajos que de otro modo están dispersos en cientos de revistas, tesis y repositorios de datos, para que investigadores, estudiantes, personal de ACG y donantes puedan ver qué se ha estudiado en ACG y encontrar los datos que lo respaldan.
+
+## ¿Qué es el Área de Conservación Guanacaste?
+
+El Área de Conservación Guanacaste (ACG) es un área protegida en el noroeste de Costa Rica y Sitio de Patrimonio Mundial de la UNESCO desde 1999. Va del océano Pacífico, pasando por bosque seco y volcanes, hasta el bosque nuboso y el bosque lluvioso de la vertiente caribe, e incluye un sector marino. Es uno de los paisajes tropicales más estudiados del mundo, conocido por la restauración del bosque seco y sus inventarios de biodiversidad a largo plazo.
+
+## ¿Quién maneja el ACG Atlas? ¿Es oficial?
+
+El ACG Atlas es un proyecto independiente creado por Catherine Hulshof, ecóloga de Virginia Commonwealth University. No lo maneja, respalda ni revisa el Área de Conservación Guanacaste, el SINAC ni el MINAE (Costa Rica), ni Virginia Commonwealth University. Complementa los sistemas de información propios de ACG; no los reemplaza.
+
+## ¿El ACG Atlas guarda los datos?
+
+No. El ACG Atlas es un índice, no un repositorio. Cada entrada enlaza al conjunto de datos o la publicación en su sitio permanente (por ejemplo Dryad, Zenodo, EDI, GBIF o la revista), donde conserva su propio DOI, licencia y cita.
+
+## ¿Cómo encuentro datos sobre una especie, un lugar o un tema en ACG?
+
+Use [Buscar datos](explore.qmd). Escriba cualquier palabra (una especie, un autor, un lugar) y filtre por tema, taxón, sector de ACG, repositorio o año. [Todos los datos (tabla)](browse.qmd) muestra todos los conjuntos de datos a la vez, y el [Mapa](map.qmd) muestra de qué parte de ACG vienen los datos.
+
+## ¿Cómo encuentro publicaciones sobre investigación en ACG?
+
+Use [Buscar publicaciones](papers.qmd) para buscar por palabra clave y filtrar por tema, taxón, sector o año, o abra [Todas las publicaciones (tabla)](papers-table.qmd) para ver la lista completa. Cuando una publicación tiene una versión gratuita, el Atlas enlaza a ella.
+
+## ¿De dónde vienen los datos y las publicaciones?
+
+Los conjuntos de datos vienen de DataCite (que incluye Dryad, Zenodo, EDI, Figshare, PANGAEA y más), de GBIF (buscando con el límite oficial de ACG) y de investigadores que envían los suyos. Los registros de publicaciones vienen de OpenAlex (CC0) y Crossref. La estrategia de búsqueda completa está [en GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+
+## ¿Qué publicaciones cuentan como investigación en ACG?
+
+Se incluye una publicación si la investigación se hizo en el Área de Conservación Guanacaste (cualquier sector, incluido el marino), usa especímenes o datos de ACG, o trata principalmente sobre ACG. Cada candidata se revisa leyendo su título y resumen.
+
+## ¿Cada cuánto se actualiza el ACG Atlas?
+
+Cada semana. Todos los lunes el sitio busca automáticamente nuevos conjuntos de datos y publicaciones, y cada entrada nueva se revisa a mano antes de publicarse.
+
+## ¿Qué muestra la página Hallazgos?
+
+[Hallazgos](findings.qmd) resume lo que cubren las publicaciones del Atlas: qué temas, sectores, décadas y grupos de organismos se han estudiado más en ACG, y dónde hay poca investigación. Es un punto de partida para encontrar vacíos, no una revisión de la literatura.
+
+## ¿Cómo cito un conjunto de datos o una publicación que encontré aquí?
+
+Cite el trabajo original, con su propio DOI y cita, que encontrará en la página a la que enlaza el Atlas. Si quiere mencionar el ACG Atlas en sí, por ejemplo en la sección de métodos, la cita está en el [archivo CITATION.cff en GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/CITATION.cff).
+
+## ¿Cómo agrego mi conjunto de datos o publicación?
+
+Vaya a [Contribuir](contribute.qmd), elija conjunto de datos o publicación y pegue su DOI. Puede agregar el sector de ACG y una nota corta. Cada envío se revisa antes de publicarse, normalmente en una o dos semanas.
+
+## Mi conjunto de datos todavía no tiene DOI. ¿Qué hago?
+
+Primero deposítelo en un repositorio público que asigne DOI, como Zenodo, Dryad o EDI; la mayoría son gratuitos para investigadores. Luego envíe el DOI en la página [Contribuir](contribute.qmd). Un DOI mantiene el enlace permanente y asegura que usted reciba crédito cuando otros usen sus datos.
+
+## Encontré un error o falta una entrada. ¿Cómo lo reporto?
+
+Sugiera el conjunto de datos o la publicación que falta en la página [Contribuir](contribute.qmd), o abra un [issue en GitHub](https://github.com/acg-atlas/acg-data-catalog/issues). Si usted es autor y quiere corregir o quitar un registro, [escríbame](privacy.qmd#contact) y lo atenderé pronto.
+
+## ¿Puedo reutilizar los metadatos o el código del ACG Atlas?
+
+Sí. Los metadatos del catálogo se publican bajo CC0 (sin derechos reservados) y el código es abierto bajo la licencia MIT, ambos en [github.com/acg-atlas](https://github.com/acg-atlas). Cada conjunto de datos y publicación conserva su propia licencia, así que revísela antes de reutilizar el trabajo en sí.
+
+## ¿El ACG Atlas es gratuito? ¿Me rastrea?
+
+Es gratuito y no necesita cuenta. No hay analítica, publicidad ni cookies de rastreo. Si envía algo, su correo (si lo da) se mantiene privado y se borra después de la revisión. Vea [Privacidad y condiciones](privacy.qmd).
+
+## ¿Puedo obtener un permiso de investigación en ACG por medio del Atlas?
+
+No. El Atlas solo indexa trabajos publicados. La investigación en el Área de Conservación Guanacaste necesita un permiso de ACG y el SINAC; comuníquese directamente con el programa de investigación de ACG.

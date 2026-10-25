@@ -3,7 +3,9 @@
 #     /papers.html) and Spanish alternates
 #   - robots.txt pointing at the sitemap
 #   - schema.org JSON-LD: WebSite on the home pages, and a DataCatalog of
-#     every approved dataset on the "All data" pages, for Google Dataset Search
+#     every approved dataset on the "All data" pages, for Google Dataset Search,
+#     and a FAQPage on the FAQ pages
+#   - llms.txt, a plain-text site guide for AI assistants
 base <- "https://acg-atlas.pages.dev/"
 `%||%` <- function(a, b) if (is.null(a)) b else a
 
@@ -66,3 +68,52 @@ if (file.exists(cat_file)) {
   catalog$url <- paste0(base, "es/browse")
   inject("_site/es/browse.html", catalog)
 }
+
+# FAQPage on the FAQ pages: built from the rendered page itself, so the
+# structured data always matches the visible questions and answers.
+strip_html <- function(s) {
+  s <- gsub("<[^>]+>", " ", s)
+  for (e in list(c("&amp;", "&"), c("&lt;", "<"), c("&gt;", ">"), c("&quot;", '"'), c("&#39;", "'")))
+    s <- gsub(e[1], e[2], s, fixed = TRUE)
+  trimws(gsub("\\s+", " ", s))
+}
+faq_ld <- function(file, lang) {
+  if (!file.exists(file)) return(invisible())
+  html <- paste(readLines(file, encoding = "UTF-8", warn = FALSE), collapse = "\n")
+  m <- regmatches(html, gregexpr("(?s)<h2[^>]*>(.*?)</h2>(.*?)</section>", html, perl = TRUE))[[1]]
+  qa <- lapply(m, function(s) {
+    q <- strip_html(sub("(?s)^<h2[^>]*>(.*?)</h2>.*$", "\\1", s, perl = TRUE))
+    a <- strip_html(sub("(?s)^<h2[^>]*>.*?</h2>(.*)</section>$", "\\1", s, perl = TRUE))
+    list(`@type` = "Question", name = q,
+         acceptedAnswer = list(`@type` = "Answer", text = a))
+  })
+  inject(file, list(`@context` = "https://schema.org", `@type` = "FAQPage",
+                    inLanguage = lang, mainEntity = qa))
+}
+faq_ld("_site/faq.html", "en")
+faq_ld("_site/es/faq.html", "es")
+
+# llms.txt: a plain-text guide to the site for AI assistants (llmstxt.org)
+writeLines(c(
+  "# ACG Atlas",
+  "",
+  "> Free, bilingual (English/Spanish) index of research datasets and scientific papers from Área de Conservación Guanacaste (ACG), Costa Rica, a UNESCO World Heritage Site. It links to each dataset or paper in its permanent home; it does not host them. Independent project by Catherine Hulshof (Virginia Commonwealth University); not an official ACG, SINAC or MINAE site.",
+  "",
+  "Updated weekly from DataCite, GBIF, OpenAlex and Crossref, plus researcher submissions; every entry is reviewed by hand. Metadata is CC0. Cite each dataset or paper by its own DOI.",
+  "",
+  "## Pages",
+  "",
+  paste0("- [FAQ](", base, "faq): what the Atlas covers, how to search, cite and contribute"),
+  paste0("- [About](", base, "about): why the Atlas exists and how entries are found and reviewed"),
+  paste0("- [Search data](", base, "explore): datasets filtered by theme, taxon, ACG sector, repository and year"),
+  paste0("- [Search papers](", base, "papers): papers about research done in ACG"),
+  paste0("- [Findings](", base, "findings): what research in ACG covers, and where the gaps are"),
+  paste0("- [Contribute](", base, "contribute): submit a dataset or suggest a paper by DOI"),
+  paste0("- [Spanish version](", base, "es/): every page is also in Spanish"),
+  "",
+  "## Data",
+  "",
+  paste0("- [catalog.json](", base, "data/catalog.json): all approved datasets"),
+  paste0("- [papers.json](", base, "data/papers.json): all included papers"),
+  "- [Source code and curation decisions](https://github.com/acg-atlas/acg-data-catalog)"
+), "_site/llms.txt", useBytes = TRUE)
