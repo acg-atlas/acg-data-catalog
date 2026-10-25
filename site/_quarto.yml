@@ -8,6 +8,9 @@ project:
     - _headers
     - _redirects
     - assets/photos/*.jpg
+    - assets/fonts/*
+    - assets/vendor/leaflet/*
+    - assets/vendor/leaflet/images/*
 
 # Spanish is the default language. Spanish pages have Spanish file names
 # (acerca-de.qmd), English pages keep the English ones (about.qmd, lang: en)

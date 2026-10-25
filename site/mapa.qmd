@@ -3,7 +3,7 @@ description: "Mapa de registros de ocurrencia de GBIF dentro y alrededor de Áre
 title: "Mapa"
 include-in-header:
   text: |
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="/assets/vendor/leaflet/leaflet.css">
     <link rel="canonical" href="https://acg-atlas.pages.dev/mapa">
     <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/map">
     <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/mapa">

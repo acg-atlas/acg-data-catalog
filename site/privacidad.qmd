@@ -15,7 +15,7 @@ include-in-header:
 
 **Qué no hago.** Sin analíticas, sin publicidad, sin píxeles de seguimiento. Este sitio no usa cookies propias.
 
-**Servicios de los que depende.** El sitio se aloja en Cloudflare Pages, que guarda registros estándar del servidor. El formulario Contribuir usa Cloudflare Turnstile para evitar bots. Las páginas cargan fuentes de Google Fonts, mosaicos de mapa de GBIF y Esri, y bibliotecas de código de unpkg y jsDelivr; como en cualquier sitio web, estos servicios ven su dirección IP. Cada uno tiene su propia política de privacidad. Los enlaces a publicaciones y datos le llevan a otros sitios con sus propias políticas.
+**Servicios de los que depende.** El sitio se aloja en Cloudflare Pages, que guarda registros estándar del servidor. El formulario Contribuir usa Cloudflare Turnstile para evitar bots. Las fuentes y la biblioteca del mapa se sirven desde este mismo sitio; nada se carga desde Google. El mapa carga mosaicos de GBIF y Esri, y las páginas interactivas cargan bibliotecas de código de jsDelivr; como en cualquier sitio web, estos servicios ven su dirección IP. Cada uno tiene su propia política de privacidad. Los enlaces a publicaciones y datos le llevan a otros sitios con sus propias políticas.
 
 **Exactitud.** El Atlas se ofrece tal cual, para investigación y educación, sin garantía alguna. Los registros vienen de DataCite, GBIF, OpenAlex, Crossref y envíos de personas, y los temas, taxones y enlaces se asignaron en parte con reglas. Habrá errores, omisiones y entradas desactualizadas. Verifique la información en el conjunto de datos o la publicación original antes de usarla o citarla, y [avíseme](#contacto) cuando algo esté mal.
 
@@ -25,4 +25,4 @@ include-in-header:
 
 []{#contacto}**Contacto.** <span class="eml" data-a="fohsluh.enirehtac" data-b="moc.liamg"></span> (o un [issue de GitHub](https://github.com/acg-atlas/acg-data-catalog/issues) para lo que pueda ser público).
 
-*Última actualización: 24 de octubre de 2026.*
+*Última actualización: 25 de octubre de 2026.*

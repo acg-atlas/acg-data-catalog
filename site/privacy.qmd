@@ -16,7 +16,7 @@ include-in-header:
 
 **What I don't do.** No analytics, no advertising, no tracking pixels. This site sets no cookies of its own.
 
-**Services this site relies on.** The site is hosted on Cloudflare Pages, which keeps standard server logs. The Contribute form uses Cloudflare Turnstile to keep out bots. Pages load fonts from Google Fonts, map tiles from GBIF and Esri, and code libraries from unpkg and jsDelivr; like any website request, these services see your IP address. Each has its own privacy policy. Links to papers and datasets take you to other sites with their own policies.
+**Services this site relies on.** The site is hosted on Cloudflare Pages, which keeps standard server logs. The Contribute form uses Cloudflare Turnstile to keep out bots. Fonts and the map library are served from this site itself; nothing is loaded from Google. The map loads tiles from GBIF and Esri, and interactive pages load code libraries from jsDelivr; like any website request, these services see your IP address. Each has its own privacy policy. Links to papers and datasets take you to other sites with their own policies.
 
 **Accuracy.** The Atlas is provided as is, for research and education, without any warranty. Records come from DataCite, GBIF, OpenAlex, Crossref and people's submissions, and themes, taxa and links were assigned partly by rules. There will be errors, omissions and out-of-date entries. Please verify information against the original dataset or paper before using or citing it, and [tell me](#contact) when something is wrong.
 
@@ -26,4 +26,4 @@ include-in-header:
 
 []{#contact}**Contact.** <span class="eml" data-a="fohsluh.enirehtac" data-b="moc.liamg"></span> (or a [GitHub issue](https://github.com/acg-atlas/acg-data-catalog/issues) for anything that can be public).
 
-*Last updated 24 October 2026.*
+*Last updated 25 October 2026.*
