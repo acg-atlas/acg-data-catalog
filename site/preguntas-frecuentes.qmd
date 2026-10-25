@@ -57,7 +57,7 @@ Cite el trabajo original, con su propio DOI y cita, que encontrará en la págin
 
 ## ¿Cómo agrego mi conjunto de datos o publicación?
 
-Vaya a [Contribuir](contribuir.qmd), elija conjunto de datos o publicación y pegue su DOI. Puede agregar el sector de ACG y una nota corta. Cada envío se revisa antes de publicarse, normalmente en una o dos semanas.
+Vaya a [Contribuir](contribuir.qmd), pegue su DOI, o una lista de hasta 25 DOI a la vez. Cada uno se verifica al pegarlo y se clasifica como datos o publicación automáticamente. Puede agregar el sector de ACG y una nota corta. Cada envío se revisa antes de publicarse, normalmente en una o dos semanas.
 
 ## Mi conjunto de datos todavía no tiene DOI. ¿Qué hago?
 

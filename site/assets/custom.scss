@@ -157,25 +157,34 @@ input[type=text], input[type=search] { border-radius: .5rem; border: 1px solid r
 
 // Contribute -------------------------------------------------------------------
 .lead-sm { color: $gray-700; max-width: 46rem; }
-.kind-picker { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; }
-.kind-picker > p { display: contents; }   // Pandoc wraps the two labels in one <p>
-.kind-card {
-  position: relative; display: block; cursor: pointer; background: #fff;
-  border: 2px solid rgba(0, 0, 0, .1); border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem 3rem;
-  transition: border-color .12s, box-shadow .12s;
-  input { position: absolute; left: 1.1rem; top: 1.35rem; width: 1.1rem; height: 1.1rem; accent-color: $leaf; }
-  &:hover { box-shadow: 0 6px 18px rgba(31, 81, 48, .1); }
-  &.selected { border-color: $leaf; box-shadow: 0 0 0 3px rgba(63, 138, 79, .15); }
-}
-.kind-title { display: block; font-family: $headings-font-family; font-size: 1.2rem; color: $forest; margin-bottom: .25rem; }
-.kind-text { display: block; font-size: .9rem; color: $gray-700; }
-#form-title { font-size: 1.35rem; margin-top: .5rem; }
-
-// Submit form ------------------------------------------------------------------
-#submit-form[hidden] { display: none; }
-#submit-form label { display: block; margin-top: .8rem; font-weight: 600; }
+#submit-form[hidden], .done-panel[hidden], .form-alert[hidden] { display: none; }
+#submit-form label { display: block; margin-top: 1rem; font-weight: 600; }
 #submit-form input, #submit-form select, #submit-form textarea { width: 100%; max-width: 40rem; }
-#preview { margin-top: 1rem; }
+#dois { font-family: $font-family-monospace; font-size: .9rem; }
+.form-hint { font-size: .85rem; color: $gray-600; margin: .1rem 0 .35rem; max-width: 40rem; }
+.doi-list { list-style: none; padding: 0; margin: .6rem 0 0; max-width: 46rem; }
+.doi-list .doi-item {
+  background: #fff; border: 1px solid rgba(0, 0, 0, .08); border-left: 4px solid $leaf;
+  border-radius: .6rem; padding: .55rem .8rem; margin-bottom: .45rem; font-size: .92rem;
+  > code { display: block; font-size: .78rem; color: $gray-600; background: none; padding: 0; margin-bottom: .15rem; }
+  .chip { margin-right: .3rem; }
+  &.checking { border-left-color: $gray-400; }
+  &.inAtlas, &.already, &.notFound { border-left-color: $gray-400; background: $sand; color: $gray-700; }
+  &.notFound { border-left-color: #c0392b; }
+}
+.doi-checking { color: $gray-600; font-style: italic; }
+.doi-skip { display: block; font-size: .85rem; font-weight: 600; color: $gray-700; }
+.chip.kind-dataset { background: #e7f1e8; color: $forest; }
+.form-alert {
+  max-width: 40rem; margin-top: .9rem; padding: .7rem .9rem; border-radius: .6rem;
+  background: #fdecea; border: 1px solid #f5c2bd; color: #8a1f14; font-weight: 500;
+}
+.done-panel {
+  max-width: 46rem; margin-top: 1rem; padding: 1.3rem 1.4rem; border-radius: .9rem;
+  background: #eef6ef; border: 2px solid $leaf; outline: none;
+  h2 { margin-top: 0; color: $forest; font-size: 1.5rem; }
+  .doi-list { margin-bottom: 1rem; }
+}
 
 @media (max-width: 576px) {
   .hero { padding: 1.6rem 1.2rem; border-radius: .8rem; }

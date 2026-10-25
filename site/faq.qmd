@@ -59,7 +59,7 @@ Cite the original work, using its own DOI and citation, which you will find on t
 
 ## How do I add my dataset or paper?
 
-Go to [Contribute](contribute.qmd), choose dataset or paper, and paste its DOI. You can add the ACG sector and a short note. Every submission is reviewed before it appears, usually within a week or two.
+Go to [Contribute](contribute.qmd), paste its DOI, or a list of up to 25 DOIs at once. Each one is checked as you paste it and sorted into dataset or paper automatically. You can add the ACG sector and a short note. Every submission is reviewed before it appears, usually within a week or two.
 
 ## My dataset has no DOI yet. What should I do?
 

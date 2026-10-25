@@ -22,6 +22,7 @@ const csl = { title: "Leaf traits, ACG", type: "dataset", publisher: "EDI",
   author: [{ family: "Hulshof", given: "C" }], issued: { "date-parts": [[2025]] } };
 const fakeFetch = async (url) => {
   if (String(url).includes("doi.org/10.9999/missing")) return new Response("", { status: 404 });
+  if (String(url).includes("doi.org/10.5555/")) return Response.json({ ...csl, type: "article-journal" });
   if (String(url).includes("doi.org")) return Response.json(csl);
   if (String(url).includes("turnstile")) return Response.json({ success: true });
   throw new Error("unexpected fetch " + url);
@@ -97,4 +98,39 @@ test("bad input is rejected", async () => {
   assert.equal(r.status, 201);
   const row = e.DB._db.prepare("SELECT sector FROM submissions").get();
   assert.equal(row.sector, null);
+});
+
+test("a list of DOIs: one captcha, sorted by type, answered per DOI", async () => {
+  const e = env();
+  await call(e, "/api/submit", post({ doi: "10.1234/old", turnstileToken: "t" }));
+  const r = await call(e, "/api/submit", post({ turnstileToken: "t", sector: "Cacao",
+    dois: ["https://doi.org/10.1234/NEW", "10.5555/article", "10.1234/old", "10.9999/missing",
+           "not a doi", "10.1234/new"] }));
+  assert.equal(r.status, 200);
+  const res = Object.fromEntries((await r.json()).results.map((x) => [x.doi, x]));
+  assert.deepEqual(Object.keys(res), ["10.1234/new", "10.5555/article", "10.1234/old", "10.9999/missing"]);
+  assert.equal(res["10.1234/new"].result, "added");
+  assert.equal(res["10.1234/new"].kind, "dataset");
+  assert.equal(res["10.5555/article"].kind, "paper");
+  assert.equal(res["10.1234/old"].result, "duplicate");
+  assert.equal(res["10.1234/old"].status, "pending");
+  assert.equal(res["10.9999/missing"].result, "not_found");
+  const sectors = e.DB._db.prepare("SELECT DISTINCT sector FROM submissions WHERE doi != '10.1234/old'").all();
+  assert.deepEqual(sectors.map((s) => s.sector), ["Cacao"]);
+});
+
+test("a list of DOIs is capped and needs the captcha", async () => {
+  const e = env();
+  let j;
+  const many = Array.from({ length: 26 }, (_, i) => `10.1234/n${i}`);
+  let r = await call(e, "/api/submit", post({ turnstileToken: "t", dois: many }));
+  j = await r.json();
+  assert.equal(j.error, "too_many");
+  assert.equal(j.max, 25);
+  r = await call(e, "/api/submit", post({ turnstileToken: "t", dois: ["junk"] }));
+  assert.equal(r.status, 400);
+  const noCaptcha = { ...e, TURNSTILE_SECRET: "x" };
+  r = await worker.fetch(new Request("https://w.example/api/submit", post({ dois: ["10.1234/z"] })),
+    noCaptcha, {}, fakeFetch);
+  assert.equal(r.status, 403);
 });
