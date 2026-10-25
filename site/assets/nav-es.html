@@ -12,6 +12,18 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Links to other sites always open in a new tab, including links that search
+// results and maps add after the page loads (Quarto only marks links present
+// at load time).
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest("a[href]");
+  if (!a || a.target || a.hasAttribute("download")) return;
+  var u = new URL(a.href, location.href);
+  if (!/^https?:$/.test(u.protocol) || u.origin === location.origin) return;
+  a.target = "_blank";
+  a.rel = "noopener";
+}, true);
+
 // Quarto has one navbar for the whole site. On Spanish pages (es/), translate
 // its labels, point its links at the Spanish pages, and turn the language
 // switch into "English".
