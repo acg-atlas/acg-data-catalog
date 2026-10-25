@@ -1,4 +1,4 @@
-<!-- Shared by browse.qmd and en/browse.qmd. Expects OJS variables `lang`, `root`. -->
+<!-- Shared by the English and Spanish browse pages. Expects OJS variables `lang`, `root`. -->
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"

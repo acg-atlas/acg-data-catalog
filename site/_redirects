@@ -1,3 +1,28 @@
-# Spanish moved from /es/ to the site root (English is now under /en/).
-/es        /         301
-/es/*      /:splat   301
+# Spanish pages moved from /es/ to the site root with Spanish names.
+/es                          /                          301
+/es/                         /                          301
+/es/index                    /                          301
+/es/index.html               /                          301
+/es/explore                  /buscar-datos              301
+/es/explore.html             /buscar-datos              301
+/es/browse                   /datos                     301
+/es/browse.html              /datos                     301
+/es/map                      /mapa                      301
+/es/map.html                 /mapa                      301
+/es/papers                   /publicaciones             301
+/es/papers.html              /publicaciones             301
+/es/papers-table             /publicaciones-tabla       301
+/es/papers-table.html        /publicaciones-tabla       301
+/es/findings                 /hallazgos                 301
+/es/findings.html            /hallazgos                 301
+/es/contribute               /contribuir                301
+/es/contribute.html          /contribuir                301
+/es/about                    /acerca-de                 301
+/es/about.html               /acerca-de                 301
+/es/faq                      /preguntas-frecuentes      301
+/es/faq.html                 /preguntas-frecuentes      301
+/es/privacy                  /privacidad                301
+/es/privacy.html             /privacidad                301
+/es/submit                   /contribuir                301
+/es/submit.html              /contribuir                301
+/es/*                        /                          301

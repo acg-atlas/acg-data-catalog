@@ -1,20 +1,21 @@
 ---
-title: "Hallazgos"
-description: "Hallazgos importantes de 40 años de investigación en Área de Conservación Guanacaste y un mapa de evidencia de lo que falta."
+lang: en
+title: "Findings"
+description: "Important findings from 40 years of research in Área de Conservación Guanacaste, and an evidence map of what is missing."
 include-in-header:
   text: |
     <link rel="canonical" href="https://acg-atlas.pages.dev/findings">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/en/findings">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/findings">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/findings">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/findings">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/hallazgos">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/hallazgos">
 ---
 
 ```{ojs}
 //| echo: false
-lang = "es"
+lang = "en"
 root = "./"
 ```
 
-{{< include _findings_text.md >}}
+{{< include _findings_text_en.md >}}
 
 {{< include _findings.qmd >}}

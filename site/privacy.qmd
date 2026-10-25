@@ -1,28 +1,29 @@
 ---
-title: "Privacidad y condiciones"
-description: "Qué recopila el ACG Atlas (casi nada), cómo se manejan los envíos y por qué las entradas pueden tener errores."
+lang: en
+title: "Privacy and terms"
+description: "What the ACG Atlas collects (almost nothing), how submissions are handled, and why entries may contain mistakes."
 include-in-header:
   text: |
     <link rel="canonical" href="https://acg-atlas.pages.dev/privacy">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/en/privacy">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/privacy">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/privacy">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/privacy">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/privacidad">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/privacidad">
 ---
 
-**En resumen.** No le rastreo. Si envía un conjunto de datos o una publicación, su correo (si lo da) se mantiene privado y se borra una vez revisado el envío. El Atlas se arma a partir de muchas fuentes, en parte de forma automática, así que tendrá errores. Verifique siempre la fuente original antes de usarla.
+**The short version.** I don't track you. If you submit a dataset or a paper, your email (if you give one) stays private and is erased once I've reviewed your submission. The Atlas is put together from many sources, partly automatically, so it will contain mistakes. Always check the original before relying on it.
 
-**Qué recopilo.** Solo lo que escribe en el formulario [Contribuir](contribute.qmd): un DOI y, de forma opcional, un sector de ACG, una nota y su correo. Se guarda en una base de datos privada (Cloudflare D1) a la que solo yo tengo acceso. Su correo se usa solo si tengo una pregunta sobre su envío, nunca se publica y se borra cuando el envío se aprueba o se excluye. El DOI y su nota pueden aparecer en el registro público de revisión en GitHub; su correo nunca.
+**What I collect.** Only what you type into the [Contribute](contribute.qmd) form: a DOI, and optionally an ACG sector, a note and your email. It is stored in a private database (Cloudflare D1) that only I can access. Your email is used only if I have a question about your submission, is never published, and is deleted when the submission is approved or excluded. The DOI and your note may appear in the public review record on GitHub; your email never does.
 
-**Qué no hago.** Sin analíticas, sin publicidad, sin píxeles de seguimiento. Este sitio no usa cookies propias.
+**What I don't do.** No analytics, no advertising, no tracking pixels. This site sets no cookies of its own.
 
-**Servicios de los que depende.** El sitio se aloja en Cloudflare Pages, que guarda registros estándar del servidor. El formulario Contribuir usa Cloudflare Turnstile para evitar bots. Las páginas cargan fuentes de Google Fonts, mosaicos de mapa de GBIF y Esri, y bibliotecas de código de unpkg y jsDelivr; como en cualquier sitio web, estos servicios ven su dirección IP. Cada uno tiene su propia política de privacidad. Los enlaces a publicaciones y datos le llevan a otros sitios con sus propias políticas.
+**Services this site relies on.** The site is hosted on Cloudflare Pages, which keeps standard server logs. The Contribute form uses Cloudflare Turnstile to keep out bots. Pages load fonts from Google Fonts, map tiles from GBIF and Esri, and code libraries from unpkg and jsDelivr; like any website request, these services see your IP address. Each has its own privacy policy. Links to papers and datasets take you to other sites with their own policies.
 
-**Exactitud.** El Atlas se ofrece tal cual, para investigación y educación, sin garantía alguna. Los registros vienen de DataCite, GBIF, OpenAlex, Crossref y envíos de personas, y los temas, taxones y enlaces se asignaron en parte con reglas. Habrá errores, omisiones y entradas desactualizadas. Verifique la información en el conjunto de datos o la publicación original antes de usarla o citarla, y [avíseme](#contacto) cuando algo esté mal.
+**Accuracy.** The Atlas is provided as is, for research and education, without any warranty. Records come from DataCite, GBIF, OpenAlex, Crossref and people's submissions, and themes, taxa and links were assigned partly by rules. There will be errors, omissions and out-of-date entries. Please verify information against the original dataset or paper before using or citing it, and [tell me](#contact) when something is wrong.
 
-**No es un sitio oficial.** El ACG Atlas es un proyecto independiente. No lo administra, respalda ni revisa Área de Conservación Guanacaste, el SINAC ni el MINAE (Costa Rica), ni Virginia Commonwealth University.
+**Not an official site.** The ACG Atlas is an independent project. It is not run, endorsed or reviewed by Área de Conservación Guanacaste, SINAC or MINAE (Costa Rica), or by Virginia Commonwealth University.
 
-**Contenido y derechos de autor.** El Atlas enlaza a conjuntos de datos y publicaciones; no los aloja. Cada uno pertenece a sus autores y conserva su propia licencia y cita. Los metadatos del catálogo se publican bajo CC0. Si es autor y quiere que se corrija o elimine un registro, escríbame y lo atenderé pronto.
+**Content and copyright.** The Atlas links to datasets and papers; it does not host them. Each belongs to its authors and keeps its own license and citation. Catalog metadata is released under CC0. If you are an author and want a record corrected or removed, contact me and I will act on it promptly.
 
-[]{#contacto}**Contacto.** <span class="eml" data-a="fohsluh.enirehtac" data-b="moc.liamg"></span> (o un [issue de GitHub](https://github.com/acg-atlas/acg-data-catalog/issues) para lo que pueda ser público).
+[]{#contact}**Contact.** <span class="eml" data-a="fohsluh.enirehtac" data-b="moc.liamg"></span> (or a [GitHub issue](https://github.com/acg-atlas/acg-data-catalog/issues) for anything that can be public).
 
-*Última actualización: 24 de octubre de 2026.*
+*Last updated 24 October 2026.*

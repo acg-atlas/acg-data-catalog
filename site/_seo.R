@@ -62,11 +62,11 @@ if (file.exists(cat_file)) {
   catalog <- list(`@context` = "https://schema.org", `@type` = "DataCatalog",
                   name = "ACG Atlas: research data",
                   description = "Index of public research datasets from Área de Conservación Guanacaste, Costa Rica.",
-                  url = paste0(base, "browse"),
+                  url = paste0(base, "datos"),
                   dataset = lapply(ds, as_dataset))
+  inject("_site/datos.html", catalog)
+  catalog$url <- paste0(base, "browse")
   inject("_site/browse.html", catalog)
-  catalog$url <- paste0(base, "en/browse")
-  inject("_site/en/browse.html", catalog)
 }
 
 # FAQPage on the FAQ pages: built from the rendered page itself, so the
@@ -90,8 +90,8 @@ faq_ld <- function(file, lang) {
   inject(file, list(`@context` = "https://schema.org", `@type` = "FAQPage",
                     inLanguage = lang, mainEntity = qa))
 }
-faq_ld("_site/faq.html", "es")
-faq_ld("_site/en/faq.html", "en")
+faq_ld("_site/preguntas-frecuentes.html", "es")
+faq_ld("_site/faq.html", "en")
 
 # llms.txt: a plain-text guide to the site for AI assistants (llmstxt.org)
 writeLines(c(
@@ -103,13 +103,13 @@ writeLines(c(
   "",
   "## Pages",
   "",
-  paste0("- [FAQ](", base, "en/faq): what the Atlas covers, how to search, cite and contribute"),
-  paste0("- [About](", base, "en/about): why the Atlas exists and how entries are found and reviewed"),
-  paste0("- [Search data](", base, "en/explore): datasets filtered by theme, taxon, ACG sector, repository and year"),
-  paste0("- [Search papers](", base, "en/papers): papers about research done in ACG"),
-  paste0("- [Findings](", base, "en/findings): what research in ACG covers, and where the gaps are"),
-  paste0("- [Contribute](", base, "en/contribute): submit a dataset or suggest a paper by DOI"),
-  paste0("- [Spanish (default)](", base, "): the site's main language; English pages are under /en/"),
+  paste0("- [FAQ](", base, "faq): what the Atlas covers, how to search, cite and contribute"),
+  paste0("- [About](", base, "about): why the Atlas exists and how entries are found and reviewed"),
+  paste0("- [Search data](", base, "explore): datasets filtered by theme, taxon, ACG sector, repository and year"),
+  paste0("- [Search papers](", base, "papers): papers about research done in ACG"),
+  paste0("- [Findings](", base, "findings): what research in ACG covers, and where the gaps are"),
+  paste0("- [Contribute](", base, "contribute): submit a dataset or suggest a paper by DOI"),
+  paste0("- [Spanish (default)](", base, "): the site's main language; English pages keep English names (/about), Spanish ones Spanish names (/acerca-de); the English home is /en/"),
   "",
   "## Data",
   "",
