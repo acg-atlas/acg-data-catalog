@@ -9,9 +9,10 @@ project:
     - _redirects
     - assets/photos/*.jpg
 
-# Spanish is the default language: Spanish pages live at the site root and
-# English pages under en/ (en/_metadata.yml sets lang: en). The navbar below is
-# in Spanish; assets/nav-lang.html translates it on English pages.
+# Spanish is the default language. Spanish pages have Spanish file names
+# (acerca-de.qmd), English pages keep the English ones (about.qmd, lang: en)
+# and the English home is en/index.qmd. The navbar below is in Spanish;
+# assets/nav-lang.html translates it on English pages.
 lang: es
 
 website:
@@ -26,31 +27,31 @@ website:
     left:
       - text: Datos
         menu:
-          - href: explore.qmd
+          - href: buscar-datos.qmd
             text: Buscar datos
-          - href: browse.qmd
+          - href: datos.qmd
             text: Todos los datos (tabla)
-          - href: map.qmd
+          - href: mapa.qmd
             text: Mapa
       - text: Publicaciones
         menu:
-          - href: papers.qmd
+          - href: publicaciones.qmd
             text: Buscar publicaciones
-          - href: papers-table.qmd
+          - href: publicaciones-tabla.qmd
             text: Todas las publicaciones (tabla)
-      - href: findings.qmd
+      - href: hallazgos.qmd
         text: Hallazgos
-      - href: contribute.qmd
+      - href: contribuir.qmd
         text: Contribuir
-      - href: about.qmd
+      - href: acerca-de.qmd
         text: Acerca de
-      - href: faq.qmd
+      - href: preguntas-frecuentes.qmd
         text: Preguntas
     right:
       - href: en/index.qmd
         text: English
   page-footer:
-    center: "Metadatos CC0 · Cada conjunto de datos y publicación conserva su licencia y cita · Metadatos de publicaciones de OpenAlex (CC0) y Crossref · Límite © SIG-ACG, CC BY 4.0 · [Privacidad y condiciones](privacy.qmd) · [GitHub](https://github.com/acg-atlas)"
+    center: "Metadatos CC0 · Cada conjunto de datos y publicación conserva su licencia y cita · Metadatos de publicaciones de OpenAlex (CC0) y Crossref · Límite © SIG-ACG, CC BY 4.0 · [Privacidad y condiciones](/privacidad.qmd) · [GitHub](https://github.com/acg-atlas)"
 
 format:
   html:

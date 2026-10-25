@@ -1,8 +1,8 @@
-<!-- Shared by index.qmd and en/index.qmd. Expects OJS variables `lang`, `root`. -->
+<!-- Shared by the English and Spanish index pages. Expects OJS variables `lang`, `root`. -->
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"
-import { link, paperLink, split } from "/assets/catalog.js"
+import { link, paperLink, split, page } from "/assets/catalog.js"
 t = strings[lang]
 catalog = d3.json(root + "data/catalog.json")
 papers = d3.json(root + "data/papers.json")
@@ -28,14 +28,14 @@ htl.html`<div class="panels">
       stat(catalog.length, t.statDatasets),
       stat(new Set(catalog.map(d => d.publisher)).size, t.statRepos),
       stat(new Set(catalog.flatMap(d => split(d.taxa))).size, t.statTaxa)],
-    [["explore.html", t.linkSearchData], ["browse.html", t.linkAllData], ["map.html", t.linkMap]])}
+    [[root + page(lang, "explore"), t.linkSearchData], [root + page(lang, "browse"), t.linkAllData], [root + page(lang, "map"), t.linkMap]])}
   ${panel("panel-papers", t.panelPapers, t.panelPapersText, [
       stat(papers.length, t.statPapers),
       stat(papers.filter(d => d.is_oa).length, t.statOA),
       htl.html`<div class="stat"><b>${paperYears.length ? `${d3.min(paperYears)}–${d3.max(paperYears)}` : "–"}</b><span>${t.statSpan}</span></div>`],
-    [["papers.html", t.linkSearchPapers], ["papers-table.html", t.linkAllPapers]])}
+    [[root + page(lang, "papers"), t.linkSearchPapers], [root + page(lang, "papers-table"), t.linkAllPapers]])}
 </div>
-<a class="contribute-strip" href="contribute.html">
+<a class="contribute-strip" href="${root}${page(lang, "contribute")}">
   <div><h3>${t.contributeTitle}</h3><p>${t.contributeText}</p></div>
   <span class="btn btn-primary">${t.contributeLink}</span>
 </a>`
@@ -62,7 +62,7 @@ ${newest.length === 0 ? htl.html`<p>${t.noPapers}</p>` : newest.map(d => htl.htm
     <h4><a href="${paperLink(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
     <div class="dataset-meta">${split(d.authors).slice(0, 3).join("; ")}${split(d.authors).length > 3 ? " et al." : ""} · ${d.year ?? ""}${d.venue ? " · " + d.venue : ""}</div>
   </div>`)}
-<p><a href="papers.html">${t.allPapersLink}</a></p>
+<p><a href="${root}${page(lang, "papers")}">${t.allPapersLink}</a></p>
 </div>
 </div>`
 ```

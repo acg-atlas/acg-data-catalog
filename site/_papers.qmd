@@ -1,8 +1,8 @@
-<!-- Shared by papers.qmd and en/papers.qmd. Expects OJS variables `lang`, `root`. -->
+<!-- Shared by the English and Spanish papers pages. Expects OJS variables `lang`, `root`. -->
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"
-import { paperLink, split, surname, fmt, typeGroup, typeOrder } from "/assets/catalog.js"
+import { paperLink, split, surname, fmt, typeGroup, typeOrder, page } from "/assets/catalog.js"
 t = strings[lang]
 papers = d3.json(root + "data/papers.json")
 catalog = d3.json(root + "data/catalog.json")
@@ -88,7 +88,7 @@ searchFor = name => {
 dataLinks = d => {
   const ds = split(d.datasets).map(id => datasetById.get(id)).filter(Boolean);
   return ds.length ? htl.html`<div class="linked"><span>${t.dataUsed}</span>
-    ${ds.map((x, i) => htl.html`${i ? " · " : ""}<a href="explore.html?s=${encodeURIComponent(x.doi || x.id)}">${x.title.length > 70 ? x.title.slice(0, 70) + "…" : x.title}</a>`)}</div>` : "";
+    ${ds.map((x, i) => htl.html`${i ? " · " : ""}<a href="${root}${page(lang, "explore")}?s=${encodeURIComponent(x.doi || x.id)}">${x.title.length > 70 ? x.title.slice(0, 70) + "…" : x.title}</a>`)}</div>` : "";
 }
 card = d => htl.html`<div class="dataset-card paper-card">
   <h4><a href="${paperLink(d)}" target="_blank" rel="noopener">${d.title}</a></h4>
@@ -108,7 +108,7 @@ card = d => htl.html`<div class="dataset-card paper-card">
   ${dataLinks(d)}
 </div>`
 htl.html`<p class="result-count"><strong>${filtered.length}</strong> ${t.paperResults}
-  ${q.trim() ? htl.html`<a class="cross-link" href="explore.html?s=${encodeURIComponent(q.trim())}">${fmt(t.crossToData, { q: q.trim() })}</a>` : ""}</p>
+  ${q.trim() ? htl.html`<a class="cross-link" href="${root}${page(lang, "explore")}?s=${encodeURIComponent(q.trim())}">${fmt(t.crossToData, { q: q.trim() })}</a>` : ""}</p>
 ${papers.length === 0 ? htl.html`<p>${t.noPapers}</p>` :
   filtered.length === 0 ? htl.html`<p>${t.noMatch}</p>` : filtered.slice(0, shown).map(card)}
 ${filtered.length > shown ? htl.html`<button class="btn btn-outline-primary" onclick=${() => viewof shown.more()}>${t.showMore}</button>` : ""}`

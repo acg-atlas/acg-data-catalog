@@ -25,23 +25,38 @@ document.addEventListener("click", function (e) {
 }, true);
 
 // Quarto has one navbar for the whole site, written in Spanish (the default
-// language). On English pages (en/), translate its labels, point its links at
-// the English pages, and turn the language switch into "Español".
+// language). Spanish pages have Spanish file names (acerca-de.html), English
+// pages the English ones (about.html), and the English home is /en/.
+// On English pages, translate the navbar and footer and point their links at
+// the English pages. On every page, the language switch opens the same page
+// in the other language.
+// Spanish file name -> English file name. Keep in sync with pageNames in catalog.js.
+var esToEn = {
+  "buscar-datos": "explore", "datos": "browse", "mapa": "map", "publicaciones": "papers",
+  "publicaciones-tabla": "papers-table", "hallazgos": "findings", "contribuir": "contribute",
+  "acerca-de": "about", "preguntas-frecuentes": "faq", "privacidad": "privacy"
+};
+var enToEs = {};
+Object.keys(esToEn).forEach(function (k) { enToEs[esToEn[k]] = k; });
+// "/acerca-de.html" or "/acerca-de" -> "acerca-de"; "/", "/index.html" and "/en/" -> "" (home)
+var slug = function (path) { return path.replace(/^\/(en\/)?/, "").replace(/(index)?(\.html)?$/, ""); };
+var otherLanguage = function (lang) {
+  var s = slug(location.pathname);
+  var t = (lang === "en" ? enToEs : esToEn)[s];
+  if (t) return "/" + t;
+  return lang === "en" ? "/" : "/en/";
+};
 // Quarto rewrites menu links to full URLs at load time, so links are matched
-// by their resolved path (works for "../about.html" and "https://…/about").
+// by their resolved path (works for "../acerca-de.html" and "https://…/acerca-de").
 var toEnglish = function (a) {
   var u = new URL(a.href, location.href);
-  if (u.origin !== location.origin || u.hash === "#" || u.pathname.indexOf("/en/") === 0) return;
-  a.setAttribute("href", "/en" + u.pathname);   // /about.html -> /en/about.html, / -> /en/
+  if (u.origin !== location.origin || u.hash === "#") return;
+  var s = slug(u.pathname);
+  var target = s === "" ? "/en/" : esToEn[s] ? "/" + esToEn[s] + ".html" : null;
+  if (target) a.setAttribute("href", target + u.search + u.hash);
 };
-var fixEnglishNav = function () {
-  if (document.documentElement.lang !== "en") {    // Spanish page: switch -> same page in English
-    document.querySelectorAll(".navbar a").forEach(function (el) {
-      var text = el.querySelector(".menu-text") || el;
-      if (text.textContent.trim() === "English") el.setAttribute("href", "/en" + location.pathname);
-    });
-    return;
-  }
+var fixNav = function () {
+  var lang = document.documentElement.lang === "en" ? "en" : "es";
   var labels = {
     "Datos": "Data", "Buscar datos": "Search data", "Todos los datos (tabla)": "All data (table)",
     "Mapa": "Map", "Publicaciones": "Publications", "Buscar publicaciones": "Search papers",
@@ -51,31 +66,28 @@ var fixEnglishNav = function () {
   document.querySelectorAll(".navbar a").forEach(function (el) {
     var text = el.querySelector(".menu-text") || el;
     var t = text.textContent.trim();
-    if (labels[t]) text.textContent = labels[t];
-    if (t === "English" || t === "Español") {      // language switch -> same page in Spanish
-      el.setAttribute("href", location.pathname.replace(/^\/en\//, "/"));
-      text.textContent = "Español";
-    } else if (el.getAttribute("href") && el.getAttribute("href") !== "#" &&
-               !el.hasAttribute("data-bs-toggle")) {   // leave dropdown headings alone
-      toEnglish(el);
+    if (t === "English" || t === "Español") {      // language switch -> same page, other language
+      el.setAttribute("href", otherLanguage(lang));
+      text.textContent = lang === "en" ? "Español" : "English";
+    } else if (lang === "en") {
+      if (labels[t]) text.textContent = labels[t];
+      if (el.getAttribute("href") && el.getAttribute("href") !== "#" &&
+          !el.hasAttribute("data-bs-toggle")) toEnglish(el);   // leave dropdown headings alone
     }
   });
+  if (lang !== "en") return;
   var foot = document.querySelector(".nav-footer-center");
   if (!foot || foot.dataset.en) return;
   foot.dataset.en = "1";
-  foot.querySelectorAll("a").forEach(function (a) {
-    if (/privacy(\.html)?$/.test(new URL(a.href, location.href).pathname)) {
-      toEnglish(a);
-      a.textContent = "Privacy and terms";
-    }
-  });
   foot.innerHTML = foot.innerHTML
     .replace("Metadatos CC0", "Metadata CC0")
     .replace("Cada conjunto de datos y publicación conserva su licencia y cita", "Each dataset and paper keeps its own license and citation")
     .replace("Metadatos de publicaciones de OpenAlex (CC0) y Crossref", "Paper metadata from OpenAlex (CC0) and Crossref")
-    .replace("Límite", "Boundary");
+    .replace("Límite", "Boundary")
+    .replace("Privacidad y condiciones", "Privacy and terms");
+  foot.querySelectorAll("a").forEach(toEnglish);
 };
 // Run once the page is parsed and again after Quarto's own link rewriting.
-document.addEventListener("DOMContentLoaded", fixEnglishNav);
-window.addEventListener("load", fixEnglishNav);
+document.addEventListener("DOMContentLoaded", fixNav);
+window.addEventListener("load", fixNav);
 </script>

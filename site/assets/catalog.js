@@ -2,6 +2,15 @@
 
 export const link = d => d.doi ? "https://doi.org/" + d.doi : d.url;
 
+// Spanish pages use Spanish file names (acerca-de.html); English pages keep the
+// English ones (about.html). Keep in sync with the table in nav-lang.html.
+export const pageNames = {
+  explore: "buscar-datos", browse: "datos", map: "mapa", papers: "publicaciones",
+  "papers-table": "publicaciones-tabla", findings: "hallazgos", contribute: "contribuir",
+  about: "acerca-de", faq: "preguntas-frecuentes", privacy: "privacidad"
+};
+export const page = (lang, name) => (lang === "es" ? pageNames[name] : name) + ".html";
+
 export const split = x => (x || "").split(";").map(s => s.trim()).filter(Boolean);
 
 export const fmt = (s, vars) => s.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? "");

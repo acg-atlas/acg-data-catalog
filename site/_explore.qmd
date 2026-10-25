@@ -1,8 +1,8 @@
-<!-- Shared by explore.qmd and en/explore.qmd. Expects OJS variables `lang`, `root`. -->
+<!-- Shared by the English and Spanish explore pages. Expects OJS variables `lang`, `root`. -->
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"
-import { link, split, surname, fmt } from "/assets/catalog.js"
+import { link, split, surname, fmt, page } from "/assets/catalog.js"
 t = strings[lang]
 catalog = d3.json(root + "data/catalog.json")
 fold = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
@@ -88,11 +88,11 @@ card = d => htl.html`<div class="dataset-card">
     ${split(d.taxa).map(x => htl.html`<span class="chip taxon">${x}</span>`)}
     ${split(d.sectors).map(x => htl.html`<span class="chip">${x}</span>`)}
     ${d.acg_records ? htl.html`<span class="chip">${d.acg_records.toLocaleString()} ${t.records}</span>` : ""}
-    ${split(d.papers).length ? htl.html`<a class="chip used-by" href="papers.html?s=${encodeURIComponent(d.id)}">${fmt(t.usedBy, { n: split(d.papers).length })}</a>` : ""}
+    ${split(d.papers).length ? htl.html`<a class="chip used-by" href="${root}${page(lang, "papers")}?s=${encodeURIComponent(d.id)}">${fmt(t.usedBy, { n: split(d.papers).length })}</a>` : ""}
   </div>
 </div>`
 htl.html`<p class="result-count"><strong>${filtered.length}</strong> ${t.results}
-  ${q.trim() ? htl.html`<a class="cross-link" href="papers.html?s=${encodeURIComponent(q.trim())}">${fmt(t.crossToPapers, { q: q.trim() })}</a>` : ""}</p>
+  ${q.trim() ? htl.html`<a class="cross-link" href="${root}${page(lang, "papers")}?s=${encodeURIComponent(q.trim())}">${fmt(t.crossToPapers, { q: q.trim() })}</a>` : ""}</p>
 ${filtered.length === 0 ? htl.html`<p>${t.noMatch}</p>` : filtered.slice(0, shown).map(card)}
 ${filtered.length > shown ? htl.html`<button class="btn btn-outline-primary" onclick=${() => viewof shown.more()}>${t.showMore}</button>` : ""}`
 ```
