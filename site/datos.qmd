@@ -1,4 +1,5 @@
 ---
+image: assets/photos/og-es.jpg
 title: "Todos los datos"
 description: "Todos los conjuntos de datos de investigación de Área de Conservación Guanacaste en una tabla, descargable en CSV, BibTeX o RIS."
 include-in-header:

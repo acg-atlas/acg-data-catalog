@@ -1,5 +1,6 @@
 ---
 lang: en
+image: assets/photos/og-en.jpg
 title: "Findings"
 description: "Important findings from 40 years of research in Área de Conservación Guanacaste, and an evidence map of what is missing."
 include-in-header:

@@ -1,5 +1,6 @@
 ---
 lang: en
+image: assets/photos/og-en.jpg
 title: "All papers"
 description: "Every paper about research in Área de Conservación Guanacaste in one table, downloadable as CSV, BibTeX or RIS."
 include-in-header:

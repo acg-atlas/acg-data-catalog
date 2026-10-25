@@ -1,4 +1,5 @@
 ---
+image: assets/photos/og-es.jpg
 description: "Mapa de registros de ocurrencia de GBIF dentro y alrededor de Área de Conservación Guanacaste, Costa Rica, por conjunto de datos o taxón."
 title: "Mapa"
 include-in-header:

@@ -1,4 +1,5 @@
 ---
+image: assets/photos/og-es.jpg
 title: "Acerca de"
 description: "Por qué existe el ACG Atlas, cómo se encuentran y revisan sus datos y publicaciones, y quién lo construyó."
 include-in-header:

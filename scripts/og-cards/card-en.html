@@ -1,0 +1,20 @@
+<!doctype html>
+<!-- Social preview card (1200x630) for the ACG Atlas. To regenerate site/assets/photos/og-en.jpg after editing, run from this folder:
+     chrome --headless=new --hide-scrollbars --allow-file-access-from-files --window-size=1200,630 --virtual-time-budget=3000 --screenshot=og-en.jpeg card-en.html
+     then copy og-en.jpeg to site/assets/photos/og-en.jpg. --><html lang="en"><head><meta charset="utf-8"><style>
+@font-face { font-family: Fraunces; font-weight: 100 900; src: url("../../site/assets/fonts/fraunces-latin-opsz-normal.woff2") format("woff2"); }
+@font-face { font-family: Inter; font-weight: 100 900; src: url("../../site/assets/fonts/inter-latin-wght-normal.woff2") format("woff2"); }
+html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+.card { position: relative; box-sizing: border-box; width: 1200px; height: 630px; padding: 64px 72px;
+  display: flex; flex-direction: column; justify-content: center; color: #fff;
+  background: linear-gradient(100deg, rgba(20,45,28,.90) 0%, rgba(20,45,28,.62) 58%, rgba(20,45,28,.2) 100%),
+              url("../../site/assets/photos/hero.jpg") center 60% / cover; }
+.brand { position: absolute; top: 52px; left: 72px; font: 600 34px/1 Fraunces, Georgia, serif; letter-spacing: .01em; }
+.brand span { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: #8fd19e; margin-right: 12px; vertical-align: middle; }
+h1 { font: 600 62px/1.1 Fraunces, Georgia, serif; margin: 30px 0 22px; max-width: 1020px; text-shadow: 0 2px 18px rgba(0,0,0,.35); }
+p { font: 400 27px/1.4 Inter, system-ui, sans-serif; margin: 0; max-width: 880px; color: rgba(255,255,255,.92); text-shadow: 0 1px 12px rgba(0,0,0,.35); }
+.credit { position: absolute; right: 40px; bottom: 26px; font: 400 17px/1 Inter, sans-serif; color: rgba(255,255,255,.8); }
+</style></head><body><div class="card">
+<div class="brand"><span></span>ACG Atlas</div>
+<h1>Research data and publications from Área de Conservación Guanacaste, in one searchable place.</h1><p>An index, not a repository: every dataset and paper links to its permanent home, with its own DOI, license and citation.</p><div class="credit">Sunset over the forest, ACG · Photo © Catherine Hulshof</div>
+</div></body></html>

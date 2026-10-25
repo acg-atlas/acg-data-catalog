@@ -1,4 +1,5 @@
 ---
+image: assets/photos/og-es.jpg
 title: "Privacidad y condiciones"
 description: "Qué recopila el ACG Atlas (casi nada), cómo se manejan los envíos y por qué las entradas pueden tener errores."
 include-in-header:

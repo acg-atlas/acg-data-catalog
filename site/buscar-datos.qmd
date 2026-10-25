@@ -1,4 +1,5 @@
 ---
+image: assets/photos/og-es.jpg
 title: "Buscar datos"
 description: "Busque conjuntos de datos de investigación de Área de Conservación Guanacaste, Costa Rica, por investigador, taxón, tema, sector y repositorio."
 include-in-header:

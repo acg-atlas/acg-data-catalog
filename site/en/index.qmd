@@ -1,4 +1,5 @@
 ---
+image: ../assets/photos/og-en.jpg
 pagetitle: "ACG Atlas"
 description: "Search research data and publications from Área de Conservación Guanacaste (ACG), Costa Rica: datasets and papers in one place, with maps, links and citations."
 include-in-header:

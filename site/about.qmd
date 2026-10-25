@@ -1,5 +1,6 @@
 ---
 lang: en
+image: assets/photos/og-en.jpg
 title: "About"
 description: "Why the ACG Atlas exists, how its datasets and papers are found and reviewed, and who built it."
 include-in-header:

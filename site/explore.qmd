@@ -1,5 +1,6 @@
 ---
 lang: en
+image: assets/photos/og-en.jpg
 title: "Search data"
 description: "Search research datasets from Área de Conservación Guanacaste, Costa Rica, by scientist, taxon, theme, sector and repository."
 include-in-header:
