@@ -50,6 +50,7 @@ format:
   html:
     theme: [cosmo, assets/custom.scss]
     include-after-body: assets/nav-es.html
+    link-external-newwindow: true   # links to other sites open in a new tab
     toc: false
     grid:
       body-width: 1100px
