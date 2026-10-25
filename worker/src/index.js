@@ -2,8 +2,11 @@
 //
 // Public:
 //   GET  /api/resolve?doi=...   look up a DOI, return a metadata preview
-//   POST /api/submit            store a submission (Turnstile-protected);
-//                               kind = "dataset" (default) or "paper"
+//   POST /api/submit            store submissions (Turnstile-protected):
+//                               {dois: [...]} up to MAX_BATCH DOIs, each sorted
+//                               into dataset or paper from its metadata, and
+//                               answered per DOI in `results`; or the older
+//                               {doi, kind} for one DOI (kind defaults to dataset)
 // Admin (Authorization: Bearer ADMIN_TOKEN):
 //   GET  /api/pending           pending submissions, WITHOUT contact emails
 //   POST /api/status            {updates: [{doi, status}]} after review;
@@ -86,6 +89,33 @@ function isAdmin(request, env) {
 
 const clip = (s, n) => (typeof s === "string" ? s.trim().slice(0, n) : null);
 
+// Most DOIs a visitor can send at once. Each needs a doi.org lookup, and a
+// free-plan Worker may make at most 50 outside requests per call.
+const MAX_BATCH = 25;   // not exported: a Worker entry module may only export handlers and functions
+
+// Store one DOI unless it was already submitted. kind null = decide from the
+// DOI's metadata (datasets vs. everything else).
+async function addSubmission(env, doi, body, kind, fetchImpl) {
+  const existing = await env.DB.prepare(
+    "SELECT status FROM submissions WHERE doi = ?").bind(doi).first();
+  if (existing) return { result: "duplicate", status: existing.status };
+
+  const meta = await resolveDoi(doi, fetchImpl);
+  if (!meta) return { result: "not_found" };
+  const sector = SECTORS.includes(body.sector) ? body.sector : null;
+  kind = kind || (meta.is_dataset ? "dataset" : "paper");
+
+  await env.DB.prepare(
+    `INSERT INTO submissions
+       (doi, kind, title, creators, year, publisher, resource_type, sector,
+        note, contact, lang, status, created_at, updated_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'pending', datetime('now'), datetime('now'))`,
+  ).bind(doi, kind, meta.title, meta.creators, meta.year, meta.publisher,
+    meta.resource_type, sector, clip(body.note, 1000), clip(body.contact, 200),
+    body.lang === "es" ? "es" : "en").run();
+  return { result: "added", kind, metadata: meta };
+}
+
 export default {
   async fetch(request, env, ctx, fetchImpl = fetch) {
     const url = new URL(request.url);
@@ -112,30 +142,35 @@ export default {
       }
       let body;
       try { body = await request.json(); } catch { return json({ ok: false, error: "bad_json" }, 400, env); }
+
+      // A list of DOIs: one captcha for the whole list, one answer per DOI
+      if (Array.isArray(body.dois)) {
+        const dois = [...new Set(body.dois.map(normalizeDoi).filter(Boolean))];
+        if (!dois.length) return json({ ok: false, error: "invalid_doi" }, 400, env);
+        if (dois.length > MAX_BATCH) return json({ ok: false, error: "too_many", max: MAX_BATCH }, 400, env);
+        const human = await verifyTurnstile(body.turnstileToken, env.TURNSTILE_SECRET,
+          request.headers.get("CF-Connecting-IP"), fetchImpl);
+        if (!human) return json({ ok: false, error: "captcha" }, 403, env);
+        const kind = ["paper", "dataset"].includes(body.kind) ? body.kind : null;   // null: decide per DOI
+        // In parallel: 25 doi.org lookups one after another would keep people waiting
+        const results = await Promise.all(dois.map(async (doi) => {
+          const r = await addSubmission(env, doi, body, kind, fetchImpl);
+          return { doi, result: r.result, status: r.status ?? null,
+            kind: r.kind ?? null, title: r.metadata?.title ?? null };
+        }));
+        return json({ ok: true, results }, 200, env);
+      }
+
       const doi = normalizeDoi(body.doi);
       if (!doi) return json({ ok: false, error: "invalid_doi" }, 400, env);
       const human = await verifyTurnstile(body.turnstileToken, env.TURNSTILE_SECRET,
         request.headers.get("CF-Connecting-IP"), fetchImpl);
       if (!human) return json({ ok: false, error: "captcha" }, 403, env);
 
-      const existing = await env.DB.prepare(
-        "SELECT status FROM submissions WHERE doi = ?").bind(doi).first();
-      if (existing) return json({ ok: true, duplicate: true, status: existing.status }, 200, env);
-
-      const meta = await resolveDoi(doi, fetchImpl);
-      if (!meta) return json({ ok: false, error: "not_found" }, 404, env);
-      const sector = SECTORS.includes(body.sector) ? body.sector : null;
-      const kind = body.kind === "paper" ? "paper" : "dataset";
-
-      await env.DB.prepare(
-        `INSERT INTO submissions
-           (doi, kind, title, creators, year, publisher, resource_type, sector,
-            note, contact, lang, status, created_at, updated_at)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'pending', datetime('now'), datetime('now'))`,
-      ).bind(doi, kind, meta.title, meta.creators, meta.year, meta.publisher,
-        meta.resource_type, sector, clip(body.note, 1000), clip(body.contact, 200),
-        body.lang === "es" ? "es" : "en").run();
-      return json({ ok: true, metadata: meta }, 201, env);
+      const r = await addSubmission(env, doi, body, body.kind === "paper" ? "paper" : "dataset", fetchImpl);
+      if (r.result === "duplicate") return json({ ok: true, duplicate: true, status: r.status }, 200, env);
+      if (r.result === "not_found") return json({ ok: false, error: "not_found" }, 404, env);
+      return json({ ok: true, metadata: r.metadata }, 201, env);
     }
 
     // -- Admin -----------------------------------------------------------

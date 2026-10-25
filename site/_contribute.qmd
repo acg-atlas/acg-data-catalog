@@ -1,25 +1,13 @@
 <!-- Shared by the English and Spanish contribute pages. -->
 <p class="lead-sm" data-t="contributeIntro"></p>
 
-<div class="kind-picker" role="radiogroup">
-  <label class="kind-card">
-    <input type="radio" name="kind" value="dataset">
-    <span class="kind-title" data-t="kindDataset"></span>
-    <span class="kind-text" data-t="kindDatasetText"></span>
-  </label>
-  <label class="kind-card">
-    <input type="radio" name="kind" value="paper">
-    <span class="kind-title" data-t="kindPaper"></span>
-    <span class="kind-text" data-t="kindPaperText"></span>
-  </label>
-</div>
-
-<form id="submit-form" hidden>
-  <h2 id="form-title"></h2>
-  <label for="doi" data-t="doi"></label>
-  <input id="doi" name="doi" required placeholder="10.5061/dryad.abc123">
-  <button type="button" id="check" class="btn btn-outline-primary mt-2" data-t="check"></button>
-  <div id="preview"></div>
+<form id="submit-form" novalidate>
+  <label for="dois" data-t="doisLabel"></label>
+  <p class="form-hint" id="dois-hint" data-t="doisHint"></p>
+  <textarea id="dois" name="dois" rows="4" aria-describedby="dois-hint" spellcheck="false"
+    placeholder="10.5061/dryad.abc123&#10;https://doi.org/10.1111/btp.12345"></textarea>
+  <ul id="doi-list" class="doi-list" aria-live="polite"></ul>
+  <p id="too-many" class="form-alert" hidden></p>
 
   <label for="sector" data-t="sectorPick"></label>
   <select id="sector" name="sector">
@@ -31,83 +19,170 @@
     <option>Santa Elena</option><option>Marino</option><option>Other / Otro</option>
   </select>
 
-  <label for="note" id="note-label"></label>
-  <textarea id="note" name="note" rows="3" maxlength="1000"></textarea>
+  <label for="note" data-t="note"></label>
+  <p class="form-hint" id="note-hint" data-t="noteHint"></p>
+  <textarea id="note" name="note" rows="3" maxlength="1000" aria-describedby="note-hint"></textarea>
 
   <label for="contact" data-t="contact"></label>
-  <input id="contact" name="contact" type="email" maxlength="200">
+  <input id="contact" name="contact" type="email" maxlength="200" autocomplete="email">
 
-  <div class="cf-turnstile mt-3" data-sitekey="0x4AAAAAAFj54k2qSoWe4-yj"></div>
-  <button type="submit" id="submit-btn" class="btn btn-primary mt-3"></button>
-  <p id="status" role="status" class="mt-3"></p>
+  <!-- Turnstile only shows itself if it needs the visitor to do something -->
+  <div class="cf-turnstile mt-3" data-sitekey="0x4AAAAAAFj54k2qSoWe4-yj" data-appearance="interaction-only"></div>
+  <button type="submit" id="submit-btn" class="btn btn-primary mt-3" disabled></button>
+  <p id="status" class="form-alert" role="alert" hidden></p>
 </form>
+
+<section id="done" class="done-panel" tabindex="-1" hidden>
+  <h2 data-t="doneTitle"></h2>
+  <p id="done-text"></p>
+  <ul id="done-list" class="doi-list"></ul>
+  <button type="button" id="again" class="btn btn-outline-primary" data-t="again"></button>
+</section>
 
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script type="module">
 import { strings } from "/assets/strings.js";
+import { fmt } from "/assets/catalog.js";
 const WORKER = "https://acg-catalog-submit.catherine-hulshof.workers.dev";
-const lang = document.documentElement.lang === "es" ? "es" : "en";
+const MAX = 25;   // same as MAX_BATCH in worker/src/index.js
+const lang = document.documentElement.lang === "en" ? "en" : "es";
 const t = strings[lang];
 document.querySelectorAll("[data-t]").forEach(el => el.textContent = t[el.dataset.t]);
 const $ = id => document.getElementById(id);
-const say = msg => $("status").textContent = msg;
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const normDoi = s => String(s || "").trim().toLowerCase()
-  .replace(/^(https?:\/\/)?(dx\.)?doi\.org\//, "").replace(/^doi:\s*/, "");
 
-// Entries already published, to tell people before they submit a duplicate
+// Every DOI in whatever was pasted: bare, "doi:" or doi.org links, any separators
+function extractDois(text) {
+  const found = (text.match(/10\.\d{4,9}\/[^\s"'<>,;]+/gi) || []).map(d => {
+    d = d.replace(/[.]+$/, "");
+    while (d.endsWith(")") && (d.match(/\)/g) || []).length > (d.match(/\(/g) || []).length) d = d.slice(0, -1);
+    return d.toLowerCase();
+  });
+  return [...new Set(found)];
+}
+
+// Entries already published, so people don't submit them again
 const published = Promise.all(["catalog", "papers"].map(f =>
   fetch(`data/${f}.json`).then(r => r.json()).catch(() => []))).then(([data, papers]) =>
-  new Map([...data.map(d => [d.doi, d]), ...papers.map(d => [d.doi, d])].filter(([k]) => k)));
+  new Map([...data, ...papers].filter(d => d.doi).map(d => [d.doi.toLowerCase(), d])));
 
-let kind = null;
-function pick(k) {
-  kind = k;
-  document.querySelectorAll("input[name=kind]").forEach(r => {
-    r.checked = r.value === k;
-    r.closest(".kind-card").classList.toggle("selected", r.checked);
-  });
-  $("submit-form").hidden = false;
-  $("form-title").textContent = k === "paper" ? t.kindPaper : t.kindDataset;
-  $("note-label").textContent = k === "paper" ? t.notePaper : t.note;
-  $("submit-btn").textContent = k === "paper" ? t.submitPaper : t.submitDataset;
-  $("doi").placeholder = k === "paper" ? "10.1111/btp.12345" : "10.5061/dryad.abc123";
-  $("preview").innerHTML = ""; say("");
-  history.replaceState(null, "", "#" + k);
+// doi -> { state: checking | ready | inAtlas | already | notFound, meta, status }
+const items = new Map();
+
+async function check(doi) {
+  const have = (await published).get(doi);
+  if (have) return { state: "inAtlas", meta: { title: have.title } };
+  try {
+    const r = await fetch(`${WORKER}/api/resolve?doi=${encodeURIComponent(doi)}`);
+    const j = await r.json();
+    if (!j.ok) return { state: "notFound" };
+    if (j.already) return { state: "already", meta: j.metadata, status: j.already };
+    return { state: "ready", meta: j.metadata };
+  } catch { return { state: "notFound" }; }
 }
-document.querySelectorAll("input[name=kind]").forEach(r => r.addEventListener("change", () => pick(r.value)));
-if (["#dataset", "#paper"].includes(location.hash)) pick(location.hash.slice(1));
 
-$("check").addEventListener("click", async () => {
-  $("preview").innerHTML = ""; say("");
-  const have = (await published).get(normDoi($("doi").value));
-  const r = await fetch(`${WORKER}/api/resolve?doi=${encodeURIComponent($("doi").value)}`);
-  const j = await r.json();
-  if (!j.ok) return say(j.error === "invalid_doi" ? t.invalid : t.notFound);
-  const m = j.metadata;
-  const mismatch = kind === "dataset" && !m.is_dataset ? t.notDataset
-                 : kind === "paper" && m.is_dataset ? t.notPaper : "";
-  $("preview").innerHTML = `<div class="dataset-card"><strong>${t.found}</strong>
-    <h4>${esc(m.title)}</h4><div class="dataset-meta">${esc(m.creators)} · ${esc(m.year)} · ${esc(m.publisher)}</div>
-    ${mismatch ? `<p class="text-warning mb-0">${mismatch}</p>` : ""}
-    ${have ? `<p class="mb-0">${t.inAtlas} <em>${esc(have.title)}</em></p>` : ""}
-    ${j.already ? `<p class="mb-0">${t.already} ${esc(j.already)}</p>` : ""}</div>`;
+function row(doi, it) {
+  const m = it.meta || {};
+  const kind = m.is_dataset ? `<span class="chip kind-dataset">${t.kindDatasetChip}</span>`
+                            : `<span class="chip kind">${t.kindPaperChip}</span>`;
+  const names = (m.creators || "").split("; ").filter(Boolean);
+  const who = names.length > 3 ? names.slice(0, 3).join("; ") + " et al." : names.join("; ");
+  const line = [who, m.year, m.publisher].filter(Boolean).map(esc).join(" · ");
+  const skip = s => `<span class="doi-skip">${s} · ${t.willSkip}</span>`;
+  const body = {
+    checking: `<span class="doi-checking">${t.checking}</span>`,
+    ready: `${kind} <strong>${esc(m.title)}</strong>${line ? `<div class="dataset-meta">${line}</div>` : ""}`,
+    inAtlas: `${skip(t.inAtlas)} <strong>${esc(m.title)}</strong>`,
+    already: `${skip(`${t.already} (${t.statusNames[it.status] || it.status})`)} <strong>${esc(m.title)}</strong>`,
+    notFound: skip(t.notFound),
+  }[it.state];
+  return `<li class="doi-item ${it.state}"><code>${esc(doi)}</code>${body}</li>`;
+}
+
+function render() {
+  $("doi-list").innerHTML = [...items].map(([doi, it]) => row(doi, it)).join("");
+  const ready = [...items.values()].filter(it => it.state === "ready").length;
+  const busy = [...items.values()].some(it => it.state === "checking");
+  const tooMany = ready > MAX;
+  $("too-many").hidden = !tooMany;
+  $("too-many").textContent = fmt(t.tooMany, { max: MAX });
+  $("submit-btn").disabled = !ready || busy || tooMany;
+  $("submit-btn").textContent = !ready ? t.submitNone : ready === 1 ? t.submitOne : fmt(t.submitMany, { n: ready });
+}
+
+let timer;
+$("dois").addEventListener("input", () => {
+  clearTimeout(timer);
+  timer = setTimeout(() => {
+    const dois = extractDois($("dois").value);
+    for (const d of [...items.keys()]) if (!dois.includes(d)) items.delete(d);
+    const fresh = dois.filter(d => !items.has(d));
+    fresh.forEach(d => items.set(d, { state: "checking" }));
+    render();
+    // Check a few at a time; a pasted list of 25 shouldn't fire 25 requests at once
+    let i = 0;
+    const next = async () => {
+      while (i < fresh.length) {
+        const d = fresh[i++];
+        const res = await check(d);
+        if (items.has(d)) { items.set(d, res); render(); }
+      }
+    };
+    Promise.all([next(), next(), next(), next()]);
+  }, 400);
 });
+
+const say = msg => { $("status").textContent = msg; $("status").hidden = !msg; };
 
 $("submit-form").addEventListener("submit", async (e) => {
   e.preventDefault();
+  say("");
+  const dois = [...items].filter(([, it]) => it.state === "ready").map(([d]) => d);
+  if (!dois.length) return;
   const token = document.querySelector("[name='cf-turnstile-response']")?.value;
   if (!token) return say(t.captcha);
+  const btn = $("submit-btn");
+  btn.disabled = true; btn.textContent = t.sending;
   try {
     const r = await fetch(`${WORKER}/api/submit`, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ doi: $("doi").value, kind, sector: $("sector").value,
-        note: $("note").value, contact: $("contact").value, lang, turnstileToken: token })
+      body: JSON.stringify({ dois, sector: $("sector").value, note: $("note").value,
+        contact: $("contact").value, lang, turnstileToken: token })
     });
     const j = await r.json();
-    if (j.ok && j.duplicate) return say(`${t.already} ${j.status}`);
-    if (j.ok) { say(t.thanks); e.target.reset(); return; }
-    say({ invalid_doi: t.invalid, not_found: t.notFound, captcha: t.captcha, rate_limited: t.rateLimited }[j.error] || t.error);
-  } catch { say(t.error); }
+    if (!j.ok) throw j;
+    showDone(j.results);
+  } catch (err) {
+    say({ captcha: t.captcha, rate_limited: t.rateLimited,
+          too_many: fmt(t.tooMany, { max: MAX }) }[err?.error] || t.error);
+    window.turnstile?.reset();
+    render();
+  }
 });
+
+function showDone(results) {
+  const added = results.filter(x => x.result === "added");
+  $("done-text").textContent = !added.length ? t.doneNone
+    : added.length === 1 ? t.doneOne : fmt(t.doneMany, { n: added.length });
+  $("done-list").innerHTML = added.map(x => {
+    const chip = x.kind === "dataset" ? `<span class="chip kind-dataset">${t.kindDatasetChip}</span>`
+                                      : `<span class="chip kind">${t.kindPaperChip}</span>`;
+    return `<li class="doi-item ready"><code>${esc(x.doi)}</code>${chip} <strong>${esc(x.title)}</strong></li>`;
+  }).join("");
+  $("submit-form").hidden = true;
+  $("done").hidden = false;
+  $("done").focus();
+  $("done").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+$("again").addEventListener("click", () => {
+  $("submit-form").reset();
+  items.clear(); render(); say("");
+  window.turnstile?.reset();
+  $("done").hidden = true;
+  $("submit-form").hidden = false;
+  $("dois").focus();
+});
+
+render();
 </script>
