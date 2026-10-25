@@ -1,4 +1,5 @@
 ---
+image: assets/photos/og-es.jpg
 title: "Hallazgos"
 description: "Hallazgos importantes de 40 años de investigación en Área de Conservación Guanacaste y un mapa de evidencia de lo que falta."
 include-in-header:

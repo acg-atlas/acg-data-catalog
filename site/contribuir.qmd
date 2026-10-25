@@ -1,4 +1,5 @@
 ---
+image: assets/photos/og-es.jpg
 title: "Contribuir"
 description: "Envíe un conjunto de datos o sugiera una publicación sobre investigación en Área de Conservación Guanacaste, Costa Rica."
 include-in-header:

@@ -1,5 +1,6 @@
 ---
 lang: en
+image: assets/photos/og-en.jpg
 title: "Privacy and terms"
 description: "What the ACG Atlas collects (almost nothing), how submissions are handled, and why entries may contain mistakes."
 include-in-header:

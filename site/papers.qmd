@@ -1,5 +1,6 @@
 ---
 lang: en
+image: assets/photos/og-en.jpg
 title: "Search papers"
 description: "Search scientific papers about research in Área de Conservación Guanacaste, Costa Rica, by author, theme, taxon, sector and decade."
 include-in-header:

@@ -1,4 +1,5 @@
 ---
+image: assets/photos/og-es.jpg
 title: "Preguntas frecuentes"
 description: "Respuestas sobre el ACG Atlas, un índice gratuito de conjuntos de datos y publicaciones de investigación del Área de Conservación Guanacaste (ACG), Costa Rica: qué incluye, cómo buscar, cómo citar y cómo agregar su trabajo."
 include-in-header:
