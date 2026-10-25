@@ -65,7 +65,7 @@ Primero deposítelo en un repositorio público que asigne DOI, como Zenodo, Drya
 
 ## Encontré un error o falta una entrada. ¿Cómo lo reporto?
 
-Sugiera el conjunto de datos o la publicación que falta en la página [Contribuir](contribuir.qmd), o abra un [issue en GitHub](https://github.com/acg-atlas/acg-data-catalog/issues). Si usted es autor y quiere corregir o quitar un registro, [escríbame](privacidad.qmd#contact) y lo atenderé pronto.
+Sugiera el conjunto de datos o la publicación que falta en la página [Contribuir](contribuir.qmd), o abra un [issue en GitHub](https://github.com/acg-atlas/acg-data-catalog/issues). Si usted es autor y quiere corregir o quitar un registro, [escríbame](privacidad.qmd#contacto) y lo atenderé pronto.
 
 ## ¿Puedo reutilizar los metadatos o el código del ACG Atlas?
 
