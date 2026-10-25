@@ -1,6 +1,6 @@
 ---
 title: "Findings"
-description: "What is known and what is missing: an evidence map of research in Área de Conservación Guanacaste by theme, sector, decade and taxon."
+description: "Important findings from 40 years of research in Área de Conservación Guanacaste, and an evidence map of what is missing."
 include-in-header:
   text: |
     <link rel="canonical" href="https://acg-atlas.pages.dev/findings">
@@ -14,5 +14,7 @@ include-in-header:
 lang = "en"
 root = "./"
 ```
+
+{{< include _findings_text.md >}}
 
 {{< include _findings.qmd >}}
