@@ -1,4 +1,4 @@
-<!-- Shared by papers.qmd and es/papers.qmd. Expects OJS variables `lang`, `root`. -->
+<!-- Shared by papers.qmd and en/papers.qmd. Expects OJS variables `lang`, `root`. -->
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"

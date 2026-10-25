@@ -34,10 +34,10 @@ inject <- function(file, obj) {
 website <- list(`@context` = "https://schema.org", `@type` = "WebSite",
                 name = "ACG Atlas", url = base,
                 description = "Research data and publications from Área de Conservación Guanacaste, Costa Rica.",
-                inLanguage = c("en", "es"),
+                inLanguage = c("es", "en"),
                 creator = list(`@type` = "Person", name = "Catherine Hulshof"))
 inject("_site/index.html", website)
-inject("_site/es/index.html", website)
+inject("_site/en/index.html", website)
 
 cat_file <- "_site/data/catalog.json"
 if (file.exists(cat_file)) {
@@ -65,8 +65,8 @@ if (file.exists(cat_file)) {
                   url = paste0(base, "browse"),
                   dataset = lapply(ds, as_dataset))
   inject("_site/browse.html", catalog)
-  catalog$url <- paste0(base, "es/browse")
-  inject("_site/es/browse.html", catalog)
+  catalog$url <- paste0(base, "en/browse")
+  inject("_site/en/browse.html", catalog)
 }
 
 # FAQPage on the FAQ pages: built from the rendered page itself, so the
@@ -90,8 +90,8 @@ faq_ld <- function(file, lang) {
   inject(file, list(`@context` = "https://schema.org", `@type` = "FAQPage",
                     inLanguage = lang, mainEntity = qa))
 }
-faq_ld("_site/faq.html", "en")
-faq_ld("_site/es/faq.html", "es")
+faq_ld("_site/faq.html", "es")
+faq_ld("_site/en/faq.html", "en")
 
 # llms.txt: a plain-text guide to the site for AI assistants (llmstxt.org)
 writeLines(c(
@@ -103,13 +103,13 @@ writeLines(c(
   "",
   "## Pages",
   "",
-  paste0("- [FAQ](", base, "faq): what the Atlas covers, how to search, cite and contribute"),
-  paste0("- [About](", base, "about): why the Atlas exists and how entries are found and reviewed"),
-  paste0("- [Search data](", base, "explore): datasets filtered by theme, taxon, ACG sector, repository and year"),
-  paste0("- [Search papers](", base, "papers): papers about research done in ACG"),
-  paste0("- [Findings](", base, "findings): what research in ACG covers, and where the gaps are"),
-  paste0("- [Contribute](", base, "contribute): submit a dataset or suggest a paper by DOI"),
-  paste0("- [Spanish version](", base, "es/): every page is also in Spanish"),
+  paste0("- [FAQ](", base, "en/faq): what the Atlas covers, how to search, cite and contribute"),
+  paste0("- [About](", base, "en/about): why the Atlas exists and how entries are found and reviewed"),
+  paste0("- [Search data](", base, "en/explore): datasets filtered by theme, taxon, ACG sector, repository and year"),
+  paste0("- [Search papers](", base, "en/papers): papers about research done in ACG"),
+  paste0("- [Findings](", base, "en/findings): what research in ACG covers, and where the gaps are"),
+  paste0("- [Contribute](", base, "en/contribute): submit a dataset or suggest a paper by DOI"),
+  paste0("- [Spanish (default)](", base, "): the site's main language; English pages are under /en/"),
   "",
   "## Data",
   "",

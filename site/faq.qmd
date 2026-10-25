@@ -1,81 +1,80 @@
 ---
-title: "Frequently asked questions"
-description: "Answers about the ACG Atlas, a free index of research datasets and papers from Área de Conservación Guanacaste (ACG), Costa Rica: what it covers, how to search it, how to cite and how to add your work."
+title: "Preguntas frecuentes"
+description: "Respuestas sobre el ACG Atlas, un índice gratuito de conjuntos de datos y publicaciones de investigación del Área de Conservación Guanacaste (ACG), Costa Rica: qué incluye, cómo buscar, cómo citar y cómo agregar su trabajo."
 include-in-header:
   text: |
     <link rel="canonical" href="https://acg-atlas.pages.dev/faq">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/faq">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/faq">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/en/faq">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/faq">
     <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/faq">
 ---
 
-<!-- Each "##" question and the text under it becomes a schema.org FAQPage entry (see _seo.R).
-     Keep every answer self-contained: start with the direct answer, name ACG in full where it helps. -->
+<!-- Cada pregunta "##" y su texto se convierten en una entrada schema.org FAQPage (ver _seo.R). -->
 
-## What is the ACG Atlas?
+## ¿Qué es el ACG Atlas?
 
-The ACG Atlas is a free, bilingual (English and Spanish) index of research datasets and scientific papers from Área de Conservación Guanacaste (ACG), Costa Rica. It brings together work that is otherwise scattered across hundreds of journals, theses and data repositories, so researchers, students, ACG staff and supporters can see what has been studied in ACG and find the data behind it.
+El ACG Atlas es un índice gratuito y bilingüe (español e inglés) de conjuntos de datos y publicaciones científicas del Área de Conservación Guanacaste (ACG), Costa Rica. Reúne trabajos que de otro modo están dispersos en cientos de revistas, tesis y repositorios de datos, para que investigadores, estudiantes, personal de ACG y donantes puedan ver qué se ha estudiado en ACG y encontrar los datos que lo respaldan.
 
-## What is Área de Conservación Guanacaste?
+## ¿Qué es el Área de Conservación Guanacaste?
 
-Área de Conservación Guanacaste (ACG) is a protected area in northwestern Costa Rica and a UNESCO World Heritage Site since 1999. It runs from the Pacific Ocean across dry forest and volcanoes to cloud forest and rain forest on the Caribbean slope, and includes a marine sector. It is one of the most studied tropical landscapes in the world, known for dry-forest restoration and long-term biodiversity inventories.
+El Área de Conservación Guanacaste (ACG) es un área protegida en el noroeste de Costa Rica y Sitio de Patrimonio Mundial de la UNESCO desde 1999. Va del océano Pacífico, pasando por bosque seco y volcanes, hasta el bosque nuboso y el bosque lluvioso de la vertiente caribe, e incluye un sector marino. Es uno de los paisajes tropicales más estudiados del mundo, conocido por la restauración del bosque seco y sus inventarios de biodiversidad a largo plazo.
 
-## Who runs the ACG Atlas? Is it official?
+## ¿Quién maneja el ACG Atlas? ¿Es oficial?
 
-The ACG Atlas is an independent project built by Catherine Hulshof, an ecologist at Virginia Commonwealth University. It is not run, endorsed or reviewed by Área de Conservación Guanacaste, SINAC or MINAE (Costa Rica), or by Virginia Commonwealth University. It complements ACG's own information systems; it does not replace them.
+El ACG Atlas es un proyecto independiente creado por Catherine Hulshof, ecóloga de Virginia Commonwealth University. No lo maneja, respalda ni revisa el Área de Conservación Guanacaste, el SINAC ni el MINAE (Costa Rica), ni Virginia Commonwealth University. Complementa los sistemas de información propios de ACG; no los reemplaza.
 
-## Does the ACG Atlas store the data?
+## ¿El ACG Atlas guarda los datos?
 
-No. The ACG Atlas is an index, not a repository. Each entry links to the dataset or paper in its permanent home (for example Dryad, Zenodo, EDI, GBIF or the journal), where it keeps its own DOI, license and citation.
+No. El ACG Atlas es un índice, no un repositorio. Cada entrada enlaza al conjunto de datos o la publicación en su sitio permanente (por ejemplo Dryad, Zenodo, EDI, GBIF o la revista), donde conserva su propio DOI, licencia y cita.
 
-## How do I find datasets about a species, place or topic in ACG?
+## ¿Cómo encuentro datos sobre una especie, un lugar o un tema en ACG?
 
-Use [Search data](explore.qmd). Type any word (a species, an author, a place) and filter by theme, taxon, ACG sector, repository or year. [All data (table)](browse.qmd) lists every dataset at once, and the [Map](map.qmd) shows where in ACG the data come from.
+Use [Buscar datos](explore.qmd). Escriba cualquier palabra (una especie, un autor, un lugar) y filtre por tema, taxón, sector de ACG, repositorio o año. [Todos los datos (tabla)](browse.qmd) muestra todos los conjuntos de datos a la vez, y el [Mapa](map.qmd) muestra de qué parte de ACG vienen los datos.
 
-## How do I find papers about research in ACG?
+## ¿Cómo encuentro publicaciones sobre investigación en ACG?
 
-Use [Search papers](papers.qmd) to search by keyword and filter by theme, taxon, sector or year, or open [All papers (table)](papers-table.qmd) to see the full list. Where a paper has a free version, the Atlas links to it.
+Use [Buscar publicaciones](papers.qmd) para buscar por palabra clave y filtrar por tema, taxón, sector o año, o abra [Todas las publicaciones (tabla)](papers-table.qmd) para ver la lista completa. Cuando una publicación tiene una versión gratuita, el Atlas enlaza a ella.
 
-## Where do the datasets and papers come from?
+## ¿De dónde vienen los datos y las publicaciones?
 
-Datasets come from DataCite (which covers Dryad, Zenodo, EDI, Figshare, PANGAEA and more), from GBIF (searched with the official ACG boundary) and from researchers who submit their own. Paper records come from OpenAlex (CC0) and Crossref. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+Los conjuntos de datos vienen de DataCite (que incluye Dryad, Zenodo, EDI, Figshare, PANGAEA y más), de GBIF (buscando con el límite oficial de ACG) y de investigadores que envían los suyos. Los registros de publicaciones vienen de OpenAlex (CC0) y Crossref. La estrategia de búsqueda completa está [en GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
 
-## Which papers count as ACG research?
+## ¿Qué publicaciones cuentan como investigación en ACG?
 
-A paper is included if the research was done in Área de Conservación Guanacaste (any sector, including the marine one), uses specimens or data from ACG, or is mainly about ACG. Each candidate is checked by reading its title and abstract.
+Se incluye una publicación si la investigación se hizo en el Área de Conservación Guanacaste (cualquier sector, incluido el marino), usa especímenes o datos de ACG, o trata principalmente sobre ACG. Cada candidata se revisa leyendo su título y resumen.
 
-## How often is the ACG Atlas updated?
+## ¿Cada cuánto se actualiza el ACG Atlas?
 
-Every week. The site automatically searches for new datasets and papers each Monday, and every new entry is reviewed by hand before it appears.
+Cada semana. Todos los lunes el sitio busca automáticamente nuevos conjuntos de datos y publicaciones, y cada entrada nueva se revisa a mano antes de publicarse.
 
-## What do the Findings pages show?
+## ¿Qué muestra la página Hallazgos?
 
-[Findings](findings.qmd) summarizes what the papers in the Atlas cover: which themes, sectors, decades and groups of organisms have been studied most in ACG, and where research is thin. It is a starting point for spotting gaps, not a review of the literature.
+[Hallazgos](findings.qmd) resume lo que cubren las publicaciones del Atlas: qué temas, sectores, décadas y grupos de organismos se han estudiado más en ACG, y dónde hay poca investigación. Es un punto de partida para encontrar vacíos, no una revisión de la literatura.
 
-## How do I cite a dataset or paper I found here?
+## ¿Cómo cito un conjunto de datos o una publicación que encontré aquí?
 
-Cite the original work, using its own DOI and citation, which you will find on the page the Atlas links to. If you want to mention the ACG Atlas itself, for example in a methods section, the citation is in the [CITATION.cff file on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/CITATION.cff).
+Cite el trabajo original, con su propio DOI y cita, que encontrará en la página a la que enlaza el Atlas. Si quiere mencionar el ACG Atlas en sí, por ejemplo en la sección de métodos, la cita está en el [archivo CITATION.cff en GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/CITATION.cff).
 
-## How do I add my dataset or paper?
+## ¿Cómo agrego mi conjunto de datos o publicación?
 
-Go to [Contribute](contribute.qmd), choose dataset or paper, and paste its DOI. You can add the ACG sector and a short note. Every submission is reviewed before it appears, usually within a week or two.
+Vaya a [Contribuir](contribute.qmd), elija conjunto de datos o publicación y pegue su DOI. Puede agregar el sector de ACG y una nota corta. Cada envío se revisa antes de publicarse, normalmente en una o dos semanas.
 
-## My dataset has no DOI yet. What should I do?
+## Mi conjunto de datos todavía no tiene DOI. ¿Qué hago?
 
-Deposit it first in a public repository that gives DOIs, such as Zenodo, Dryad or EDI; most are free for researchers. Then submit the DOI on the [Contribute](contribute.qmd) page. A DOI keeps the link permanent and makes sure you get credit when others use your data.
+Primero deposítelo en un repositorio público que asigne DOI, como Zenodo, Dryad o EDI; la mayoría son gratuitos para investigadores. Luego envíe el DOI en la página [Contribuir](contribute.qmd). Un DOI mantiene el enlace permanente y asegura que usted reciba crédito cuando otros usen sus datos.
 
-## I found a mistake or a missing entry. How do I report it?
+## Encontré un error o falta una entrada. ¿Cómo lo reporto?
 
-Suggest a missing dataset or paper on the [Contribute](contribute.qmd) page, or open a [GitHub issue](https://github.com/acg-atlas/acg-data-catalog/issues). If you are an author and want a record corrected or removed, [contact me](privacy.qmd#contact) and I will act on it promptly.
+Sugiera el conjunto de datos o la publicación que falta en la página [Contribuir](contribute.qmd), o abra un [issue en GitHub](https://github.com/acg-atlas/acg-data-catalog/issues). Si usted es autor y quiere corregir o quitar un registro, [escríbame](privacy.qmd#contact) y lo atenderé pronto.
 
-## Can I reuse the ACG Atlas metadata or code?
+## ¿Puedo reutilizar los metadatos o el código del ACG Atlas?
 
-Yes. The catalog metadata is released under CC0 (no rights reserved) and the code is open source under the MIT license, both at [github.com/acg-atlas](https://github.com/acg-atlas). Each dataset and paper keeps its own license, so check it before reusing the work itself.
+Sí. Los metadatos del catálogo se publican bajo CC0 (sin derechos reservados) y el código es abierto bajo la licencia MIT, ambos en [github.com/acg-atlas](https://github.com/acg-atlas). Cada conjunto de datos y publicación conserva su propia licencia, así que revísela antes de reutilizar el trabajo en sí.
 
-## Is the ACG Atlas free? Does it track me?
+## ¿El ACG Atlas es gratuito? ¿Me rastrea?
 
-It is free and needs no account. There are no analytics, ads or tracking cookies. If you submit something, your email (if you give one) stays private and is deleted after review. See [Privacy and terms](privacy.qmd).
+Es gratuito y no necesita cuenta. No hay analítica, publicidad ni cookies de rastreo. Si envía algo, su correo (si lo da) se mantiene privado y se borra después de la revisión. Vea [Privacidad y condiciones](privacy.qmd).
 
-## Can I get a permit to do research in ACG through the Atlas?
+## ¿Puedo obtener un permiso de investigación en ACG por medio del Atlas?
 
-No. The Atlas only indexes published work. Research in Área de Conservación Guanacaste needs a permit from ACG and SINAC; contact ACG's research program directly.
+No. El Atlas solo indexa trabajos publicados. La investigación en el Área de Conservación Guanacaste necesita un permiso de ACG y el SINAC; comuníquese directamente con el programa de investigación de ACG.

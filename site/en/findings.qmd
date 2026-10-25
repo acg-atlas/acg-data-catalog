@@ -1,0 +1,20 @@
+---
+title: "Findings"
+description: "Important findings from 40 years of research in Área de Conservación Guanacaste, and an evidence map of what is missing."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/en/findings">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/en/findings">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/findings">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/findings">
+---
+
+```{ojs}
+//| echo: false
+lang = "en"
+root = "../"
+```
+
+{{< include _findings_text.md >}}
+
+{{< include ../_findings.qmd >}}

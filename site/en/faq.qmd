@@ -1,0 +1,81 @@
+---
+title: "Frequently asked questions"
+description: "Answers about the ACG Atlas, a free index of research datasets and papers from Área de Conservación Guanacaste (ACG), Costa Rica: what it covers, how to search it, how to cite and how to add your work."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/en/faq">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/en/faq">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/faq">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/faq">
+---
+
+<!-- Each "##" question and the text under it becomes a schema.org FAQPage entry (see _seo.R).
+     Keep every answer self-contained: start with the direct answer, name ACG in full where it helps. -->
+
+## What is the ACG Atlas?
+
+The ACG Atlas is a free, bilingual (English and Spanish) index of research datasets and scientific papers from Área de Conservación Guanacaste (ACG), Costa Rica. It brings together work that is otherwise scattered across hundreds of journals, theses and data repositories, so researchers, students, ACG staff and supporters can see what has been studied in ACG and find the data behind it.
+
+## What is Área de Conservación Guanacaste?
+
+Área de Conservación Guanacaste (ACG) is a protected area in northwestern Costa Rica and a UNESCO World Heritage Site since 1999. It runs from the Pacific Ocean across dry forest and volcanoes to cloud forest and rain forest on the Caribbean slope, and includes a marine sector. It is one of the most studied tropical landscapes in the world, known for dry-forest restoration and long-term biodiversity inventories.
+
+## Who runs the ACG Atlas? Is it official?
+
+The ACG Atlas is an independent project built by Catherine Hulshof, an ecologist at Virginia Commonwealth University. It is not run, endorsed or reviewed by Área de Conservación Guanacaste, SINAC or MINAE (Costa Rica), or by Virginia Commonwealth University. It complements ACG's own information systems; it does not replace them.
+
+## Does the ACG Atlas store the data?
+
+No. The ACG Atlas is an index, not a repository. Each entry links to the dataset or paper in its permanent home (for example Dryad, Zenodo, EDI, GBIF or the journal), where it keeps its own DOI, license and citation.
+
+## How do I find datasets about a species, place or topic in ACG?
+
+Use [Search data](explore.qmd). Type any word (a species, an author, a place) and filter by theme, taxon, ACG sector, repository or year. [All data (table)](browse.qmd) lists every dataset at once, and the [Map](map.qmd) shows where in ACG the data come from.
+
+## How do I find papers about research in ACG?
+
+Use [Search papers](papers.qmd) to search by keyword and filter by theme, taxon, sector or year, or open [All papers (table)](papers-table.qmd) to see the full list. Where a paper has a free version, the Atlas links to it.
+
+## Where do the datasets and papers come from?
+
+Datasets come from DataCite (which covers Dryad, Zenodo, EDI, Figshare, PANGAEA and more), from GBIF (searched with the official ACG boundary) and from researchers who submit their own. Paper records come from OpenAlex (CC0) and Crossref. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+
+## Which papers count as ACG research?
+
+A paper is included if the research was done in Área de Conservación Guanacaste (any sector, including the marine one), uses specimens or data from ACG, or is mainly about ACG. Each candidate is checked by reading its title and abstract.
+
+## How often is the ACG Atlas updated?
+
+Every week. The site automatically searches for new datasets and papers each Monday, and every new entry is reviewed by hand before it appears.
+
+## What do the Findings pages show?
+
+[Findings](findings.qmd) summarizes what the papers in the Atlas cover: which themes, sectors, decades and groups of organisms have been studied most in ACG, and where research is thin. It is a starting point for spotting gaps, not a review of the literature.
+
+## How do I cite a dataset or paper I found here?
+
+Cite the original work, using its own DOI and citation, which you will find on the page the Atlas links to. If you want to mention the ACG Atlas itself, for example in a methods section, the citation is in the [CITATION.cff file on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/CITATION.cff).
+
+## How do I add my dataset or paper?
+
+Go to [Contribute](contribute.qmd), choose dataset or paper, and paste its DOI. You can add the ACG sector and a short note. Every submission is reviewed before it appears, usually within a week or two.
+
+## My dataset has no DOI yet. What should I do?
+
+Deposit it first in a public repository that gives DOIs, such as Zenodo, Dryad or EDI; most are free for researchers. Then submit the DOI on the [Contribute](contribute.qmd) page. A DOI keeps the link permanent and makes sure you get credit when others use your data.
+
+## I found a mistake or a missing entry. How do I report it?
+
+Suggest a missing dataset or paper on the [Contribute](contribute.qmd) page, or open a [GitHub issue](https://github.com/acg-atlas/acg-data-catalog/issues). If you are an author and want a record corrected or removed, [contact me](privacy.qmd#contact) and I will act on it promptly.
+
+## Can I reuse the ACG Atlas metadata or code?
+
+Yes. The catalog metadata is released under CC0 (no rights reserved) and the code is open source under the MIT license, both at [github.com/acg-atlas](https://github.com/acg-atlas). Each dataset and paper keeps its own license, so check it before reusing the work itself.
+
+## Is the ACG Atlas free? Does it track me?
+
+It is free and needs no account. There are no analytics, ads or tracking cookies. If you submit something, your email (if you give one) stays private and is deleted after review. See [Privacy and terms](privacy.qmd).
+
+## Can I get a permit to do research in ACG through the Atlas?
+
+No. The Atlas only indexes published work. Research in Área de Conservación Guanacaste needs a permit from ACG and SINAC; contact ACG's research program directly.

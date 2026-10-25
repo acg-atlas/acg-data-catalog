@@ -1,4 +1,4 @@
-<!-- Shared by explore.qmd and es/explore.qmd. Expects OJS variables `lang`, `root`. -->
+<!-- Shared by explore.qmd and en/explore.qmd. Expects OJS variables `lang`, `root`. -->
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"

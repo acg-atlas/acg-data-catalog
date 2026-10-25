@@ -1,4 +1,4 @@
-<!-- Shared by contribute.qmd and es/contribute.qmd. -->
+<!-- Shared by contribute.qmd and en/contribute.qmd. -->
 <p class="lead-sm" data-t="contributeIntro"></p>
 
 <div class="kind-picker" role="radiogroup">
@@ -47,7 +47,7 @@
 import { strings } from "/assets/strings.js";
 const WORKER = "https://acg-catalog-submit.catherine-hulshof.workers.dev";
 const lang = document.documentElement.lang === "es" ? "es" : "en";
-const root = lang === "es" ? "../" : "./";
+const root = lang === "en" ? "../" : "./";
 const t = strings[lang];
 document.querySelectorAll("[data-t]").forEach(el => el.textContent = t[el.dataset.t]);
 const $ = id => document.getElementById(id);
