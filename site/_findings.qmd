@@ -1,0 +1,98 @@
+<!-- Shared by findings.qmd and es/findings.qmd. Expects OJS variables `lang`, `root`. -->
+```{ojs}
+//| echo: false
+import { strings } from "/assets/strings.js"
+import { split } from "/assets/catalog.js"
+t = strings[lang]
+papers = d3.json(root + "data/papers.json")
+catalog = d3.json(root + "data/catalog.json")
+themes = Object.keys(t.themeNames)
+decade = y => y ? Math.floor(y / 10) * 10 : null
+
+// Count every (a, b) pair where a and b are values of two (possibly
+// multi-valued, ";"-separated) fields.
+pairs = (rows, fa, fb) => {
+  const m = d3.rollup(rows.flatMap(d => split(fa(d)).flatMap(a => split(fb(d)).map(b => [a, b]))),
+                      v => v.length, p => p[0], p => p[1]);
+  return [...m].flatMap(([a, inner]) => [...inner].map(([b, n]) => ({ a, b, n })));
+}
+heat = (data, xDomain, yDomain, yLabel) => Plot.plot({
+  width: 1000, marginLeft: 240, marginBottom: 70, height: 28 * yDomain.length + 90,
+  x: { domain: xDomain, label: null, tickRotate: -35 },
+  y: { domain: yDomain, label: null, tickFormat: yLabel },
+  color: { scheme: "greens", type: "sqrt" },
+  marks: [
+    Plot.cell(data, { x: "b", y: "a", fill: "n", inset: 0.5, tip: true }),
+    Plot.text(data, { x: "b", y: "a", text: "n", fill: d => d.n > 25 ? "white" : "#1d2420", fontSize: 11 })
+  ]
+})
+htl.html`<p class="lead-sm">${t.findingsIntro}</p>`
+```
+
+```{ojs}
+//| echo: false
+gap = themes.map(th => {
+  const p = papers.filter(d => split(d.themes).includes(th)).length;
+  const ds = catalog.filter(d => split(d.themes).includes(th)).length;
+  return { theme: t.themeNames[th], papers: p, datasets: ds, ratio: p ? ds / p * 10 : 0 };
+}).sort((a, b) => a.ratio - b.ratio)
+htl.html`<h2>${t.evGapTitle}</h2><p>${t.evGapText}</p>`
+```
+
+```{ojs}
+//| echo: false
+Plot.plot({
+  width: 1000, marginLeft: 240, height: 340,
+  x: { label: t.evGapAxis, grid: true },
+  y: { domain: gap.map(d => d.theme), label: null },
+  marks: [
+    Plot.barX(gap, { y: "theme", x: "ratio", fill: "#b5793e", tip: true,
+                     title: d => `${d.theme}\n${d.papers} ${t.paperResults} · ${d.datasets} ${t.results}` }),
+    Plot.text(gap, { y: "theme", x: "ratio", text: d => `${d.papers} · ${d.datasets}`, dx: 6, textAnchor: "start", fontSize: 11 }),
+    Plot.ruleX([0])
+  ]
+})
+```
+
+```{ojs}
+//| echo: false
+withSector = papers.filter(d => split(d.sectors).length)
+sectorData = pairs(withSector, d => d.themes, d => d.sectors)
+sectorOrder = d3.groupSort(sectorData, v => -d3.sum(v, d => d.n), d => d.b)
+htl.html`<h2>${t.evSectorTitle}</h2><p>${t.evSectorText.replace("{n}", withSector.length).replace("{total}", papers.length)}</p>`
+```
+
+```{ojs}
+//| echo: false
+heat(sectorData, sectorOrder, themes, d => t.themeNames[d])
+```
+
+```{ojs}
+//| echo: false
+decadeData = pairs(papers, d => d.themes, d => d.year ? String(decade(d.year)) + "s" : "")
+decades = [...new Set(papers.map(d => decade(d.year)).filter(Boolean))].sort().map(d => d + "s")
+htl.html`<h2>${t.evDecadeTitle}</h2><p>${t.evDecadeText}</p>`
+```
+
+```{ojs}
+//| echo: false
+heat(decadeData, decades, themes, d => t.themeNames[d])
+```
+
+```{ojs}
+//| echo: false
+taxaData = pairs(papers, d => d.taxa, d => d.themes)
+taxaOrder = d3.groupSort(taxaData, v => -d3.sum(v, d => d.n), d => d.a).slice(0, 16)
+htl.html`<h2>${t.evTaxaTitle}</h2><p>${t.evTaxaText}</p>`
+```
+
+```{ojs}
+//| echo: false
+heat(taxaData.filter(d => taxaOrder.includes(d.a)).map(d => ({ a: d.a, b: t.themeNames[d.b], n: d.n })),
+     themes.map(th => t.themeNames[th]), taxaOrder, d => d)
+```
+
+```{ojs}
+//| echo: false
+htl.html`<p class="photo-note">${t.evNote}</p>`
+```

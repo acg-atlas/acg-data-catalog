@@ -1,0 +1,18 @@
+---
+title: "Hallazgos"
+description: "Qué se sabe y qué falta: mapa de evidencia de la investigación en Área de Conservación Guanacaste por tema, sector, década y taxón."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://acg-atlas.pages.dev/es/findings">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/findings">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/es/findings">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/findings">
+---
+
+```{ojs}
+//| echo: false
+lang = "es"
+root = "../"
+```
+
+{{< include ../_findings.qmd >}}
