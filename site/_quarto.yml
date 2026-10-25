@@ -38,6 +38,8 @@ website:
         text: Contribute
       - href: about.qmd
         text: About
+      - href: faq.qmd
+        text: FAQ
     right:
       - href: es/index.qmd
         text: Español
