@@ -32,6 +32,8 @@ website:
             text: Search papers
           - href: papers-table.qmd
             text: All papers (table)
+      - href: findings.qmd
+        text: Findings
       - href: contribute.qmd
         text: Contribute
       - href: about.qmd
