@@ -6920,4 +6920,78 @@
   themes: Populations & communities; Ecosystem processes
   taxa: Plantae
   added: '2026-10-24'
+- id: 10.5061/dryad.ttdz08kzj
+  doi: 10.5061/dryad.ttdz08kzj
+  review: approved
+  featured: false
+  category: dataset
+  title: 'Beyond leaf habit: generalities in plant function across 97 tropical dry
+    forest tree species'
+  creators: Vargas G., German; Brodribb, Tim J.; Dupuy, Juan M.; González‐M., Roy;
+    Hulshof, Catherine M.; Medvigy, David; Allerton, Tristan A. P.; Pizano, Camila;
+    Salgado‐Negret, Beatriz; Schwartz, Naomi B.; Van Bloem, Skip J.; Waring, Bonnie
+    G.; Powers, Jennifer S.
+  year: 2021
+  publisher: Dryad
+  url: https://doi.org/10.5061/dryad.ttdz08kzj
+  resource_type: dataset
+  source: submission
+  relevance: check
+  relevance_reason: submitted via form
+  sectors: ''
+  added: '2026-10-26'
+- id: 10.5061/dryad.2ngf1vhnr
+  doi: 10.5061/dryad.2ngf1vhnr
+  review: approved
+  featured: false
+  category: dataset
+  title: 'Data from: Trait‐based signatures of cloud base height in a tropical cloud
+    forest'
+  creators: Hulshof, Catherine; Waring, Bonnie G.; Powers, Jennifer S.; Harrison,
+    Susan P.
+  year: 2021
+  publisher: Dryad
+  url: https://doi.org/10.5061/dryad.2ngf1vhnr
+  resource_type: dataset
+  source: submission
+  relevance: check
+  relevance_reason: submitted via form
+  sectors: ''
+  added: '2026-10-26'
+- id: 10.5061/dryad.v15dv41vf
+  doi: 10.5061/dryad.v15dv41vf
+  review: approved
+  featured: false
+  category: dataset
+  title: Soil biogeochemistry across Central and South American tropical dry forests
+  creators: Waring, Bonnie; De Guzman, Mark; Du, Dan; Dupuy, Juan; Gei, Maga; Gutknecht,
+    Jessica; Hulshof, Catherine; Jelinski, Nicolas; Margenot, Andrew; Medvigy, David;
+    Pizano, Camila; Salgado-Negret, Beatriz; Schwartz, Naomi; Trierweiler, Annette;
+    Van Bloem, Skip; Vargas G, German; Powers, Jennifer
+  year: 2021
+  publisher: Dryad
+  url: https://doi.org/10.5061/dryad.v15dv41vf
+  resource_type: dataset
+  source: submission
+  relevance: check
+  relevance_reason: submitted via form
+  sectors: ''
+  added: '2026-10-26'
+- id: 10.25338/b80642
+  doi: 10.25338/b80642
+  review: approved
+  featured: false
+  category: dataset
+  title: Spatiotemporal data for studying the dry forest-rainforest ecotone in Guanacaste,
+    Costa Rica
+  creators: Walter, Jonathan
+  year: 2023
+  publisher: Dryad
+  url: https://doi.org/10.25338/b80642
+  resource_type: dataset
+  source: submission
+  relevance: check
+  relevance_reason: submitted via form
+  sectors: ''
+  added: '2026-10-26'
 

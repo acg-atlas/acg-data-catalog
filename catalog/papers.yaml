@@ -49520,4 +49520,400 @@
   relevance_reason: found by openalex_fulltext
   sectors: ''
   added: '2026-10-24'
+- id: 10.1111/1365-2435.70328
+  doi: 10.1111/1365-2435.70328
+  openalex_id: W7149292988
+  review: approved
+  title: Forest type and leaf habit mediate thermal and drought tolerance across a
+    tropical elevational gradient
+  year: 2026
+  venue: Functional Ecology
+  authors: Caitlin N. Terry; Perla Ortiz Colin; Jennifer Sarah Powers; German Vargas
+    G.; Adrián Guadamuz; Catherine M. Hulshof
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.1111/1365-2435.70328
+  found_by: submission
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Climate & environmental
+    change
+  added: '2026-10-26'
+- id: 10.1111/btp.70186
+  doi: 10.1111/btp.70186
+  openalex_id: W7134845683
+  review: approved
+  title: 'Trees Inside and Outside of Forests in Guanacaste, Costa Rica: Comparisons
+    Among Conservation Areas, Fencerows, and Urban Parks'
+  year: 2026
+  venue: Biotropica
+  authors: Jennifer Sarah Powers; Finnegan Powers‐Tiffin; Pooja Choksi; Forrest D.
+    Fleischman; German Vargas G.; Justin M. Becknell; Catherine M. Hulshof; Michael
+    J. O’Brien; Daniel Peréz‐Aviles; Damaris Pereira Arias; Naomi B. Schwartz; Chris
+    M. Smith‐Martin; David Medvigy
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.1111/btp.70186
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Conservation, management
+    & people
+  added: '2026-10-26'
+- id: 10.1007/s10533-026-01376-2
+  doi: 10.1007/s10533-026-01376-2
+  openalex_id: W7222841625
+  review: approved
+  title: 'Biogeochemistry meets biogeography: how trait-based approaches can help
+    us understand tropical legumes'
+  year: 2026
+  venue: Biogeochemistry
+  authors: Jennifer Sarah Powers; Sarah A. Batterman; Catherine M. Hulshof
+  type: book-chapter
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.1007/s10533-026-01376-2
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Geology & volcanology
+  added: '2026-10-26'
+- id: 10.3390/plants13172396
+  doi: 10.3390/plants13172396
+  openalex_id: W4401909864
+  review: approved
+  title: Ecotones as Windows into Organismal-to-Biome Scale Responses across Neotropical
+    Forests
+  year: 2024
+  venue: Plants
+  authors: Perla Ortiz Colin; Catherine M. Hulshof
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.mdpi.com/2223-7747/13/17/2396/pdf?version=1724752631
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics
+  added: '2026-10-26'
+- id: 10.1111/1365-2745.14112
+  doi: 10.1111/1365-2745.14112
+  openalex_id: W4377103504
+  review: approved
+  title: Seasonality regulates the structure and biogeochemical impact of ectomycorrhizal
+    fungal communities across environmentally divergent neotropical dry forests
+  year: 2023
+  venue: Journal of Ecology
+  authors: Katilyn V. Beidler; Jennifer Sarah Powers; Juan Manuel Dupuy; Catherine
+    M. Hulshof; David Medvigy; Camila Pizano; Beatriz Salgado‐Negret; Skip J. Van
+    Bloem; German Vargas G.; Bonnie Grace Waring; Peter Gault Kennedy
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2745.14112
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Fungi
+  themes: Species interactions; Populations & communities; Ecosystem processes
+  added: '2026-10-26'
+- id: 10.1111/nph.17584
+  doi: 10.1111/nph.17584
+  openalex_id: W3173535299
+  review: approved
+  title: 'Beyond leaf habit: generalities in plant function across 97 tropical dry
+    forest tree species'
+  year: 2021
+  venue: New Phytologist
+  authors: German Vargas G.; Timothy J. Brodribb; Juan Manuel Dupuy; Roy González‐M.;
+    Catherine M. Hulshof; David Medvigy; Tristan A. P. Allerton; Camila Pizano; Beatriz
+    Salgado‐Negret; Naomi B. Schwartz; Skip J. Van Bloem; Bonnie Grace Waring; Jennifer
+    Sarah Powers
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.osti.gov/servlets/purl/1980636
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes; Climate & environmental change; Conservation, management
+    & people
+  added: '2026-10-26'
+- id: 10.1002/ecm.1453
+  doi: 10.1002/ecm.1453
+  openalex_id: W3145601156
+  review: approved
+  title: Soil biogeochemistry across Central and South American tropical dry forests
+  year: 2021
+  venue: Ecological Monographs
+  authors: Bonnie Grace Waring; Mark E. De Guzman; Dan V. Du; Juan Manuel Dupuy; Maga
+    Gei; Jessica Gutknecht; Catherine M. Hulshof; Nicolas Adam Jelinski; Andrew J.
+    Margenot; David Medvigy; Camila Pizano; Beatriz Salgado‐Negret; Naomi B. Schwartz;
+    Annette M. Trierweiler; Skip J. Van Bloem; German Vargas G.; Jennifer Sarah Powers
+  type: article
+  language: en
+  is_oa: false
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae; Fungi; Microorganisms
+  themes: Populations & communities; Ecosystem processes; Geology & volcanology
+  added: '2026-10-26'
+- id: 10.1002/ajb2.1483
+  doi: 10.1002/ajb2.1483
+  openalex_id: W3034161936
+  review: approved
+  title: Trait‐based signatures of cloud base height in a tropical cloud forest
+  year: 2020
+  venue: American Journal of Botany
+  authors: Catherine M. Hulshof; Bonnie Grace Waring; Jennifer Sarah Powers; Susan
+    P. Harrison
+  type: article
+  language: en
+  is_oa: false
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics; Populations & communities; Ecosystem processes
+  added: '2026-10-26'
+- id: 10.1073/pnas.1813723116
+  doi: 10.1073/pnas.1813723116
+  openalex_id: W2905989873
+  review: approved
+  title: Climate shapes and shifts functional biodiversity in forests worldwide
+  year: 2018
+  venue: Proceedings of the National Academy of Sciences
+  authors: Daniel J. Wieczynski; Brad L. Boyle; Vanessa Buzzard; Sandra Milena Durán;
+    Amanda Henderson; Catherine M. Hulshof; Andrew J. Kerkhoff; Megan C. McCarthy;
+    Sean T. Michaletz; Nathan G. Swenson; Gregory P. Asner; Lisa Patrick Bentley;
+    Brian Joseph Enquist; Van M. Savage
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/6329988
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Climate & environmental
+    change
+  added: '2026-10-26'
+- id: 10.1038/s41598-017-18525-1
+  doi: 10.1038/s41598-017-18525-1
+  openalex_id: W2781555546
+  review: approved
+  title: Contrasting patterns of leaf trait variation among and within species during
+    tropical dry forest succession in Costa Rica
+  year: 2018
+  venue: Scientific Reports
+  authors: Géraldine Derroire; Jennifer Sarah Powers; Catherine M. Hulshof; Luis E.
+    Cárdenas Varela; John Robert Healey
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.nature.com/articles/s41598-017-18525-1.pdf
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Succession & restoration
+  added: '2026-10-26'
+- id: 10.1088/1748-9326/aa5968
+  doi: 10.1088/1748-9326/aa5968
+  openalex_id: W2573991080
+  review: approved
+  title: Will seasonally dry tropical forests be sensitive or resistant to future
+    changes in rainfall regimes?
+  year: 2017
+  venue: Environmental Research Letters
+  authors: Kara Allen; Juan Manuel Dupuy; Maria Gabriela Gei; Catherine M. Hulshof;
+    David Medvigy; Camila Pizano; Beatriz Salgado‐Negret; Christina M. Smith; Annette
+    M. Trierweiler; Skip J. Van Bloem; Bonnie Grace Waring; Xiangtao Xu; Jennifer
+    Sarah Powers
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://iopscience.iop.org/article/10.1088/1748-9326/aa5968/pdf
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Microorganisms
+  themes: Populations & communities; Climate & environmental change
+  added: '2026-10-26'
+- id: 10.1890/11-0740.1
+  doi: 10.1890/11-0740.1
+  openalex_id: W2169321913
+  review: approved
+  title: 'Interannual variability of growth and reproduction in Bursera simaruba:
+    the role of allometry and resource variability'
+  year: 2011
+  venue: Ecology
+  authors: Catherine M. Hulshof; James Stegen; Nathan G. Swenson; Carolyn A. F. Enquist;
+    Brian Joseph Enquist
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.17615/88kr-7542
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior; Populations & communities
+  added: '2026-10-26'
+- id: 10.1111/j.1365-2435.2009.01614.x
+  doi: 10.1111/j.1365-2435.2009.01614.x
+  openalex_id: W2115959469
+  review: approved
+  title: 'Variation in leaf functional trait values within and across individuals
+    and species: an example from a Costa Rican dry forest'
+  year: 2009
+  venue: Functional Ecology
+  authors: Catherine M. Hulshof; Nathan G. Swenson
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-2435.2009.01614.x
+  found_by: submission
+  relevance: likely
+  relevance_reason: found by submission
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes
+  added: '2026-10-26'
+- id: 10.1073/pnas.0600550103
+  doi: 10.1073/pnas.0600550103
+  openalex_id: W2040488316
+  review: approved
+  title: Barcoding helps biodiversity fly
+  year: 2006
+  venue: Proceedings of the National Academy of Sciences
+  authors: Edward Allen Herre
+  type: article
+  language: en
+  is_oa: false
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; found by openalex_core;
+    openalex_fulltext
+  sectors: ''
+  taxa: Diptera
+  themes: Taxonomy & systematics; Evolution & genetics; Populations & communities
+  added: '2026-10-26'
+- id: 10.22541/authorea.15010899/v1
+  doi: 10.22541/authorea.15010899/v1
+  openalex_id: W7223197481
+  review: approved
+  title: Modern monsoonal recharge connects shallow groundwater to older, deeper hyperalkaline
+    circulation in the Santa Elena Ophiolite of Costa Rica
+  year: 2026
+  authors: Alexandra May; Ricardo Sánchez Murillo; María Marta Chavarría; Christian
+    Birkel; Daniel  Emilio Martínez; Esteban Gazel; Matthew O. Schrenk
+  type: preprint
+  is_oa: true
+  oa_url: https://www.authorea.com/doi/pdf/10.22541/authorea.15010899/v1
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Ecosystem processes; Geology & volcanology
+  added: '2026-10-26'
+- id: 10.1111/mam.70051
+  doi: 10.1111/mam.70051
+  openalex_id: W7222511290
+  review: approved
+  title: Comparing Population Census Methods for Howler Monkeys ( Alouatta palliata
+    ) in a Fragmented Rainforest
+  year: 2026
+  venue: Mammal Review
+  authors: Laura Bolt; Christopher Eric Johnson; Colin Hadley; LaRoy Brandt; Michael
+    D. Wasserman; Amy Schreier
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mam.70051
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior; Populations & communities; Climate & environmental
+    change
+  added: '2026-10-26'
+- id: 10.1016/j.epsl.2015.06.014
+  doi: 10.1016/j.epsl.2015.06.014
+  openalex_id: W647503568
+  review: approved
+  title: Volcanic ash fall events identified using principal component analysis of
+    a high-resolution speleothem trace element dataset
+  year: 2015
+  venue: Earth and Planetary Science Letters
+  authors: Robert A. Jamieson; James U.L. Baldini; Amy Benoit Frappier; Wolfgang Müller
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://durham-repository.worktribe.com/file/1405863/1/Accepted%20Journal%20Article
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Geology & volcanology
+  added: '2026-10-26'
+- id: W2521845582
+  openalex_id: W2521845582
+  review: approved
+  title: The effects of habitat disturbance, host traits, and host physiology on patterns
+    of gastrointestinal parasite infection in black howler monkeys (Alouatta pigra)
+  year: 2015
+  venue: Illinois Digital Environment for Access to Learning and Scholarship (University
+    of Illinois at Urbana-Champaign)
+  authors: Rodolfo Martínez‐Mota
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.ideals.illinois.edu/items/79675/bitstreams/208940/data.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior; Species interactions; Populations & communities
+  added: '2026-10-26'
+- id: W2290513534
+  openalex_id: W2290513534
+  review: excluded
+  title: ESTUDIO TAXONÓMICO DEL GÉNERO Bursera JACQ. EX L. (BURSERACEAE) EN VENEZUELA
+  year: 2014
+  venue: Ernstia
+  authors: Mercedes Castro
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://saber.ucv.ve/ojs/index.php/rev_erns/article/download/6044/5834
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics
+  added: '2026-10-26'
 
