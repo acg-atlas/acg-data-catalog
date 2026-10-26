@@ -5,10 +5,10 @@ title: "All data"
 description: "Every research dataset from Área de Conservación Guanacaste in one table, downloadable as CSV, BibTeX or RIS."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://acg-atlas.pages.dev/browse">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/browse">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/datos">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/datos">
+    <link rel="canonical" href="https://acg-atlas.org/browse">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.org/browse">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.org/datos">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.org/datos">
 ---
 
 ```{ojs}

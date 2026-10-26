@@ -4,10 +4,10 @@ title: "Contribuir"
 description: "Envíe un conjunto de datos o sugiera una publicación sobre investigación en Área de Conservación Guanacaste, Costa Rica."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://acg-atlas.pages.dev/contribuir">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/contribute">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/contribuir">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/contribuir">
+    <link rel="canonical" href="https://acg-atlas.org/contribuir">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.org/contribute">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.org/contribuir">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.org/contribuir">
 ---
 
 {{< include _contribute.qmd >}}

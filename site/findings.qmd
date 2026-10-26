@@ -5,10 +5,10 @@ title: "Findings"
 description: "Important findings from 40 years of research in Área de Conservación Guanacaste, and an evidence map of what is missing."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://acg-atlas.pages.dev/findings">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/findings">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/hallazgos">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/hallazgos">
+    <link rel="canonical" href="https://acg-atlas.org/findings">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.org/findings">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.org/hallazgos">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.org/hallazgos">
 ---
 
 ```{ojs}

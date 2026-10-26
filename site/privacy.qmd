@@ -5,10 +5,10 @@ title: "Privacy and terms"
 description: "What the ACG Atlas collects (almost nothing), how submissions are handled, and why entries may contain mistakes."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://acg-atlas.pages.dev/privacy">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/privacy">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/privacidad">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/privacidad">
+    <link rel="canonical" href="https://acg-atlas.org/privacy">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.org/privacy">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.org/privacidad">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.org/privacidad">
 ---
 
 **The short version.** I don't track you. If you submit a dataset or a paper, your email (if you give one) stays private and is erased once I've reviewed your submission. The Atlas is put together from many sources, partly automatically, so it will contain mistakes. Always check the original before relying on it.
