@@ -5,10 +5,10 @@ title: "Frequently asked questions"
 description: "Answers about the ACG Atlas, a free index of research datasets and papers from Área de Conservación Guanacaste (ACG), Costa Rica: what it covers, how to search it, how to cite and how to add your work."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://acg-atlas.pages.dev/faq">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/faq">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/preguntas-frecuentes">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/preguntas-frecuentes">
+    <link rel="canonical" href="https://acg-atlas.org/faq">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.org/faq">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.org/preguntas-frecuentes">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.org/preguntas-frecuentes">
 ---
 
 <!-- Each "##" question and the text under it becomes a schema.org FAQPage entry (see _seo.R).

@@ -3,7 +3,8 @@ main = "src/index.js"
 compatibility_date = "2026-10-01"
 
 [vars]
-ALLOWED_ORIGIN = "https://acg-atlas.pages.dev"   # change to the final site URL
+# Sites allowed to call the Worker (comma-separated): the domain, www, and pages.dev
+ALLOWED_ORIGIN = "https://acg-atlas.org,https://www.acg-atlas.org,https://acg-atlas.pages.dev"
 
 [[d1_databases]]
 binding = "DB"

@@ -13,7 +13,8 @@
 //                               approved/excluded also erases the contact email
 //
 // Bindings (wrangler.toml / secrets): DB (D1), ADMIN_TOKEN, TURNSTILE_SECRET,
-// ALLOWED_ORIGIN (the catalog site, e.g. https://acg-atlas.pages.dev).
+// ALLOWED_ORIGIN (the catalog site addresses, comma-separated, e.g.
+// "https://acg-atlas.org,https://acg-atlas.pages.dev").
 
 const SECTORS = [
   "Santa Rosa", "Murciélago", "Pocosol", "Junquillal", "Horizontes",
@@ -67,9 +68,19 @@ async function verifyTurnstile(token, secret, ip, fetchImpl = fetch) {
   return out.success === true;
 }
 
+// ALLOWED_ORIGIN may list several sites, comma-separated (the custom domain and
+// its pages.dev address); the browser gets back the one it asked from.
+export function pickOrigin(request, env) {
+  const allowed = (env.ALLOWED_ORIGIN || "").split(",").map((s) => s.trim()).filter(Boolean);
+  if (!allowed.length) return "*";
+  const origin = request.headers.get("Origin");
+  return allowed.includes(origin) ? origin : allowed[0];
+}
+
 function cors(env) {
   return {
-    "Access-Control-Allow-Origin": env.ALLOWED_ORIGIN || "*",
+    "Access-Control-Allow-Origin": env.CORS_ORIGIN || "*",
+    "Vary": "Origin",
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type, Authorization",
   };
@@ -118,6 +129,7 @@ async function addSubmission(env, doi, body, kind, fetchImpl) {
 
 export default {
   async fetch(request, env, ctx, fetchImpl = fetch) {
+    env = { ...env, CORS_ORIGIN: pickOrigin(request, env) };   // per request, for cors()
     const url = new URL(request.url);
     if (request.method === "OPTIONS") return new Response(null, { headers: cors(env) });
 

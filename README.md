@@ -1,5 +1,7 @@
 # ACG Atlas
 
+**Live site: <https://acg-atlas.org>** (Spanish by default; English at <https://acg-atlas.org/en/>)
+
 A searchable, bilingual (EN/ES) index of research from Área de Conservación Guanacaste, Costa Rica, in two parts: **data** (publicly available datasets, `catalog/datasets.yaml`) and **publications** (papers about research done in ACG, `catalog/papers.yaml`). The Atlas **does not host anything**: every entry points to a dataset or paper in a permanent home with its own DOI, license, and citation.
 
 ## How it works

@@ -4,10 +4,10 @@ title: "Buscar publicaciones"
 description: "Busque publicaciones científicas sobre investigación en Área de Conservación Guanacaste, Costa Rica, por autor, tema, taxón, sector y década."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://acg-atlas.pages.dev/publicaciones">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/papers">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/publicaciones">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/publicaciones">
+    <link rel="canonical" href="https://acg-atlas.org/publicaciones">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.org/papers">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.org/publicaciones">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.org/publicaciones">
 ---
 
 ```{ojs}

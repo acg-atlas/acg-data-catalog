@@ -134,3 +134,15 @@ test("a list of DOIs is capped and needs the captcha", async () => {
     noCaptcha, {}, fakeFetch);
   assert.equal(r.status, 403);
 });
+
+test("CORS answers each allowed site with its own address", async () => {
+  const e = { ...env(), ALLOWED_ORIGIN: "https://acg-atlas.org, https://acg-atlas.pages.dev" };
+  const from = (origin) => worker.fetch(new Request("https://w.example/api/submit",
+    { method: "OPTIONS", headers: { Origin: origin } }), e, {}, fakeFetch);
+  assert.equal((await from("https://acg-atlas.pages.dev")).headers.get("Access-Control-Allow-Origin"),
+    "https://acg-atlas.pages.dev");
+  assert.equal((await from("https://acg-atlas.org")).headers.get("Access-Control-Allow-Origin"),
+    "https://acg-atlas.org");
+  assert.equal((await from("https://evil.example")).headers.get("Access-Control-Allow-Origin"),
+    "https://acg-atlas.org");
+});

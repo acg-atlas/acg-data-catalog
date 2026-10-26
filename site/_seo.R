@@ -6,7 +6,7 @@
 #     every approved dataset on the "All data" pages, for Google Dataset Search,
 #     and a FAQPage on the FAQ pages
 #   - llms.txt, a plain-text site guide for AI assistants
-base <- "https://acg-atlas.pages.dev/"
+base <- "https://acg-atlas.org/"
 `%||%` <- function(a, b) if (is.null(a)) b else a
 
 # sitemap -----------------------------------------------------------------------

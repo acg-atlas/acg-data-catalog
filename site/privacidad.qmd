@@ -4,10 +4,10 @@ title: "Privacidad y condiciones"
 description: "Qué recopila el ACG Atlas (casi nada), cómo se manejan los envíos y por qué las entradas pueden tener errores."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://acg-atlas.pages.dev/privacidad">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/privacy">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/privacidad">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/privacidad">
+    <link rel="canonical" href="https://acg-atlas.org/privacidad">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.org/privacy">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.org/privacidad">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.org/privacidad">
 ---
 
 **En resumen.** No le rastreo. Si envía un conjunto de datos o una publicación, su correo (si lo da) se mantiene privado y se borra una vez revisado el envío. El Atlas se arma a partir de muchas fuentes, en parte de forma automática, así que tendrá errores. Verifique siempre la fuente original antes de usarla.

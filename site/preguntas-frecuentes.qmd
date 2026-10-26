@@ -4,10 +4,10 @@ title: "Preguntas frecuentes"
 description: "Respuestas sobre el ACG Atlas, un índice gratuito de conjuntos de datos y publicaciones de investigación del Área de Conservación Guanacaste (ACG), Costa Rica: qué incluye, cómo buscar, cómo citar y cómo agregar su trabajo."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://acg-atlas.pages.dev/preguntas-frecuentes">
-    <link rel="alternate" hreflang="en" href="https://acg-atlas.pages.dev/faq">
-    <link rel="alternate" hreflang="es" href="https://acg-atlas.pages.dev/preguntas-frecuentes">
-    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.pages.dev/preguntas-frecuentes">
+    <link rel="canonical" href="https://acg-atlas.org/preguntas-frecuentes">
+    <link rel="alternate" hreflang="en" href="https://acg-atlas.org/faq">
+    <link rel="alternate" hreflang="es" href="https://acg-atlas.org/preguntas-frecuentes">
+    <link rel="alternate" hreflang="x-default" href="https://acg-atlas.org/preguntas-frecuentes">
 ---
 
 <!-- Cada pregunta "##" y su texto se convierten en una entrada schema.org FAQPage (ver _seo.R). -->
