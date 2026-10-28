@@ -19,9 +19,9 @@ A searchable, bilingual (EN/ES) index of research from Área de Conservación Gu
  Web of Science (local, private) ─► scripts/import_wos.R ─┘
 ```
 
-- **`catalog/datasets.yaml`** is the only file humans edit. Each entry has `review: pending | approved | excluded`. Only `approved` entries are published. `excluded` entries are never re-queued.
-- **The pipeline never overwrites an entry.** It only appends new pending ones, so your edits to titles, sectors, themes, and notes are safe.
-- **Merging a pull request is the review.** Pending entries can stay pending across PRs.
+- **`catalog/datasets.yaml`** is the only file to edit. Each entry has `review: pending | approved | excluded`. Only `approved` entries are published. `excluded` entries are never re-queued.
+- **The pipeline never overwrites entries.** It only appends new pending ones, so edits to titles, sectors, themes, and notes are stable.
+- **Merging a pull request is the review.** Pending entries can stay pending across pull requests.
 
 ## Reviewing the queue
 
@@ -48,31 +48,6 @@ testthat::test_dir("tests/testthat")
 Run `renv::init()` once to create `renv.lock` and commit it, so CI and collaborators use the same package versions.
 
 To preview the site: `quarto preview site`.
-
-## One-time setup
-
-1. **GitHub.** Create the `acg-atlas` organization and push this repo. Put your username in `.github/CODEOWNERS` and protect `main` (require a PR and code-owner review).
-2. **Cloudflare D1 and Worker** (from `worker/`):
-   ```sh
-   npm install
-   npx wrangler d1 create acg-submissions        # paste the id into wrangler.toml
-   npx wrangler d1 execute acg-submissions --remote --file=schema.sql
-   npx wrangler secret put ADMIN_TOKEN           # long random string
-   npx wrangler secret put TURNSTILE_SECRET      # from Cloudflare Turnstile
-   npx wrangler deploy
-   ```
-   Then put the Worker URL and the Turnstile **site** key in `site/_contribute.qmd`.
-3. **Cloudflare Pages.** Create a Pages project named `acg-atlas`.
-4. **GitHub secrets:** `WORKER_URL`, `WORKER_ADMIN_TOKEN` (the same value as `ADMIN_TOKEN`), `OPENALEX_API_KEY` (free at openalex.org), `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`.
-
-## Privacy
-
-Submitter emails stay in D1. The admin endpoint never returns them, because its output lands in a public pull request. To read the emails:
-
-```sh
-npx wrangler d1 execute acg-submissions --remote \
-  --command "SELECT doi, contact FROM submissions"
-```
 
 ## Boundary
 
