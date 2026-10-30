@@ -83,6 +83,7 @@ function cors(env) {
     "Vary": "Origin",
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type, Authorization",
+    ...(env.LIMIT_DIAG ? { "X-Atlas-Limit": env.LIMIT_DIAG } : {}),
   };
 }
 
@@ -108,10 +109,16 @@ function isAdmin(request, env) {
 }
 
 // Per-visitor rate limits (Cloudflare rate-limiting bindings; absent in tests)
-async function overLimit(limiter, request) {
-  if (!limiter) return false;
-  const { success } = await limiter.limit({ key: request.headers.get("CF-Connecting-IP") || "unknown" });
-  return !success;
+// Diagnostic (temporary, while checking that limits work on Cloudflare): the
+// reply's X-Atlas-Limit header says which limiter ran, whether Cloudflare
+// attached it, and its answer. No addresses or secrets.
+async function overLimit(limiter, request, env, name) {
+  if (!limiter) { env.LIMIT_DIAG = `${name}=missing`; return false; }
+  let res;
+  try { res = await limiter.limit({ key: request.headers.get("CF-Connecting-IP") || "unknown" }); }
+  catch (e) { env.LIMIT_DIAG = `${name}=error:${String(e?.message || e).slice(0, 80)}`; return false; }
+  env.LIMIT_DIAG = `${name}=present;success=${res?.success};keys=${Object.keys(res || {}).join(",")}`;
+  return !res?.success;
 }
 
 const clip = (s, n) => (typeof s === "string" ? s.trim().slice(0, n) : null);
@@ -156,7 +163,7 @@ export default {
     // -- Public: preview -------------------------------------------------
     if (url.pathname === "/api/resolve" && request.method === "GET") {
       // Each lookup costs a doi.org request: cap them so nobody can drain the daily quota
-      if (await overLimit(env.RESOLVE_LIMITER, request)) return json({ ok: false, error: "rate_limited" }, 429, env);
+      if (await overLimit(env.RESOLVE_LIMITER, request, env, "resolve")) return json({ ok: false, error: "rate_limited" }, 429, env);
       const doi = normalizeDoi(url.searchParams.get("doi"));
       if (!doi) return json({ ok: false, error: "invalid_doi" }, 400, env);
       const existing = await env.DB.prepare(
@@ -168,7 +175,7 @@ export default {
 
     // -- Public: submit --------------------------------------------------
     if (url.pathname === "/api/submit" && request.method === "POST") {
-      if (await overLimit(env.SUBMIT_LIMITER, request)) return json({ ok: false, error: "rate_limited" }, 429, env);
+      if (await overLimit(env.SUBMIT_LIMITER, request, env, "submit")) return json({ ok: false, error: "rate_limited" }, 429, env);
       let body;
       try { body = await request.json(); } catch { return json({ ok: false, error: "bad_json" }, 400, env); }
 
@@ -208,7 +215,7 @@ export default {
     // A few tries a minute per visitor: enough for the GitHub Actions, far
     // too few to guess the token
     if (url.pathname === "/api/pending" || url.pathname === "/api/status") {
-      if (await overLimit(env.ADMIN_LIMITER, request)) return json({ ok: false, error: "rate_limited" }, 429, env);
+      if (await overLimit(env.ADMIN_LIMITER, request, env, "admin")) return json({ ok: false, error: "rate_limited" }, 429, env);
     }
     if (url.pathname === "/api/pending" && request.method === "GET") {
       if (!isAdmin(request, env)) return json({ ok: false }, 401, env);
