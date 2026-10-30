@@ -13,14 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LANG: C.UTF-8
-      WORKER_URL: ${{ secrets.WORKER_URL }}
-      WORKER_ADMIN_TOKEN: ${{ secrets.WORKER_ADMIN_TOKEN }}
+    # Secrets go only to the step that needs them, never to the whole job
     steps:
-      - uses: actions/checkout@v4
-      - uses: r-lib/actions/setup-r@v2
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4
+      - uses: r-lib/actions/setup-r@f9a764fea8d5c63df6ef9a5c7795bf7deb5d7e05  # v2
         with:
           use-public-rspm: true
-      - uses: r-lib/actions/setup-r-dependencies@v2
+      - uses: r-lib/actions/setup-r-dependencies@f9a764fea8d5c63df6ef9a5c7795bf7deb5d7e05  # v2
         with:
           dependencies: '"hard"'
       - run: Rscript scripts/build_site_data.R
@@ -32,12 +31,15 @@ jobs:
           Rscript -e 'writeLines(.libPaths()[1], "renv-lib.txt")'
           echo "R_LIBS=$(cat renv-lib.txt)" >> "$GITHUB_ENV"
           cat renv-lib.txt
-      - uses: quarto-dev/quarto-actions/setup@v2
+      - uses: quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b  # v2
       - run: quarto render site
-      - uses: cloudflare/wrangler-action@v3
+      - uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd  # v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy site/_site --project-name=acg-atlas
       - name: Sync submission statuses to the Worker
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          WORKER_ADMIN_TOKEN: ${{ secrets.WORKER_ADMIN_TOKEN }}
         run: Rscript scripts/push_statuses.R

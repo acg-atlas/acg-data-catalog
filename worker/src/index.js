@@ -93,9 +93,25 @@ function json(data, status, env) {
   });
 }
 
+// Compares every byte whatever the input, so response times reveal nothing
+// about how much of a guessed token was right.
+export function sameSecret(a, b) {
+  const x = new TextEncoder().encode(a), y = new TextEncoder().encode(b);
+  let diff = x.length ^ y.length;
+  for (let i = 0; i < Math.max(x.length, y.length); i++) diff |= (x[i] ?? 0) ^ (y[i] ?? 0);
+  return diff === 0;
+}
+
 function isAdmin(request, env) {
   const h = request.headers.get("Authorization") || "";
-  return env.ADMIN_TOKEN && h === `Bearer ${env.ADMIN_TOKEN}`;
+  return Boolean(env.ADMIN_TOKEN) && sameSecret(h, `Bearer ${env.ADMIN_TOKEN}`);
+}
+
+// Per-visitor rate limits (Cloudflare rate-limiting bindings; absent in tests)
+async function overLimit(limiter, request) {
+  if (!limiter) return false;
+  const { success } = await limiter.limit({ key: request.headers.get("CF-Connecting-IP") || "unknown" });
+  return !success;
 }
 
 const clip = (s, n) => (typeof s === "string" ? s.trim().slice(0, n) : null);
@@ -135,6 +151,8 @@ export default {
 
     // -- Public: preview -------------------------------------------------
     if (url.pathname === "/api/resolve" && request.method === "GET") {
+      // Each lookup costs a doi.org request: cap them so nobody can drain the daily quota
+      if (await overLimit(env.RESOLVE_LIMITER, request)) return json({ ok: false, error: "rate_limited" }, 429, env);
       const doi = normalizeDoi(url.searchParams.get("doi"));
       if (!doi) return json({ ok: false, error: "invalid_doi" }, 400, env);
       const existing = await env.DB.prepare(
@@ -146,17 +164,14 @@ export default {
 
     // -- Public: submit --------------------------------------------------
     if (url.pathname === "/api/submit" && request.method === "POST") {
-      // Rate limit per visitor (Cloudflare rate-limiting binding; absent in tests)
-      if (env.SUBMIT_LIMITER) {
-        const ip = request.headers.get("CF-Connecting-IP") || "unknown";
-        const { success } = await env.SUBMIT_LIMITER.limit({ key: ip });
-        if (!success) return json({ ok: false, error: "rate_limited" }, 429, env);
-      }
+      if (await overLimit(env.SUBMIT_LIMITER, request)) return json({ ok: false, error: "rate_limited" }, 429, env);
       let body;
       try { body = await request.json(); } catch { return json({ ok: false, error: "bad_json" }, 400, env); }
 
       // A list of DOIs: one captcha for the whole list, one answer per DOI
       if (Array.isArray(body.dois)) {
+        // Refuse huge lists before doing any work on them
+        if (body.dois.length > 8 * MAX_BATCH) return json({ ok: false, error: "too_many", max: MAX_BATCH }, 400, env);
         const dois = [...new Set(body.dois.map(normalizeDoi).filter(Boolean))];
         if (!dois.length) return json({ ok: false, error: "invalid_doi" }, 400, env);
         if (dois.length > MAX_BATCH) return json({ ok: false, error: "too_many", max: MAX_BATCH }, 400, env);
@@ -186,6 +201,11 @@ export default {
     }
 
     // -- Admin -----------------------------------------------------------
+    // A few tries a minute per visitor: enough for the GitHub Actions, far
+    // too few to guess the token
+    if (url.pathname === "/api/pending" || url.pathname === "/api/status") {
+      if (await overLimit(env.ADMIN_LIMITER, request)) return json({ ok: false, error: "rate_limited" }, 429, env);
+    }
     if (url.pathname === "/api/pending" && request.method === "GET") {
       if (!isAdmin(request, env)) return json({ ok: false }, 401, env);
       const { results } = await env.DB.prepare(
@@ -197,7 +217,9 @@ export default {
 
     if (url.pathname === "/api/status" && request.method === "POST") {
       if (!isAdmin(request, env)) return json({ ok: false }, 401, env);
-      const { updates = [] } = await request.json();
+      let updates;
+      try { ({ updates = [] } = await request.json()); } catch { return json({ ok: false, error: "bad_json" }, 400, env); }
+      if (!Array.isArray(updates)) return json({ ok: false, error: "bad_json" }, 400, env);
       const valid = updates.filter((u) => normalizeDoi(u.doi) &&
         ["approved", "excluded", "pending"].includes(u.status));
       if (valid.length) {

@@ -17,25 +17,27 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LANG: C.UTF-8
-      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-      WORKER_URL: ${{ secrets.WORKER_URL }}
-      WORKER_ADMIN_TOKEN: ${{ secrets.WORKER_ADMIN_TOKEN }}
+    # Secrets go only to the step that needs them, never to the whole job
     steps:
-      - uses: actions/checkout@v4
-      - uses: r-lib/actions/setup-r@v2
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4
+      - uses: r-lib/actions/setup-r@f9a764fea8d5c63df6ef9a5c7795bf7deb5d7e05  # v2
         with:
           use-public-rspm: true
-      - uses: r-lib/actions/setup-r-dependencies@v2
+      - uses: r-lib/actions/setup-r-dependencies@f9a764fea8d5c63df6ef9a5c7795bf7deb5d7e05  # v2
         with:
           dependencies: '"hard"'
       - name: Run pipeline
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          WORKER_ADMIN_TOKEN: ${{ secrets.WORKER_ADMIN_TOKEN }}
         run: |
           Rscript -e 'targets::tar_make()'
           Rscript scripts/update_queue.R
           Rscript scripts/import_copa.R
           Rscript scripts/update_links.R
           cat copa_summary.md >> review_summary.md
-      - uses: peter-evans/create-pull-request@v7
+      - uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676  # v7
         with:
           branch: harvest/weekly
           title: "Catalog review queue"

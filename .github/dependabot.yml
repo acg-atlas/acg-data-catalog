@@ -1,0 +1,15 @@
+# Proposes PRs when the tools used by the GitHub workflows (pinned to exact
+# commits) or the Worker's npm packages have new versions or security fixes.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
+  - package-ecosystem: npm
+    directory: /worker
+    schedule:
+      interval: monthly
