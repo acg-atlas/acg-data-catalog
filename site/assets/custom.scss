@@ -68,16 +68,18 @@ $latin-ext: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)); gap: .75rem; margin-top: 1.75rem; }
 .stat { background: rgba(255, 255, 255, .12); border-radius: .75rem; padding: .9rem 1rem; }
 .stat b { display: block; font-size: 1.7rem; line-height: 1.1; color: #fff; }
-.stat span { font-size: .85rem; color: rgba(255, 255, 255, .85); }
+.stat { min-width: 0; }   // let long labels wrap instead of pushing the row wider
+.stat span { font-size: .85rem; color: rgba(255, 255, 255, .85); overflow-wrap: break-word; hyphens: auto; }
 
 // Data / Publications panels: same layout, different accent
-.panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 1.25rem; margin-bottom: 1.25rem; }
+.panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(19rem, 100%), 1fr)); gap: 1.25rem; margin-bottom: 1.25rem; }
 .panel {
   border: 1px solid rgba(0, 0, 0, .08); border-radius: 1rem; padding: 1.4rem 1.5rem; background: #fff;
   border-top: 5px solid $leaf;
   h2 { margin: 0 0 .3rem; font-size: 1.5rem; color: $forest; }
   p { color: $gray-700; margin: 0 0 1rem; font-size: .95rem; }
-  .stats { margin-top: 0; grid-template-columns: repeat(3, 1fr); }
+  // three across, or two and one on narrow phones
+  .stats { margin-top: 0; grid-template-columns: repeat(auto-fit, minmax(min(6.5rem, 100%), 1fr)); }
   .stat { background: $sand; }
   .stat b { color: $forest; font-size: 1.45rem; }
   .stat span { color: $gray-700; }
@@ -204,4 +206,6 @@ input[type=text], input[type=search] { border-radius: .5rem; border: 1px solid r
 
 @media (max-width: 576px) {
   .hero { padding: 1.6rem 1.2rem; border-radius: .8rem; }
+  .hero-photo { padding-bottom: 3.6rem; }          // room for a two-line photo credit
+  .photo-credit { left: 1.2rem; text-align: right; }
 }

@@ -1,0 +1,57 @@
+# Is the live site up to date? Runs every Wednesday, after every deploy, and on
+# demand. If the latest deploy failed, a page is down, or the site's papers and
+# datasets don't match catalog/ on main, it opens (or adds to) a GitHub issue
+# assigned to the maintainer, which emails her, and closes that issue once all
+# is well again. The checks themselves are in scripts/check_deploy.mjs.
+name: Deployment check
+
+on:
+  schedule:
+    - cron: "0 13 * * 3"   # Wednesdays 13:00 UTC, after Monday's review PR has had time to merge
+  workflow_run:
+    workflows: ["Deploy site"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  issues: write
+
+concurrency: deploy-check
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      MAINTAINER: catherinehulshof
+      TITLE: "Deployment check failed"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Give a fresh deploy a minute to be served
+        if: github.event_name == 'workflow_run'
+        run: sleep 60
+      - name: Check the latest deploy and the live site
+        id: check
+        continue-on-error: true
+        run: node scripts/check_deploy.mjs
+      - name: Notify (open or update the issue)
+        if: steps.check.outcome == 'failure'
+        run: |
+          printf '\n@%s\n\nRun: %s/%s/actions/runs/%s\n' "$MAINTAINER" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> deploy-check.md
+          open=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body-file deploy-check.md
+          else
+            gh issue create --title "$TITLE" --body-file deploy-check.md --assignee "$MAINTAINER"
+          fi
+          exit 1   # also mark this run as failed
+      - name: Close the issue once all is well
+        if: steps.check.outcome == 'success'
+        run: |
+          for n in $(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "$(cat deploy-check.md)"
+          done
