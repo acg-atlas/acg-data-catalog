@@ -90,7 +90,12 @@ export function toRIS(rows) {
 
 // ---- publications ----------------------------------------------------------
 
-export const paperLink = d => d.doi ? "https://doi.org/" + d.doi : "https://openalex.org/" + d.openalex_id;
+// COPA (ACG's repository) page, for papers that have a public one
+export const copaLink = d => d.copa ? "https://copa.acguanacaste.ac.cr/handle/" + d.copa : null;
+
+// The original: its DOI, else its COPA page (older papers, theses), else OpenAlex
+export const paperLink = d => d.doi ? "https://doi.org/" + d.doi
+  : copaLink(d) || "https://openalex.org/" + d.openalex_id;
 
 // OpenAlex/Crossref types, grouped for the filter (keys into strings.js)
 const typeGroups = {
@@ -103,9 +108,10 @@ export const typeGroup = type => typeGroups[type] || "tOther";
 export const typeOrder = ["tArticle", "tThesis", "tBook", "tPreprint", "tConference", "tOther"];
 
 export function papersCSV(rows) {
-  const cols = ["title", "authors", "year", "venue", "type", "doi", "openalex_id",
+  const cols = ["title", "authors", "year", "venue", "type", "doi", "openalex_id", "copa",
                 "language", "is_oa", "oa_url", "sectors", "taxa", "themes", "datasets", "added"];
-  return "﻿" + [cols.join(","), ...rows.map(r => cols.map(c => csvCell(r[c])).join(","))]
+  const cell = (r, c) => csvCell(c === "copa" ? copaLink(r) : r[c]);
+  return "﻿" + [cols.join(","), ...rows.map(r => cols.map(c => cell(r, c)).join(","))]
     .join("\r\n");
 }
 

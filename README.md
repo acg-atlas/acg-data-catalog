@@ -17,7 +17,10 @@ A searchable, bilingual (EN/ES) index of research from Área de Conservación Gu
                    in catalog/datasets.yaml                          └─► Worker /status (submissions)
  OpenAlex ─► catalog/papers.yaml (pending) ─► site/data/papers.json (approved)
  Web of Science (local, private) ─► scripts/import_wos.R ─┘
+ COPA OAI feed ─► scripts/import_copa.R ─► catalog/papers.yaml (approved)
 ```
+
+- **COPA** (copa.acguanacaste.ac.cr), ACG's own repository, is read weekly through its OAI feed (`scripts/import_copa.R`). Its items are ACG research by definition, so they are approved directly; spot-check them in the weekly PR. Items with a DOI link to the original and to their COPA page; items without one (older papers, theses, reports) link to COPA. Items in COPA's private collection get no COPA link (their pages need a login) and are listed only if they have a DOI. The first import used COPA's CSV export (`Rscript scripts/import_copa.R <export.csv>`), which stays outside this repo.
 
 - **`catalog/datasets.yaml`** is the only file to edit. Each entry has `review: pending | approved | excluded`. Only `approved` entries are published. `excluded` entries are never re-queued.
 - **The pipeline never overwrites entries.** It only appends new pending ones, so edits to titles, sectors, themes, and notes are stable.

@@ -127,6 +127,8 @@ a.chip.used-by:hover { text-decoration: underline; }
 .linked { margin-top: .45rem; font-size: .85rem; color: $gray-700; }
 .linked span { font-weight: 600; margin-right: .3rem; }
 a.chip.oa { background: #e3f0f7; color: #1d5b7a; text-decoration: none; }
+a.chip.copa { background: #e7f1e8; color: $forest; text-decoration: none; }
+a.chip.copa:hover, a.chip.oa:hover { text-decoration: underline; }
 a.chip.oa:hover { text-decoration: underline; }
 .result-count { color: $gray-700; margin: .5rem 0 1rem; }
 .cross-link { margin-left: 1rem; font-size: .9rem; }

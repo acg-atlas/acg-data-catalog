@@ -17,7 +17,7 @@ include-in-header:
 
 **How datasets get here.** Every week the site searches DataCite (which covers Dryad, Zenodo, EDI, Figshare, PANGAEA and more) and GBIF (by the ACG boundary), and researchers can add their own on the [Contribute](contribute.qmd) page. I review every entry before it appears.
 
-**How papers get here.** I searched OpenAlex for ACG place names, then read titles and abstracts. A paper is included if the research was done in ACG (any sector, including the marine one), uses ACG specimens or data, or is mainly about ACG. Records come from OpenAlex (CC0) or Crossref. New papers are found automatically each week, and you can suggest any I missed. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+**How papers get here.** I searched OpenAlex for ACG place names, then read titles and abstracts. A paper is included if the research was done in ACG (any sector, including the marine one), uses ACG specimens or data, or is mainly about ACG. Records come from OpenAlex (CC0) or Crossref. COPA, ACG's own repository, adds many more, including theses and older papers without a DOI; those link to their COPA page. New papers are found automatically each week, and you can suggest any I missed. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
 
 **Mistakes happen.** With more than a thousand entries tagged partly by rules and partly by hand, some will be wrong or missing. If you spot one, please tell me through the [Contribute](contribute.qmd) page or a [GitHub issue](https://github.com/acg-atlas/acg-data-catalog/issues).
 
