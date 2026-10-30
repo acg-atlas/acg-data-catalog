@@ -175,3 +175,12 @@ test("lookups and admin calls are rate limited; bad admin JSON is rejected", asy
   const r = await call(env(), "/api/submit", post({ turnstileToken: "t", dois: huge }));
   assert.equal((await r.json()).error, "too_many");
 });
+
+test("limits still apply when Cloudflare's bindings are hidden (non-enumerable) properties", async () => {
+  const e = env();
+  let n = 0;
+  Object.defineProperty(e, "ADMIN_LIMITER", { value: { limit: async () => ({ success: ++n <= 1 }) }, enumerable: false });
+  const auth = { Authorization: "Bearer s3cret" };
+  assert.equal((await call(e, "/api/pending", { headers: auth })).status, 200);
+  assert.equal((await call(e, "/api/pending", { headers: auth })).status, 429);
+});

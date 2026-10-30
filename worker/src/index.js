@@ -145,7 +145,11 @@ async function addSubmission(env, doi, body, kind, fetchImpl) {
 
 export default {
   async fetch(request, env, ctx, fetchImpl = fetch) {
-    env = { ...env, CORS_ORIGIN: pickOrigin(request, env) };   // per request, for cors()
+    // Per request, for cors(). Layered on top of env, not copied: a copy
+    // ({ ...env }) drops bindings Cloudflare exposes as hidden properties, which
+    // silently switched the rate limits off in production.
+    const origin = pickOrigin(request, env);
+    env = Object.create(env, { CORS_ORIGIN: { value: origin } });
     const url = new URL(request.url);
     if (request.method === "OPTIONS") return new Response(null, { headers: cors(env) });
 
