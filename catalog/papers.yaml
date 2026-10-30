@@ -1811,7 +1811,7 @@
 - id: 10.15517/am.2024.60173
   doi: 10.15517/am.2024.60173
   openalex_id: W4405241673
-  review: excluded
+  review: approved
   title: 'Bactris guineensis, an underutilized Costa Rican palm fruit: juice processing
     and its nutritional profile'
   year: 2024
@@ -1825,7 +1825,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: names Guanacaste Conservation Area; found by openalex_core; openalex_fulltext;
-    wos
+    wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.18845/rfmk.v21i48.7044
@@ -2680,7 +2680,7 @@
 - id: 10.1016/j.jenvman.2022.114633
   doi: 10.1016/j.jenvman.2022.114633
   openalex_id: W4210541321
-  review: excluded
+  review: approved
   title: Evaluation of the management of marine protected areas. Comparative study
     in Costa Rica
   year: 2022
@@ -2694,13 +2694,14 @@
   copa: 11606/2325
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
-  relevance_reason: found by openalex_core; openalex_fulltext; wos
+  relevance_reason: found by openalex_core; openalex_fulltext; wos; in COPA (ACG's
+    repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1007/s10722-022-01501-8
   doi: 10.1007/s10722-022-01501-8
   openalex_id: W4311106898
-  review: excluded
+  review: approved
   title: Genetic diversity and structure of Acrocomia aculeata (Jacq.) Lodd. ex Mart.
     (Arecaceae) using microsatellite DNA markers in Costa Rica
   year: 2022
@@ -2715,7 +2716,8 @@
   copa: 11606/2414
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
-  relevance_reason: found by openalex_core; openalex_fulltext; wos
+  relevance_reason: found by openalex_core; openalex_fulltext; wos; in COPA (ACG's
+    repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.3390/ani12192544
@@ -2786,7 +2788,7 @@
 - id: 10.1007/s10329-022-00994-2
   doi: 10.1007/s10329-022-00994-2
   openalex_id: W4283728212
-  review: excluded
+  review: approved
   title: 'My path to primatology: some stories from the field'
   year: 2022
   venue: Primates
@@ -2798,7 +2800,8 @@
   copa: 11606/2347
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
-  relevance_reason: found by openalex_core; openalex_fulltext; wos
+  relevance_reason: found by openalex_core; openalex_fulltext; wos; in COPA (ACG's
+    repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1016/j.ygcen.2022.114109
@@ -3001,7 +3004,7 @@
 - id: 10.15517/rev.biol.trop..v70i1.48444
   doi: 10.15517/rev.biol.trop..v70i1.48444
   openalex_id: W4306253358
-  review: excluded
+  review: approved
   title: Patterns of vertebrate biodiversity in a tropical dry and mangrove forest
     matrix
   year: 2022
@@ -3016,7 +3019,7 @@
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
-    openalex_fulltext
+    openalex_fulltext; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: Santa Rosa
   added: '2026-10-24'
 - id: 10.1007/978-3-319-55065-7_480
@@ -4319,7 +4322,7 @@
 - id: 10.15517/rbt.v68i4.42007
   doi: 10.15517/rbt.v68i4.42007
   openalex_id: W3091113522
-  review: excluded
+  review: approved
   title: Conservation status of fish and marine invertebrate of rocky reefs and sandy
     substrates in two unprotected bays of the Papagayo Gulf, Costa Rica
   year: 2020
@@ -4333,7 +4336,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
-    openalex_fulltext; wos
+    openalex_fulltext; wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: Santa Rosa
   added: '2026-10-24'
 - id: 10.5479/si.gvp.bgvn202010-345020
@@ -5588,7 +5591,7 @@
 - id: 10.4289/0013-8797.120.1.180
   doi: 10.4289/0013-8797.120.1.180
   openalex_id: W2789884750
-  review: excluded
+  review: approved
   title: 'Aquatic Larvae of Two Acentropines, Usingeriessa onyxalis (Hampson) and
     Oxyelophila callista (Forbes) (Lepidoptera: Crambidae)'
   year: 2018
@@ -5600,7 +5603,7 @@
   is_oa: false
   found_by: wos
   relevance: likely
-  relevance_reason: found by wos
+  relevance_reason: found by wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.18473/lepi.72i1.a7
@@ -6757,7 +6760,7 @@
 - id: 10.4289/0013-8797.119.3.442
   doi: 10.4289/0013-8797.119.3.442
   openalex_id: W2753866518
-  review: excluded
+  review: approved
   title: 'Descriptions of Four New Species of Struthoscelis Meyrick (Lepidoptera:
     Oecophoridae: Oecophorinae), One from Area De Conservación Guanacaste, Northwestern
     Costa Rica, Providing the First Known Biology for the Genus, and Discovery of
@@ -6770,7 +6773,8 @@
   is_oa: false
   found_by: wos
   relevance: likely
-  relevance_reason: names Area de Conservacion Guanacaste; found by wos
+  relevance_reason: names Area de Conservacion Guanacaste; found by wos; in COPA (ACG's
+    repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1073/pnas.1705957114
@@ -7411,7 +7415,7 @@
 - id: 10.1016/j.geothermics.2016.07.001
   doi: 10.1016/j.geothermics.2016.07.001
   openalex_id: W2478175780
-  review: excluded
+  review: approved
   title: The Borinquen geothermal system (Cañas Dulces caldera, Costa Rica)
   year: 2016
   venue: Geothermics
@@ -7421,7 +7425,8 @@
   is_oa: false
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
-  relevance_reason: found by openalex_core; openalex_fulltext; wos
+  relevance_reason: found by openalex_core; openalex_fulltext; wos; in COPA (ACG's
+    repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W2741763115
@@ -8591,7 +8596,7 @@
 - id: 10.15517/rbt.v62i4.20035
   doi: 10.15517/rbt.v62i4.20035
   openalex_id: W1915954293
-  review: excluded
+  review: approved
   title: 'Áreas de congregación de cetáceos en el Pacífico norte de Costa Rica: recomendaciones
     para la gestión del recurso'
   year: 2015
@@ -8605,7 +8610,8 @@
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Islas Murcielago; sector Santa Rosa, Murcielago, Murciélago;
-    found by openalex_core; openalex_fulltext
+    found by openalex_core; openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: Marino; Santa Rosa; Murciélago
   added: '2026-10-24'
 - id: 10.15517/dre.v0i0.21993
@@ -9691,7 +9697,7 @@
 - id: 10.4103/0972-4923.110942
   doi: 10.4103/0972-4923.110942
   openalex_id: W2033871802
-  review: excluded
+  review: approved
   title: Bureaucratic Barriers Limit Local Participatory Governance in Protected Areas
     in Costa Rica
   year: 2013
@@ -9704,7 +9710,7 @@
   copa: 11606/491
   found_by: wos
   relevance: likely
-  relevance_reason: found by wos
+  relevance_reason: found by wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.3897/jhr.35.5496
@@ -10262,7 +10268,7 @@
   added: '2026-10-24'
 - id: W774849152
   openalex_id: W774849152
-  review: excluded
+  review: approved
   title: MONITOREO FENOLÓGICO DE ÁRBOLES SEMILLEROS DE DIEZ ESPECIES FORESTALES NATIVAS
     DEL BOSQUE SECO TROPICAL, ESTACIÓN EXPERIMENTAL FORESTAL HORIZONTES, ÁREA DE CONSERVACIÓN
     GUANACASTE, COSTA RICA.
@@ -10275,7 +10281,8 @@
   copa: 11606/351
   found_by: openalex_fulltext
   relevance: likely
-  relevance_reason: duplicate of W2419523888
+  relevance_reason: duplicate of W2419523888; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: Horizontes
   added: '2026-10-24'
 - id: W2419523888
@@ -11883,7 +11890,7 @@
 - id: 10.17918/etd-3311
   doi: 10.17918/etd-3311
   openalex_id: W3199090038
-  review: excluded
+  review: approved
   title: Population genetics and conservation of the American crocodile on the Pacific
     coast of Costa Rica
   year: 2010
@@ -11894,7 +11901,8 @@
   oa_url: https://doi.org/10.17918/etd-3311
   found_by: openalex_core
   relevance: likely
-  relevance_reason: sector Santa Rosa; found by openalex_core
+  relevance_reason: sector Santa Rosa; found by openalex_core; in COPA (ACG's repository),
+    re-checked 2026-10-29
   sectors: Santa Rosa
   added: '2026-10-24'
 - id: W3209119961
@@ -12689,7 +12697,7 @@
 - id: 10.7773/cm.v34i4.1361
   doi: 10.7773/cm.v34i4.1361
   openalex_id: W2271834793
-  review: excluded
+  review: approved
   title: Effects of the aquarium fish industry in Costa Rica on populations of the
     Cortez rainbow wrasse Thalassoma lucasanum
   year: 2008
@@ -12703,7 +12711,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: names Guanacaste Conservation Area; found by openalex_core; openalex_fulltext;
-    wos
+    wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1590/s0101-81752008000300022
@@ -12726,7 +12734,7 @@
 - id: 10.4454/ofioliti.v33i1.356
   doi: 10.4454/ofioliti.v33i1.356
   openalex_id: W1580248872
-  review: excluded
+  review: approved
   title: UPPER TRIASSIC TO CRETACEOUS RADIOLARIA FROM NICARAGUA AND NORTHERN COSTA
     RICA - THE MESQUITO COMPOSITE OCEANIC TERRANE
   year: 2008
@@ -12740,7 +12748,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: sector Santa Rosa; found by openalex_core; openalex_fulltext;
-    wos
+    wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: Santa Rosa
   added: '2026-10-24'
 - id: 10.5479/si.gvp.bgvn200807-345020
@@ -12762,7 +12770,7 @@
   added: '2026-10-24'
 - id: W2550183994
   openalex_id: W2550183994
-  review: excluded
+  review: approved
   title: SOIL GAS RADON MEASUREMENTS AS A TOOL TO IDENTIFY PERMEABLE ZONES AT LAS
     PAILAS GEOTHERMAL AREA, COSTA RICA
   year: 2008
@@ -12773,7 +12781,8 @@
   copa: 11606/206
   found_by: openalex_core
   relevance: likely
-  relevance_reason: sector Pailas; found by openalex_core
+  relevance_reason: sector Pailas; found by openalex_core; in COPA (ACG's repository),
+    re-checked 2026-10-29
   sectors: Rincón de la Vieja
   added: '2026-10-24'
 - id: 10.15517/rbt.v57i3.5494
@@ -12954,7 +12963,7 @@
   added: '2026-10-24'
 - id: W4386017787
   openalex_id: W4386017787
-  review: excluded
+  review: approved
   title: A new species of poeciliid fish, Poeciliopsis santaelena, from Peninsula
     Santa Elena, Area de Conservación Guanacaste, Costa Rica
   year: 2008
@@ -12967,7 +12976,8 @@
   copa: 11606/159
   found_by: openalex_fulltext
   relevance: likely
-  relevance_reason: duplicate of 10.15517/rbt.v56i2.5626
+  relevance_reason: duplicate of 10.15517/rbt.v56i2.5626; in COPA (ACG's repository),
+    re-checked 2026-10-29
   sectors: Santa Elena
   added: '2026-10-24'
 - id: 10.1007/s10886-007-9292-3
@@ -13551,7 +13561,7 @@
 - id: 10.1344/105.000000367
   doi: 10.1344/105.000000367
   openalex_id: W1864200638
-  review: excluded
+  review: approved
   title: Characterization and tectonic implications of Mesozoic-Cenozoic oceanic assemblages
     of Costa Rica and Western Panama
   year: 2006
@@ -13564,7 +13574,8 @@
   copa: 11606/313
   found_by: openalex_core; wos
   relevance: likely
-  relevance_reason: sector Santa Rosa; found by openalex_core; wos
+  relevance_reason: sector Santa Rosa; found by openalex_core; wos; in COPA (ACG's
+    repository), re-checked 2026-10-29
   sectors: Santa Rosa
   added: '2026-10-24'
 - id: 10.1344/105.000000364
@@ -14847,7 +14858,7 @@
 - id: 10.1111/j.1744-7429.2004.tb00305.x
   doi: 10.1111/j.1744-7429.2004.tb00305.x
   openalex_id: W2147325905
-  review: excluded
+  review: approved
   title: Effects of Forest Fragmentation on Pollinator Activity and Consequences for
     Plant Reproductive Success and Mating Patterns in Bat‐pollinated Bombacaceous
     Trees1
@@ -14861,7 +14872,8 @@
   is_oa: false
   found_by: openalex_core
   relevance: likely
-  relevance_reason: sector Murcielago, Murciélago; found by openalex_core
+  relevance_reason: sector Murcielago, Murciélago; found by openalex_core; in COPA
+    (ACG's repository), re-checked 2026-10-29
   sectors: Murciélago
   added: '2026-10-24'
 - id: 10.1525/california/9780520223097.003.0007
@@ -21370,7 +21382,7 @@
 - id: 10.22201/fc.25942158e.2025.2.1125
   doi: 10.22201/fc.25942158e.2025.2.1125
   openalex_id: W4412837723
-  review: excluded
+  review: approved
   title: PREDATION OF the CENTRAL AMERICAN LYRESNAKE Trimorphodon quadruplex BY THE
     WANDERING SPIDER Ancylometes bogotensis IN GUANACASTE, COSTA RICA
   year: 2025
@@ -21383,7 +21395,8 @@
   copa: 11606/2480
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1111/1758-2229.70066
@@ -21784,7 +21797,7 @@
 - id: 10.1007/s00227-025-04665-w
   doi: 10.1007/s00227-025-04665-w
   openalex_id: W4410952082
-  review: excluded
+  review: approved
   title: 'Improving the statistical reporting of hatching success data: the case of
     sea turtles'
   year: 2025
@@ -21798,7 +21811,8 @@
   copa: 11606/2494
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1007/s40415-025-01100-8
@@ -23007,7 +23021,7 @@
 - id: 10.18845/rfmk.v21i48.7042
   doi: 10.18845/rfmk.v21i48.7042
   openalex_id: W7125972434
-  review: excluded
+  review: approved
   title: Uso de un escáner láser terrestre (TLS) para la caracterización estructural
     de bosque seco tropical y plantaciones forestales en Costa Rica
   year: 2024
@@ -23020,7 +23034,8 @@
   copa: 11606/2464
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.60151/envec/iwlp8823
@@ -23311,7 +23326,7 @@
 - id: 10.15517/rev.biol.trop..v72is1.58997
   doi: 10.15517/rev.biol.trop..v72is1.58997
   openalex_id: W4392552013
-  review: excluded
+  review: approved
   title: 'Evaluating the reliability of DNA Barcoding for Central American Pacific
     shallow water echinoderms identification: a molecular taxonomy and database accuracy
     analysis'
@@ -23325,7 +23340,8 @@
   copa: 11606/2448
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.62015/np.2024.v30.800
@@ -23586,7 +23602,7 @@
 - id: 10.1007/s13364-024-00747-0
   doi: 10.1007/s13364-024-00747-0
   openalex_id: W4395465611
-  review: excluded
+  review: approved
   title: A first species-wide phylogenetic analysis of small mammals from Costa Rica
     using mitochondrial cytochrome b
   year: 2024
@@ -23600,7 +23616,8 @@
   copa: 11606/2468
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W7112492360
@@ -24576,7 +24593,7 @@
 - id: 10.1111/btp.13280
   doi: 10.1111/btp.13280
   openalex_id: W4388526808
-  review: excluded
+  review: approved
   title: 'One ant''s trash is another ant''s treasure: Army ant middens provide resources
     for diverse ant assemblages'
   year: 2023
@@ -24590,7 +24607,8 @@
   copa: 11606/2388
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.5281/zenodo.10621954
@@ -24773,7 +24791,7 @@
 - id: 10.1007/s13592-023-01044-6
   doi: 10.1007/s13592-023-01044-6
   openalex_id: W4389048315
-  review: excluded
+  review: approved
   title: Nesting biology of Centris aethyctera (Centridini, Apidae) in an estuarine
     environment
   year: 2023
@@ -24787,7 +24805,8 @@
   copa: 11606/2383
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1002/ajp.23549
@@ -24835,7 +24854,7 @@
 - id: 10.3390/d15050602
   doi: 10.3390/d15050602
   openalex_id: W4367298111
-  review: excluded
+  review: approved
   title: 'Plant Diversity in the Diet of Costa Rican Primates in Contrasting Habitats:
     A Meta-Analysis'
   year: 2023
@@ -24850,7 +24869,8 @@
   copa: 11606/2408
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.2478/am-2023-0011
@@ -24930,7 +24950,7 @@
 - id: 10.3389/fpls.2023.1237966
   doi: 10.3389/fpls.2023.1237966
   openalex_id: W4389136320
-  review: excluded
+  review: approved
   title: Microbiome and plant cell transformation trigger insect gall induction in
     cassava
   year: 2023
@@ -24944,7 +24964,8 @@
   copa: 11606/2479
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.3389/fevo.2023.1112636
@@ -26260,7 +26281,7 @@
 - id: 10.7717/peerj.13248
   doi: 10.7717/peerj.13248
   openalex_id: W4283316759
-  review: excluded
+  review: approved
   title: Pocillopora spp. growth analysis on restoration structures in an Eastern
     Tropical Pacific upwelling area
   year: 2022
@@ -26274,7 +26295,8 @@
   copa: 11606/2371
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.33448/rsd-v11i14.36024
@@ -26355,7 +26377,7 @@
 - id: 10.1016/j.anbehav.2022.01.017
   doi: 10.1016/j.anbehav.2022.01.017
   openalex_id: W4220717469
-  review: excluded
+  review: approved
   title: Socioecological correlates of social play in adult mantled howler monkeys
   year: 2022
   venue: Animal Behaviour
@@ -26367,7 +26389,8 @@
   copa: 11606/2356
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1590/0001-3765202220210765
@@ -26411,7 +26434,7 @@
 - id: 10.1371/journal.pone.0277439
   doi: 10.1371/journal.pone.0277439
   openalex_id: W4309264153
-  review: excluded
+  review: approved
   title: Genetic diversity, asexual reproduction and conservation of the edible fruit
     tree Spondias purpurea L. (Anacardiaceae) in the Costa Rican tropical dry forest
   year: 2022
@@ -26424,13 +26447,14 @@
   copa: 11606/2425
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1002/ece3.8580
   doi: 10.1002/ece3.8580
   openalex_id: W4220883422
-  review: excluded
+  review: approved
   title: Admixture in Africanized honey bees ( Apis mellifera ) from Panamá to San
     Diego, California (U.S.A.)
   year: 2022
@@ -26444,7 +26468,8 @@
   copa: 11606/2324
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.3923/jas.2022.33.41
@@ -26990,7 +27015,7 @@
 - id: 10.1016/j.gecco.2022.e02197
   doi: 10.1016/j.gecco.2022.e02197
   openalex_id: W4283013395
-  review: excluded
+  review: approved
   title: Ecological correlates of extinction risk and persistence of direct-developing
     stream-dwelling frogs in Mesoamerica
   year: 2022
@@ -27006,7 +27031,8 @@
   copa: 11606/2490
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.48128/pisg/2021-66.4-08
@@ -27672,7 +27698,7 @@
 - id: 10.11646/zootaxa.5047.3.8
   doi: 10.11646/zootaxa.5047.3.8
   openalex_id: W3203911756
-  review: excluded
+  review: approved
   title: 'New distributional, biological and taxonomic information on the genus Eulophinusia
     Girault (Hymenoptera: Eulophidae)'
   year: 2021
@@ -27685,7 +27711,8 @@
   copa: 11606/2303
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.21203/rs.3.rs-1099185/v1
@@ -28011,7 +28038,7 @@
 - id: 10.1002/ajpa.24257
   doi: 10.1002/ajpa.24257
   openalex_id: W3135072253
-  review: excluded
+  review: approved
   title: Fermented food consumption in wild nonhuman primates and its ecological drivers
   year: 2021
   venue: American Journal of Physical Anthropology
@@ -28033,7 +28060,8 @@
   copa: 11606/1598
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.15517/rbt.v69isuppl.2.48309
@@ -30361,7 +30389,7 @@
 - id: 10.15517/rbt.v67i2supl.37215
   doi: 10.15517/rbt.v67i2supl.37215
   openalex_id: W2970190409
-  review: excluded
+  review: approved
   title: Efecto del almacenamiento ex situ de semillas y de condiciones lumínicas
     sobre la tasa de crecimiento de plántulas de Crescentia alata (Bignoniaceae)
   year: 2019
@@ -30374,7 +30402,8 @@
   copa: 11606/1478
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.18311/jbc/2018/21674
@@ -30480,7 +30509,7 @@
 - id: 10.1505/146554819827906825
   doi: 10.1505/146554819827906825
   openalex_id: W3004378053
-  review: excluded
+  review: approved
   title: Current perspectives on forest recovery trends in Guanacaste, Costa Rica
   year: 2019
   venue: The International Forestry Review
@@ -30492,7 +30521,8 @@
   oa_url: https://repositoriotec.tec.ac.cr/bitstreams/012a56fb-cf50-42e8-93fd-b2ab4b001354/download
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0217310
@@ -30556,7 +30586,7 @@
 - id: 10.15517/rbt.v67i2supl.37211
   doi: 10.15517/rbt.v67i2supl.37211
   openalex_id: W2970816378
-  review: excluded
+  review: approved
   title: Germinación de semillas de Crescentia alata (Bignoniaceae) en distintas condiciones
     de temperatura, luminosidad y almacenamiento
   year: 2019
@@ -30569,7 +30599,8 @@
   copa: 11606/1481
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.3390/genes10060461
@@ -30782,7 +30813,7 @@
 - id: 10.1371/journal.pone.0223587
   doi: 10.1371/journal.pone.0223587
   openalex_id: W2977664214
-  review: excluded
+  review: approved
   title: 'Identifying genetic lineages through shape: An example in a cosmopolitan
     marine turtle species using geometric morphometrics'
   year: 2019
@@ -30796,7 +30827,8 @@
   copa: 11606/1465
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.15359/rca.56-1.13
@@ -31018,7 +31050,7 @@
 - id: 10.15517/rbt.v67i2supl.37220
   doi: 10.15517/rbt.v67i2supl.37220
   openalex_id: W2970560297
-  review: excluded
+  review: approved
   title: Diversity of phenological patterns of Handroanthus ochraceus (Bignoniaceae)
     in Costa Rica
   year: 2019
@@ -31031,7 +31063,8 @@
   copa: 11606/1458
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W7133023389
@@ -32590,7 +32623,7 @@
 - id: 10.1111/1477-8947.12132
   doi: 10.1111/1477-8947.12132
   openalex_id: W2789788265
-  review: excluded
+  review: approved
   title: 'Measuring conservation success beyond the traditional biological criteria:
     the case of conservation projects in C osta R ica, M ekong V alley, and C ameroon'
   year: 2017
@@ -32601,7 +32634,8 @@
   is_oa: false
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W3048279498
@@ -32792,7 +32826,7 @@
 - id: 10.1073/pnas.1714623114
   doi: 10.1073/pnas.1714623114
   openalex_id: W2754938177
-  review: excluded
+  review: approved
   title: Profile of Daniel H. Janzen
   year: 2017
   venue: Proceedings of the National Academy of Sciences
@@ -32803,7 +32837,8 @@
   oa_url: https://www.pnas.org/content/pnas/114/39/10300.full.pdf
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0174749
@@ -33433,7 +33468,7 @@
 - id: 10.11646/phytotaxa.296.2.4
   doi: 10.11646/phytotaxa.296.2.4
   openalex_id: W2588484514
-  review: excluded
+  review: approved
   title: Novelties and notes in Lindsaea (Lindsaeaceae) from Mexico and Central America
   year: 2017
   venue: Phytotaxa
@@ -33444,7 +33479,8 @@
   oa_url: https://biotaxa.org/Phytotaxa/article/download/phytotaxa.296.2.4/26159
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.5897/ijbc2017.1097
@@ -33594,7 +33630,7 @@
 - id: 10.15517/rbt.v65i4.27903
   doi: 10.15517/rbt.v65i4.27903
   openalex_id: W2756281441
-  review: excluded
+  review: approved
   title: Spatio-temporal variation of roadkills show mass mortality events for amphibians
     in a highly trafficked road adjacent to a national park, Costa Rica
   year: 2017
@@ -33606,7 +33642,8 @@
   oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/download/27903/30614
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0173369
@@ -34050,7 +34087,7 @@
 - id: 10.1111/cobi.12661
   doi: 10.1111/cobi.12661
   openalex_id: W2343203988
-  review: excluded
+  review: approved
   title: Contributions of paraecologists and parataxonomists to research, conservation,
     and social development
   year: 2016
@@ -34064,7 +34101,8 @@
   oa_url: https://conbio.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cobi.12661
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.7717/peerj.2422
@@ -34967,7 +35005,7 @@
 - id: 10.15517/rbt.v64i3.21464
   doi: 10.15517/rbt.v64i3.21464
   openalex_id: W2494259813
-  review: excluded
+  review: approved
   title: Cambios en la cobertura de manglares en Bahía Culebra, Pacífico Norte de
     Costa Rica (1945-2010)
   year: 2016
@@ -34979,7 +35017,8 @@
   oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/download/21464/25888
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.15517/rbt.v63i1.23099
@@ -36086,7 +36125,7 @@
 - id: 10.1016/j.anbehav.2015.08.008
   doi: 10.1016/j.anbehav.2015.08.008
   openalex_id: W1674256248
-  review: excluded
+  review: approved
   title: 'Interspecific vocal discrimination in Neotropical wrens: responses to congeneric
     signals in sympatry and allopatry'
   year: 2015
@@ -36098,7 +36137,8 @@
   oa_url: https://uwindsor.scholaris.ca/bitstreams/bcdb37ee-a521-4378-baaf-0d4b00f0ab75/download
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.5194/se-6-1169-2015
@@ -36212,7 +36252,7 @@
 - id: 10.1080/09064710.2015.1020859
   doi: 10.1080/09064710.2015.1020859
   openalex_id: W2011984987
-  review: excluded
+  review: approved
   title: Association of soil organic carbon with physically separated soil fractions
     in different land uses of Costa Rica
   year: 2015
@@ -36225,7 +36265,8 @@
   oa_url: https://www.tandfonline.com/doi/pdf/10.1080/09064710.2015.1020859?needAccess=true
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W2270014615
@@ -36361,7 +36402,7 @@
 - id: 10.1371/journal.pone.0142441
   doi: 10.1371/journal.pone.0142441
   openalex_id: W2179627798
-  review: excluded
+  review: approved
   title: 'Neotropical Copestylum Macquart (Diptera: Syrphidae) Breeding in Fruits
     and Flowers, Including 7 New Species'
   year: 2015
@@ -36375,7 +36416,8 @@
   copa: 11606/1536
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.3732/ajb.1400527
@@ -36438,7 +36480,7 @@
 - id: 10.11646/zootaxa.3998.1.1
   doi: 10.11646/zootaxa.3998.1.1
   openalex_id: W1590932654
-  review: excluded
+  review: approved
   title: 'Revision of the Neotropical species of the caddisfly genus Wormaldia McLachlan
     (Trichoptera: Philopotamidae)'
   year: 2015
@@ -36450,7 +36492,8 @@
   oa_url: https://biotaxa.org/Zootaxa/article/download/zootaxa.3998.1.1/56452
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.62015/np.2015.v22.146
@@ -38405,7 +38448,7 @@
 - id: 10.11646/phytotaxa.144.2.2
   doi: 10.11646/phytotaxa.144.2.2
   openalex_id: W2102018679
-  review: excluded
+  review: approved
   title: 'Morphological and anatomical characterization of a new natural hybrid between
     Cohniella ascendens and C. brachyphylla (Oncidiinae: Orchidaceae)'
   year: 2013
@@ -38418,7 +38461,8 @@
   oa_url: https://www.biotaxa.org/Phytotaxa/article/download/phytotaxa.144.2.2/5481
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1093/conphys/cot016
@@ -38659,7 +38703,7 @@
 - id: 10.1016/j.visres.2013.04.013
   doi: 10.1016/j.visres.2013.04.013
   openalex_id: W2123373110
-  review: excluded
+  review: approved
   title: 'Food search through the eyes of a monkey: A functional substitution approach
     for assessing the ecology of primate color vision'
   year: 2013
@@ -38671,7 +38715,8 @@
   oa_url: https://www.sciencedirect.com/science/article/pii/S0042698913001119/pdf
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.3389/fmicb.2013.00065
@@ -39105,7 +39150,7 @@
 - id: 10.15517/rbt.v60i1.2657
   doi: 10.15517/rbt.v60i1.2657
   openalex_id: W2119405909
-  review: excluded
+  review: approved
   title: 'Costa Rica’s Marine Protected Areas: status and perspectives'
   year: 2012
   venue: Revista de Biología Tropical
@@ -39117,7 +39162,8 @@
   copa: 11606/221
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0039459
@@ -39674,7 +39720,7 @@
 - id: 10.22458/urj.v4i1.130
   doi: 10.22458/urj.v4i1.130
   openalex_id: W1605419490
-  review: excluded
+  review: approved
   title: Predation in nature by a scorpion-hunter, Stenorrhina freminvillei (Serpentes,
     Colubridae)
   year: 2012
@@ -39687,7 +39733,8 @@
   copa: 11606/61
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0041878
@@ -39946,7 +39993,7 @@
 - id: 10.1111/j.1365-294x.2012.05618.x
   doi: 10.1111/j.1365-294x.2012.05618.x
   openalex_id: W2157131981
-  review: excluded
+  review: approved
   title: Diversification and phylogeographic structure in widespread Azteca plant‐ants
     from the northern Neotropics
   year: 2012
@@ -39959,7 +40006,8 @@
   oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-294X.2012.05618.x
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W2121646274
@@ -40798,7 +40846,7 @@
 - id: 10.1371/journal.pone.0016863
   doi: 10.1371/journal.pone.0016863
   openalex_id: W2109095850
-  review: excluded
+  review: approved
   title: Traditions in Spider Monkeys Are Biased towards the Social Domain
   year: 2011
   venue: PLoS ONE
@@ -40810,7 +40858,8 @@
   oa_url: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0016863&type=printable
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.15517/rgac.v0i47.6486
@@ -41436,7 +41485,7 @@
 - id: 10.15517/rbt.v59i1.3197
   doi: 10.15517/rbt.v59i1.3197
   openalex_id: W2153678829
-  review: excluded
+  review: approved
   title: Cetáceos de las aguas costeras del Pacífico norte y sur de Costa Rica
   year: 2010
   venue: Revista de Biología Tropical
@@ -41448,7 +41497,8 @@
   copa: 11606/302
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.3390/ijms11041434
@@ -41742,7 +41792,7 @@
 - id: 10.1007/s10886-010-9821-3
   doi: 10.1007/s10886-010-9821-3
   openalex_id: W2163835396
-  review: excluded
+  review: approved
   title: Intraspecific Geographic Variation of Fragrances Acquired by Orchid Bees
     in Native and Introduced Populations
   year: 2010
@@ -41756,7 +41806,8 @@
   copa: 11606/309
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W3002649004
@@ -42025,7 +42076,7 @@
 - id: 10.1186/1471-2148-10-146
   doi: 10.1186/1471-2148-10-146
   openalex_id: W2117696994
-  review: excluded
+  review: approved
   title: Ecological and genetic divergence between two lineages of Middle American
     tungara frogs Physalaemus (=Engystomops) pustulosus
   year: 2010
@@ -42037,7 +42088,8 @@
   oa_url: https://bmcecolevol.biomedcentral.com/counter/pdf/10.1186/1471-2148-10-146
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.11646/zootaxa.2398.1.1
@@ -43786,7 +43838,7 @@
 - id: 10.1111/j.1469-7998.2006.00277.x
   doi: 10.1111/j.1469-7998.2006.00277.x
   openalex_id: W2155037461
-  review: excluded
+  review: approved
   title: Micro‐environment of olive ridley turtle nests deposited during an aggregated
     nesting event
   year: 2007
@@ -43799,7 +43851,8 @@
   copa: 11606/232
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1590/s0031-10492007000800001
@@ -43967,7 +44020,7 @@
 - id: 10.3390/md20070007
   doi: 10.3390/md20070007
   openalex_id: W2099425583
-  review: excluded
+  review: approved
   title: 'Cytoskyrins and Cytosporones Produced by Cytospora sp. CR200: Taxonomy,
     Fermentation and Biological Activities'
   year: 2007
@@ -43980,7 +44033,8 @@
   copa: 11606/104
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.1896/044.014.0102
@@ -44076,7 +44130,7 @@
 - id: 10.1093/condor/109.4.870
   doi: 10.1093/condor/109.4.870
   openalex_id: W2142040552
-  review: excluded
+  review: approved
   title: SPECIES DIFFERENCES IN THE SONGS OF THE CRITICALLY ENDANGERED NICEFORO'S
     WREN AND THE RELATED RUFOUS-AND-WHITE WREN
   year: 2007
@@ -44088,7 +44142,8 @@
   oa_url: https://academic.oup.com/condor/article-pdf/109/4/870/29715278/condor0870.pdf
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.11646/zootaxa.1634.1.1
@@ -44800,7 +44855,7 @@
 - id: 10.1111/j.0014-3820.2006.tb00511.x
   doi: 10.1111/j.0014-3820.2006.tb00511.x
   openalex_id: W2113778750
-  review: excluded
+  review: approved
   title: GEOGRAPHIC VARIATION OF GENETIC AND BEHAVIORAL TRAITS IN NORTHERN AND SOUTHERN
     TÚNGARA FROGS
   year: 2006
@@ -44814,7 +44869,8 @@
   copa: 11606/209
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W7209150107
@@ -47989,7 +48045,7 @@
   added: '2026-10-24'
 - id: W2336648921
   openalex_id: W2336648921
-  review: excluded
+  review: approved
   title: 'Biodiversidad marina de Costa Rica: Filo Cnidaria'
   year: 1996
   venue: Americanae (AECID Library)
@@ -48001,7 +48057,8 @@
   copa: 11606/277
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: 10.62015/np.1996.v4.359
@@ -49488,7 +49545,7 @@
 - id: 10.2307/2395296
   doi: 10.2307/2395296
   openalex_id: W2335064887
-  review: excluded
+  review: approved
   title: Promising Directions of Study in Tropical Animal-Plant Interactions
   year: 1977
   venue: Annals of the Missouri Botanical Garden
@@ -49499,7 +49556,8 @@
   oa_url: https://www.biodiversitylibrary.org/partpdf/40270
   found_by: openalex_fulltext
   relevance: check
-  relevance_reason: found by openalex_fulltext
+  relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
+    2026-10-29
   sectors: ''
   added: '2026-10-24'
 - id: W2042376970
