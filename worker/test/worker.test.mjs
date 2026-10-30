@@ -3,7 +3,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { DatabaseSync } from "node:sqlite";
-import worker, { normalizeDoi } from "../src/index.js";
+import worker, { normalizeDoi, sameSecret } from "../src/index.js";
 
 function fakeD1() {
   const db = new DatabaseSync(":memory:");
@@ -145,4 +145,33 @@ test("CORS answers each allowed site with its own address", async () => {
     "https://acg-atlas.org");
   assert.equal((await from("https://evil.example")).headers.get("Access-Control-Allow-Origin"),
     "https://acg-atlas.org");
+});
+
+test("admin token check: right token passes, near misses fail", async () => {
+  assert.equal(sameSecret("Bearer s3cret", "Bearer s3cret"), true);
+  assert.equal(sameSecret("Bearer s3creT", "Bearer s3cret"), false);
+  assert.equal(sameSecret("Bearer s3cret!", "Bearer s3cret"), false);
+  assert.equal(sameSecret("", "Bearer s3cret"), false);
+  const e = env();
+  const get = (h) => call(e, "/api/pending", { headers: { Authorization: h } });
+  assert.equal((await get("Bearer s3cret")).status, 200);
+  assert.equal((await get("Bearer s3creT")).status, 401);
+  e.ADMIN_TOKEN = "";                                   // no token configured: nobody is admin
+  assert.equal((await get("Bearer ")).status, 401);
+});
+
+test("lookups and admin calls are rate limited; bad admin JSON is rejected", async () => {
+  const e = env();
+  let n = 0;
+  e.RESOLVE_LIMITER = { limit: async () => ({ success: ++n <= 1 }) };
+  assert.equal((await call(e, "/api/resolve?doi=10.1234/abc")).status, 200);
+  assert.equal((await call(e, "/api/resolve?doi=10.1234/abc")).status, 429);
+  let m = 0;
+  e.ADMIN_LIMITER = { limit: async () => ({ success: ++m <= 1 }) };
+  const auth = { Authorization: "Bearer s3cret" };
+  assert.equal((await call(e, "/api/status", { method: "POST", headers: auth, body: "not json" })).status, 400);
+  assert.equal((await call(e, "/api/pending", { headers: auth })).status, 429);
+  const huge = Array.from({ length: 1000 }, (_, i) => `10.1234/x${i}`);
+  const r = await call(env(), "/api/submit", post({ turnstileToken: "t", dois: huge }));
+  assert.equal((await r.json()).error, "too_many");
 });

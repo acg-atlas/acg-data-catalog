@@ -19,6 +19,22 @@ namespace_id = "1001"
   limit = 3
   period = 60
 
-# Secrets (never commit these):
+# DOI lookups as people paste: generous for a real list, not for a script
+[[ratelimits]]
+name = "RESOLVE_LIMITER"
+namespace_id = "1002"
+  [ratelimits.simple]
+  limit = 120
+  period = 60
+
+# Admin endpoints (used by the GitHub Actions): a few tries a minute
+[[ratelimits]]
+name = "ADMIN_LIMITER"
+namespace_id = "1003"
+  [ratelimits.simple]
+  limit = 10
+  period = 60
+
+# Secrets (never commit these). ADMIN_TOKEN: at least 32 random characters.
 #   npx wrangler secret put ADMIN_TOKEN
 #   npx wrangler secret put TURNSTILE_SECRET

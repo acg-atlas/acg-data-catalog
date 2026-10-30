@@ -28,7 +28,7 @@ jobs:
       MAINTAINER: catherinehulshof
       TITLE: "Deployment check failed"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4
         with:
           ref: main
       - name: Give a fresh deploy a minute to be served

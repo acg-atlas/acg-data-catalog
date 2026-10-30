@@ -1,8 +1,14 @@
 # Cloudflare Pages response headers (copied to the site root by Quarto).
+# Content-Security-Policy: pages may load scripts, data and images only from
+# this site and the services listed (jsDelivr for the interactive pages, GBIF
+# and Esri for the map, Cloudflare Turnstile and the submission Worker for
+# Contribute). 'unsafe-eval' is needed because Quarto's interactive pages
+# compile their code in the browser. Adding a new outside service means adding
+# it here too.
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   Strict-Transport-Security: max-age=31536000
-  Content-Security-Policy: frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://api.gbif.org https://server.arcgisonline.com; font-src 'self' data:; connect-src 'self' https://acg-catalog-submit.catherine-hulshof.workers.dev https://api.gbif.org https://cdn.jsdelivr.net https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; worker-src 'self' blob:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests
