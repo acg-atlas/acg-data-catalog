@@ -5,7 +5,7 @@ name: Deploy site
 on:
   push:
     branches: [main]
-    paths: ["catalog/**", "site/**", "R/**", "scripts/**"]
+    paths: ["catalog/**", "site/**", "R/**", "scripts/**", ".github/workflows/deploy.yml"]
   workflow_dispatch:
 
 jobs:
@@ -24,6 +24,14 @@ jobs:
         with:
           dependencies: '"hard"'
       - run: Rscript scripts/build_site_data.R
+      # Packages live in the project's renv library, which R only uses when it
+      # starts in the repo root. Quarto runs site/_seo.R from site/, so point
+      # every R session at that library.
+      - name: Share the renv library with Quarto's R
+        run: |
+          Rscript -e 'writeLines(.libPaths()[1], "renv-lib.txt")'
+          echo "R_LIBS=$(cat renv-lib.txt)" >> "$GITHUB_ENV"
+          cat renv-lib.txt
       - uses: quarto-dev/quarto-actions/setup@v2
       - run: quarto render site
       - uses: cloudflare/wrangler-action@v3
