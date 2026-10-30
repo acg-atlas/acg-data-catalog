@@ -2,7 +2,7 @@
 ```{ojs}
 //| echo: false
 import { strings } from "/assets/strings.js"
-import { paperLink, split, surname, fmt, typeGroup, typeOrder, page } from "/assets/catalog.js"
+import { paperLink, copaLink, split, surname, fmt, typeGroup, typeOrder, page } from "/assets/catalog.js"
 t = strings[lang]
 papers = d3.json(root + "data/papers.json")
 catalog = d3.json(root + "data/catalog.json")
@@ -100,6 +100,7 @@ card = d => htl.html`<div class="dataset-card paper-card">
   <div class="chips">
     <span class="chip kind">${t[typeGroup(d.type)]}</span>
     ${d.is_oa ? htl.html`<a class="chip oa" href="${d.oa_url || paperLink(d)}" target="_blank" rel="noopener">${t.readFree}</a>` : ""}
+    ${d.copa ? htl.html`<a class="chip copa" href="${copaLink(d)}" target="_blank" rel="noopener" title="${t.inCopaTitle}">${t.inCopa}</a>` : ""}
     ${split(d.themes).map(x => htl.html`<span class="chip theme">${t.themeNames[x] || x}</span>`)}
     ${split(d.taxa).map(x => htl.html`<span class="chip taxon">${x}</span>`)}
     ${split(d.sectors).map(x => htl.html`<span class="chip">${x}</span>`)}

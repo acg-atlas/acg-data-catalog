@@ -5,7 +5,7 @@
 # re-queued, and the pipeline only appends, never overwrites.
 
 paper_fields <- c("id", "doi", "openalex_id", "review", "title", "year", "venue",
-                  "authors", "type", "language", "is_oa", "oa_url", "found_by",
+                  "authors", "type", "language", "is_oa", "oa_url", "copa", "found_by",
                   "relevance", "relevance_reason", "sectors", "taxa", "themes",
                   "datasets", "added")
 
@@ -13,7 +13,9 @@ papers_header <- c(
   "# ACG data catalog: curated publications.",
   "# review: pending | approved | excluded   (only 'approved' is published)",
   "# Metadata from OpenAlex (CC0) or Crossref. Web of Science is used only to",
-  "# find papers; no WoS records are stored here.",
+  "# find papers; no WoS records are stored here. Items from COPA (ACG's",
+  "# repository) without a DOI use COPA's metadata; `copa` is the handle of",
+  "# their public COPA page.",
   "# sectors/taxa/themes/datasets: semicolon-separated.",
   ""
 )

@@ -99,7 +99,7 @@ writeLines(c(
   "",
   "> Free, bilingual (English/Spanish) index of research datasets and scientific papers from Área de Conservación Guanacaste (ACG), Costa Rica, a UNESCO World Heritage Site. It links to each dataset or paper in its permanent home; it does not host them. Independent project by Catherine Hulshof (Virginia Commonwealth University); not an official ACG, SINAC or MINAE site.",
   "",
-  "Updated weekly from DataCite, GBIF, OpenAlex and Crossref, plus researcher submissions; every entry is reviewed by hand. Metadata is CC0. Cite each dataset or paper by its own DOI.",
+  "Updated weekly from DataCite, GBIF, OpenAlex, Crossref and COPA (ACG's own repository), plus researcher submissions; new entries are reviewed by hand, except COPA items, which ACG curates itself. Metadata is CC0. Cite each dataset or paper by its own DOI.",
   "",
   "## Pages",
   "",

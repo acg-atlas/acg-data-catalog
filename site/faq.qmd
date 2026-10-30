@@ -40,7 +40,7 @@ Use [Search papers](papers.qmd) to search by keyword and filter by theme, taxon,
 
 ## Where do the datasets and papers come from?
 
-Datasets come from DataCite (which covers Dryad, Zenodo, EDI, Figshare, PANGAEA and more), from GBIF (searched with the official ACG boundary) and from researchers who submit their own. Paper records come from OpenAlex (CC0) and Crossref. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+Datasets come from DataCite (which covers Dryad, Zenodo, EDI, Figshare, PANGAEA and more), from GBIF (searched with the official ACG boundary) and from researchers who submit their own. Papers are found in OpenAlex and in COPA, the repository of Área de Conservación Guanacaste. Paper records come from OpenAlex (CC0) and Crossref; older papers, theses and reports without a DOI use COPA's own records and link to their COPA page. The full search strategy is [on GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
 
 ## Which papers count as ACG research?
 
@@ -48,7 +48,7 @@ A paper is included if the research was done in Área de Conservación Guanacast
 
 ## How often is the ACG Atlas updated?
 
-Every week. The site automatically searches for new datasets and papers each Monday, and every new entry is reviewed by hand before it appears.
+Every week. The site automatically searches for new datasets and papers each Monday, and new entries are reviewed by hand before they appear. Items from COPA, which ACG curates itself, are added directly.
 
 ## What do the Findings pages show?
 

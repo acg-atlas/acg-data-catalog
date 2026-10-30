@@ -54,7 +54,7 @@ website:
       - href: en/index.qmd
         text: English
   page-footer:
-    center: "Metadatos CC0 · Cada conjunto de datos y publicación conserva su licencia y cita · Metadatos de publicaciones de OpenAlex (CC0) y Crossref · Límite © SIG-ACG, CC BY 4.0 · [Privacidad y condiciones](/privacidad.qmd) · [GitHub](https://github.com/acg-atlas)"
+    center: "Metadatos CC0 · Cada conjunto de datos y publicación conserva su licencia y cita · Metadatos de publicaciones de OpenAlex (CC0), Crossref y COPA · Límite © SIG-ACG, CC BY 4.0 · [Privacidad y condiciones](/privacidad.qmd) · [GitHub](https://github.com/acg-atlas)"
 
 format:
   html:

@@ -1,6 +1,6 @@
 # Weekly: harvest DataCite + GBIF + OpenAlex, pull form submissions from the
-# Worker, refresh paper-dataset links, and open (or update) a pull request
-# with new pending entries.
+# Worker, add new items from COPA's OAI feed (approved directly), refresh
+# paper-dataset links, and open (or update) a pull request with the changes.
 name: Update catalog
 
 on:
@@ -32,7 +32,9 @@ jobs:
         run: |
           Rscript -e 'targets::tar_make()'
           Rscript scripts/update_queue.R
+          Rscript scripts/import_copa.R
           Rscript scripts/update_links.R
+          cat copa_summary.md >> review_summary.md
       - uses: peter-evans/create-pull-request@v7
         with:
           branch: harvest/weekly

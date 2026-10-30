@@ -38,7 +38,7 @@ Use [Buscar publicaciones](publicaciones.qmd) para buscar por palabra clave y fi
 
 ## ¿De dónde vienen los datos y las publicaciones?
 
-Los conjuntos de datos vienen de DataCite (que incluye Dryad, Zenodo, EDI, Figshare, PANGAEA y más), de GBIF (buscando con el límite oficial de ACG) y de investigadores que envían los suyos. Los registros de publicaciones vienen de OpenAlex (CC0) y Crossref. La estrategia de búsqueda completa está [en GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
+Los conjuntos de datos vienen de DataCite (que incluye Dryad, Zenodo, EDI, Figshare, PANGAEA y más), de GBIF (buscando con el límite oficial de ACG) y de investigadores que envían los suyos. Las publicaciones se encuentran en OpenAlex y en COPA, el repositorio del Área de Conservación Guanacaste. Sus registros vienen de OpenAlex (CC0) y Crossref; las publicaciones antiguas, tesis e informes sin DOI usan los registros de COPA y enlazan a su página en COPA. La estrategia de búsqueda completa está [en GitHub](https://github.com/acg-atlas/acg-data-catalog/blob/main/data-raw/literature_search.md).
 
 ## ¿Qué publicaciones cuentan como investigación en ACG?
 
@@ -46,7 +46,7 @@ Se incluye una publicación si la investigación se hizo en el Área de Conserva
 
 ## ¿Cada cuánto se actualiza el ACG Atlas?
 
-Cada semana. Todos los lunes el sitio busca automáticamente nuevos conjuntos de datos y publicaciones, y cada entrada nueva se revisa a mano antes de publicarse.
+Cada semana. Todos los lunes el sitio busca automáticamente nuevos conjuntos de datos y publicaciones, y las entradas nuevas se revisan a mano antes de publicarse. Los documentos de COPA, que ACG cura directamente, se agregan sin esa revisión.
 
 ## ¿Qué muestra la página Hallazgos?
 
