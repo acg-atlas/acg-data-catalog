@@ -6994,4 +6994,58 @@
   relevance_reason: submitted via form
   sectors: ''
   added: '2026-10-26'
+- id: 10.5519/qd.wd93xjyl
+  doi: 10.5519/qd.wd93xjyl
+  review: pending
+  featured: false
+  category: dataset
+  title: Natural History Museum (London) Collection Specimens
+  creators: The Natural History Museum, London
+  year: 2026
+  publisher: Natural History Museum
+  url: https://www.gbif.org/dataset/7e380070-f762-11e1-a439-00145eb45e9a
+  license: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset/OCCURRENCE
+  source: gbif
+  acg_records: 179
+  relevance: likely
+  relevance_reason: 179 GBIF records inside ACG
+  sectors: ''
+  added: '2026-11-02'
+- id: 10.15468/dd.6hbz5u
+  doi: 10.15468/dd.6hbz5u
+  review: pending
+  featured: false
+  category: dataset
+  title: Specimen occurrences of six Neotropical tree species used to estimate realized
+    climatic niches (Área de Conservación Guanacaste climate-tolerance study)
+  creators: hulshof
+  year: 2026
+  publisher: The Global Biodiversity Information Facility
+  url: https://www.gbif.org/derivedDataset/10.15468/dd.6hbz5u
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste
+  sectors: ''
+  added: '2026-11-02'
+- id: 10.15468/r7vfhd
+  doi: 10.15468/r7vfhd
+  review: pending
+  featured: false
+  category: dataset
+  title: A new genus of Alheitini (Lepidoptera, Mimallonidae, Lacosominae) from Central
+    America
+  creators: Ryan A. St Laurent
+  year: 2026
+  publisher: ZooKeys
+  url: https://www.gbif.org/dataset/a38f2165-360a-4a3f-b93c-da7b15081f87
+  license: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset/CHECKLIST
+  source: gbif
+  acg_records: 19
+  relevance: check
+  relevance_reason: 19 GBIF records inside ACG
+  sectors: ''
+  added: '2026-11-02'
 
