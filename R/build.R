@@ -29,8 +29,14 @@ tag_queue <- function(queue, theme_rules) {
 }
 
 #' Short markdown summary used as the pull-request body.
-review_summary <- function(new, path, papers = NULL) {
-  lines <- c(
+review_summary <- function(new, path, papers = NULL, skipped = NULL) {
+  # Sources that were down this week (see try_source()); listed first so they
+  # aren't missed. They are searched again on the next run.
+  warn <- if (length(skipped)) c(
+    "> ⚠️ **Skipped this week** (the service did not respond after retries;",
+    "> it will be searched again next week):",
+    paste0("> - ", skipped), "") else character()
+  lines <- c(warn,
     sprintf("## %d new dataset candidate(s) for review", nrow(new)), "",
     "Set `review: approved` or `review: excluded` in `catalog/datasets.yaml`,",
     "then merge. Pending entries can stay pending across PRs.", ""

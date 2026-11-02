@@ -57,3 +57,21 @@ get_json <- function(url, query = list(), headers = list()) {
   if (length(headers)) req <- httr2::req_headers(req, !!!headers)
   httr2::req_perform(req) |> httr2::resp_body_json(simplifyVector = FALSE)
 }
+
+#' Run one outside source (DataCite, GBIF, OpenAlex, the Worker). If it still
+#' fails after get_json()'s retries, warn and return `empty` instead of
+#' stopping the whole weekly run; the failure is kept as an attribute so the
+#' review PR can say which source was skipped. Nothing is lost: the next run
+#' searches everything again, and the queues only ever append.
+try_source <- function(name, expr, empty) {
+  tryCatch(expr, error = function(e) {
+    msg <- conditionMessage(e)
+    warning(sprintf("%s skipped this run: %s", name, msg), call. = FALSE)
+    structure(empty, skipped = paste0(name, " (", msg, ")"))
+  })
+}
+
+#' Names and errors of the sources that try_source() skipped this run.
+skipped_sources <- function(...) {
+  unlist(lapply(list(...), function(x) attr(x, "skipped")))
+}

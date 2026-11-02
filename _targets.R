@@ -26,21 +26,31 @@ list(
   tar_target(curated, read_curated(curated_file)),
 
   # Harvest. `cue = tar_cue("always")` re-queries the APIs on every run.
-  tar_target(from_datacite, harvest_datacite(search_terms, boundary),
+  # try_source(): a source that is down after its retries is skipped this
+  # week (and named in the review PR) instead of failing the whole run.
+  tar_target(from_datacite, try_source("DataCite", harvest_datacite(search_terms, boundary),
+                                        empty_candidates()),
              cue = tar_cue("always")),
-  tar_target(from_gbif, harvest_gbif(boundary_wkt(boundary)),
+  tar_target(from_gbif, try_source("GBIF", harvest_gbif(boundary_wkt(boundary)),
+                                    empty_candidates()),
              cue = tar_cue("always")),
   # Contribute page: datasets and paper suggestions arrive together
-  tar_target(submissions, fetch_submissions(), cue = tar_cue("always")),
+  tar_target(submissions, try_source("Contribute form (Worker)", fetch_submissions(),
+                                      empty_submissions()),
+             cue = tar_cue("always")),
   tar_target(from_form, dataset_submissions(submissions)),
 
   # Publications (OpenAlex only; Web of Science is added locally with
   # scripts/import_wos.R because its export cannot leave VCU's licence)
   tar_target(papers_file, "catalog/papers.yaml", format = "file"),
   tar_target(papers_curated, read_papers(papers_file)),
-  tar_target(papers_core, search_openalex_papers(gazetteer, "core"),
+  tar_target(papers_core, try_source("OpenAlex title/abstract search",
+                                      search_openalex_papers(gazetteer, "core"),
+                                      dplyr::mutate(empty_papers(), found_by = character())),
              cue = tar_cue("always")),
-  tar_target(papers_fulltext, search_openalex_papers(gazetteer, "fulltext"),
+  tar_target(papers_fulltext, try_source("OpenAlex full-text search",
+                                          search_openalex_papers(gazetteer, "fulltext"),
+                                          dplyr::mutate(empty_papers(), found_by = character())),
              cue = tar_cue("always")),
   tar_target(papers_form, paper_submissions(submissions)),
   tar_target(papers_scored,
@@ -63,7 +73,9 @@ list(
   tar_target(queue, new_candidates(scored, curated) |>
                tag_queue(read_tag_rules(theme_terms_file))),
   tar_target(queue_summary,
-             review_summary(queue, "review_summary.md", papers = papers_queue),
+             review_summary(queue, "review_summary.md", papers = papers_queue,
+                            skipped = skipped_sources(from_datacite, from_gbif, submissions,
+                                                      papers_core, papers_fulltext)),
              format = "file"),
 
   # Site data (approved entries only). Paper-dataset links are rebuilt by
