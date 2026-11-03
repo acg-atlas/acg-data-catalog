@@ -82121,4 +82121,2424 @@
   sectors: ''
   themes: Conservation, management & people
   added: '2026-11-02'
+- id: 10.11646/zootaxa.4497.2.1
+  doi: 10.11646/zootaxa.4497.2.1
+  openalex_id: W2895918473
+  review: pending
+  title: 'Review of some species groups of the genus Oospila Warren, with descriptions
+    of nine new species (Lepidoptera: Geometridae: Geometrinae)'
+  year: 2018
+  venue: Zootaxa
+  authors: Aare Lindt; Axel Hausmann; Jaan Viidalepp
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.11646/zootaxa.4497.2.1
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-03'
+- id: 10.5281/zenodo.572357
+  doi: 10.5281/zenodo.572357
+  openalex_id: W2790405976
+  review: pending
+  title: 'Lack of genetic structure in Pantala flavescens among Central and South
+    American localities (Odonata: Libellulidae)'
+  year: 2017
+  venue: Americanae (AECID Library)
+  authors: Ingrid Alvial; David Véliz; Héctor A. Vargas; Carlos O. Esquivel; Irma
+    Vila Pinto
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://hdl.handle.net/10533/228666
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Odonata
+  themes: Evolution & genetics; Populations & communities; Ecosystem processes
+  added: '2026-11-03'
+- id: 10.1080/14772000.2017.1291543
+  doi: 10.1080/14772000.2017.1291543
+  openalex_id: W2592438131
+  review: pending
+  title: 'Integrative taxonomic revision of Campylocia (mayflies: Ephemeroptera, Euthyplociidae)'
+  year: 2017
+  venue: Systematics and Biodiversity
+  authors: Inês Corrêa Gonçalves; Daniela Maeda Takiya; Frederico Falcão Salles; Janice
+    G. Peters; Jorge Luiz Nessimian
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Insecta
+  themes: Taxonomy & systematics; Evolution & genetics
+  added: '2026-11-03'
+- id: 10.1080/10871209.2017.1303099
+  doi: 10.1080/10871209.2017.1303099
+  openalex_id: W2605782318
+  review: pending
+  title: Stakeholder Barriers and Benefits Associated With Improving Livestock Husbandry
+    to Prevent Jaguar and Puma Depredation
+  year: 2017
+  venue: Human Dimensions of Wildlife
+  authors: Ronit Amit; Susan Kay Jacobson
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Mammalia
+  themes: Species interactions; Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1126/science.aaf5080
+  doi: 10.1126/science.aaf5080
+  openalex_id: W2521278688
+  review: pending
+  title: Plant diversity patterns in neotropical dry forests and their conservation
+    implications
+  year: 2016
+  venue: Science
+  authors: DRYFLOR; Karina Banda; Alfonso Delgado‐Salinas; Kyle Graham Dexter; Reynaldo
+    Linares‐Palomino; Ary Teixeira de Oliveira‐Filho; Darién E. Prado; Martin R. Pullan;
+    Catalina Quintana; Ricarda Riina; Gina M. Rodríguez‐M.; Julia Weintritt; Pedro
+    Acevedo‐Rodríguez; Juan Adarve; Esteban Álvarez‐Dávila; Anairamiz Aranguren B.;
+    Julián Camilo Arteaga; Gerardo A. Aymard C.; Alejandro Castaño; Natalia Ceballos-Mago;
+    Álvaro Cogollo; Hermes Cuadros; Freddy Delgado; Wilson Devia; Hilda del Carmen
+    Dueñas Gómez; Laurie Fajardo; Ángel Fernández; Miller Ángel Fernández; Janet Franklin;
+    Ethan H. Freid; Luciano A. Galetti; Reina Gonto; Roy González‐M.; Roger Graveson;
+    Eileen H. Helmer; Álvaro Idárraga; René López Camacho; Humfredo Marcano‐Vega;
+    Olga G. Martínez; Hernán M. Maturo; Morag A. McDonald; Kurt P. McLaren; Omar Melo;
+    Francisco Mijares; Virginia Y. Mogni; Diego Alonso Restrepo Molina; Natalia del
+    Pilar Moreno; Jafet M. Nassar; Danilo Mesquita Neves; Luis J. Oakley; Michael
+    P. Oatham; Alma Rosa Olvera-Luna; Flávia Fonseca Pezzini; Orlando Joel Reyes Domínguez;
+    María Elvira Ríos; Orlando Rivera-Díaz; Nelly Rodríguez; Alicia Rojas; Tiina Särkinen;
+    Roberto Sánchez; Melvin N. E. Smith; Carlos Vargas; Boris Villanueva; R. Toby
+    Pennington
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://repository.urosario.edu.co/handle/10336/23275
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics; Populations & communities
+  added: '2026-11-03'
+- id: 10.1676/wils-128-01-32-42.1
+  doi: 10.1676/wils-128-01-32-42.1
+  openalex_id: W2343277805
+  review: pending
+  title: What determines the timing and duration of the nesting season for a tropical
+    dry forest bird, the White-throated Magpie-Jay ( Calocitta formosa )?
+  year: 2016
+  venue: The Wilson Journal of Ornithology
+  authors: Tom A. Langen; Elena C. Berg
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Aves
+  themes: Natural history & behavior; Species interactions; Climate & environmental
+    change
+  added: '2026-11-03'
+- id: 10.11646/zootaxa.4161.1.3
+  doi: 10.11646/zootaxa.4161.1.3
+  openalex_id: W2517875356
+  review: pending
+  title: 'Revision of the Neotropical genus Macreupelmus Ashmead (Hymenoptera: Chalcidoidea:
+    Eupelmidae)'
+  year: 2016
+  venue: Zootaxa
+  authors: Gary A. P. Gibson
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.11646/zootaxa.4161.1.3
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-03'
+- id: 10.11646/zootaxa.4093.4.1
+  doi: 10.11646/zootaxa.4093.4.1
+  openalex_id: W2303289282
+  review: pending
+  title: 'Review of the genus Arhaphe (Hemiptera: Heteroptera: Largidae) with descriptions
+    of nine new species from Central America'
+  year: 2016
+  venue: Zootaxa
+  authors: Jaroslav L. Stehlík; Harry Brailovsky
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hemiptera
+  themes: Taxonomy & systematics
+  added: '2026-11-03'
+- id: 10.11646/zootaxa.4085.1.7
+  doi: 10.11646/zootaxa.4085.1.7
+  openalex_id: W2288874498
+  review: pending
+  title: 'Two new species of Lamiinae (Coleoptera: Cerambycidae) from the Neotropical
+    Region'
+  year: 2016
+  venue: Zootaxa
+  authors: Larry G. Bezark; Maria Helena M. Galileo; Antonio Santos‐Silva
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.11646/zootaxa.4085.1.7
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-03'
+- id: 10.1007/s10533-015-0103-6
+  doi: 10.1007/s10533-015-0103-6
+  openalex_id: W2041861098
+  review: pending
+  title: 'Longitudinal shifts in dissolved organic matter chemogeography and chemodiversity
+    within headwater streams: a river continuum reprise'
+  year: 2015
+  venue: Biogeochemistry
+  authors: Jennifer J. Mosher; Louis A. Kaplan; David C. Podgorski; Amy Marilyn Mckenna;
+    Alan G. Marshall
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.11646/zootaxa.3946.4.3
+  doi: 10.11646/zootaxa.3946.4.3
+  openalex_id: W2093836730
+  review: pending
+  title: 'New species of Cymatodera Gray (Coleoptera: Cleridae: Tillinae) from México
+    and Central America, with notes on others'
+  year: 2015
+  venue: Zootaxa
+  authors: Jacques Rifkind
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.11646/zootaxa.3946.4.3
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-03'
+- id: 10.5281/zenodo.15892117
+  doi: 10.5281/zenodo.15892117
+  openalex_id: W2964309344
+  review: pending
+  title: A conservation reassessment of the Central American herpetofauna based on
+    the EVS measure
+  year: 2015
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Jerry D. Johnson; Vicente Mata‐Silva; Larry David Wilson
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.5281/zenodo.15892117
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Reptilia; Amphibia
+  themes: Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1016/j.protis.2015.08.004
+  doi: 10.1016/j.protis.2015.08.004
+  openalex_id: W1203138173
+  review: pending
+  title: 'Host-specificity of Monoxenous Trypanosomatids: Statistical Analysis of
+    the Distribution and Transmission Patterns of the Parasites from Neotropical Heteroptera'
+  year: 2015
+  venue: Protist
+  authors: Eugene V. Kozminsky; Natalya Kraeva; Aygul Ishemgulova; Eva Dobáková; Julius
+    Lukeš; Petr Kment; Vyacheslav Yurchenko; Jan Votýpka; Dmitri A Maslov
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hemiptera
+  themes: Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.1007/s10980-015-0316-z
+  doi: 10.1007/s10980-015-0316-z
+  openalex_id: W2194499003
+  review: pending
+  title: Divergent effects of tropical forest fragmentation and conversion on leaf
+    litter decomposition
+  year: 2015
+  venue: Landscape Ecology
+  authors: Melissa Erin Cuke; Diane S. Srivastava
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes; Climate & environmental change
+  added: '2026-11-03'
+- id: 10.23818/limn.34.01
+  doi: 10.23818/limn.34.01
+  openalex_id: W2414900195
+  review: pending
+  title: 'Seasonal wetlands in the Pacific coast of Costa Rica and Nicaragua: environmental
+    characterisation and conservation state'
+  year: 2015
+  venue: Limnetica
+  authors: Mahmood Sasa; Xavier Armengol; Fabián Bonilla; Francesc Mesquita‐Joanes;
+    Rubén Piculo; Carmen Rojo; Ricardo M. Rueda; Juan Salvador Monrós
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.23818/limn.34.01
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Conservation, management
+    & people
+  added: '2026-11-03'
+- id: 10.1007/s00265-014-1702-2
+  doi: 10.1007/s00265-014-1702-2
+  openalex_id: W1976303972
+  review: pending
+  title: Dispersal and social organization in the Neotropical Grey sac-winged bat
+    Balantiopteryx plicata
+  year: 2014
+  venue: Behavioral Ecology and Sociobiology
+  authors: Martina Nagy; Mirjam Knörnschild; Linus Günther; Frieder Mayer
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.5281/zenodo.19667046
+  doi: 10.5281/zenodo.19667046
+  openalex_id: W7154990157
+  review: pending
+  title: Historia de la mastozoología en Latinoamérica, las Guayanas y el Caribe
+  year: 2014
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  authors: Jorge Ortega; José Luis Martínez; Diego G. Tirira
+  type: book
+  language: es
+  is_oa: true
+  oa_url: https://doi.org/10.5281/zenodo.19667046
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Mammalia
+  themes: Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1007/s10764-013-9730-8
+  doi: 10.1007/s10764-013-9730-8
+  openalex_id: W2109180854
+  review: pending
+  title: 'The Behavioral Ecology of Color Vision: Considering Fruit Conspicuity, Detection
+    Distance and Dietary Importance'
+  year: 2013
+  venue: International Journal of Primatology
+  authors: Amanda Dawn Melin; Chihiro Hiramatsu; Nigel A. Parr; Yuka Matsushita; Shoji
+    Kawamura; Linda Marie Fedigan
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1201/b15417-12
+  doi: 10.1201/b15417-12
+  openalex_id: W2495258982
+  review: pending
+  title: Nutrient Cycling in Tropical Dry Forests
+  year: 2013
+  venue: CRC Press eBooks
+  authors: Maria Gabriela Gei; Jennifer Sarah Powers
+  type: book-chapter
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes; Climate & environmental change
+  added: '2026-11-03'
+- id: 10.1201/b15417-17
+  doi: 10.1201/b15417-17
+  openalex_id: W2492327156
+  review: pending
+  title: An Evaluation of Rainfall Interception in Secondary Tropical Dry Forests
+  year: 2013
+  venue: CRC Press eBooks
+  authors: Cesar Dionisio Jiménez‐Rodríguez; Julio César Calvo-Alvarado
+  type: book-chapter
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes
+  added: '2026-11-03'
+- id: 10.1007/s00265-012-1461-x
+  doi: 10.1007/s00265-012-1461-x
+  openalex_id: W2039460823
+  review: pending
+  title: Trill performance components vary with age, season, and motivation in the
+    banded wren
+  year: 2012
+  venue: Behavioral Ecology and Sociobiology
+  authors: Sandra L. Vehrencamp; J. Yantachka; Michelle L. Hall; Selvino R. de Kort
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://europepmc.org/articles/PMC3608479
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Aves
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1016/j.protis.2011.12.004
+  doi: 10.1016/j.protis.2011.12.004
+  openalex_id: W2022698576
+  review: pending
+  title: Cosmopolitan Distribution of a Trypanosomatid Leptomonas pyrrhocoris
+  year: 2012
+  venue: Protist
+  authors: Jan Votýpka; Helena Klepetková; Vyacheslav Yurchenko; Aleš Horák; Julius
+    Lukeš; Dmitri A. Maslov
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.11646/zootaxa.3427.1.3
+  doi: 10.11646/zootaxa.3427.1.3
+  openalex_id: W2599534524
+  review: pending
+  title: 'New records of Rheumatobates Bergroth (Hemiptera: Heteroptera: Gerridae)
+    from the Pacific coast of Colombia and Costa Rica, with a key to males of Rheumatobates
+    in the Eastern Tropical Pacific'
+  year: 2012
+  venue: Zootaxa
+  authors: Dora N. Padilla-Gil; Bernald Pacheco‐Chaves
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.48580/d3tyn.v84
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hemiptera
+  themes: Taxonomy & systematics
+  added: '2026-11-03'
+- id: 10.1525/abt.2013.75.1.10
+  doi: 10.1525/abt.2013.75.1.10
+  openalex_id: W2166989204
+  review: pending
+  title: 'Clay Caterpillar Whodunit: A Customizable Method for Studying Predator–Prey
+    Interactions in the Field'
+  year: 2012
+  venue: The American Biology Teacher
+  authors: Rachel Curtis‐Robles; Jeffrey A. Klemens; Salvatore J. Agosta; Andrew W.
+    Bartlow; Steve Wood; Jason A. Carlson; Jeffrey A. Stratford; Michael A. Steele
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.1016/j.tree.2011.02.006
+  doi: 10.1016/j.tree.2011.02.006
+  openalex_id: W1981506302
+  review: pending
+  title: Translocation of species, climate change, and the end of trying to recreate
+    past ecological communities
+  year: 2011
+  venue: Trends in Ecology & Evolution
+  authors: Chris D. Thomas
+  type: review
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Actinopterygii; Plantae
+  themes: Populations & communities; Climate & environmental change
+  added: '2026-11-03'
+- id: 10.1007/s11104-011-0815-x
+  doi: 10.1007/s11104-011-0815-x
+  openalex_id: W2045815202
+  review: pending
+  title: 'Macro- and micronutrient effects on decomposition of leaf litter from two
+    tropical tree species: inferences from a short-term laboratory incubation'
+  year: 2011
+  venue: Plant and Soil
+  authors: Jennifer Sarah Powers; Stefani Salute
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes
+  added: '2026-11-03'
+- id: 10.22458/urj.v3i1.211
+  doi: 10.22458/urj.v3i1.211
+  openalex_id: W1548939151
+  review: pending
+  title: 'Variación de color de la serpiente marina Pelamis platura (Serpentes: Elapidae)
+    en el Golfo Dulce, Puntarenas, Costa Rica'
+  year: 2011
+  venue: UNED Research Journal
+  authors: Alejandro Solórzano
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.uned.ac.cr/index.php/cuadernos/article/download/211/89
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera; Reptilia
+  themes: Evolution & genetics
+  added: '2026-11-03'
+- id: 10.15517/rbt.v0i0.3143
+  doi: 10.15517/rbt.v0i0.3143
+  openalex_id: W1980261754
+  review: pending
+  title: Identificación de las prioridades de conservación de la biodiversidad marina
+    y costera en Costa Rica
+  year: 2010
+  venue: Revista de Biología Tropical
+  authors: Juan José Alvarado; Bernal Herrera; Lenin Corrales; Jenny Asch; Pía Paaby
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/download/3143/3050
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Cnidaria
+  themes: Populations & communities; Conservation, management & people
+  added: '2026-11-03'
+- id: 10.2744/ccb-0739.1
+  doi: 10.2744/ccb-0739.1
+  openalex_id: W2102734810
+  review: pending
+  title: Downward but Stable Trend in the Abundance of Arribada Olive Ridley Sea Turtles
+    (Lepidochelys olivacea) at Nancite Beach, Costa Rica (1971–2007)
+  year: 2009
+  venue: Chelonian Conservation and Biology
+  authors: Luis G. Fonseca; Grettel A. Murillo; Lenín Guadamúz; R. Manuel Spínola;
+    Roldán Arturo Valverde
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.2744/ccb-0739.1
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Reptilia
+  themes: Natural history & behavior; Populations & communities
+  added: '2026-11-03'
+- id: 10.11646/zootaxa.2005.1.1
+  doi: 10.11646/zootaxa.2005.1.1
+  openalex_id: W2618495031
+  review: pending
+  title: 'A checklist of the Amphibians and Reptiles of Costa Rica: Additions and
+    nomenclatural revisions'
+  year: 2009
+  venue: Zootaxa
+  authors: Jay Mathers Savage; Federico Bolaños
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.15468/jt8b7q
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Reptilia; Amphibia
+  themes: Taxonomy & systematics
+  added: '2026-11-03'
+- id: 10.1596/9780821379875_focus_a
+  doi: 10.1596/9780821379875_focus_a
+  openalex_id: W4211150664
+  review: pending
+  title: The Science of Climate Change
+  year: 2009
+  venue: World Bank, Washington, DC eBooks
+  authors: World Bank
+  type: book-chapter
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Climate & environmental change
+  added: '2026-11-03'
+- id: 10.1007/978-1-4020-8278-8
+  doi: 10.1007/978-1-4020-8278-8
+  openalex_id: W127600246
+  review: pending
+  title: Marine Biodiversity of Costa Rica, Central America
+  year: 2009
+  venue: Springer eBooks
+  authors: Ingo S. Wehrtmann; Jorge Cortés
+  type: book
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Cnidaria
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.1007/s00265-008-0699-9
+  doi: 10.1007/s00265-008-0699-9
+  openalex_id: W2030688501
+  review: pending
+  title: 'Fissioning minimizes ranging costs in spider monkeys: a multiple-level approach'
+  year: 2009
+  venue: Behavioral Ecology and Sociobiology
+  authors: Norberto Asensio; Amanda H. Korstjens; Filippo Aureli
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1126/science.1152509
+  doi: 10.1126/science.1152509
+  openalex_id: W2123920115
+  review: pending
+  title: Coral Reefs Under Rapid Climate Change and Ocean Acidification
+  year: 2007
+  venue: Science
+  authors: Ove Hoegh‐Guldberg; Peter J. Mumby; A. J. Hooten; Robert S. Steneck; Paul
+    F. Greenfield; E. D. Gomez; C. Drew Harvell; Peter F. Sale; Alasdair J. Edwards;
+    Ken Caldeira; Nancy­ Knowlton­; C. Mark Eakin; Roberto Iglesias‐Prieto; Nyawira
+    A. Muthiga; Roger Bradbury; Alfonse Dubi; Marea Eleni Hatziolos
+  type: review
+  language: en
+  is_oa: true
+  oa_url: https://openresearch-repository.anu.edu.au/bitstreams/ab9744aa-7521-4de0-8d87-55d2919d2206/download
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Cnidaria
+  themes: Ecosystem processes; Climate & environmental change; Conservation, management
+    & people
+  added: '2026-11-03'
+- id: 10.1126/science.316.5832.1684
+  doi: 10.1126/science.316.5832.1684
+  openalex_id: W1531780373
+  review: pending
+  title: The Last of the Leviathans
+  year: 2007
+  venue: Science
+  authors: Richard Stone
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Actinopterygii
+  themes: Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1038/446261a
+  doi: 10.1038/446261a
+  openalex_id: W1984775902
+  review: pending
+  title: Spreading the word
+  year: 2007
+  venue: Nature
+  authors: Sandra Knapp; Andrew Polaszek; Mark F. Watson
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1643/0045-8511(2007)7[304:taeotc]2.0.co;2
+  doi: 10.1643/0045-8511(2007)7[304:taeotc]2.0.co;2
+  openalex_id: W2059300107
+  review: pending
+  title: 'Taxonomy and Ecology of the Central American Toads of the Genus Crepidophryne
+    (Anura: Bufonidae)'
+  year: 2007
+  venue: Copeia
+  authors: Andres Vaughan; JOSEPH R.  III MENDELSON
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Amphibia
+  themes: Taxonomy & systematics; Populations & communities
+  added: '2026-11-03'
+- id: 10.1126/science.1127609
+  doi: 10.1126/science.1127609
+  openalex_id: W2064270042
+  review: pending
+  title: Global Biodiversity Conservation Priorities
+  year: 2006
+  venue: Science
+  authors: Thomas M. Brooks; R. A. Mittermeier; Gustavo A. B. da Fonseca; Justin Gerlach;
+    Michael Hoffmann; John F. Lamoreux; Cristina Goettsch Mittermeier; John D. Pilgrim;
+    Ana S. L. Rodrigues
+  type: review
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1098/rspb.2006.3535
+  doi: 10.1098/rspb.2006.3535
+  openalex_id: W2075480278
+  review: pending
+  title: Vocal performance influences male receiver response in the banded wren
+  year: 2006
+  venue: Proceedings of the Royal Society B Biological Sciences
+  authors: Anya E Illes; Michelle L. Hall; Sandra L. Vehrencamp
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Aves
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1007/s10393-006-0068-y
+  doi: 10.1007/s10393-006-0068-y
+  openalex_id: W1975060745
+  review: pending
+  title: Batrachochytrium dendrobatidis Infection in the Recently Rediscovered Atelopus
+    mucubajiensis (Anura, Bufonidae), a Critically Endangered Frog from the Venezuelan
+    Andes
+  year: 2006
+  venue: EcoHealth
+  authors: Margarita Lampo; César Luis Barrio-Amorós; Barbara A. Han
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Amphibia
+  themes: Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1126/science.1110252
+  doi: 10.1126/science.1110252
+  openalex_id: W2103651007
+  review: pending
+  title: 'Earth''s Energy Imbalance: Confirmation and Implications'
+  year: 2005
+  venue: Science
+  authors: James E. Hansen; Larissa Nazarenko; Reto A. Ruedy; Makiko Sato; Josh K.
+    Willis; Anthony D. Del Genio C; Dorothy M. Koch; Andrew A. Lacis; Ken K. Lo; Surabi
+    Menon; Tica Novakov; Judith Perlwitz; Gary L. Russell; Gavin A. Schmidt; Nicholas
+    Tausnev
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Climate & environmental change
+  added: '2026-11-03'
+- id: 10.1111/j.1365-294x.2005.02466.x
+  doi: 10.1111/j.1365-294x.2005.02466.x
+  openalex_id: W1502197357
+  review: pending
+  title: Vocal dialects, sex‐biased dispersal, and microsatellite population structure
+    in the parrot Amazona auropalliata
+  year: 2005
+  venue: Molecular Ecology
+  authors: Timothy F. Wright; Angélica María Rodríguez; Robert C. Fleischer
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Aves
+  themes: Evolution & genetics; Natural history & behavior; Populations & communities
+  added: '2026-11-03'
+- id: 10.1111/j.1365-294x.2005.02652.x
+  doi: 10.1111/j.1365-294x.2005.02652.x
+  openalex_id: W1978892832
+  review: pending
+  title: 'The panmixia paradigm of eastern Pacific olive ridley turtles revised: consequences
+    for their conservation and evolutionary biology'
+  year: 2005
+  venue: Molecular Ecology
+  authors: Melania C. López‐Castro; Axayácatl Rocha‐Olivares
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Reptilia
+  themes: Evolution & genetics; Natural history & behavior; Populations & communities
+  added: '2026-11-03'
+- id: 10.1038/437308a
+  doi: 10.1038/437308a
+  openalex_id: W2086921630
+  review: pending
+  title: The nightmare before funding
+  year: 2005
+  venue: Nature
+  authors: Jim Giles
+  type: other
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1073/pnas.0505447102
+  doi: 10.1073/pnas.0505447102
+  openalex_id: W2094915965
+  review: pending
+  title: Domestication of a Mesoamerican cultivated fruit tree, Spondias purpurea
+  year: 2005
+  venue: Proceedings of the National Academy of Sciences
+  authors: Allison J. Miller; Barbara Anna Schaal
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://europepmc.org/pmc/articles/PMC1200284
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics; Populations & communities; Conservation, management
+    & people
+  added: '2026-11-03'
+- id: 10.1098/rstb.2003.1426
+  doi: 10.1098/rstb.2003.1426
+  openalex_id: W1982390415
+  review: pending
+  title: Sources or sinks? The responses of tropical forests to current and future
+    climate and atmospheric composition
+  year: 2004
+  venue: Philosophical Transactions of the Royal Society B Biological Sciences
+  authors: Deborah A. Clark
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/1693329
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes; Climate & environmental change
+  added: '2026-11-03'
+- id: 10.1016/j.agee.2004.07.002
+  doi: 10.1016/j.agee.2004.07.002
+  openalex_id: W2072933292
+  review: pending
+  title: Dynamics in landscape structure and composition for the Chorotega region,
+    Costa Rica from 1960 to 2000
+  year: 2004
+  venue: Agriculture Ecosystems & Environment
+  authors: J. Pablo Arroyo‐Mora; Arturo G. Sánchez-Azofeifa; Benoît Rivard; Julio
+    César Calvo-Alvarado; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.1016/j.rse.2004.02.011
+  doi: 10.1016/j.rse.2004.02.011
+  openalex_id: W2038485292
+  review: pending
+  title: 'Leaf area index measurements in a tropical moist forest: A case study from
+    Costa Rica'
+  year: 2004
+  venue: Remote Sensing of Environment
+  authors: Margaret Kalácska
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes
+  added: '2026-11-03'
+- id: 10.1163/1568539042245178
+  doi: 10.1163/1568539042245178
+  openalex_id: W1964200132
+  review: pending
+  title: The Demographic and Reproductive Context of Male Replacements in Cebus Capucinus
+  year: 2004
+  venue: Behaviour
+  authors: Katharine M. Jack; Linda Marie Fedigan
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: sector Santa Rosa; found by copa_private (COPA restricted collection,
+    DOI matched by title)
+  sectors: Santa Rosa
+  taxa: Mammalia
+  themes: Natural history & behavior; Populations & communities
+  added: '2026-11-03'
+- id: 10.3354/esr001041
+  doi: 10.3354/esr001041
+  openalex_id: W2002644896
+  review: pending
+  title: Size, growth, and reproductive output of adult female leatherback turtles
+    Dermochelys coriacea
+  year: 2004
+  venue: Endangered Species Research
+  authors: ER Price; BP Wallace; Richard David Reina; JR Spotila; FV Paladino; Rotney
+    Piedra; E. Danny Vélez
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.int-res.com/articles/esr2005/1/n001p041.pdf
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Reptilia
+  themes: Natural history & behavior; Populations & communities
+  added: '2026-11-03'
+- id: 10.1016/j.anbehav.2003.07.015
+  doi: 10.1016/j.anbehav.2003.07.015
+  openalex_id: W2122996651
+  review: pending
+  title: Nest site fidelity of leatherback turtles at Playa Grande, Costa Rica
+  year: 2004
+  venue: Animal Behaviour
+  authors: Eric D. Nordmoe; Annette E. Sieg; Paul R. Sotherland; James Robert Spotila;
+    Frank V. Paladino; Richard David Reina
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Reptilia
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1039/b402431a
+  doi: 10.1039/b402431a
+  openalex_id: W1920686361
+  review: pending
+  title: Natural product based inhibitors of the thioredoxin–thioredoxin reductase
+    system
+  year: 2004
+  venue: Organic & Biomolecular Chemistry
+  authors: Peter Wipf; Stephen M. Lynch; Anne Birmingham; Giselle Tamayo‐Castillo;
+    Allan Jiménez; Nefertiti Campos; Garth Powis
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  added: '2026-11-03'
+- id: 10.1525/california/9780520223097.003.0016
+  doi: 10.1525/california/9780520223097.003.0016
+  openalex_id: W1891764463
+  review: pending
+  title: Prospects for Circa Situm Tree Conservation in Mesoamerican Dry-Forest Agro-Ecosystems
+  year: 2004
+  venue: University of California Press eBooks
+  authors: David Boshier; James E. Gordon; Adrian J. Barrance
+  type: book-chapter
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1371/journal.pbio.0020310
+  doi: 10.1371/journal.pbio.0020310
+  openalex_id: W2057390809
+  review: pending
+  title: The Conservation Business
+  year: 2004
+  venue: PLoS Biology
+  authors: Henry Nicholls
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.1371/journal.pbio.0020310
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.3853/j.0067-1975.56.2004.1429
+  doi: 10.3853/j.0067-1975.56.2004.1429
+  openalex_id: W2130767062
+  review: pending
+  title: 'The world’s smallest vertebrate, Schindleria brevipinguis, a new paedomorphic
+    species in the family Schindleriidae (Perciformes: Gobioidei)'
+  year: 2004
+  venue: Records of the Australian Museum
+  authors: William Watson; H. J. Walker
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://zenodo.org/record/5756688
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Actinopterygii
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1016/b978-044451388-5/50017-5
+  doi: 10.1016/b978-044451388-5/50017-5
+  openalex_id: W169292092
+  review: pending
+  title: 'Corals and coral reefs of the Pacific of Costa Rica: history, research and
+    status'
+  year: 2003
+  venue: Elsevier eBooks
+  authors: Jorge Cortés; Carlos Jiménez
+  type: book-chapter
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Cnidaria
+  added: '2026-11-03'
+- id: 10.1023/a:1024941614919
+  doi: 10.1023/a:1024941614919
+  openalex_id: W154074242
+  review: pending
+  title: Spatial and temporal variation in soil CO2 efflux in an old-growth neotropical
+    rain forest, La Selva, Costa Rica
+  year: 2003
+  venue: Biogeochemistry
+  authors: Luitgard Schwendenmann; Edzo Veldkamp; Tania Brenes‐Arguedas; Joseph J.
+    O’Brien; Jens Mackensen
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://hdl.handle.net/2292/30565
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-03'
+- id: 10.1670/0022-1511(2003)037[0116:pdotjt]2.0.co;2
+  doi: 10.1670/0022-1511(2003)037[0116:pdotjt]2.0.co;2
+  openalex_id: W2177881268
+  review: pending
+  title: 'Population Decline of the Jambato Toad Atelopus ignescens (Anura: Bufonidae)
+    in the Andes of Ecuador'
+  year: 2003
+  venue: Journal of Herpetology
+  authors: Santiago R. Ron; William Edward Duellman; Luis A. Coloma; Martín R. Bustamante
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Amphibia
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.1046/j.1439-0485.2003.03814.x
+  doi: 10.1046/j.1439-0485.2003.03814.x
+  openalex_id: W2106787155
+  review: pending
+  title: Coral Cover Change Associated to El Niño, Eastern Pacific, Costa Rica, 1992–2001
+  year: 2003
+  venue: Marine Ecology
+  authors: Carlos Jiménez; Jorge Cortés
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Cnidaria
+  themes: Populations & communities; Climate & environmental change
+  added: '2026-11-03'
+- id: 10.2307/4014696
+  doi: 10.2307/4014696
+  openalex_id: W1897114869
+  review: pending
+  title: 'Feel the heat: Rain forests may slow their growth in warmer world'
+  year: 2003
+  venue: Science News
+  authors: Sid Perkins
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes
+  added: '2026-11-03'
+- id: 10.1126/science.291.5501.125
+  doi: 10.1126/science.291.5501.125
+  openalex_id: W1991383976
+  review: pending
+  title: Effectiveness of Parks in Protecting Tropical Biodiversity
+  year: 2001
+  venue: Science
+  authors: Aaron Bruner; Raymond E. Gullison; Richard E. Rice; Gustavo A. B. da Fonseca
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1098/rspb.2000.1403
+  doi: 10.1098/rspb.2000.1403
+  openalex_id: W2057862614
+  review: pending
+  title: Population genetic structure and vocal dialects in an amazon parrot
+  year: 2001
+  venue: Proceedings of the Royal Society B Biological Sciences
+  authors: Timothy F. Wright; Gerald S. Wilkinson
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://dx.doi.org/10.1098/rspb.2000.1403
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Aves
+  themes: Evolution & genetics; Natural history & behavior; Populations & communities
+  added: '2026-11-03'
+- id: 10.1021/np9703961
+  doi: 10.1021/np9703961
+  openalex_id: W2078194332
+  review: pending
+  title: Antibacterial Activity of Lonchocarpol A
+  year: 1998
+  venue: Journal of Natural Products
+  authors: Michael J. Salvatore; Aurora B. King; Amy C. Graham; H. Russell Onishi;
+    Ken F. Bartizal; George K. Abruzzo; Charles Gill; Harri G. Ramjit; Steven M. Pitzenberger;
+    Keith M. Witherup
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Microorganisms
+  added: '2026-11-03'
+- id: 10.1098/rspb.1996.0128
+  doi: 10.1098/rspb.1996.0128
+  openalex_id: W2121981114
+  review: pending
+  title: Regional dialects in the contact call of a parrot
+  year: 1996
+  venue: Proceedings of the Royal Society B Biological Sciences
+  authors: Timothy F. Wright
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Aves
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1007/bf00164038
+  doi: 10.1007/bf00164038
+  openalex_id: W2018323116
+  review: pending
+  title: Nesting success of rufous-naped wrens (Campylorhynchus rufinucha) is greater
+    near wasp nests
+  year: 1993
+  venue: Behavioral Ecology and Sociobiology
+  authors: Frank J. Joyce
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera; Aves
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.2307/1311428
+  doi: 10.2307/1311428
+  openalex_id: W2006844551
+  review: pending
+  title: Cataloging Costa Rica's Diversity
+  year: 1990
+  venue: BioScience
+  authors: Laura Tangley
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics; Populations & communities
+  added: '2026-11-03'
+- id: 10.1002/ajp.1350140403
+  doi: 10.1002/ajp.1350140403
+  openalex_id: W2059110490
+  review: pending
+  title: Preliminary observations on squirrel monkey (Saimiri oerstedi) vocalizations
+    in Costa Rica
+  year: 1988
+  venue: American Journal of Primatology
+  authors: Sue Boinski; Jonathan D. Newman
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.2307/2388193
+  doi: 10.2307/2388193
+  openalex_id: W2312529301
+  review: pending
+  title: The Nesting Association of the Social Wasps Mischocyttarus immarginatus and
+    Polybia spp. in Costa Rica
+  year: 1988
+  venue: Biotropica
+  authors: Christopher K. Starr
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.2307/1381127
+  doi: 10.2307/1381127
+  openalex_id: W2319642976
+  review: pending
+  title: Seasonal Foraging Behavior of the Frugivorous Bat Carollia perspicillata
+  year: 1986
+  venue: Journal of Mammalogy
+  authors: Theodore H. Fleming; E. Raymond Heithaus
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior; Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.1007/978-94-009-4812-9_25
+  doi: 10.1007/978-94-009-4812-9_25
+  openalex_id: W104194226
+  review: pending
+  title: 'Agoutis (Dasyprocta punctata): The Inheritors of Guapinol (Hymenaea courbaril:
+    Leguminosae)'
+  year: 1986
+  venue: Tasks for vegetation science
+  authors: Winnie Hallwachs
+  type: book-chapter
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1093/sysbio/34.1.1
+  doi: 10.1093/sysbio/34.1.1
+  openalex_id: W2324441641
+  review: pending
+  title: 'The Neotropical Colubrid Snake Fauna (Serpentes: Colubridae): Lineage Components
+    and Biogeography'
+  year: 1985
+  venue: Systematic Biology
+  authors: John E. Cadle
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Reptilia
+  themes: Populations & communities; Conservation, management & people
+  added: '2026-11-03'
+- id: 10.2307/2424849
+  doi: 10.2307/2424849
+  openalex_id: W2312338978
+  review: pending
+  title: Predation Intensity on Eggs on the Ground in Two Costa Rican Forests
+  year: 1978
+  venue: The American Midland Naturalist
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Aves
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.1126/science.202.4367.528
+  doi: 10.1126/science.202.4367.528
+  openalex_id: W2030323029
+  review: pending
+  title: 'L-Canaline Detoxification: A Seed Predator''s Biochemical Mechanism'
+  year: 1978
+  venue: Science
+  authors: Gerald A. Rosenthal; Douglas Lee Dahlman; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Species interactions; Ecosystem processes
+  added: '2026-11-03'
+- id: 10.2307/2388115
+  doi: 10.2307/2388115
+  openalex_id: W2334276645
+  review: pending
+  title: The Size of a Local Peak in a Seed Shadow
+  year: 1978
+  venue: Biotropica
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  added: '2026-11-03'
+- id: 10.1126/science.854740
+  doi: 10.1126/science.854740
+  openalex_id: W2093528319
+  review: pending
+  title: Degradation and Detoxification of Canavanine by a Specialized Seed Predator
+  year: 1977
+  venue: Science
+  authors: Gerald A. Rosenthal; Daniel H. Janzen; Douglas Lee Dahlman
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Species interactions; Ecosystem processes
+  added: '2026-11-03'
+- id: 10.1086/283200
+  doi: 10.1086/283200
+  openalex_id: W2005820963
+  review: pending
+  title: Why Fruits Rot, Seeds Mold, and Meat Spoils
+  year: 1977
+  venue: The American Naturalist
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics; Ecosystem processes
+  added: '2026-11-03'
+- id: 10.1086/283186
+  doi: 10.1086/283186
+  openalex_id: W2019246323
+  review: pending
+  title: What Are Dandelions and Aphids?
+  year: 1977
+  venue: The American Naturalist
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hemiptera
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1016/s0031-9422(00)86790-4
+  doi: 10.1016/s0031-9422(00)86790-4
+  openalex_id: W1975438799
+  review: pending
+  title: Toxicity of secondary compounds to the seed-eating larvae of the bruchid
+    beetle Callosobruchus maculatus
+  year: 1977
+  venue: Phytochemistry
+  authors: Daniel H. Janzen; Harvey B. Juster; E.Arthur Bell
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://hdl.handle.net/2027.42/23041
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera; Plantae
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.1002/j.1537-2197.1977.tb15736.x
+  doi: 10.1002/j.1537-2197.1977.tb15736.x
+  openalex_id: W1985779505
+  review: pending
+  title: VARIATION IN SEED SIZE WITHIN A CROP OF A COSTA RICAN MUCUNA ANDREANA (LEGUMINOSAE)
+  year: 1977
+  venue: American Journal of Botany
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics
+  added: '2026-11-03'
+- id: 10.2307/2387861
+  doi: 10.2307/2387861
+  openalex_id: W2322241435
+  review: pending
+  title: Musanga cecropiodes Is a Cecropia Without Its Ants
+  year: 1977
+  venue: Biotropica
+  authors: Daniel H. Janzen; Doyle McKey
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.5962/p.371927
+  doi: 10.5962/p.371927
+  openalex_id: W4399816788
+  review: pending
+  title: Natural History of Seed Predation by Rosella sickingiae Whitehead (Curculionidae)
+    on Sickingia maxonii (Rubiaceae) in Costa Rican Rainforest
+  year: 1977
+  venue: The Coleopterists Bulletin
+  authors: Daniel H. Janzen; Don E. Wilson
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.5962/p.371927
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera; Plantae
+  themes: Natural history & behavior; Species interactions; Conservation, management
+    & people
+  added: '2026-11-03'
+- id: 10.1007/bf00299399
+  doi: 10.1007/bf00299399
+  openalex_id: W2322663329
+  review: pending
+  title: Social organization and foraging in emballonurid bats
+  year: 1976
+  venue: Behavioral Ecology and Sociobiology
+  authors: Jack W. Bradbury; Sandra L. Vehrencamp
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1126/science.1265481
+  doi: 10.1126/science.1265481
+  openalex_id: W2016018951
+  review: pending
+  title: Insecticidal Action of the Phytohemagglutinin in Black Beans on a Bruchid
+    Beetle
+  year: 1976
+  venue: Science
+  authors: Daniel H. Janzen; Harvey B. Juster; Irvin E. Liener
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera
+  themes: Evolution & genetics
+  added: '2026-11-03'
+- id: 10.2307/2989685
+  doi: 10.2307/2989685
+  openalex_id: W2320551112
+  review: pending
+  title: Changes in the Arthropod Community along an Elevational Transect in the Venezuelan
+    Andes
+  year: 1976
+  venue: Biotropica
+  authors: Daniel H. Janzen; Michele Ataroff; Mario R. Fariñas; S. Reyes; Natividad
+    Mestre Rincon; A. Soler; Pascual J. Soriano; María Vera
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://www.saber.ula.ve/handle/123456789/37772
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Arthropoda
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.1126/science.1257764
+  doi: 10.1126/science.1257764
+  openalex_id: W2071522533
+  review: pending
+  title: A Novel Means for Dealing with L-Canavanine, a Toxic Metabolite
+  year: 1976
+  venue: Science
+  authors: Gerald A. Rosenthal; Douglas Lee Dahlman; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera; Plantae
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.1126/science.188.4191.936
+  doi: 10.1126/science.188.4191.936
+  openalex_id: W2006145603
+  review: pending
+  title: 'Pseudomyrmex nigropilosa : A Parasite of a Mutualism'
+  year: 1975
+  venue: Science
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera; Plantae
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.2307/1936314
+  doi: 10.2307/1936314
+  openalex_id: W2171188401
+  review: pending
+  title: Intra‐ and Interhabitat Variations in Guazuma ulmifolia (Sterculiaceae) Seed
+    Predation by Amblycerus Cistelinus (Bruchidae) in Costa Rica
+  year: 1975
+  venue: Ecology
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera; Plantae
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.2307/2989668
+  doi: 10.2307/2989668
+  openalex_id: W1966631326
+  review: pending
+  title: 'Epiphytic Myrmecophytes in Sarawak: Mutualism Through the Feeding of Plants
+    by Ants'
+  year: 1974
+  venue: Biotropica
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera; Plantae
+  themes: Natural history & behavior; Species interactions; Ecosystem processes
+  added: '2026-11-03'
+- id: 10.5479/si.0081024x.13
+  doi: 10.5479/si.0081024x.13
+  openalex_id: W2002480715
+  review: pending
+  title: Swollen-Thorn Acacias of Central America
+  year: 1974
+  venue: Smithsonian contributions to botany
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae; Fungi
+  themes: Evolution & genetics
+  added: '2026-11-03'
+- id: 10.1086/282907
+  doi: 10.1086/282907
+  openalex_id: W2045653366
+  review: pending
+  title: 'Strategies in Herbivory by Mammals: The Role of Plant Secondary Compounds'
+  year: 1974
+  venue: The American Naturalist
+  authors: W. J. Freeland; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Mammalia; Plantae
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.2307/2989823
+  doi: 10.2307/2989823
+  openalex_id: W2320023580
+  review: pending
+  title: Tropical Blackwater Rivers, Animals, and Mast Fruiting by the Dipterocarpaceae
+  year: 1974
+  venue: Biotropica
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Diptera
+  themes: Populations & communities; Ecosystem processes
+  added: '2026-11-03'
+- id: 10.1086/282937
+  doi: 10.1086/282937
+  openalex_id: W2049954100
+  review: pending
+  title: Why are Embryos so Tasty?
+  year: 1974
+  venue: The American Naturalist
+  authors: Gordon H. Orians; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.2307/2989669
+  doi: 10.2307/2989669
+  openalex_id: W2331994533
+  review: pending
+  title: The Cost of Being Dormant in the Tropics
+  year: 1974
+  venue: Biotropica
+  authors: Daniel H. Janzen; Don E. Wilson
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.2307/1935359
+  doi: 10.2307/1935359
+  openalex_id: W1963505865
+  review: pending
+  title: 'Sweep Samples of Tropical Foliage Insects: Effects of Seasons, Vegetation
+    Types, Elevation, Time of Day, and Insularity'
+  year: 1973
+  venue: Ecology
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Insecta; Plantae
+  themes: Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.1146/annurev.es.04.110173.001311
+  doi: 10.1146/annurev.es.04.110173.001311
+  openalex_id: W2053813225
+  review: pending
+  title: Ecology of Foraging by Ants
+  year: 1973
+  venue: Annual Review of Ecology and Systematics
+  authors: C. Ronald Carroll; D. H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Natural history & behavior; Populations & communities
+  added: '2026-11-03'
+- id: 10.2307/2989677
+  doi: 10.2307/2989677
+  openalex_id: W1981563689
+  review: pending
+  title: Dissolution of Mutualism between Cecropia and Its Azteca Ants
+  year: 1973
+  venue: Biotropica
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.1086/282876
+  doi: 10.1086/282876
+  openalex_id: W2041425321
+  review: pending
+  title: Host Plants as Islands. II. Competition in Evolutionary and Contemporary
+    Time
+  year: 1973
+  venue: The American Naturalist
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics; Species interactions
+  added: '2026-11-03'
+- id: 10.2307/3134
+  doi: 10.2307/3134
+  openalex_id: W2060300986
+  review: pending
+  title: Evolution of Polygynous Obligate Acacia-Ants in Western Mexico
+  year: 1973
+  venue: Journal of Animal Ecology
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Evolution & genetics; Species interactions
+  added: '2026-11-03'
+- id: 10.1016/0305-1978(73)90038-0
+  doi: 10.1016/0305-1978(73)90038-0
+  openalex_id: W2095362894
+  review: pending
+  title: Insecticidal amino acids in legume seeds
+  year: 1973
+  venue: Biochemical Systematics and Ecology
+  authors: S. S. Rehr; E.Arthur Bell; Daniel H. Janzen; Paul Feeny
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.2307/2989661
+  doi: 10.2307/2989661
+  openalex_id: W2325081436
+  review: pending
+  title: Rate of Regeneration after a Tropical High Elevation Fire
+  year: 1973
+  venue: Biotropica
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Insecta; Plantae
+  themes: Species interactions; Succession & restoration; Conservation, management
+    & people
+  added: '2026-11-03'
+- id: 10.1126/science.181.4094.81
+  doi: 10.1126/science.181.4094.81
+  openalex_id: W2089702674
+  review: pending
+  title: 'L-Dopa in Legume Seeds: A Chemical Barrier to Insect Attack'
+  year: 1973
+  venue: Science
+  authors: S. S. Rehr; Daniel H. Janzen; Paul Feeny
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Insecta; Plantae
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.2307/1934315
+  doi: 10.2307/1934315
+  openalex_id: W2006358603
+  review: pending
+  title: 'Predation on Scheelea Palm Seeds by Bruchid Beetles: Seed Density and Distance
+    from the Parent Palm'
+  year: 1972
+  venue: Ecology
+  authors: Don E. Wilson; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera; Plantae
+  themes: Natural history & behavior; Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.2307/1934079
+  doi: 10.2307/1934079
+  openalex_id: W2126685557
+  review: pending
+  title: Association of a Rainforest Palm and Seed‐Eating Beetles in Puerto Rico
+  year: 1972
+  venue: Ecology
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Coleoptera; Plantae
+  themes: Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.1126/science.171.3967.203
+  doi: 10.1126/science.171.3967.203
+  openalex_id: W1988011643
+  review: pending
+  title: Euglossine Bees as Long-Distance Pollinators of Tropical Plants
+  year: 1971
+  venue: Science
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera; Plantae
+  themes: Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.2307/1933802
+  doi: 10.2307/1933802
+  openalex_id: W2017819052
+  review: pending
+  title: Escape of Cassia Grandis L. Beans From Predators in Time and Space
+  year: 1971
+  venue: Ecology
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Lepidoptera; Coleoptera; Plantae
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.1086/282709
+  doi: 10.1086/282709
+  openalex_id: W2018078620
+  review: pending
+  title: Escape of Juvenile Dioclea megacarpa (Leguminosae) Vines from Predators in
+    a Deciduous Tropical Forest
+  year: 1971
+  venue: The American Naturalist
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.1146/annurev.es.02.110171.002341
+  doi: 10.1146/annurev.es.02.110171.002341
+  openalex_id: W2029894290
+  review: pending
+  title: Seed Predation by Animals
+  year: 1971
+  venue: Annual Review of Ecology and Systematics
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.1038/229136a0
+  doi: 10.1038/229136a0
+  openalex_id: W2014502442
+  review: pending
+  title: Medical and Ecological Considerations of L-Dopa and 5-HTP in Seeds
+  year: 1971
+  venue: Nature
+  authors: E.Arthur Bell; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1086/282687
+  doi: 10.1086/282687
+  openalex_id: W2029796932
+  review: pending
+  title: Herbivores and the Number of Tree Species in Tropical Forests
+  year: 1970
+  venue: The American Naturalist
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Species interactions; Populations & communities; Ecosystem processes
+  added: '2026-11-03'
+- id: 10.2307/2989768
+  doi: 10.2307/2989768
+  openalex_id: W2320808965
+  review: pending
+  title: Jacquinia pungens, a Heliophile from the Understory of Tropical Deciduous
+    Forest
+  year: 1970
+  venue: Biotropica
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior; Ecosystem processes
+  added: '2026-11-03'
+- id: 10.2307/20165822
+  doi: 10.2307/20165822
+  openalex_id: W2098305254
+  review: pending
+  title: The Unexploited Tropics
+  year: 1970
+  venue: Bulletin of the Ecological Society of America
+  authors: ''
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.2307/1934677
+  doi: 10.2307/1934677
+  openalex_id: W2039346265
+  review: pending
+  title: 'Allelopathy by Myrmecophytes: The Ant Azteca as an Allelopathic Agent of
+    Cecropia'
+  year: 1969
+  venue: Ecology
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.2307/1366301
+  doi: 10.2307/1366301
+  openalex_id: W2312972987
+  review: pending
+  title: Birds and the Ant × Acacia Interaction in Central America, with Notes on
+    Birds and Other Myrmecophytes
+  year: 1969
+  venue: Ornithological Applications
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera; Aves
+  themes: Species interactions
+  added: '2026-11-03'
+- id: 10.1111/j.1558-5646.1969.tb03489.x
+  doi: 10.1111/j.1558-5646.1969.tb03489.x
+  openalex_id: W2313586583
+  review: pending
+  title: SEED‐EATERS VERSUS SEED SIZE, NUMBER, TOXICITY AND DISPERSAL
+  year: 1969
+  venue: Evolution
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1086/282538
+  doi: 10.1086/282538
+  openalex_id: W1980029080
+  review: pending
+  title: Notes on Environmental Determinants of Tropical Versus Temperate Insect Size
+    Patterns
+  year: 1968
+  venue: The American Naturalist
+  authors: Thomas W. Schoener; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Insecta
+  themes: Populations & communities
+  added: '2026-11-03'
+- id: 10.2307/1933565
+  doi: 10.2307/1933565
+  openalex_id: W2143940699
+  review: pending
+  title: Differences in Insect Abundance and Diversity Between Wetter and Drier Sites
+    During a Tropical Dry Season
+  year: 1968
+  venue: Ecology
+  authors: Daniel H. Janzen; Thomas W. Schoener
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Insecta
+  themes: Species interactions; Populations & communities
+  added: '2026-11-03'
+- id: 10.1163/156853968x00072
+  doi: 10.1163/156853968x00072
+  openalex_id: W1974252134
+  review: pending
+  title: Reproductive Behavior in the Passifloraceae and Some of Its Pollinators in
+    Central America
+  year: 1968
+  venue: Behaviour
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.5281/zenodo.19670158
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera; Aves; Plantae
+  themes: Natural history & behavior; Species interactions
+  added: '2026-11-03'
+- id: 10.1086/282487
+  doi: 10.1086/282487
+  openalex_id: W2023033196
+  review: pending
+  title: Why Mountain Passes are Higher in the Tropics
+  year: 1967
+  venue: The American Naturalist
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  themes: Climate & environmental change
+  added: '2026-11-03'
+- id: 10.2307/1933414
+  doi: 10.2307/1933414
+  openalex_id: W2008872408
+  review: pending
+  title: Fire, Vegetation Structure, and the Ant X Acacia Interaction in Central America
+  year: 1967
+  venue: Ecology
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera; Plantae
+  themes: Species interactions; Conservation, management & people
+  added: '2026-11-03'
+- id: 10.1111/j.1558-5646.1967.tb03416.x
+  doi: 10.1111/j.1558-5646.1967.tb03416.x
+  openalex_id: W2057450151
+  review: pending
+  title: SYNCHRONIZATION OF SEXUAL REPRODUCTION OF TREES WITHIN THE DRY SEASON IN
+    CENTRAL AMERICA
+  year: 1967
+  venue: Evolution
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1558-5646.1967.tb03416.x
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior
+  added: '2026-11-03'
+- id: 10.1111/j.1558-5646.1966.tb03364.x
+  doi: 10.1111/j.1558-5646.1966.tb03364.x
+  openalex_id: W2016636298
+  review: pending
+  title: COEVOLUTION OF MUTUALISM BETWEEN ANTS AND ACACIAS IN CENTRAL AMERICA
+  year: 1966
+  venue: Evolution
+  authors: Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: false
+  found_by: copa_private
+  relevance: check
+  relevance_reason: found by copa_private (COPA restricted collection, DOI matched
+    by title)
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Evolution & genetics; Species interactions
+  added: '2026-11-03'
 
