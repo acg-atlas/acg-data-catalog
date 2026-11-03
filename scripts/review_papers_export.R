@@ -6,10 +6,13 @@
 #   Rscript scripts/review_papers_export.R          # all pending papers
 #   Rscript scripts/review_papers_export.R sample   # random 40 likely + 40 check,
 #                                                   # to estimate precision first
+#   Rscript scripts/review_papers_export.R excluded  # second look at excluded papers;
+#                                                   # blank `review` keeps them excluded
+# From the RStudio console, set the option first: args <- "excluded"
 invisible(lapply(list.files("R", full.names = TRUE), source))
-args <- commandArgs(trailingOnly = TRUE)
+if (!exists("args") || !is.character(args)) args <- commandArgs(trailingOnly = TRUE)
 cur <- read_papers("catalog/papers.yaml")
-pending <- dplyr::filter(cur, review == "pending")
+pending <- dplyr::filter(cur, review == if ("excluded" %in% args) "excluded" else "pending")
 if ("sample" %in% args) {
   set.seed(20261024)
   pending <- pending |>
@@ -27,3 +30,5 @@ out <- pending |>
 # write_excel_csv adds a BOM so Excel keeps accented characters intact
 readr::write_excel_csv(out, "review_papers.csv", na = "")
 message(nrow(out), " papers written to review_papers.csv")
+# Forget the console option so the next export goes back to pending papers
+if (exists("args", envir = globalenv(), inherits = FALSE)) rm(args, envir = globalenv())
