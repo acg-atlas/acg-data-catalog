@@ -58655,7 +58655,8 @@
   taxa: Coleoptera; Plantae
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/521
+- id: 10.1890/1540-9295(2004)002[0073:tfagws]2.0.co;2
+  doi: 10.1890/1540-9295(2004)002[0073:tfagws]2.0.co;2
   review: approved
   title: 'Tropical forests and global warming: slowing it down or speeding it up?'
   year: 2004
@@ -58670,7 +58671,8 @@
   sectors: ''
   themes: Ecosystem processes; Climate & environmental change
   added: '2026-10-29'
-- id: copa:11606/1364
+- id: 10.1093/zoolinnean/zly036
+  doi: 10.1093/zoolinnean/zly036
   review: approved
   title: 'DNA barcodes uncover hidden taxonomic diversity behind the variable wing
     patterns in the Neotropical butterfly genus Zaretis (Lepidoptera: Nymphalidae:
@@ -58788,7 +58790,8 @@
   taxa: Mollusca
   themes: Ecosystem processes
   added: '2026-10-29'
-- id: copa:11606/2384
+- id: 10.15517/rbt.v69isuppl.2.48308
+  doi: 10.15517/rbt.v69isuppl.2.48308
   review: approved
   title: Hydrographic variability in the Gulf of Papagayo, Costa Rica during 2017-2019
   year: 2021
@@ -58806,7 +58809,8 @@
   sectors: ''
   themes: Populations & communities; Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/2431
+- id: 10.57800/faunitaxys-11(42)
+  doi: 10.57800/faunitaxys-11(42)
   review: approved
   title: New species and new country records in Neotropical Cerambycidae (Coleoptera)
   year: 2023
@@ -58842,7 +58846,8 @@
   taxa: Lepidoptera
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/2459
+- id: 10.1126/science.abn7829
+  doi: 10.1126/science.abn7829
   review: approved
   title: A global catalog of whole-genome diversity from 233 primate species
   year: 2023
@@ -58925,7 +58930,8 @@
   taxa: Lepidoptera
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/63
+- id: 10.14522/darwiniana.2014.431-4.139
+  doi: 10.14522/darwiniana.2014.431-4.139
   review: approved
   title: 'Estudios en las Apocynaceae neotropicales XIX: la familia Apocynaceae (Apocynoideae,
     Rauvolfioideae) en Costa Rica'
@@ -58979,7 +58985,8 @@
   taxa: Diptera; Crustacea
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/73
+- id: 10.1073/pnas.0609334103
+  doi: 10.1073/pnas.0609334103
   review: approved
   title: Global mammal distributions, biodiversity hotspots, and conservation
   year: 2006
@@ -58996,7 +59003,8 @@
   taxa: Mammalia
   themes: Populations & communities; Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/77
+- id: 10.1177/194008290900200102
+  doi: 10.1177/194008290900200102
   review: approved
   title: Is oil palm the next emerging threat to the Amazon?
   year: 2009
@@ -59013,7 +59021,8 @@
   taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/87
+- id: 10.1016/s0006-3207(02)00145-3
+  doi: 10.1016/s0006-3207(02)00145-3
   review: approved
   title: 'Integrity and isolation of Costa Rica’s national parks and biological reserves:
     examining the dynamics of land-cover change'
@@ -59032,7 +59041,8 @@
   themes: Populations & communities; Climate & environmental change; Conservation,
     management & people
   added: '2026-10-29'
-- id: copa:11606/91
+- id: 10.1016/j.landurbplan.2013.11.006
+  doi: 10.1016/j.landurbplan.2013.11.006
   review: approved
   title: 'Noise pollution in national parks: Soundscape and economic valuation'
   year: 2014
@@ -59048,7 +59058,8 @@
   sectors: ''
   themes: Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/92
+- id: 10.1016/j.foreco.2009.12.005
+  doi: 10.1016/j.foreco.2009.12.005
   review: approved
   title: Can we really manage tropical forests without knowing the species within?
     Getting back to the basics of forest management through taxonomy
@@ -59254,7 +59265,8 @@
   taxa: Amphibia
   themes: Evolution & genetics; Natural history & behavior; Species interactions
   added: '2026-10-29'
-- id: copa:11606/161
+- id: 10.11646/zootaxa.1016.1.4
+  doi: 10.11646/zootaxa.1016.1.4
   review: approved
   title: 'Prasmodon zlotnicki, a new Neotropical species of the genus Prasmodon Nixon
     (Braconidae: Microgastrinae) from Costa Rica, with the first host records for
@@ -59360,7 +59372,8 @@
   sectors: ''
   themes: Geology & volcanology
   added: '2026-10-29'
-- id: copa:11606/203
+- id: 10.1016/j.gloenvcha.2013.02.011
+  doi: 10.1016/j.gloenvcha.2013.02.011
   review: approved
   title: 'Linking multi-level governance to local common-pool resource theory using
     fuzzy-set qualitative comparative analysis: Insights from twenty years of biodiversity
@@ -59396,7 +59409,8 @@
   themes: Natural history & behavior; Populations & communities; Conservation, management
     & people
   added: '2026-10-29'
-- id: copa:11606/215
+- id: 10.1890/1540-9295(2006)004[0141:whcisc]2.0.co;2
+  doi: 10.1890/1540-9295(2006)004[0141:whcisc]2.0.co;2
   review: approved
   title: Will human-induced changes in seawater chemistry alter the distribution of
     deep-sea scleractinian corals?
@@ -59415,7 +59429,8 @@
   taxa: Cnidaria
   themes: Populations & communities; Ecosystem processes
   added: '2026-10-29'
-- id: copa:11606/217
+- id: 10.4067/s0718-19572013000100015
+  doi: 10.4067/s0718-19572013000100015
   review: approved
   title: 'New records of sea anemones (Cnidaria: Anthozoa) from Costa Rica'
   year: 2013
@@ -59431,7 +59446,8 @@
   taxa: Cnidaria
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/218
+- id: 10.1016/j.aquabot.2014.08.009
+  doi: 10.1016/j.aquabot.2014.08.009
   review: approved
   title: Seasonal phenology of Sargassum liebmannii J. Agardh (Fucales,Heterokontophyta)
     in an upwelling area of the Eastern Tropical Pacific
@@ -59465,7 +59481,8 @@
   sectors: Marino
   themes: Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/234
+- id: 10.1126/science.1059199
+  doi: 10.1126/science.1059199
   review: approved
   title: Historical Overﬁshing and the Recent Collapse of Coastal Ecosystems
   year: 2001
@@ -59502,7 +59519,8 @@
   sectors: ''
   themes: Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/276
+- id: 10.3354/meps258097
+  doi: 10.3354/meps258097
   review: approved
   title: Skeletal tumor formations in the massive coral Pavona clavus
   year: 2003
@@ -59538,7 +59556,8 @@
   taxa: Cnidaria
   themes: Climate & environmental change
   added: '2026-10-29'
-- id: copa:11606/281
+- id: 10.1016/j.jembe.2015.03.018
+  doi: 10.1016/j.jembe.2015.03.018
   review: approved
   title: Effects of simulated overfishing on the succession of benthic algae and invertebrates
     in an upwelling-influenced coral reef of Pacific Costa Rica
@@ -59557,7 +59576,8 @@
   taxa: Cnidaria
   themes: Populations & communities; Ecosystem processes; Succession & restoration
   added: '2026-10-29'
-- id: copa:11606/282
+- id: 10.15517/rbt.v51i3.26388
+  doi: 10.15517/rbt.v51i3.26388
   review: approved
   title: Lista de especies de moluscos terrestres (Archaeogastropoda, Mesogastropoda,
     Archaeopulmonata, Stylommatophora, Soleolifera) informadas para Costa Rica
@@ -59575,7 +59595,8 @@
   taxa: Mollusca; Microorganisms
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/283
+- id: 10.15517/rbt.v51i3.26363
+  doi: 10.15517/rbt.v51i3.26363
   review: approved
   title: Aspectos básicos sobre la clasificación, recolección, toma de datos y conservación
     de los moluscos
@@ -59592,7 +59613,8 @@
   sectors: ''
   taxa: Mollusca
   added: '2026-10-29'
-- id: copa:11606/284
+- id: 10.15517/rbt.v51i3.26387
+  doi: 10.15517/rbt.v51i3.26387
   review: approved
   title: Estado actual del conocimiento y la conservación de los moluscos continentales
     de Costa Rica
@@ -59628,7 +59650,8 @@
   taxa: Reptilia
   themes: Natural history & behavior; Populations & communities
   added: '2026-10-29'
-- id: copa:11606/292
+- id: 10.15517/rbt.v53i1-2.14556
+  doi: 10.15517/rbt.v53i1-2.14556
   review: approved
   title: Patterns of cetacean sighting distribution in the Pacific Exclusive Economic
     Zone of Costa Rica based on data collected from 1979-2001
@@ -59683,7 +59706,8 @@
   themes: Taxonomy & systematics; Populations & communities; Conservation, management
     & people
   added: '2026-10-29'
-- id: copa:11606/298
+- id: 10.1371/journal.pone.0075432
+  doi: 10.1371/journal.pone.0075432
   review: approved
   title: A Positive Trajectory for Corals at Little Cayman Island
   year: 2013
@@ -59714,7 +59738,8 @@
   taxa: Reptilia
   themes: Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/300
+- id: 10.1038/scientificamerican0209-52
+  doi: 10.1038/scientificamerican0209-52
   review: approved
   title: The Origin of the Land under the Sea
   year: 2009
@@ -59730,7 +59755,8 @@
   sectors: ''
   themes: Geology & volcanology
   added: '2026-10-29'
-- id: copa:11606/306
+- id: 10.1126/science.314.5800.757b
+  doi: 10.1126/science.314.5800.757b
   review: approved
   title: How Protected Are Coral Reefs?
   year: 2006
@@ -59747,7 +59773,8 @@
   taxa: Cnidaria
   themes: Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/310
+- id: 10.15517/rbt.v54i1.26832
+  doi: 10.15517/rbt.v54i1.26832
   review: approved
   title: 'Los ecosistemas marinos del Pacífico sur de Costa Rica: estado del conocimiento
     y perspectivas de manejo'
@@ -59765,7 +59792,8 @@
   taxa: Crustacea; Mollusca; Actinopterygii
   themes: Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/317
+- id: 10.2307/3558405
+  doi: 10.2307/3558405
   review: approved
   title: 'Reproductive biology of the dry forest tree Enterolobium cyclocarpum (guanacaste)
     in Costa Rica: a comparison between trees left in pastures and trees in continuous
@@ -60111,7 +60139,8 @@
   sectors: Marino; Murciélago
   themes: Populations & communities
   added: '2026-10-29'
-- id: copa:11606/364
+- id: 10.14288/1.0221487
+  doi: 10.14288/1.0221487
   review: approved
   title: Forest fragmentation changes macroinvertebrate community composition in neotropical
     treeholes
@@ -60332,7 +60361,8 @@
   taxa: Reptilia
   themes: Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/389
+- id: 10.5962/p.226658
+  doi: 10.5962/p.226658
   review: approved
   title: DISTRIBUTIONAL RECORDS OF MAMMALS FROM THE SOUTHWESTERN YUCATAN PENINSULA
     OF MEXICO
@@ -60601,7 +60631,8 @@
   sectors: ''
   themes: Populations & communities; Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/451
+- id: 10.2307/1938076a
+  doi: 10.2307/1938076a
   review: approved
   title: Costa Rican Natural History
   year: 1983
@@ -60734,7 +60765,8 @@
   themes: Ecosystem processes; Climate & environmental change; Conservation, management
     & people
   added: '2026-10-29'
-- id: copa:11606/527
+- id: 10.1073/pnas.1019576108
+  doi: 10.1073/pnas.1019576108
   review: approved
   title: Benchmark map of forest carbon stocks in tropical regions across three continents
   year: 2010
@@ -60845,7 +60877,8 @@
   sectors: ''
   themes: Geology & volcanology
   added: '2026-10-29'
-- id: copa:11606/602
+- id: 10.1017/cbo9780511754821.011
+  doi: 10.1017/cbo9780511754821.011
   review: approved
   title: 'Hydrologic connectivity: a neglected dimension of conservation biology'
   year: 2006
@@ -60894,7 +60927,8 @@
   taxa: Plantae
   themes: Populations & communities; Ecosystem processes; Succession & restoration
   added: '2026-10-29'
-- id: copa:11606/734
+- id: 10.5281/zenodo.16575339
+  doi: 10.5281/zenodo.16575339
   review: approved
   title: DNA BARCODES OF CLOSELY RELATED (BUT MORPHOLOGICALLY AND ECOLOGICALLY DISTINCT)
     SPECIES OF SKIPPER BUTTERFLIES (HESPERIIDAE) CAN DIFFER BY ONLY ONE TO THREE NUCLEOTIDES
@@ -60912,7 +60946,8 @@
   taxa: Lepidoptera
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/1087
+- id: 10.2307/2388014
+  doi: 10.2307/2388014
   review: approved
   title: A Bat-Generated Fig Seed Shadow in Rainforest
   year: 1978
@@ -60994,7 +61029,8 @@
   taxa: Plantae
   themes: Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1092
+- id: 10.2307/2387912
+  doi: 10.2307/2387912
   review: approved
   title: How Do Horses Find Their Way Home?
   year: 1978
@@ -61172,7 +61208,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: Santa Rosa
   added: '2026-10-29'
-- id: copa:11606/1103
+- id: 10.2307/2989793
+  doi: 10.2307/2989793
   review: approved
   title: What the Tropical Trappers Leave Behind
   year: 1975
@@ -61202,7 +61239,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   added: '2026-10-29'
-- id: copa:11606/1105
+- id: 10.2307/2989630
+  doi: 10.2307/2989630
   review: approved
   title: Why Tropical Trees Have Rotten Cores
   year: 1976
@@ -61233,7 +61271,8 @@
   taxa: Plantae
   themes: Populations & communities; Ecosystem processes; Geology & volcanology
   added: '2026-10-29'
-- id: copa:11606/1194
+- id: 10.1021/ja00524a029
+  doi: 10.1021/ja00524a029
   review: approved
   title: 2,4-Methanoproline (2-Carboxy-2,4-methanopyrrolidine) and 2,4-Methanoglutamic
     Acid (l-Amino-l ,3-dicarboxycyclobutane) in Seeds of Ateleia herbert smithii Pittier
@@ -61316,7 +61355,8 @@
   taxa: Insecta
   themes: Species interactions; Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1200
+- id: 10.1007/bf00989564
+  doi: 10.1007/bf00989564
   review: approved
   title: AMMONIA UTILIZATION BY THE BRUCHID BEETLE, Caryedes brasiliensis [BRUCHIDAE]
   year: 1984
@@ -61364,7 +61404,8 @@
   taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/1203
+- id: 10.2307/3544443
+  doi: 10.2307/3544443
   review: approved
   title: Bee arrival at two Costa Rican female Catasetum orchid inflorescences, and
     a hypothesis on euglossine population structure
@@ -61381,7 +61422,8 @@
   taxa: Hymenoptera; Plantae
   themes: Species interactions; Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1204
+- id: 10.2307/1940441
+  doi: 10.2307/1940441
   review: approved
   title: Biochemical Ecology of Canavanine-Eating Seed Predators
   year: 1988
@@ -61412,7 +61454,8 @@
   sectors: ''
   themes: Conservation, management & people; Geology & volcanology
   added: '2026-10-29'
-- id: copa:11606/1207
+- id: 10.2307/3565305
+  doi: 10.2307/3565305
   review: approved
   title: Buy Costa Rican beef
   year: 1988
@@ -61443,7 +61486,8 @@
   taxa: Lepidoptera
   themes: Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1209
+- id: 10.1002/j.1537-2197.1982.tb13372.x
+  doi: 10.1002/j.1537-2197.1982.tb13372.x
   review: approved
   title: 'CENIZERO TREE (LEGUMINOSAE: PITHECELLOBIUM SAMAN) DELAYED FRUIT DEVELOPMENT
     IN COSTA RICAN DECIDUOUS FORESTS'
@@ -61460,7 +61504,8 @@
   taxa: Plantae
   themes: Species interactions; Ecosystem processes
   added: '2026-10-29'
-- id: copa:11606/1210
+- id: 10.1146/annurev.es.17.110186.003115
+  doi: 10.1146/annurev.es.17.110186.003115
   review: approved
   title: 'Chihuahuan Desert Nopaleras: Defaunated Big Mammal Vegetation'
   year: 1986
@@ -61617,7 +61662,8 @@
   taxa: Plantae
   themes: Ecosystem processes
   added: '2026-10-29'
-- id: copa:11606/1220
+- id: 10.2307/3544014
+  doi: 10.2307/3544014
   review: approved
   title: Differential Seed Survival and Passage Rates in Cows and Horses, Surrogate
     Pleistocene Dispersal Agents
@@ -61650,7 +61696,8 @@
   taxa: Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1223
+- id: 10.1086/284208
+  doi: 10.1086/284208
   review: approved
   title: 'Dispersal of Small Seeds by Big Herbivores: Foliage is the Fruit'
   year: 1983
@@ -61683,7 +61730,8 @@
   taxa: Plantae
   themes: Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/1225
+- id: 10.1086/284549
+  doi: 10.1086/284549
   review: approved
   title: Does a Hectare of Cropland Equal a Hectare of Wild Host Plant?
   year: 1986
@@ -61781,7 +61829,8 @@
   themes: Taxonomy & systematics; Populations & communities; Conservation, management
     & people
   added: '2026-10-29'
-- id: copa:11606/1231
+- id: 10.1016/0031-9422(79)83029-0
+  doi: 10.1016/0031-9422(79)83029-0
   review: approved
   title: CYANOGENESIS IN ACACIA FARNESIANA
   year: 1979
@@ -61797,7 +61846,8 @@
   taxa: Plantae
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/1232
+- id: 10.2307/2388595
+  doi: 10.2307/2388595
   review: approved
   title: How Fast and Why Do Germinating Guanacaste Seeds (Enterolobium cyclocarpum)
     Die Inside Cows and Horses?
@@ -61829,7 +61879,8 @@
   taxa: Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1234
+- id: 10.2307/2388172
+  doi: 10.2307/2388172
   review: approved
   title: How Many Babies Do Figs Pay for Babies?
   year: 1979
@@ -61845,7 +61896,8 @@
   taxa: Hymenoptera; Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1235
+- id: 10.2307/2387789
+  doi: 10.2307/2387789
   review: approved
   title: How Many Parents Do the Wasps from a Fig Have?
   year: 1979
@@ -61895,7 +61947,8 @@
   taxa: Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1240
+- id: 10.1126/science.217.4557.353
+  doi: 10.1126/science.217.4557.353
   review: approved
   title: L-Canavanine, a Dietary Nitrogen Source for the Seed Predator Caryedes brasiliensis
     (Bruchidae)
@@ -61959,7 +62012,8 @@
   sectors: ''
   themes: Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1245
+- id: 10.2307/1937726
+  doi: 10.2307/1937726
   review: approved
   title: Enterolobium Cyclocarpum Seed Passage Rate and Survival in Horses, Costa
     Rican Pleistocene Seed Dispersal Agents
@@ -62009,7 +62063,8 @@
   sectors: ''
   themes: Evolution & genetics
   added: '2026-10-29'
-- id: copa:11606/1248
+- id: 10.1126/science.242.4885.1493-a
+  doi: 10.1126/science.242.4885.1493-a
   review: approved
   title: Factoring and Cryptography
   year: 1988
@@ -62057,7 +62112,8 @@
   sectors: ''
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1251
+- id: 10.1126/science.235.4784.15c
+  doi: 10.1126/science.235.4784.15c
   review: approved
   title: Forest Restoration in Costa Rica
   year: 1987
@@ -62103,7 +62159,8 @@
   taxa: Aves
   themes: Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1254
+- id: 10.1038/280010a0
+  doi: 10.1038/280010a0
   review: approved
   title: How accurate was the carat
   year: 1978
@@ -62165,7 +62222,8 @@
   taxa: Plantae
   themes: Natural history & behavior; Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1260
+- id: 10.2307/2388218
+  doi: 10.2307/2388218
   review: approved
   title: Male Dogs Have Fitness
   year: 1985
@@ -62179,7 +62237,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   added: '2026-10-29'
-- id: copa:11606/1262
+- id: 10.1017/s0266467400000122
+  doi: 10.1017/s0266467400000122
   review: approved
   title: 'Mangroves: Where''s the Understory?'
   year: 1985
@@ -62245,7 +62304,8 @@
   sectors: ''
   taxa: Plantae
   added: '2026-10-29'
-- id: copa:11606/1268
+- id: 10.1126/science.215.4528.19
+  doi: 10.1126/science.215.4528.19
   review: approved
   title: 'Neotropical Anachronisms: The Fruits the Gomphotheres Ate'
   year: 1982
@@ -62261,7 +62321,8 @@
   taxa: Plantae
   themes: Natural history & behavior; Species interactions; Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1270
+- id: 10.2307/3565507
+  doi: 10.2307/3565507
   review: approved
   title: Oh, I Forgot about Zoos
   year: 1987
@@ -62293,7 +62354,8 @@
   taxa: Plantae
   themes: Evolution & genetics; Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/1274
+- id: 10.2307/3565565
+  doi: 10.2307/3565565
   review: approved
   title: On Ecological Fitting
   year: 1985
@@ -62323,7 +62385,8 @@
   sectors: ''
   taxa: Insecta; Plantae
   added: '2026-10-29'
-- id: copa:11606/1277
+- id: 10.1007/978-3-642-68153-0_17
+  doi: 10.1007/978-3-642-68153-0_17
   review: approved
   title: Physiological Ecology of Fruits and Their Seeds
   year: 1983
@@ -62339,7 +62402,8 @@
   taxa: Plantae
   themes: Ecosystem processes
   added: '2026-10-29'
-- id: copa:11606/1278
+- id: 10.2307/3545032
+  doi: 10.2307/3545032
   review: approved
   title: 'Plant Allelochemicals, Tritrophic Interactions and the Anomalous Diversity
     of Tropical Parasitoids: The "Nasty" Host Hypothesis'
@@ -62372,7 +62436,8 @@
   taxa: Plantae
   themes: Species interactions; Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1280
+- id: 10.1007/bf01012365
+  doi: 10.1007/bf01012365
   review: approved
   title: POTENTIALLY DEFENSIVE PROTEINS IN MATURE SEEDS OF 59 SPECIES OF TROPICAL
     LEGUMINOSAE
@@ -62389,7 +62454,8 @@
   taxa: Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1281
+- id: 10.2307/2388135
+  doi: 10.2307/2388135
   review: approved
   title: Reduction in Euglossine Bee Species Richness on Isla del Cano, a Costa Rican
     Offshore Island
@@ -62439,7 +62505,8 @@
   taxa: Lepidoptera; Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1284
+- id: 10.2307/3565824
+  doi: 10.2307/3565824
   review: approved
   title: Science Is Forever
   year: 1986
@@ -62471,7 +62538,8 @@
   taxa: Plantae
   themes: Evolution & genetics
   added: '2026-10-29'
-- id: copa:11606/1288
+- id: 10.2307/3565372
+  doi: 10.2307/3565372
   review: approved
   title: Seeds as Products
   year: 1986
@@ -62521,7 +62589,8 @@
   taxa: Mammalia
   themes: Succession & restoration
   added: '2026-10-29'
-- id: copa:11606/1293
+- id: 10.2307/2259466
+  doi: 10.2307/2259466
   review: approved
   title: SPECIFICITY OF SEED-ATTACKING BEETLES IN A COSTA RICAN DECIDUOUS FOREST
   year: 1980
@@ -62537,7 +62606,8 @@
   taxa: Coleoptera; Plantae
   themes: Species interactions; Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1295
+- id: 10.1016/0031-9422(79)83017-4
+  doi: 10.1016/0031-9422(79)83017-4
   review: approved
   title: 'TETRAHYDROLATHYRINE: A NEW AMINO ACID FROM SEEDS OF LONCHOCARPUS COSTARICENSIS'
   year: 1978
@@ -62583,7 +62653,8 @@
   sectors: ''
   themes: Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/1298
+- id: 10.1146/annurev.ecolsys.17.1.305
+  doi: 10.1146/annurev.ecolsys.17.1.305
   review: approved
   title: The Future of Tropical Ecology
   year: 1986
@@ -62615,7 +62686,8 @@
   taxa: Mammalia
   themes: Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/1300
+- id: 10.1016/s0031-9422(00)82411-5
+  doi: 10.1016/s0031-9422(00)82411-5
   review: approved
   title: THE INDOLE ALKALOID, HYPAPHORINE AND PTEROCARPUS SEED PROTECTION
   year: 1982
@@ -62661,7 +62733,8 @@
   sectors: ''
   themes: Evolution & genetics
   added: '2026-10-29'
-- id: copa:11606/1303
+- id: 10.2307/1937717
+  doi: 10.2307/1937717
   review: approved
   title: The Peak in North American Ichneumonid Species Richness Lies Between 38 Degrees
     and 42 Degrees N
@@ -62678,7 +62751,8 @@
   taxa: Hymenoptera
   themes: Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1304
+- id: 10.1086/284088
+  doi: 10.1086/284088
   review: approved
   title: The Pleistocene Hunters Had Help
   year: 1983
@@ -62707,7 +62781,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   added: '2026-10-29'
-- id: copa:11606/1306
+- id: 10.2307/3565633
+  doi: 10.2307/3565633
   review: approved
   title: There are Differences between Tropical and Extra-Tropical National Parks
   year: 1988
@@ -62755,7 +62830,8 @@
   sectors: ''
   taxa: Plantae
   added: '2026-10-29'
-- id: copa:11606/1310
+- id: 10.2307/2387778
+  doi: 10.2307/2387778
   review: approved
   title: Two Potential Coral Snake Mimics in a Tropical Deciduous Forest
   year: 1980
@@ -62785,7 +62861,8 @@
   sectors: Santa Rosa
   taxa: Lepidoptera
   added: '2026-10-29'
-- id: copa:11606/1312
+- id: 10.1002/j.1537-2197.1982.tb13361.x
+  doi: 10.1002/j.1537-2197.1982.tb13361.x
   review: approved
   title: 'VARIATION IN AVERAGE SEED SIZE AND FRUIT SEEDINESS IN A FRUIT CROP OF A
     GUANACASTE TREE (LEGUMINOSAE: ENTEROLOBIUM CYCLOCARPUM)'
@@ -62835,7 +62912,8 @@
   taxa: Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1315
+- id: 10.2307/20166334
+  doi: 10.2307/20166334
   review: approved
   title: WHAT IS PHYSIOLOGICAL ECOLOGY?
   year: 1983
@@ -62849,7 +62927,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   added: '2026-10-29'
-- id: copa:11606/1317
+- id: 10.1111/j.1558-5646.1980.tb04849.x
+  doi: 10.1111/j.1558-5646.1980.tb04849.x
   review: approved
   title: When is it Coevolution?
   year: 1980
@@ -62880,7 +62959,8 @@
   sectors: ''
   taxa: Microorganisms
   added: '2026-10-29'
-- id: copa:11606/1319
+- id: 10.2307/3565757
+  doi: 10.2307/3565757
   review: approved
   title: When, and When Not to Leave
   year: 1987
@@ -62896,7 +62976,8 @@
   taxa: Lepidoptera; Coleoptera; Mammalia; Aves; Reptilia; Plantae
   themes: Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/1320
+- id: 10.1093/ee/11.2.373
+  doi: 10.1093/ee/11.2.373
   review: approved
   title: Why Are Seeds of the Central American Guanacaste Tree, Enterolobium cyclocarpum,
     I Not Attacked by Bruchids2 Except in Panama
@@ -62929,7 +63010,8 @@
   taxa: Mammalia; Plantae
   themes: Succession & restoration
   added: '2026-10-29'
-- id: copa:11606/1328
+- id: 10.5281/zenodo.16503726
+  doi: 10.5281/zenodo.16503726
   review: approved
   title: Cicada (Diceroprocta apache (Davis)) mortality by feeding on  Nerium oleander.
   year: 1977
@@ -62944,7 +63026,8 @@
   sectors: ''
   taxa: Hemiptera
   added: '2026-10-29'
-- id: copa:11606/1329
+- id: 10.1017/s0376892900006226
+  doi: 10.1017/s0376892900006226
   review: approved
   title: Defoliation Heterogeneity Over Costa Rican Highways
   year: 1978
@@ -63018,7 +63101,8 @@
   taxa: Plantae
   themes: Evolution & genetics; Species interactions
   added: '2026-10-29'
-- id: copa:11606/1334
+- id: 10.1002/jps.2600680103
+  doi: 10.1002/jps.2600680103
   review: approved
   title: Open Letter to Phytochemists
   year: 1978
@@ -63032,7 +63116,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   added: '2026-10-29'
-- id: copa:11606/1335
+- id: 10.1086/283526
+  doi: 10.1086/283526
   review: approved
   title: Reply To Addicott
   year: 1978
@@ -63046,7 +63131,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   added: '2026-10-29'
-- id: copa:11606/1336
+- id: 10.1086/283464
+  doi: 10.1086/283464
   review: approved
   title: Reply To Kreulen's Note
   year: 1978
@@ -63060,7 +63146,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   added: '2026-10-29'
-- id: copa:11606/1337
+- id: 10.1016/0968-0004(80)90169-3
+  doi: 10.1016/0968-0004(80)90169-3
   review: approved
   title: Herbivores Their Interaction with Secondary Plant Metabolites
   year: 1979
@@ -63076,7 +63163,8 @@
   taxa: Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1338
+- id: 10.1080/00049188108702798
+  doi: 10.1080/00049188108702798
   review: approved
   title: REVIEWS AND NOTICES
   year: 1981
@@ -63105,7 +63193,8 @@
   sectors: ''
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/1341
+- id: 10.1126/science.258.5085.1071
+  doi: 10.1126/science.258.5085.1071
   review: approved
   title: 'Yucatan Meteor: The Real Impact'
   year: 1992
@@ -63203,7 +63292,8 @@
   taxa: Hymenoptera
   themes: Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/1349
+- id: 10.11646/zootaxa.4323.1.4
+  doi: 10.11646/zootaxa.4323.1.4
   review: approved
   title: 'And then there were six: a revision of the genus Phanolinopsis Scheerpeltz
     (Coleoptera: Staphylinidae: Staphylininae)'
@@ -63282,7 +63372,8 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   added: '2026-10-29'
-- id: copa:11606/1358
+- id: 10.2307/1442051
+  doi: 10.2307/1442051
   review: approved
   title: Proceedings of the Symposium on the Biology of the California Islands
   year: 1968
@@ -63345,7 +63436,8 @@
   taxa: Hymenoptera; Plantae
   themes: Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/1365
+- id: 10.2307/1934304
+  doi: 10.2307/1934304
   review: approved
   title: Protection of Barteria (Passifloraceae) By Pachysima Ants (Pseudomyrmecinae)
     in a Nigerian Rain Forest
@@ -63393,7 +63485,8 @@
   taxa: Insecta; Plantae
   themes: Evolution & genetics
   added: '2026-10-29'
-- id: copa:11606/1368
+- id: 10.2307/3294
+  doi: 10.2307/3294
   review: approved
   title: CHEMICAL DEFENCE IN CENTRAL AMERICAN NON-ANT-ACACIAS
   year: 1973
@@ -63424,7 +63517,8 @@
   sectors: ''
   taxa: Plantae
   added: '2026-10-29'
-- id: copa:11606/1370
+- id: 10.1111/j.1365-2311.1975.tb00551.x
+  doi: 10.1111/j.1365-2311.1975.tb00551.x
   review: approved
   title: A comparison, by sweep sampling, of the arthropod fauna of secondary vegetation
     in Michigan, England and Costa Rica
@@ -63441,7 +63535,8 @@
   taxa: Arthropoda; Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1371
+- id: 10.1086/408907
+  doi: 10.1086/408907
   review: approved
   title: Natural Resources of Humid Tropical Asia. Natural Resources Research, Volume
     XII.
@@ -63506,7 +63601,8 @@
   taxa: Aves
   themes: Natural history & behavior
   added: '2026-10-29'
-- id: copa:11606/1375
+- id: 10.2307/1941072
+  doi: 10.2307/1941072
   review: approved
   title: TWO COSTA RICAN BAT-GENERATED SEED SHADOWS OF ANDIRA INERMIS (LEGUMINOSAE)
   year: 1976
@@ -63523,7 +63619,8 @@
   taxa: Mammalia; Plantae
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/1376
+- id: 10.2307/2387821
+  doi: 10.2307/2387821
   review: approved
   title: Too-Using by the African Grey Parrot (Psittacus erithacus)
   year: 1976
@@ -63570,7 +63667,8 @@
   taxa: Plantae
   themes: Evolution & genetics
   added: '2026-10-29'
-- id: copa:11606/1379
+- id: 10.1126/science.3589661
+  doi: 10.1126/science.3589661
   review: approved
   title: Conservation and Agricultural Economics
   year: 1987
@@ -63633,7 +63731,8 @@
   sectors: Guanacaste
   themes: Populations & communities
   added: '2026-10-29'
-- id: copa:11606/1383
+- id: 10.1126/science.1493-d
+  doi: 10.1126/science.1493-d
   review: approved
   title: CO 2 Reduction and Reforestation
   year: 1988
@@ -63937,7 +64036,8 @@
   taxa: Plantae
   themes: Populations & communities; Conservation, management & people
   added: '2026-10-29'
-- id: copa:11606/1568
+- id: 10.13016/m2ns27
+  doi: 10.13016/m2ns27
   review: approved
   title: LEATHERBACK TURTLE MOVEMENT AND DISPERSAL FROM NESTING BEACHES IN COSTA RICA
     WITH IMPLICATIONS FOR MANAGEMENT AND CONSERVATION
@@ -64027,7 +64127,8 @@
   themes: Natural history & behavior; Succession & restoration; Conservation, management
     & people
   added: '2026-10-29'
-- id: copa:11606/1575
+- id: 10.7939/r3-9yn9-jv98
+  doi: 10.7939/r3-9yn9-jv98
   review: approved
   title: Calibration and Validation of a SWAT model for the quantification of water
     provision ecosystem service for the Conservation Area of Guanacaste
@@ -64240,7 +64341,8 @@
   taxa: Reptilia
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/2288
+- id: 10.5281/zenodo.5042022
+  doi: 10.5281/zenodo.5042022
   review: approved
   title: 'Chlamydastis Meyrick of Costa Rica: barcodes, biology, and descriptions
     of 36 new species (Lepidoptera: Depressariidae)'
@@ -64368,7 +64470,8 @@
   taxa: Mammalia; Aves; Reptilia
   themes: Populations & communities
   added: '2026-10-29'
-- id: copa:11606/2352
+- id: 10.57065/shilap.191
+  doi: 10.57065/shilap.191
   review: approved
   title: 'A new genus and two new species of Tirathabini from the Neotropical region
     (Lepidoptera: Pyralidae: Galleriinae)'
@@ -64386,7 +64489,8 @@
   taxa: Lepidoptera
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/2353
+- id: 10.57065/shilap.344
+  doi: 10.57065/shilap.344
   review: approved
   title: 'Notes and new species of the Neotropical genus Nycterotis Felder, 1874 (Lepidoptera:
     Notodontidae, Nystaleinae)'
@@ -64404,7 +64508,8 @@
   taxa: Lepidoptera
   themes: Taxonomy & systematics
   added: '2026-10-29'
-- id: copa:11606/2359
+- id: 10.1093/biolinnean/blab148
+  doi: 10.1093/biolinnean/blab148
   review: approved
   title: 'Acoustic clue: bringing echolocation call data into the distribution dilemma
     of Pteronotus (Chiroptera: Mormoopidae) complexes in Central America'
@@ -64459,7 +64564,8 @@
   taxa: Reptilia
   themes: Species interactions
   added: '2026-10-29'
-- id: copa:11606/2483
+- id: 10.5479/si.28400228
+  doi: 10.5479/si.28400228
   review: approved
   title: Catalog of Liverworts (Marchantiophyta) and Hornworts (Anthocerotophyta)
     from Central America and Cocos Island
@@ -71276,25 +71382,6 @@
   sectors: ''
   taxa: Cnidaria
   themes: Populations & communities
-  added: '2026-11-02'
-- id: 10.57800/faunitaxys-11(42)
-  doi: 10.57800/faunitaxys-11(42)
-  openalex_id: W4395106273
-  review: excluded
-  title: New species and new country records in Neotropical Cerambycidae (Coleoptera)
-  year: 2023
-  venue: HAL
-  authors: Sergio Devesa; Josef Vlasak
-  type: article
-  language: en
-  is_oa: true
-  oa_url: https://hal.science/hal-04145283/file/Faunitaxys_f234.pdf
-  found_by: openalex_fulltext
-  relevance: check
-  relevance_reason: found by openalex_fulltext
-  sectors: ''
-  taxa: Coleoptera
-  themes: Taxonomy & systematics
   added: '2026-11-02'
 - id: 10.1002/ece3.10524
   doi: 10.1002/ece3.10524
@@ -78603,25 +78690,6 @@
   sectors: ''
   themes: Geology & volcanology
   added: '2026-11-02'
-- id: 10.4067/s0718-19572013000100015
-  doi: 10.4067/s0718-19572013000100015
-  openalex_id: W2161046897
-  review: excluded
-  title: 'New records of sea anemones (Cnidaria: Anthozoa) from Costa Rica'
-  year: 2013
-  venue: Revista de biología marina y oceanografía
-  authors: Fabián H. Acuña; Agustín Garese; Adriana C. Excoffon; Jorge Cortés
-  type: article
-  language: es
-  is_oa: true
-  oa_url: http://www.scielo.cl/pdf/revbiolmar/v48n1/art15.pdf
-  found_by: openalex_fulltext
-  relevance: check
-  relevance_reason: found by openalex_fulltext
-  sectors: ''
-  taxa: Cnidaria
-  themes: Taxonomy & systematics
-  added: '2026-11-02'
 - id: 10.15517/rcs.v0i123-124.8814
   doi: 10.15517/rcs.v0i123-124.8814
   openalex_id: W2088400865
@@ -81168,27 +81236,6 @@
   taxa: Lepidoptera
   themes: Taxonomy & systematics
   added: '2026-11-02'
-- id: 10.15517/rbt.v53i1-2.14556
-  doi: 10.15517/rbt.v53i1-2.14556
-  openalex_id: W2112153715
-  review: excluded
-  title: Patterns of cetacean sighting distribution in the Pacific exclusive economic
-    zone of Costa Rica based on data collected from 1979-2001.
-  year: 2005
-  venue: PubMed
-  authors: Laura Johanna May-Collado; Tim Gerrodette; John Calambokidis; Kristin Rasmussen;
-    Irena Sereg
-  type: article
-  language: en
-  is_oa: true
-  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/14556
-  found_by: openalex_fulltext
-  relevance: check
-  relevance_reason: found by openalex_fulltext
-  sectors: ''
-  taxa: Mammalia
-  themes: Populations & communities; Conservation, management & people
-  added: '2026-11-02'
 - id: 10.1093/auk/122.1.175
   doi: 10.1093/auk/122.1.175
   openalex_id: W2046627509
@@ -81491,47 +81538,6 @@
   relevance_reason: found by openalex_fulltext
   sectors: ''
   themes: Geology & volcanology
-  added: '2026-11-02'
-- id: 10.3354/meps258097
-  doi: 10.3354/meps258097
-  openalex_id: W2052001257
-  review: excluded
-  title: Skeletal tumor formations in the massive coral Pavona clavus
-  year: 2003
-  venue: Marine Ecology Progress Series
-  authors: D. Gateño; A León; Y. Barki; J Cortés; Baruch Rinkevich
-  type: article
-  language: en
-  is_oa: true
-  oa_url: https://www.int-res.com/articles/meps2003/258/m258p097.pdf
-  found_by: openalex_fulltext
-  relevance: check
-  relevance_reason: found by openalex_fulltext
-  sectors: ''
-  taxa: Cnidaria
-  themes: Species interactions; Populations & communities; Climate & environmental
-    change
-  added: '2026-11-02'
-- id: 10.15517/rbt.v51i3.26387
-  doi: 10.15517/rbt.v51i3.26387
-  openalex_id: W1937914276
-  review: excluded
-  title: Estado actual del conocimiento y la conservación de los moluscos continentales
-    de Costa Rica
-  year: 2003
-  venue: Americanae (AECID Library)
-  authors: Zaidett Barrientos
-  type: article
-  language: es
-  is_oa: true
-  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/26387
-  found_by: openalex_fulltext
-  relevance: check
-  relevance_reason: found by openalex_fulltext
-  sectors: ''
-  taxa: Insecta; Mollusca
-  themes: Populations & communities; Ecosystem processes; Conservation, management
-    & people
   added: '2026-11-02'
 - id: 10.1665/1082-6467(2003)012[0001:romroa]2.0.co;2
   doi: 10.1665/1082-6467(2003)012[0001:romroa]2.0.co;2
