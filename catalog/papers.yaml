@@ -218,7 +218,7 @@
 - id: 10.18845/tm.v39i5.8504
   doi: 10.18845/tm.v39i5.8504
   openalex_id: W7134120799
-  review: excluded
+  review: approved
   title: 'Detección automatizada de áreas quemadas en Costa Rica: un primer acercamiento'
   year: 2026
   venue: Revista Tecnología en Marcha
@@ -452,7 +452,7 @@
 - id: 10.5194/egusphere-egu26-19907
   doi: 10.5194/egusphere-egu26-19907
   openalex_id: W7135407541
-  review: excluded
+  review: approved
   title: 'Assessing vegetation seasonality in Tropical Dry Forests: Multi-site comparison
     of MODIS NDVI and CHIRPS Precipitation Time Series.'
   year: 2026
@@ -2985,7 +2985,7 @@
 - id: 10.12933/therya-22-1158
   doi: 10.12933/therya-22-1158
   openalex_id: W4289274516
-  review: excluded
+  review: approved
   title: Analysis of the male annual antler cycle, reproductive behavior and spotted
     fawn presence in the tropical white-tailed deer
   year: 2022
@@ -4618,7 +4618,7 @@
 - id: 10.1093/ae/tmaa047
   doi: 10.1093/ae/tmaa047
   openalex_id: W3089262799
-  review: excluded
+  review: approved
   title: 'Daniel H. Janzen: Forever the Rebel'
   year: 2020
   venue: American Entomologist
@@ -6415,7 +6415,7 @@
 - id: 10.3897/natureconservation.17.9714
   doi: 10.3897/natureconservation.17.9714
   openalex_id: W2592127534
-  review: excluded
+  review: approved
   title: Conservation genetics of American crocodile, Crocodylus acutus, populations
     in Pacific Costa Rica
   year: 2017
@@ -7695,7 +7695,7 @@
 - id: 10.5281/zenodo.20555780
   doi: 10.5281/zenodo.20555780
   openalex_id: W7163639804
-  review: excluded
+  review: approved
   title: Seedling growth and survival in the Guanacaste province of Costa Rica across
     21 plots
   year: 2016
@@ -7765,7 +7765,7 @@
 - id: 10.22458/urj.v8i1.1226
   doi: 10.22458/urj.v8i1.1226
   openalex_id: W2296073441
-  review: excluded
+  review: approved
   title: 'Geophysical characterization of the habitat of Patagioenas fasciata (Columbiformes:
     Columbidae) in Costa Rica'
   year: 2016
@@ -8362,7 +8362,7 @@
   added: '2026-10-24'
 - id: W2175887937
   openalex_id: W2175887937
-  review: excluded
+  review: approved
   title: 'THE PHOLCID SPIDERS OF COSTA RICA (ARANEAE: PHOLCIDAE)'
   year: 2015
   venue: Revista de Biología Tropical
@@ -8959,7 +8959,7 @@
 - id: 10.3897/jhr.41.8586
   doi: 10.3897/jhr.41.8586
   openalex_id: W2048962418
-  review: excluded
+  review: approved
   title: Revision of the neotropical genus Sendaphne Nixon (Hymenoptera, Braconidae,
     Microgastrinae)
   year: 2014
@@ -9239,7 +9239,7 @@
   added: '2026-10-24'
 - id: W1598673766
   openalex_id: W1598673766
-  review: excluded
+  review: approved
   title: El bosque seco en llamas. Estructura agraria y ecología política del fuego
     en Costa Rica
   year: 2014
@@ -9318,7 +9318,7 @@
 - id: 10.3897/zookeys.376.6047
   doi: 10.3897/zookeys.376.6047
   openalex_id: W2047135261
-  review: excluded
+  review: approved
   title: Review and redescription of species in the Oecetis avara group, with the
     description of 15 new species (Trichoptera, Leptoceridae)
   year: 2014
@@ -9336,7 +9336,7 @@
 - id: 10.1206/3794.1
   doi: 10.1206/3794.1
   openalex_id: W2043190179
-  review: excluded
+  review: approved
   title: 'The Goblin Spider GenusCostarina(Araneae, Oonopidae), Part 2: the Costa
     Rican Fauna'
   year: 2014
@@ -9547,7 +9547,7 @@
 - id: 10.59350/v82ac-5jd40
   doi: 10.59350/v82ac-5jd40
   openalex_id: W7213314531
-  review: excluded
+  review: approved
   title: Almost 200 new species of parasitoid wasps named after local parataxonomists
     in Costa Rica
   year: 2014
@@ -9875,7 +9875,7 @@
 - id: 10.3897/zookeys.321.5160
   doi: 10.3897/zookeys.321.5160
   openalex_id: W2008253561
-  review: excluded
+  review: approved
   title: A review of the New World species of the parasitoid wasp Iconella (Hymenoptera,
     Braconidae, Microgastrinae)
   year: 2013
@@ -11437,7 +11437,7 @@
   added: '2026-10-24'
 - id: W2270484051
   openalex_id: W2270484051
-  review: excluded
+  review: approved
   title: 'Phylogenetics patterns of host utilization in two tropical Microgastrine
     parasitoid genera (Hymenoptera: Braconidae)'
   year: 2011
@@ -12680,7 +12680,7 @@
 - id: 10.11646/zootaxa.1926.1.4
   doi: 10.11646/zootaxa.1926.1.4
   openalex_id: W2244678818
-  review: excluded
+  review: approved
   title: Systematics of Agrophaspidium, a new genus of Neotropical Chloropidae (Diptera)
   year: 2008
   venue: Zootaxa
@@ -12717,7 +12717,7 @@
 - id: 10.1590/s0101-81752008000300022
   doi: 10.1590/s0101-81752008000300022
   openalex_id: W2130457854
-  review: excluded
+  review: approved
   title: 'Novos táxons e novo registro em Hemilophini (Coleoptera: Cerambycidae: Lamiinae)'
   year: 2008
   venue: Revista Brasileira de Zoologia
@@ -12948,7 +12948,7 @@
 - id: 10.1111/j.1744-7429.2007.00391.x
   doi: 10.1111/j.1744-7429.2007.00391.x
   openalex_id: W1512868357
-  review: excluded
+  review: approved
   title: Adopt a Forest
   year: 2008
   venue: Biotropica
@@ -13179,7 +13179,7 @@
   added: '2026-10-24'
 - id: W2807789841
   openalex_id: W2807789841
-  review: excluded
+  review: approved
   title: Census data for (a) Capuchin monkeys and (b) Howler monkeys in Santa Rosa
     National Park, Costa Rica between 1972 and 2007
   year: 2007
@@ -13621,7 +13621,7 @@
 - id: 10.11646/zootaxa.1207.1.1
   doi: 10.11646/zootaxa.1207.1.1
   openalex_id: W2925237948
-  review: excluded
+  review: approved
   title: 'Review of the Neotropical species of the genus Stereodermus Lacordaire,
     1866 (Coleoptera: Brentidae, Stereodermini)'
   year: 2006
@@ -13656,7 +13656,7 @@
   added: '2026-10-24'
 - id: W2239575647
   openalex_id: W2239575647
-  review: excluded
+  review: approved
   title: Proyecto de Interpretación del Sendero Los Patos, Área de Conservación Guanacaste,
     Parque Nacional Santa Rosa
   year: 2006
@@ -14343,7 +14343,7 @@
 - id: 10.1590/s0031-10492005001000001
   doi: 10.1590/s0031-10492005001000001
   openalex_id: W1940546700
-  review: excluded
+  review: approved
   title: Contribuição aos Hemilophini da Costa Rica (Coleoptera, Cerambycidae, Lamiinae)
   year: 2005
   venue: Papéis Avulsos de Zoologia
@@ -14803,7 +14803,7 @@
 - id: 10.11646/zootaxa.537.1.1
   doi: 10.11646/zootaxa.537.1.1
   openalex_id: W2104511255
-  review: excluded
+  review: approved
   title: 'The beetle family Carabidae of Costa Rica and Panam : Descriptions of four
     new genera and six new species with notes on their way of life (Insecta: Coleoptera)'
   year: 2004
@@ -15199,7 +15199,7 @@
   added: '2026-10-24'
 - id: W2963319241
   openalex_id: W2963319241
-  review: excluded
+  review: approved
   title: 'Revision of the Neotropical Neurigoninae (Diptera: Dolichopodidae) 5: Neurigona
     Rondani'
   year: 2003
@@ -15422,7 +15422,7 @@
 - id: 10.11646/zootaxa.119.1.1
   doi: 10.11646/zootaxa.119.1.1
   openalex_id: W2117084114
-  review: excluded
+  review: approved
   title: 'The Beetle Family Carabidae of Costa Rica: Twenty-nine new species of Agra
     Fabricius 1801 (Coleoptera: Carabidae, Lebiini, Agrina)'
   year: 2002
@@ -15492,7 +15492,7 @@
 - id: 10.1046/j.1365-2699.2001.00575.x
   doi: 10.1046/j.1365-2699.2001.00575.x
   openalex_id: W2145227278
-  review: excluded
+  review: approved
   title: Distribution of bird species richness at a regional scale in tropical dry
     forest of Central America
   year: 2001
@@ -15645,7 +15645,7 @@
 - id: 10.1554/0014-3820(2001)055[1900:sfgpio]2.0.co;2
   doi: 10.1554/0014-3820(2001)055[1900:sfgpio]2.0.co;2
   openalex_id: W1999842217
-  review: excluded
+  review: approved
   title: 'SEARCHING FOR GENETIC PATTERN IN ORCHID BEES: A REPLY TO TAKAHASHI ET AL'
   year: 2001
   venue: Evolution
@@ -15750,7 +15750,7 @@
 - id: 10.1023/a:1009848525399
   doi: 10.1023/a:1009848525399
   openalex_id: W2129543037
-  review: excluded
+  review: approved
   title: Diversity, composition, and structure of tropical dry forests in Central
     America
   year: 2000
@@ -15825,7 +15825,7 @@
 - id: 10.1649/0010-065x(2000)054[0279:angaso]2.0.co;2
   doi: 10.1649/0010-065x(2000)054[0279:angaso]2.0.co;2
   openalex_id: W2178643862
-  review: excluded
+  review: approved
   title: 'A New Genus and Species of Lachnophorini and Two New Species of Lebiini
     from Costa Rica (Coleoptera: Carabidae)'
   year: 2000
@@ -15864,7 +15864,7 @@
 - id: 10.2307/3761594
   doi: 10.2307/3761594
   openalex_id: W2335271660
-  review: excluded
+  review: approved
   title: The Genus Acytostelium
   year: 2000
   venue: Mycologia
@@ -16222,7 +16222,7 @@
 - id: 10.1076/snfe.34.1.16.8916
   doi: 10.1076/snfe.34.1.16.8916
   openalex_id: W2091898009
-  review: excluded
+  review: approved
   title: 'Hydroptilidae (Trichoptera) of Costa Rica: the Genus Hydroptila Dalman'
   year: 1999
   venue: Studies on Neotropical Fauna and Environment
@@ -16960,7 +16960,7 @@
 - id: 10.1163/156853995x00054
   doi: 10.1163/156853995x00054
   openalex_id: W1980710057
-  review: excluded
+  review: approved
   title: 'Use of Trill Vocalizations To Coordinate Troop Movement Among White-Faced
     Capuchins: a Second Field Test'
   year: 1995
@@ -17154,7 +17154,7 @@
 - id: 10.1017/cbo9780511753398.012
   doi: 10.1017/cbo9780511753398.012
   openalex_id: W2989848718
-  review: excluded
+  review: approved
   title: Plant–herbivore interactions in Mesoamerican tropical dry forests
   year: 1995
   venue: Cambridge University Press eBooks
@@ -17385,7 +17385,7 @@
 - id: 10.1006/zjls.1994.1014
   doi: 10.1006/zjls.1994.1014
   openalex_id: W2062202610
-  review: excluded
+  review: approved
   title: 'The classification, evolution and biology of the Costa Rican species of
     Cryptophion (Hymenoptera: Ichneumonidae)'
   year: 1994
@@ -19275,7 +19275,7 @@
 - id: 10.2307/2418394
   doi: 10.2307/2418394
   openalex_id: W2334939655
-  review: excluded
+  review: approved
   title: A New Species of Cyperus (Cyperaceae) from Costa Rica and Mexico
   year: 1982
   venue: Systematic Botany
@@ -19898,7 +19898,7 @@
 - id: 10.1139/gen-2025-0128
   doi: 10.1139/gen-2025-0128
   openalex_id: W7201859937
-  review: excluded
+  review: approved
   title: Large-scale DNA barcoding reveals highly distinct insect distribution patterns
     across Costa Rican ecosystems
   year: 2026
@@ -22409,7 +22409,7 @@
 - id: 10.3897/jhr.97.116726
   doi: 10.3897/jhr.97.116726
   openalex_id: W4396707201
-  review: excluded
+  review: approved
   title: 'Six in one: cryptic species and a new host record for Olixon Cameron (Rhopalosomatidae,
     Hymenoptera) revealed by DNA barcoding'
   year: 2024
@@ -28785,7 +28785,7 @@
 - id: 10.3897/bdj.8.e60027
   doi: 10.3897/bdj.8.e60027
   openalex_id: W3112084109
-  review: excluded
+  review: approved
   title: 'A global food plant dataset for wild silkmoths and hawkmoths and its use
     in documenting polyphagy of their caterpillars (Lepidoptera: Bombycoidea: Saturniidae,
     Sphingidae)'
@@ -30978,7 +30978,7 @@
 - id: 10.3390/rs11192316
   doi: 10.3390/rs11192316
   openalex_id: W2979472754
-  review: excluded
+  review: approved
   title: MODIS and PROBA-V NDVI Products Differ when Compared with Observations from
     Phenological Towers at Four Tropical Dry Forests in the Americas
   year: 2019
@@ -40369,7 +40369,7 @@
 - id: 10.1186/1472-6785-11-18
   doi: 10.1186/1472-6785-11-18
   openalex_id: W2110396783
-  review: excluded
+  review: approved
   title: When species matches are unavailable are DNA barcodes correctly assigned
     to higher taxa? An assessment using sphingid moths
   year: 2011
@@ -48942,7 +48942,7 @@
 - id: 10.1126/science.239.4846.1368
   doi: 10.1126/science.239.4846.1368
   openalex_id: W1969151534
-  review: excluded
+  review: approved
   title: Guanacaste Paves the Way
   year: 1988
   venue: Science
@@ -76627,7 +76627,7 @@
 - id: 10.3897/dez.63.8977
   doi: 10.3897/dez.63.8977
   openalex_id: W2478471692
-  review: excluded
+  review: approved
   title: Review of the world species of Exoryza (Hymenoptera, Braconidae, Microgastrinae),
     with description of five new species
   year: 2016
@@ -80157,7 +80157,7 @@
 - id: 10.1673/031.009.2901
   doi: 10.1673/031.009.2901
   openalex_id: W2168821895
-  review: excluded
+  review: approved
   title: 'A Key to New WorldDistatrixMason (Hymenoptera: Braconidae), with Descriptions
     of Six New Reared Neotropical Species'
   year: 2009
@@ -81331,7 +81331,7 @@
 - id: 10.5962/bhl.part.19219
   doi: 10.5962/bhl.part.19219
   openalex_id: W2596122971
-  review: excluded
+  review: approved
   title: 'The First Gregarious Species of the Agathidinae (Hymenoptera: Braconidae)'
   year: 2004
   venue: Biodiversity Heritage Library (Smithsonian Institution)
