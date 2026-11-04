@@ -40,6 +40,7 @@
     Víctor Montalvo; Carolina Sáenz‐Bolaños; Juan C. Cruz; Eduardo Carrillo; Pilar
     Santidrián Tomillo
   type: article
+  language: en
   is_oa: true
   oa_url: https://revistas.ucr.ac.cr/index.php/rrbt/article/download/3589/8925
   found_by: openalex_fulltext; wos
@@ -119,6 +120,7 @@
   venue: Latin American Journal of Aquatic Research
   authors: Beatriz Antillón-Obando; Jorge Cortés; Jeffrey Alejandro Sibaja-Cordero
   type: article
+  language: en
   is_oa: true
   oa_url: https://lajar.cl/index.php/rlajar/article/download/vol54-issue4-fulltext-3612/2189
   found_by: openalex_fulltext; wos
@@ -232,6 +234,7 @@
   relevance: likely
   relevance_reason: found by openalex_fulltext; wos
   sectors: ''
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.11646/zootaxa.5857.2.1
   doi: 10.11646/zootaxa.5857.2.1
@@ -243,6 +246,7 @@
   venue: Zootaxa
   authors: Steven C. Harris; Brian J. Armitage; Ralph W. Holzenthal
   type: article
+  language: en
   is_oa: false
   found_by: openalex_core; wos
   relevance: likely
@@ -261,6 +265,7 @@
   venue: Revista Forestal Mesoamericana Kurú
   authors: Verónica Villalobos-Barquero; Ruperto Quesada‐Monge; Lupita Vargas-Fonseca
   type: article
+  language: es
   is_oa: true
   oa_url: https://revistas.tec.ac.cr/index.php/kuru/article/download/8795/8525
   found_by: wos
@@ -306,6 +311,7 @@
   venue: SSRN Electronic Journal
   authors: Manrique Prada Villalobos
   type: preprint
+  language: en
   is_oa: true
   oa_url: https://doi.org/10.2139/ssrn.6885685
   found_by: openalex_core; openalex_fulltext
@@ -362,6 +368,7 @@
   authors: José Manuel Mora; Lucía I. López; Leydin García González; Stephany Cecilia
     Arce Camacho; Dinorah Gámez Chinchilla
   type: article
+  language: es
   is_oa: true
   oa_url: https://theryanotes.mastozoologiamexicana.com/index.php/theryanotes/article/download/777/779
   found_by: openalex_core; openalex_fulltext
@@ -421,6 +428,7 @@
   authors: Rubén Martínez-Barbáchano; Joaquín Escayo; Fernando Pérez; Peio Lozano
     Valencia
   type: article
+  language: es
   is_oa: true
   oa_url: https://doi.org/10.17398/3101-7177.2.198
   found_by: openalex_core; openalex_fulltext
@@ -459,6 +467,7 @@
   authors: Liam Loizeau-Woollgar; Samuel Corgne; Daniel Villavicencio; Pedro R. Mutti;
     Julie Betbeder; Damien Arvor
   type: conference-abstract
+  language: en
   is_oa: true
   oa_url: https://doi.org/10.5194/egusphere-egu26-19907
   found_by: openalex_core; openalex_fulltext
@@ -466,6 +475,9 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Climate & environmental
+    change
   added: '2026-10-24'
 - id: 10.15359/rca.60-1.9
   doi: 10.15359/rca.60-1.9
@@ -1168,7 +1180,8 @@
     Jessica Ward Lynch
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/09/07/2024.09.04.611202.full.pdf
   found_by: openalex_core; wos
   relevance: likely
   relevance_reason: found by openalex_core; wos
@@ -1679,7 +1692,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos
-  sectors: ''
+  sectors: Guanacaste; Santa Rosa
   taxa: Mammalia
   themes: Natural history & behavior; Species interactions
   added: '2026-10-24'
@@ -1827,6 +1840,7 @@
   relevance_reason: names Guanacaste Conservation Area; found by openalex_core; openalex_fulltext;
     wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: ''
+  taxa: Plantae
   added: '2026-10-24'
 - id: 10.18845/rfmk.v21i48.7044
   doi: 10.18845/rfmk.v21i48.7044
@@ -1840,6 +1854,7 @@
     Luis Diego Méndez-Mejías; William Montero-Flores; Isaac Mesen-Montano; Gustavo
     Hernández-Sánchez
   type: article
+  language: es
   is_oa: true
   oa_url: https://revistas.tec.ac.cr/index.php/kuru/article/download/7044/6832
   copa: 11606/2472
@@ -1882,6 +1897,7 @@
     as Part of a Solution to Forest Fires in Guanacaste Conservation Area in Costa
     Rica'
   year: 2024
+  venue: IAA Symposium on Space and Society
   authors: Stephanie María Leitón-Ramírez; Morelia Soto-Garro; Larisa Torres Dorati;
     Josué Alfonso De La Cruz Roa; Jose Umaña-Ortíz; Vanessa Morales Cerdas; Maryam
     Safai Fard; Esteban Montenegro-Hernández
@@ -2336,6 +2352,7 @@
   review: approved
   title: Costa Rica Country Update
   year: 2023
+  venue: EAGE Workshop on Geothermal Energy in Latin America
   authors: Eduardo J. Sanchez; L. Solís Salguero
   type: conference-paper
   language: en
@@ -2344,6 +2361,7 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.5281/zenodo.17726232
   doi: 10.5281/zenodo.17726232
@@ -2528,6 +2546,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Junquillal; found
     by openalex_core; openalex_fulltext
   sectors: Junquillal
+  taxa: Plantae
   themes: Conservation, management & people; Climate & environmental change
   added: '2026-10-24'
 - id: 10.5324/cjcr.v0i37.5045
@@ -2696,7 +2715,9 @@
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos; in COPA (ACG's
     repository), re-checked 2026-10-29
-  sectors: ''
+  sectors: Santa Rosa
+  taxa: Cnidaria
+  themes: Natural history & behavior; Conservation, management & people
   added: '2026-10-24'
 - id: 10.1007/s10722-022-01501-8
   doi: 10.1007/s10722-022-01501-8
@@ -2718,7 +2739,9 @@
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos; in COPA (ACG's
     repository), re-checked 2026-10-29
-  sectors: ''
+  sectors: Rincón de la Vieja
+  taxa: Plantae
+  themes: Evolution & genetics; Populations & communities; Ecosystem processes
   added: '2026-10-24'
 - id: 10.3390/ani12192544
   doi: 10.3390/ani12192544
@@ -2781,7 +2804,7 @@
   found_by: openalex_core; wos
   relevance: likely
   relevance_reason: found by openalex_core; wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia
   themes: Natural history & behavior; Evolution & genetics
   added: '2026-10-24'
@@ -2802,7 +2825,9 @@
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos; in COPA (ACG's
     repository), re-checked 2026-10-29
-  sectors: ''
+  sectors: Santa Rosa
+  taxa: Mammalia
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.1016/j.ygcen.2022.114109
   doi: 10.1016/j.ygcen.2022.114109
@@ -2825,7 +2850,7 @@
   found_by: openalex_core; wos
   relevance: likely
   relevance_reason: found by openalex_core; wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia
   themes: Natural history & behavior
   added: '2026-10-24'
@@ -3000,6 +3025,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Mammalia
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.15517/rev.biol.trop..v70i1.48444
   doi: 10.15517/rev.biol.trop..v70i1.48444
@@ -3021,6 +3048,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: Santa Rosa
+  taxa: Mammalia; Aves
+  themes: Populations & communities; Conservation, management & people
   added: '2026-10-24'
 - id: 10.1007/978-3-319-55065-7_480
   doi: 10.1007/978-3-319-55065-7_480
@@ -3095,7 +3124,7 @@
   type: article
   language: en
   is_oa: true
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/7812782
+  oa_url: http://europepmc.org/pmc/articles/PMC7812782
   copa: 11606/2278
   found_by: openalex_fulltext; wos
   relevance: likely
@@ -3167,7 +3196,7 @@
   found_by: openalex_core; wos
   relevance: likely
   relevance_reason: found by openalex_core; wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia
   themes: Natural history & behavior
   added: '2026-10-24'
@@ -3359,6 +3388,7 @@
   relevance_reason: names Guanacaste Conservation Area; found by openalex_core; openalex_fulltext;
     wos
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people; Climate & environmental change
   added: '2026-10-24'
 - id: 10.1016/j.ecolind.2021.108390
@@ -3526,6 +3556,7 @@
     Miravalles, Pailas I & II and Borinquen in the volcanic range of Guanacaste, Costa
     Rica
   year: 2021
+  venue: EAGE Workshop on Geothermal Energy in Latin America
   authors: J. Arias Hernández
   type: conference-paper
   language: en
@@ -3535,6 +3566,7 @@
   relevance_reason: names Rincon de la Vieja; sector Pailas; found by openalex_core;
     openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.25145/j.si.2021.04.03
   doi: 10.25145/j.si.2021.04.03
@@ -3558,6 +3590,7 @@
   relevance_reason: names Guanacaste Conservation Area; sector Murcielago, Murciélago;
     found by openalex_core; openalex_fulltext
   sectors: Murciélago
+  taxa: Cnidaria; Echinodermata; Actinopterygii
   themes: Populations & communities
   added: '2026-10-24'
 - id: 10.15517/rbt.v69isuppl.2.48320
@@ -3600,6 +3633,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Murcielago, Murciélago;
     found by openalex_core; openalex_fulltext
   sectors: Murciélago
+  taxa: Porifera
   themes: Taxonomy & systematics; Populations & communities
   added: '2026-10-24'
 - id: 10.1101/2021.09.09.21263313
@@ -3817,6 +3851,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext;
     wos
   sectors: ''
+  taxa: Cnidaria
   themes: Taxonomy & systematics; Populations & communities; Conservation, management
     & people
   added: '2026-10-24'
@@ -4143,6 +4178,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext;
     wos
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.3390/f11060604
@@ -4293,6 +4329,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext;
     wos
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.1590/s1984-29612020028
@@ -4338,6 +4375,9 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext; wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: Santa Rosa
+  taxa: Actinopterygii
+  themes: Populations & communities; Ecosystem processes; Conservation, management
+    & people
   added: '2026-10-24'
 - id: 10.5479/si.gvp.bgvn202010-345020
   doi: 10.5479/si.gvp.bgvn202010-345020
@@ -4631,6 +4671,9 @@
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_core;
     openalex_fulltext
   sectors: ''
+  taxa: Lepidoptera; Hymenoptera; Mammalia; Aves; Actinopterygii; Plantae
+  themes: Taxonomy & systematics; Populations & communities; Conservation, management
+    & people
   added: '2026-10-24'
 - id: W3081522551
   openalex_id: W3081522551
@@ -4751,7 +4794,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia
   themes: Natural history & behavior; Species interactions
   added: '2026-10-24'
@@ -5214,6 +5257,7 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core; openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Natural history & behavior; Geology & volcanology
   added: '2026-10-24'
 - id: W3129263341
   openalex_id: W3129263341
@@ -5267,6 +5311,7 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rgac.v61i0.40085
   doi: 10.15517/rgac.v61i0.40085
@@ -5308,10 +5353,13 @@
   title: CAMBIO CLIMÁTICO Y SU POSIBLE EFECTO SOBRE LOS SERVICIOS ECOSISTÉMICOS EN
     DOS PARQUES NACIONALES DE COSTA RICA, AMÉRICA CENTRAL
   year: 2019
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
   authors: Mary Luz Moreno Díaz; Hugo G. Hidalgo; Eric J. Alfaro
   type: article
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: https://ddd.uab.cat/record/212532
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
@@ -5334,6 +5382,7 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
   sectors: ''
+  taxa: Plantae
   themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1525/9780520937772-008
@@ -5379,6 +5428,7 @@
   title: Monitoreo de los efectos de los incendios forestales mediante el uso de sensores
     remotos en el Área de Conservación Guanacaste, Costa Rica
   year: 2019
+  venue: Congreso Internacional de Ciencias Exactas y Naturales
   authors: Mauricio Vega-Araya
   type: conference-paper
   language: es
@@ -5387,6 +5437,7 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
   sectors: ''
+  taxa: Insecta; Plantae
   themes: Conservation, management & people; Ecosystem processes
   added: '2026-10-24'
 - id: 10.1186/s41200-019-0181-6
@@ -5587,6 +5638,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_fulltext; wos
   sectors: Rincón de la Vieja
+  themes: Ecosystem processes; Geology & volcanology
   added: '2026-10-24'
 - id: 10.4289/0013-8797.120.1.180
   doi: 10.4289/0013-8797.120.1.180
@@ -5605,6 +5657,8 @@
   relevance: likely
   relevance_reason: found by wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: ''
+  taxa: Lepidoptera
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.18473/lepi.72i1.a7
   doi: 10.18473/lepi.72i1.a7
@@ -5723,6 +5777,7 @@
   relevance: likely
   relevance_reason: sector Santa Rosa; found by openalex_core; openalex_fulltext
   sectors: Santa Rosa
+  taxa: Mammalia
   themes: Climate & environmental change; Conservation, management & people
   added: '2026-10-24'
 - id: 10.5479/si.gvp.bgvn201809-345020
@@ -5898,6 +5953,7 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Mammalia; Aves; Reptilia; Plantae
   themes: Populations & communities; Ecosystem processes
   added: '2026-10-24'
 - id: 10.26668/businessreview/2018.v3i2.82
@@ -6072,7 +6128,7 @@
   found_by: openalex_core
   relevance: likely
   relevance_reason: found by openalex_core
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia
   themes: Natural history & behavior
   added: '2026-10-24'
@@ -6093,7 +6149,7 @@
   found_by: openalex_core
   relevance: likely
   relevance_reason: found by openalex_core
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia
   themes: Natural history & behavior
   added: '2026-10-24'
@@ -6190,6 +6246,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Murcielago, Murciélago;
     found by openalex_fulltext
   sectors: Murciélago
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: W3008428261
@@ -6224,6 +6281,7 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.22458/urj.v10i2.2173
@@ -6284,6 +6342,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Murcielago, Murciélago;
     found by openalex_core; openalex_fulltext; wos
   sectors: Marino; Murciélago
+  taxa: Crustacea; Mollusca; Annelida; Cnidaria; Aves; Reptilia; Actinopterygii; Plantae
   themes: Taxonomy & systematics; Populations & communities
   added: '2026-10-24'
 - id: 10.15359/revmar.9-1.5
@@ -6431,6 +6490,9 @@
   relevance_reason: names Parque Nacional Santa Rosa; sector Santa Rosa; found by
     openalex_core; openalex_fulltext; wos
   sectors: Santa Rosa
+  taxa: Reptilia
+  themes: Evolution & genetics; Populations & communities; Conservation, management
+    & people
   added: '2026-10-24'
 - id: 10.3897/bdj.5.e9649
   doi: 10.3897/bdj.5.e9649
@@ -6776,6 +6838,8 @@
   relevance_reason: names Area de Conservacion Guanacaste; found by wos; in COPA (ACG's
     repository), re-checked 2026-10-29
   sectors: ''
+  taxa: Lepidoptera; Diptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1073/pnas.1705957114
   doi: 10.1073/pnas.1705957114
@@ -7047,6 +7111,7 @@
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext
   sectors: ''
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: W2769604052
   openalex_id: W2769604052
@@ -7095,10 +7160,12 @@
   title: Origen de la estructura de la caldera Cañas Dulces y su relación con el recurso
     geotérmico de alta entalpía
   year: 2017
+  venue: Dipòsit Digital de la Universitat de Barcelona (Universitat de Barcelona)
   authors: Fernando Molina
   type: dissertation
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: https://hdl.handle.net/2445/121136
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
@@ -7391,6 +7458,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by wos
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.1111/mec.13898
   doi: 10.1111/mec.13898
@@ -7428,6 +7496,7 @@
   relevance_reason: found by openalex_core; openalex_fulltext; wos; in COPA (ACG's
     repository), re-checked 2026-10-29
   sectors: ''
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: W2741763115
   openalex_id: W2741763115
@@ -7480,6 +7549,7 @@
   venue: Zenodo (CERN European Organization for Nuclear Research)
   authors: E. Daniel Tenez
   type: dissertation
+  language: es
   is_oa: true
   oa_url: https://doi.org/10.5281/zenodo.19700495
   found_by: openalex_core; openalex_fulltext
@@ -7620,6 +7690,7 @@
   relevance: likely
   relevance_reason: sector Cuajiniquil; found by openalex_core
   sectors: Marino
+  taxa: Porifera
   themes: Populations & communities
   added: '2026-10-24'
 - id: W2899049751
@@ -7653,6 +7724,7 @@
   relevance: likely
   relevance_reason: names Guanacaste National Park; found by openalex_core; openalex_fulltext
   sectors: Guanacaste
+  taxa: Plantae
   themes: Ecosystem processes; Conservation, management & people
   added: '2026-10-24'
 - id: 10.12933/therya-16-380
@@ -7710,6 +7782,8 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa; found
     by openalex_core; openalex_fulltext
   sectors: Santa Rosa
+  taxa: Plantae
+  themes: Taxonomy & systematics; Populations & communities; Ecosystem processes
   added: '2026-10-24'
 - id: 10.15517/rac.v40i2.27386
   doi: 10.15517/rac.v40i2.27386
@@ -7779,6 +7853,8 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
   sectors: Rincón de la Vieja
+  taxa: Aves
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.15517/re.v0i20.24050
   doi: 10.15517/re.v0i20.24050
@@ -7859,6 +7935,7 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: W2795043101
@@ -7867,6 +7944,7 @@
   title: 'Chapter 10 Biodiversity Conservation History and Future in Costa Rica: The
     Case of Área de Conservación Guanacaste (ACG)'
   year: 2016
+  venue: The University of Chicago Press Chicago and London
   authors: Winnie Hallwachs; Daniel H. Janzen
   type: book-chapter
   language: es
@@ -8273,11 +8351,12 @@
   title: Abundancia del jaguar (Panthera onca), otros felinos y sus presas potenciales
     en el Parque Nacional Santa Rosa, Costa Rica
   year: 2015
+  venue: Unpublished
   authors: Montalvo, Victor; Saenz, Carolina; Ramirez, Shirley; Carrillo, Eduardo
   type: other
   language: es
   is_oa: true
-  oa_url: https://doi.org/10.13140/rg.2.1.5109.5520
+  oa_url: http://investiga.uned.ac.cr/revistas/index.php/cuadernos/article/download/1158/1117
   copa: 11606/2309
   found_by: openalex_core; openalex_fulltext
   relevance: likely
@@ -8338,6 +8417,8 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  taxa: Plantae
+  themes: Ecosystem processes; Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rbt.v62i4.20018
   doi: 10.15517/rbt.v62i4.20018
@@ -8370,12 +8451,14 @@
   type: article
   language: es
   is_oa: true
-  oa_url: http://www.pholcidae.de/PDFs/costa_rica_1997.pdf
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/21499
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Arachnida
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1007/978-1-4939-2208-6_21
   doi: 10.1007/978-1-4939-2208-6_21
@@ -8412,6 +8495,7 @@
   relevance_reason: names Parque Nacional Santa Rosa; sector Santa Rosa; found by
     openalex_core; openalex_fulltext
   sectors: Santa Rosa
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: W1833749803
@@ -8538,6 +8622,7 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rbt.v46i2.19626
   doi: 10.15517/rbt.v46i2.19626
@@ -8573,6 +8658,7 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rbt.v62i4.20040
   doi: 10.15517/rbt.v62i4.20040
@@ -8613,6 +8699,8 @@
     found by openalex_core; openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: Marino; Santa Rosa; Murciélago
+  taxa: Mammalia
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.15517/dre.v0i0.21993
   doi: 10.15517/dre.v0i0.21993
@@ -8669,6 +8757,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_core;
     openalex_fulltext
   sectors: ''
+  taxa: Plantae
   themes: Ecosystem processes; Succession & restoration
   added: '2026-10-24'
 - id: 10.11575/prism/27720
@@ -8912,6 +9001,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by wos
   sectors: Rincón de la Vieja
+  taxa: Plantae
   themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.3897/jhr.37.6748
@@ -8974,6 +9064,8 @@
   relevance: likely
   relevance_reason: found by wos
   sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics; Species interactions
   added: '2026-10-24'
 - id: 10.1007/s10393-014-0967-2
   doi: 10.1007/s10393-014-0967-2
@@ -9015,6 +9107,7 @@
   relevance_reason: names Rincon de la Vieja; sector Pailas; found by openalex_fulltext;
     wos
   sectors: Rincón de la Vieja
+  themes: Ecosystem processes; Geology & volcanology
   added: '2026-10-24'
 - id: 10.1016/j.anbehav.2014.07.016
   doi: 10.1016/j.anbehav.2014.07.016
@@ -9074,6 +9167,7 @@
   relevance_reason: names Rincon de la Vieja; sector San Cristobal, San Cristóbal;
     found by openalex_fulltext; wos
   sectors: Rincón de la Vieja; San Cristóbal
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.11646/zootaxa.3858.1.1
   doi: 10.11646/zootaxa.3858.1.1
@@ -9122,6 +9216,7 @@
   title: '"Herbivoría en tres estadios de sucesión del bosque seco tropical, en el
     Parque Nacional Santa Rosa, Guanacaste, Costa Rica"'
   year: 2014
+  venue: TEC repository (Technological Institute of Costa Rica)
   authors: Elizabeth Jiménez Zúñiga
   type: dissertation
   language: es
@@ -9247,12 +9342,14 @@
   authors: Wilson Picado Umaña; Carlos Cruz Chaves
   type: article
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: http://www.revistas.una.ac.cr/index.php/historia/article/view/6665
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Parque Nacional Santa Rosa; sector Santa Rosa; found by
     openalex_core; openalex_fulltext
   sectors: Santa Rosa
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.5539/jgg.v6n3p123
   doi: 10.5539/jgg.v6n3p123
@@ -9332,6 +9429,8 @@
   relevance: likely
   relevance_reason: sector Maritza; found by openalex_core
   sectors: Maritza
+  taxa: Trichoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1206/3794.1
   doi: 10.1206/3794.1
@@ -9350,6 +9449,8 @@
   relevance: likely
   relevance_reason: sector Maritza; found by openalex_core
   sectors: Maritza
+  taxa: Arachnida
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rbt.v54i3.14074
   doi: 10.15517/rbt.v54i3.14074
@@ -9389,6 +9490,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rbt.v54i1.13981
   doi: 10.15517/rbt.v54i1.13981
@@ -9444,6 +9546,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Conservation, management & people; Geology & volcanology
   added: '2026-10-24'
 - id: 10.1121/1.4877807
   doi: 10.1121/1.4877807
@@ -9553,12 +9656,16 @@
   year: 2014
   authors: Pensoft Editorial Team
   type: other
+  language: en
   is_oa: true
   oa_url: https://doi.org/10.59350/v82ac-5jd40
   found_by: openalex_fulltext
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
   sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics; Species interactions; Conservation, management &
+    people
   added: '2026-10-24'
 - id: 10.59350/r0vxk-4rv75
   doi: 10.59350/r0vxk-4rv75
@@ -9632,6 +9739,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.3897/zookeys.264.4440
   doi: 10.3897/zookeys.264.4440
@@ -9712,6 +9820,8 @@
   relevance: likely
   relevance_reason: found by wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: ''
+  themes: Natural history & behavior; Populations & communities; Conservation, management
+    & people
   added: '2026-10-24'
 - id: 10.3897/jhr.35.5496
   doi: 10.3897/jhr.35.5496
@@ -9871,6 +9981,8 @@
   relevance_reason: names Rincon de la Vieja; sector Pailas; found by openalex_core;
     openalex_fulltext; wos
   sectors: Rincón de la Vieja
+  taxa: Plantae
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.3897/zookeys.321.5160
   doi: 10.3897/zookeys.321.5160
@@ -9890,6 +10002,8 @@
   relevance: likely
   relevance_reason: found by wos
   sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics; Species interactions; Populations & communities
   added: '2026-10-24'
 - id: 10.1007/s10764-013-9736-2
   doi: 10.1007/s10764-013-9736-2
@@ -10284,6 +10398,7 @@
   relevance_reason: duplicate of W2419523888; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: Horizontes
+  taxa: Plantae
   added: '2026-10-24'
 - id: W2419523888
   openalex_id: W2419523888
@@ -10310,6 +10425,7 @@
   title: Propuesta de línea base del plan de ordenamiento forestal para la Estación
     Experimental Forestal Horizontes, Área de Conservación Guanacaste, Costa Rica.
   year: 2013
+  venue: TEC repository (Technological Institute of Costa Rica)
   authors: Priscilla Rigg Aguilar
   type: dissertation
   language: es
@@ -11047,7 +11163,7 @@
   type: article
   language: es
   is_oa: true
-  oa_url: http://www.redalyc.org/pdf/4517/451745770003.pdf
+  oa_url: https://www.revistas.una.ac.cr/index.php/geografica/article/view/4110
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Parque Nacional Santa Rosa; sector Santa Rosa; found by
@@ -11159,6 +11275,7 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: W2764021810
   openalex_id: W2764021810
@@ -11238,11 +11355,13 @@
   type: article
   language: es
   is_oa: true
-  oa_url: http://www.redalyc.org/pdf/4517/451745770005.pdf
+  oa_url: https://www.revistas.una.ac.cr/index.php/geografica/article/view/3969
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
   sectors: Rincón de la Vieja
+  taxa: Plantae
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rgac.v0i03.10491
   doi: 10.15517/rgac.v0i03.10491
@@ -11260,6 +11379,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: W2886960330
   openalex_id: W2886960330
@@ -11415,6 +11535,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rgac.v0i17.13287
   doi: 10.15517/rgac.v0i17.13287
@@ -11434,6 +11555,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: W2270484051
   openalex_id: W2270484051
@@ -11452,6 +11574,8 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
   sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics; Evolution & genetics; Species interactions
   added: '2026-10-24'
 - id: 10.3897/zookeys.46.406
   doi: 10.3897/zookeys.46.406
@@ -11795,6 +11919,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_core;
     openalex_fulltext
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.13140/rg.2.1.2250.2006
@@ -11808,12 +11933,12 @@
   authors: Bi Yun Zhen-Wu
   type: other
   language: en
-  is_oa: true
-  oa_url: https://doi.org/10.13140/rg.2.1.2250.2006
+  is_oa: false
   found_by: openalex_core
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  themes: Populations & communities; Geology & volcanology
   added: '2026-10-24'
 - id: W1529527470
   openalex_id: W1529527470
@@ -11847,6 +11972,8 @@
   relevance_reason: names Rincon de la Vieja; sector Pailas; found by openalex_core;
     openalex_fulltext
   sectors: Rincón de la Vieja
+  taxa: Plantae
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rcs.v0i130.4152
   doi: 10.15517/rcs.v0i130.4152
@@ -11904,6 +12031,8 @@
   relevance_reason: sector Santa Rosa; found by openalex_core; in COPA (ACG's repository),
     re-checked 2026-10-29
   sectors: Santa Rosa
+  taxa: Reptilia
+  themes: Evolution & genetics; Populations & communities; Ecosystem processes
   added: '2026-10-24'
 - id: W3209119961
   openalex_id: W3209119961
@@ -11994,6 +12123,7 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
   sectors: ''
+  taxa: Plantae
   themes: Ecosystem processes
   added: '2026-10-24'
 - id: 10.1016/j.geoderma.2009.05.025
@@ -12203,6 +12333,8 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by wos
   sectors: Rincón de la Vieja
+  taxa: Actinopterygii; Microorganisms
+  themes: Natural history & behavior; Ecosystem processes; Geology & volcanology
   added: '2026-10-24'
 - id: 10.1016/j.jsames.2009.04.010
   doi: 10.1016/j.jsames.2009.04.010
@@ -12347,6 +12479,8 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  taxa: Plantae
+  themes: Conservation, management & people; Geology & volcanology
   added: '2026-10-24'
 - id: 10.15359/rca.38-2.1
   doi: 10.15359/rca.38-2.1
@@ -12687,12 +12821,15 @@
   authors: Terry A. Wheeler; Julia J. Mlynarek
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.openaccessrepository.it/record/184802
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: names Guanacaste National Park; found by openalex_core; openalex_fulltext;
     wos
   sectors: Guanacaste
+  taxa: Diptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.7773/cm.v34i4.1361
   doi: 10.7773/cm.v34i4.1361
@@ -12713,6 +12850,8 @@
   relevance_reason: names Guanacaste Conservation Area; found by openalex_core; openalex_fulltext;
     wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: ''
+  taxa: Actinopterygii
+  themes: Populations & communities
   added: '2026-10-24'
 - id: 10.1590/s0101-81752008000300022
   doi: 10.1590/s0101-81752008000300022
@@ -12730,6 +12869,8 @@
   relevance: likely
   relevance_reason: sector Pitilla; found by openalex_core; wos
   sectors: Pitilla
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.4454/ofioliti.v33i1.356
   doi: 10.4454/ofioliti.v33i1.356
@@ -12750,6 +12891,7 @@
   relevance_reason: sector Santa Rosa; found by openalex_core; openalex_fulltext;
     wos; in COPA (ACG's repository), re-checked 2026-10-29
   sectors: Santa Rosa
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.5479/si.gvp.bgvn200807-345020
   doi: 10.5479/si.gvp.bgvn200807-345020
@@ -12774,6 +12916,7 @@
   title: SOIL GAS RADON MEASUREMENTS AS A TOOL TO IDENTIFY PERMEABLE ZONES AT LAS
     PAILAS GEOTHERMAL AREA, COSTA RICA
   year: 2008
+  venue: United Nations University
   authors: Leyner Chavarría; Yalile Torres; Alejandro Rodríguez; Fernando Molina
   type: article
   language: en
@@ -12784,6 +12927,7 @@
   relevance_reason: sector Pailas; found by openalex_core; in COPA (ACG's repository),
     re-checked 2026-10-29
   sectors: Rincón de la Vieja
+  themes: Ecosystem processes; Geology & volcanology
   added: '2026-10-24'
 - id: 10.15517/rbt.v57i3.5494
   doi: 10.15517/rbt.v57i3.5494
@@ -12822,6 +12966,7 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa, Murcielago,
     Murciélago, Junquillal; found by openalex_core; openalex_fulltext
   sectors: Santa Rosa; Murciélago; Junquillal
+  taxa: Microorganisms
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.15517/rbt.v57i3.5495
@@ -12943,6 +13088,7 @@
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.1111/j.1744-7429.2007.00391.x
@@ -12960,6 +13106,7 @@
   relevance: likely
   relevance_reason: names Guanacaste National Park; found by openalex_core; openalex_fulltext
   sectors: Guanacaste
+  themes: Climate & environmental change; Conservation, management & people
   added: '2026-10-24'
 - id: W4386017787
   openalex_id: W4386017787
@@ -12979,6 +13126,8 @@
   relevance_reason: duplicate of 10.15517/rbt.v56i2.5626; in COPA (ACG's repository),
     re-checked 2026-10-29
   sectors: Santa Elena
+  taxa: Actinopterygii
+  themes: Taxonomy & systematics; Conservation, management & people
   added: '2026-10-24'
 - id: 10.1007/s10886-007-9292-3
   doi: 10.1007/s10886-007-9292-3
@@ -13192,6 +13341,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Mammalia
+  themes: Populations & communities
   added: '2026-10-24'
 - id: 10.5479/si.gvp.bgvn200710-345020
   doi: 10.5479/si.gvp.bgvn200710-345020
@@ -13224,6 +13375,7 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  themes: Conservation, management & people; Geology & volcanology
   added: '2026-10-24'
 - id: W1919571002
   openalex_id: W1919571002
@@ -13342,7 +13494,7 @@
   type: article
   language: en
   is_oa: true
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/1383497
+  oa_url: http://europepmc.org/articles/PMC1383497
   found_by: openalex_fulltext; wos
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext;
@@ -13489,7 +13641,7 @@
   type: article
   language: en
   is_oa: true
-  oa_url: https://www.biodiversitylibrary.org/item/280913
+  oa_url: https://www.biodiversitylibrary.org/item/171427
   copa: 11606/68
   found_by: wos
   relevance: likely
@@ -13577,6 +13729,8 @@
   relevance_reason: sector Santa Rosa; found by openalex_core; wos; in COPA (ACG's
     repository), re-checked 2026-10-29
   sectors: Santa Rosa
+  taxa: Reptilia
+  themes: Populations & communities; Geology & volcanology
   added: '2026-10-24'
 - id: 10.1344/105.000000364
   doi: 10.1344/105.000000364
@@ -13635,6 +13789,8 @@
   relevance_reason: names Estacion Cacao; sector Volcan Cacao, Volcán Cacao; found
     by openalex_core; openalex_fulltext; wos
   sectors: Cacao
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.5281/zenodo.16046581
   doi: 10.5281/zenodo.16046581
@@ -13669,6 +13825,8 @@
   relevance_reason: names Area de Conservacion Guanacaste; sector Santa Rosa; found
     by openalex_core; openalex_fulltext
   sectors: Santa Rosa
+  taxa: Microorganisms
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: W2182461512
   openalex_id: W2182461512
@@ -13684,6 +13842,9 @@
   relevance: likely
   relevance_reason: sector Pailas; found by openalex_core
   sectors: Rincón de la Vieja
+  taxa: Plantae
+  themes: Natural history & behavior; Conservation, management & people; Geology &
+    volcanology
   added: '2026-10-24'
 - id: 10.11646/zootaxa.1245.1.3
   doi: 10.11646/zootaxa.1245.1.3
@@ -14330,6 +14491,7 @@
   title: Aquatic Communities Of Temporary Streams Of The Guanacaste Conservation Area
     In Northwest Costa Rica
   year: 2005
+  venue: AGU Spring Meeting Abstracts
   authors: Ralph Wills Flowers; M. M. Chavarria Diaz
   type: article
   language: en
@@ -14338,6 +14500,7 @@
   relevance: likely
   relevance_reason: names Guanacaste Conservation Area; found by openalex_core; openalex_fulltext
   sectors: ''
+  taxa: Actinopterygii
   themes: Populations & communities
   added: '2026-10-24'
 - id: 10.1590/s0031-10492005001000001
@@ -14356,6 +14519,8 @@
   relevance: likely
   relevance_reason: sector Pitilla; found by openalex_core; openalex_fulltext
   sectors: Pitilla
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: W1755434920
   openalex_id: W1755434920
@@ -14441,12 +14606,12 @@
   authors: Yvonne Baskin
   type: article
   language: en
-  is_oa: true
-  oa_url: https://academic.oup.com/bioscience/article-pdf/55/4/384/26896847/55-4-384.pdf
+  is_oa: false
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Guanacaste Conservation Area; found by openalex_core; openalex_fulltext
   sectors: ''
+  taxa: Mammalia; Aves; Amphibia
   themes: Species interactions; Conservation, management & people
   added: '2026-10-24'
 - id: W2729863137
@@ -14460,7 +14625,8 @@
   authors: John M. Burns; Daniel H. Janzen
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.5281/zenodo.16122820
   found_by: openalex_fulltext
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
@@ -14501,6 +14667,8 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_fulltext
   sectors: Rincón de la Vieja
+  taxa: Aves; Plantae
+  themes: Conservation, management & people; Geology & volcanology
   added: '2026-10-24'
 - id: 10.1645/ge-3287
   doi: 10.1645/ge-3287
@@ -14817,6 +14985,8 @@
   relevance: likely
   relevance_reason: sector Pitilla; found by openalex_core
   sectors: Pitilla
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: W133682322
   openalex_id: W133682322
@@ -14875,6 +15045,9 @@
   relevance_reason: sector Murcielago, Murciélago; found by openalex_core; in COPA
     (ACG's repository), re-checked 2026-10-29
   sectors: Murciélago
+  taxa: Mammalia; Plantae
+  themes: Natural history & behavior; Species interactions; Climate & environmental
+    change
   added: '2026-10-24'
 - id: 10.1525/california/9780520223097.003.0007
   doi: 10.1525/california/9780520223097.003.0007
@@ -14909,6 +15082,7 @@
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_fulltext
   sectors: ''
+  taxa: Microorganisms
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.1159/000068390
@@ -15203,6 +15377,7 @@
   title: 'Revision of the Neotropical Neurigoninae (Diptera: Dolichopodidae) 5: Neurigona
     Rondani'
   year: 2003
+  venue: Zurich Open Repository and Archive (University of Zurich)
   authors: Stefan Naglis
   type: article
   language: en
@@ -15211,6 +15386,8 @@
   relevance: likely
   relevance_reason: sector Pitilla; found by openalex_core
   sectors: Pitilla
+  taxa: Diptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1093/condor/105.3.580
   doi: 10.1093/condor/105.3.580
@@ -15335,11 +15512,12 @@
   authors: Ana Sittenfeld
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://academic.oup.com/femsec/article-pdf/42/1/151/18090587/42-1-151.pdf
   found_by: wos
   relevance: likely
   relevance_reason: found by wos
-  sectors: ''
+  sectors: Rincón de la Vieja
   taxa: Microorganisms
   themes: Geology & volcanology
   added: '2026-10-24'
@@ -15396,6 +15574,7 @@
   relevance_reason: names Rincon de la Vieja; sector Pailas; found by openalex_core;
     openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.2307/3285400
   doi: 10.2307/3285400
@@ -15437,6 +15616,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa, Pitilla; found
     by openalex_core; openalex_fulltext
   sectors: Santa Rosa; Guanacaste; Pitilla
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: W2186974558
   openalex_id: W2186974558
@@ -15506,6 +15687,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext; wos
   sectors: Santa Rosa
+  taxa: Aves
+  themes: Populations & communities; Climate & environmental change
   added: '2026-10-24'
 - id: 10.1023/a:1012092115012
   doi: 10.1023/a:1012092115012
@@ -15630,6 +15813,7 @@
   title: 'Good fences make good neighbors: the Area de Conservación Guanacaste, Costa
     Rica.'
   year: 2001
+  venue: Parks
   authors: Daniel H. Lanzen
   type: article
   language: es
@@ -15658,6 +15842,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Hymenoptera; Plantae
+  themes: Evolution & genetics
   added: '2026-10-24'
 - id: W1523436599
   openalex_id: W1523436599
@@ -15763,6 +15949,8 @@
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos
   sectors: ''
+  taxa: Plantae
+  themes: Populations & communities
   added: '2026-10-24'
 - id: 10.1016/s0377-0273(99)00181-x
   doi: 10.1016/s0377-0273(99)00181-x
@@ -15839,6 +16027,8 @@
   relevance: likely
   relevance_reason: sector Pitilla; found by openalex_core; wos
   sectors: Pitilla
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1590/s0074-02762000000600014
   doi: 10.1590/s0074-02762000000600014
@@ -16104,7 +16294,8 @@
     Daniel H. Janzen
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: http://hdl.handle.net/10669/11312
   found_by: wos
   relevance: likely
   relevance_reason: found by wos
@@ -16234,6 +16425,8 @@
   relevance: likely
   relevance_reason: sector Maritza; found by openalex_core
   sectors: Maritza
+  taxa: Trichoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1023/a:1020304304558
   doi: 10.1023/a:1020304304558
@@ -16973,6 +17166,8 @@
   relevance: likely
   relevance_reason: sector Santa Rosa; found by openalex_core; wos
   sectors: Santa Rosa
+  taxa: Mammalia
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.2307/2388993
   doi: 10.2307/2388993
@@ -17029,6 +17224,7 @@
   relevance_reason: names Rincon de la Vieja; sector Pailas; found by openalex_core;
     openalex_fulltext
   sectors: Rincón de la Vieja
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: W650299369
   openalex_id: W650299369
@@ -17167,6 +17363,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Plantae
+  themes: Natural history & behavior; Species interactions
   added: '2026-10-24'
 - id: 10.1007/bf02381950
   doi: 10.1007/bf02381950
@@ -17399,6 +17597,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Hymenoptera
+  themes: Evolution & genetics; Species interactions
   added: '2026-10-24'
 - id: W4392217143
   openalex_id: W4392217143
@@ -18302,7 +18502,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia
   themes: Natural history & behavior
   added: '2026-10-24'
@@ -18600,7 +18800,7 @@
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Lepidoptera
   themes: Natural history & behavior; Climate & environmental change
   added: '2026-10-24'
@@ -18688,15 +18888,17 @@
   title: 'Neotropical Tineidae. II. Biological notes and descriptions of two new moths
     phoretic on spiny pocket mice in Costa Rica (Lepidoptera: Tineoidea)'
   year: 1986
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
   authors: Don R. Davis; Dale H. Clayton; Daniel H. Janzen; Anne P. Brooke
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/56425
   copa: 11606/1269
   found_by: wos
   relevance: likely
   relevance_reason: found by wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Lepidoptera; Mammalia
   themes: Taxonomy & systematics; Species interactions
   added: '2026-10-24'
@@ -18725,6 +18927,7 @@
   review: approved
   title: 'Guanacaste National Park: Tropical, Ecological and Cultural Restoration'
   year: 1986
+  venue: EUNED
   authors: Daniel H. Janzen
   type: book
   language: en
@@ -18768,6 +18971,7 @@
   relevance: likely
   relevance_reason: sector Murcielago, Murciélago; found by openalex_core
   sectors: Murciélago
+  taxa: Microorganisms
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: W2770736130
@@ -18784,6 +18988,7 @@
   relevance: likely
   relevance_reason: names Parque Nacional Guanacaste; found by openalex_core; openalex_fulltext
   sectors: Guanacaste
+  taxa: Plantae
   themes: Succession & restoration; Conservation, management & people
   added: '2026-10-24'
 - id: W645651427
@@ -18800,6 +19005,7 @@
   relevance: likely
   relevance_reason: sector Murcielago, Murciélago; found by openalex_core
   sectors: Murciélago
+  taxa: Microorganisms
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.1007/978-94-009-4812-9_23
@@ -18854,6 +19060,7 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_fulltext
   sectors: Rincón de la Vieja
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.2307/1940530
@@ -18943,7 +19150,8 @@
   authors: Stephen P. Hubbell; Jerome J. Howard; David F. Wiemer
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://scholarworks.uno.edu/cgi/viewcontent.cgi?article=1015&context=biosciences_facpubs
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
@@ -19085,7 +19293,8 @@
   found_by: wos
   relevance: likely
   relevance_reason: found by wos
-  sectors: ''
+  sectors: Santa Rosa
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.2307/3544274
@@ -19216,7 +19425,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia
   themes: Species interactions
   added: '2026-10-24'
@@ -19288,6 +19497,8 @@
   relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
     openalex_fulltext
   sectors: Santa Rosa
+  taxa: Chondrichthyes; Plantae
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.2307/2387746
   doi: 10.2307/2387746
@@ -19379,7 +19590,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Mammalia; Plantae
   themes: Species interactions
   added: '2026-10-24'
@@ -19499,7 +19710,7 @@
   found_by: openalex_core; openalex_fulltext; wos
   relevance: likely
   relevance_reason: found by openalex_core; openalex_fulltext; wos
-  sectors: ''
+  sectors: Santa Rosa
   taxa: Plantae
   themes: Natural history & behavior
   added: '2026-10-24'
@@ -19738,6 +19949,8 @@
   relevance: likely
   relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
   sectors: Rincón de la Vieja
+  taxa: Plantae
+  themes: Geology & volcanology
   added: '2026-10-24'
 - id: 10.4269/ajtmh.1955.4.543
   doi: 10.4269/ajtmh.1955.4.543
@@ -19850,6 +20063,7 @@
   venue: Revista de Biología Tropical
   authors: Lucía Vargas-Araya; Christian Zúñiga; Mario Espinoza
   type: article
+  language: en
   is_oa: true
   oa_url: https://revistas.ucr.ac.cr/index.php/rrbt/article/download/11561/19029
   found_by: openalex_fulltext
@@ -19916,6 +20130,8 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Insecta
+  themes: Taxonomy & systematics; Populations & communities
   added: '2026-10-24'
 - id: 10.1007/s00227-026-04877-8
   doi: 10.1007/s00227-026-04877-8
@@ -20044,6 +20260,7 @@
   authors: Rantian Zhu; Xiaodan Ye; Huachen Wang; Chongcheng Yang; Zhenjuan Quan;
     Jie Chen
   type: preprint
+  language: en
   is_oa: true
   oa_url: https://www.researchsquare.com/article/rs-10642356/latest.pdf
   found_by: openalex_fulltext
@@ -20480,6 +20697,7 @@
   authors: Teresita Aguilar A.; Percy Denyer; Esteban López-Murillo; Claudio Calvo;
     María Marta Chavarría
   type: article
+  language: en
   is_oa: true
   oa_url: https://revistas.ucr.ac.cr/index.php/rgeologica/article/download/4743/6203
   found_by: openalex_fulltext
@@ -21398,6 +21616,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Arachnida
+  themes: Species interactions
   added: '2026-10-24'
 - id: 10.1111/1758-2229.70066
   doi: 10.1111/1758-2229.70066
@@ -21814,6 +22034,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Reptilia
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.1007/s40415-025-01100-8
   doi: 10.1007/s40415-025-01100-8
@@ -22424,6 +22646,8 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics; Evolution & genetics; Species interactions
   added: '2026-10-24'
 - id: 10.15446/rev.fac.cienc.v13n2.111362
   doi: 10.15446/rev.fac.cienc.v13n2.111362
@@ -22837,6 +23061,7 @@
   venue: CU Scholar (University of Colorado Boulder)
   authors: Ciechanowicz, Sydney
   type: dissertation
+  language: en
   is_oa: true
   oa_url: https://scholar.colorado.edu/downloads/t148fj82f
   found_by: openalex_fulltext
@@ -23029,6 +23254,7 @@
   authors: Orlando Jiménez-Méndez; Mario Guevara-Bonilla; Casia Soto-Montoya; Ruperto
     Quesada‐Monge
   type: article
+  language: es
   is_oa: true
   oa_url: https://revistas.tec.ac.cr/index.php/kuru/article/download/7042/6835
   copa: 11606/2464
@@ -23037,6 +23263,7 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  themes: Succession & restoration; Conservation, management & people
   added: '2026-10-24'
 - id: 10.60151/envec/iwlp8823
   doi: 10.60151/envec/iwlp8823
@@ -23343,6 +23570,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Echinodermata
+  themes: Taxonomy & systematics; Ecosystem processes
   added: '2026-10-24'
 - id: 10.62015/np.2024.v30.800
   doi: 10.62015/np.2024.v30.800
@@ -23619,6 +23848,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Mammalia
+  themes: Taxonomy & systematics; Evolution & genetics; Populations & communities
   added: '2026-10-24'
 - id: W7112492360
   openalex_id: W7112492360
@@ -24610,6 +24841,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Hymenoptera
+  themes: Natural history & behavior; Populations & communities; Ecosystem processes
   added: '2026-10-24'
 - id: 10.5281/zenodo.10621954
   doi: 10.5281/zenodo.10621954
@@ -24808,6 +25041,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Hymenoptera
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.1002/ajp.23549
   doi: 10.1002/ajp.23549
@@ -24872,6 +25107,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Mammalia; Plantae
+  themes: Natural history & behavior; Populations & communities
   added: '2026-10-24'
 - id: 10.2478/am-2023-0011
   doi: 10.2478/am-2023-0011
@@ -24967,6 +25204,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Insecta; Plantae; Microorganisms
+  themes: Evolution & genetics; Species interactions
   added: '2026-10-24'
 - id: 10.3389/fevo.2023.1112636
   doi: 10.3389/fevo.2023.1112636
@@ -26298,6 +26537,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Arachnida; Cnidaria
+  themes: Succession & restoration; Climate & environmental change
   added: '2026-10-24'
 - id: 10.33448/rsd-v11i14.36024
   doi: 10.33448/rsd-v11i14.36024
@@ -26392,6 +26633,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior; Conservation, management & people
   added: '2026-10-24'
 - id: 10.1590/0001-3765202220210765
   doi: 10.1590/0001-3765202220210765
@@ -26450,6 +26693,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics; Natural history & behavior; Populations & communities
   added: '2026-10-24'
 - id: 10.1002/ece3.8580
   doi: 10.1002/ece3.8580
@@ -26471,6 +26716,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Hymenoptera
+  themes: Evolution & genetics; Populations & communities
   added: '2026-10-24'
 - id: 10.3923/jas.2022.33.41
   doi: 10.3923/jas.2022.33.41
@@ -27034,6 +27281,9 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Amphibia
+  themes: Species interactions; Populations & communities; Conservation, management
+    & people
   added: '2026-10-24'
 - id: 10.48128/pisg/2021-66.4-08
   doi: 10.48128/pisg/2021-66.4-08
@@ -27504,6 +27754,7 @@
   relevance: check
   relevance_reason: sector Murcielago, Murciélago; found by openalex_fulltext
   sectors: Murciélago
+  taxa: Mollusca; Annelida; Cnidaria; Actinopterygii; Plantae
   themes: Populations & communities
   added: '2026-10-24'
 - id: 10.15517/rbt.v69isuppl.2.48739
@@ -27523,6 +27774,7 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Microorganisms
   themes: Conservation, management & people; Geology & volcanology
   added: '2026-10-24'
 - id: 10.3389/fevo.2021.718865
@@ -27714,6 +27966,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics; Species interactions; Populations & communities
   added: '2026-10-24'
 - id: 10.21203/rs.3.rs-1099185/v1
   doi: 10.21203/rs.3.rs-1099185/v1
@@ -28063,6 +28317,9 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Mammalia
+  themes: Evolution & genetics; Natural history & behavior; Climate & environmental
+    change
   added: '2026-10-24'
 - id: 10.15517/rbt.v69isuppl.2.48309
   doi: 10.15517/rbt.v69isuppl.2.48309
@@ -28801,6 +29058,8 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Lepidoptera; Plantae
+  themes: Evolution & genetics; Natural history & behavior; Populations & communities
   added: '2026-10-24'
 - id: W3144104389
   openalex_id: W3144104389
@@ -28932,6 +29191,7 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Microorganisms
   themes: Ecosystem processes; Succession & restoration
   added: '2026-10-24'
 - id: 10.1590/s1984-29612020032
@@ -30290,6 +30550,7 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Mammalia
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.18004/investig.agrar.2019.diciembre.136-141
@@ -30405,6 +30666,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.18311/jbc/2018/21674
   doi: 10.18311/jbc/2018/21674
@@ -30524,6 +30787,7 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  themes: Succession & restoration; Conservation, management & people
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0217310
   doi: 10.1371/journal.pone.0217310
@@ -30602,6 +30866,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.3390/genes10060461
   doi: 10.3390/genes10060461
@@ -30830,6 +31096,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Reptilia
+  themes: Evolution & genetics; Natural history & behavior; Populations & communities
   added: '2026-10-24'
 - id: 10.15359/rca.56-1.13
   doi: 10.15359/rca.56-1.13
@@ -30992,6 +31260,8 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes; Climate & environmental change
   added: '2026-10-24'
 - id: 10.15359/rca.26-1.2
   doi: 10.15359/rca.26-1.2
@@ -31066,6 +31336,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes
   added: '2026-10-24'
 - id: W7133023389
   openalex_id: W7133023389
@@ -32631,12 +32903,14 @@
   authors: Jessica Gruber; Richard S. Mbatu; Rebecca Johns; Barnali Dixon
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://login.ezproxy.lib.usf.edu/login?url=http://onlinelibrary.wiley.com/doi/10.1111/1477-8947.12132/epdf
   found_by: openalex_fulltext
   relevance: check
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  themes: Natural history & behavior; Conservation, management & people
   added: '2026-10-24'
 - id: W3048279498
   openalex_id: W3048279498
@@ -32693,6 +32967,7 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Aves
   themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.1002/ece3.3515
@@ -32840,6 +33115,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Lepidoptera; Hymenoptera; Plantae
+  themes: Species interactions; Conservation, management & people
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0174749
   doi: 10.1371/journal.pone.0174749
@@ -33482,6 +33759,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae; Fungi
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.5897/ijbc2017.1097
   doi: 10.5897/ijbc2017.1097
@@ -33645,6 +33924,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Amphibia
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0173369
   doi: 10.1371/journal.pone.0173369
@@ -34104,6 +34385,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  themes: Taxonomy & systematics; Populations & communities; Conservation, management
+    & people
   added: '2026-10-24'
 - id: 10.7717/peerj.2422
   doi: 10.7717/peerj.2422
@@ -34697,6 +34980,7 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Microorganisms
   themes: Ecosystem processes
   added: '2026-10-24'
 - id: 10.7854/jpsk.2016.25.4.409
@@ -35020,6 +35304,9 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae
+  themes: Succession & restoration; Climate & environmental change; Conservation,
+    management & people
   added: '2026-10-24'
 - id: 10.15517/rbt.v63i1.23099
   doi: 10.15517/rbt.v63i1.23099
@@ -36140,6 +36427,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Aves
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.5194/se-6-1169-2015
   doi: 10.5194/se-6-1169-2015
@@ -36268,6 +36557,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior; Ecosystem processes; Succession & restoration
   added: '2026-10-24'
 - id: W2270014615
   openalex_id: W2270014615
@@ -36419,6 +36710,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Diptera; Plantae
+  themes: Taxonomy & systematics; Natural history & behavior
   added: '2026-10-24'
 - id: 10.3732/ajb.1400527
   doi: 10.3732/ajb.1400527
@@ -36495,6 +36788,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Trichoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.62015/np.2015.v22.146
   doi: 10.62015/np.2015.v22.146
@@ -38464,6 +38759,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae
+  themes: Populations & communities
   added: '2026-10-24'
 - id: 10.1093/conphys/cot016
   doi: 10.1093/conphys/cot016
@@ -38718,6 +39015,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.3389/fmicb.2013.00065
   doi: 10.3389/fmicb.2013.00065
@@ -39165,6 +39464,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Cnidaria
+  themes: Populations & communities; Conservation, management & people
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0039459
   doi: 10.1371/journal.pone.0039459
@@ -39736,6 +40037,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Arachnida
+  themes: Species interactions
   added: '2026-10-24'
 - id: 10.1371/journal.pone.0041878
   doi: 10.1371/journal.pone.0041878
@@ -40009,6 +40312,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Hymenoptera; Plantae
+  themes: Evolution & genetics; Species interactions; Populations & communities
   added: '2026-10-24'
 - id: W2121646274
   openalex_id: W2121646274
@@ -40385,6 +40690,8 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1590/s1519-566x2011000300006
   doi: 10.1590/s1519-566x2011000300006
@@ -40822,7 +41129,7 @@
   found_by: openalex_fulltext
   relevance: check
   relevance_reason: found by openalex_fulltext
-  sectors: ''
+  sectors: Santa Rosa
   themes: Geology & volcanology; Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.11646/zootaxa.2811.1.1
@@ -40861,6 +41168,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Mammalia
+  themes: Evolution & genetics; Natural history & behavior
   added: '2026-10-24'
 - id: 10.15517/rgac.v0i47.6486
   doi: 10.15517/rgac.v0i47.6486
@@ -41500,6 +41809,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Mammalia
+  themes: Ecosystem processes
   added: '2026-10-24'
 - id: 10.3390/ijms11041434
   doi: 10.3390/ijms11041434
@@ -41809,6 +42120,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Hymenoptera; Plantae
+  themes: Natural history & behavior; Populations & communities
   added: '2026-10-24'
 - id: W3002649004
   openalex_id: W3002649004
@@ -42091,6 +42404,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Amphibia
+  themes: Evolution & genetics; Populations & communities; Ecosystem processes
   added: '2026-10-24'
 - id: 10.11646/zootaxa.2398.1.1
   doi: 10.11646/zootaxa.2398.1.1
@@ -43854,6 +44169,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Reptilia
+  themes: Natural history & behavior
   added: '2026-10-24'
 - id: 10.1590/s0031-10492007000800001
   doi: 10.1590/s0031-10492007000800001
@@ -44036,6 +44353,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae; Fungi; Microorganisms
+  themes: Taxonomy & systematics
   added: '2026-10-24'
 - id: 10.1896/044.014.0102
   doi: 10.1896/044.014.0102
@@ -44145,6 +44464,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Aves
+  themes: Natural history & behavior; Conservation, management & people
   added: '2026-10-24'
 - id: 10.11646/zootaxa.1634.1.1
   doi: 10.11646/zootaxa.1634.1.1
@@ -44872,6 +45193,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Amphibia
+  themes: Evolution & genetics; Natural history & behavior; Populations & communities
   added: '2026-10-24'
 - id: W7209150107
   openalex_id: W7209150107
@@ -45340,7 +45663,7 @@
   found_by: openalex_fulltext
   relevance: check
   relevance_reason: found by openalex_fulltext
-  sectors: ''
+  sectors: Guanacaste
   taxa: Coleoptera
   themes: Populations & communities
   added: '2026-10-24'
@@ -47039,7 +47362,7 @@
   type: article
   language: en
   is_oa: true
-  oa_url: http://publikationen.ub.uni-frankfurt.de/files/23814/IM-14-233-239-Pape.pdf
+  oa_url: https://digitalcommons.unl.edu/context/insectamundi/article/1313/viewcontent/COMPLIANT_unl_insectamundi_1313.pdf
   found_by: openalex_fulltext
   relevance: check
   relevance_reason: found by openalex_fulltext
@@ -48060,6 +48383,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Cnidaria
+  themes: Populations & communities
   added: '2026-10-24'
 - id: 10.62015/np.1996.v4.359
   doi: 10.62015/np.1996.v4.359
@@ -48954,6 +49279,7 @@
   relevance: check
   relevance_reason: found by openalex_fulltext
   sectors: ''
+  themes: Conservation, management & people
   added: '2026-10-24'
 - id: 10.5281/zenodo.16099676
   doi: 10.5281/zenodo.16099676
@@ -49559,6 +49885,8 @@
   relevance_reason: found by openalex_fulltext; in COPA (ACG's repository), re-checked
     2026-10-29
   sectors: ''
+  taxa: Plantae
+  themes: Species interactions
   added: '2026-10-24'
 - id: W2042376970
   openalex_id: W2042376970
@@ -50075,7 +50403,8 @@
   authors: Edward Allen Herre
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/1449623
   found_by: openalex_core; openalex_fulltext
   relevance: likely
   relevance_reason: names Area de Conservacion Guanacaste; found by openalex_core;
@@ -50094,6 +50423,7 @@
   authors: Alexandra May; Ricardo Sánchez Murillo; María Marta Chavarría; Christian
     Birkel; Daniel  Emilio Martínez; Esteban Gazel; Matthew O. Schrenk
   type: preprint
+  language: en
   is_oa: true
   oa_url: https://www.authorea.com/doi/pdf/10.22541/authorea.15010899/v1
   found_by: openalex_fulltext
@@ -52195,6 +52525,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  themes: Geology & volcanology
   added: '2026-10-29'
 - id: 10.11646/zootaxa.4974.3.2
   doi: 10.11646/zootaxa.4974.3.2
@@ -53212,6 +53543,7 @@
   title: 'Tropical Dry Forest Response to Nutrient Fertilization: A Model Validation
     and Sensitivity Analysis'
   year: 2022
+  venue: Copernicus GmbH
   authors: Shuyue Li; Bonnie G. Waring; Jennifer S. Powers; David Medvigy
   type: posted-content
   is_oa: false
@@ -57574,6 +57906,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Taxonomy & systematics
   added: '2026-10-29'
 - id: 10.1146/annurev.es.10.110179.000305
@@ -58657,9 +58990,11 @@
   added: '2026-10-29'
 - id: 10.1890/1540-9295(2004)002[0073:tfagws]2.0.co;2
   doi: 10.1890/1540-9295(2004)002[0073:tfagws]2.0.co;2
+  openalex_id: W2114121121
   review: approved
   title: 'Tropical forests and global warming: slowing it down or speeding it up?'
   year: 2004
+  venue: Frontiers in Ecology and the Environment
   authors: A. Clark, Deborah
   type: article
   language: en
@@ -58669,15 +59004,18 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Ecosystem processes; Climate & environmental change
   added: '2026-10-29'
 - id: 10.1093/zoolinnean/zly036
   doi: 10.1093/zoolinnean/zly036
+  openalex_id: W2887262801
   review: approved
   title: 'DNA barcodes uncover hidden taxonomic diversity behind the variable wing
     patterns in the Neotropical butterfly genus Zaretis (Lepidoptera: Nymphalidae:
     Charaxinae)'
   year: 2018
+  venue: Zoological Journal of the Linnean Society
   authors: Silva Dias, Fernando Maia; Janzen, Daniel H.; Hallwachs, Winnie; Chacón,
     Isidro; Willmott, Keith; Ortiz Acevedo, Elena; Hendrik Mielke, Olaf Hermann; Martin
     Casagrande, Mirna
@@ -58792,6 +59130,7 @@
   added: '2026-10-29'
 - id: 10.15517/rbt.v69isuppl.2.48308
   doi: 10.15517/rbt.v69isuppl.2.48308
+  openalex_id: W4200379973
   review: approved
   title: Hydrographic variability in the Gulf of Papagayo, Costa Rica during 2017-2019
   year: 2021
@@ -58801,7 +59140,8 @@
     Isabel; Brenes-Rodríguez, Carlos
   type: article
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.15517/rbt.v69isuppl.2.48308
   copa: 11606/2384
   found_by: copa
   relevance: likely
@@ -58811,6 +59151,7 @@
   added: '2026-10-29'
 - id: 10.57800/faunitaxys-11(42)
   doi: 10.57800/faunitaxys-11(42)
+  openalex_id: W4395106273
   review: approved
   title: New species and new country records in Neotropical Cerambycidae (Coleoptera)
   year: 2023
@@ -58819,7 +59160,8 @@
   authors: Devesa, Sergio; Vlasak, Josef
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://hal.science/hal-04145283/file/Faunitaxys_f234.pdf
   copa: 11606/2431
   found_by: copa
   relevance: likely
@@ -58848,6 +59190,7 @@
   added: '2026-10-29'
 - id: 10.1126/science.abn7829
   doi: 10.1126/science.abn7829
+  openalex_id: W4378976294
   review: approved
   title: A global catalog of whole-genome diversity from 233 primate species
   year: 2023
@@ -58871,7 +59214,8 @@
     Toma Marques Bonet
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.1126/science.abn7829
   copa: 11606/2459
   found_by: copa
   relevance: likely
@@ -58932,6 +59276,7 @@
   added: '2026-10-29'
 - id: 10.14522/darwiniana.2014.431-4.139
   doi: 10.14522/darwiniana.2014.431-4.139
+  openalex_id: W342918872
   review: approved
   title: 'Estudios en las Apocynaceae neotropicales XIX: la familia Apocynaceae (Apocynoideae,
     Rauvolfioideae) en Costa Rica'
@@ -58946,6 +59291,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae; Fungi
   themes: Taxonomy & systematics
   added: '2026-10-29'
 - id: copa:11606/64
@@ -58987,6 +59333,7 @@
   added: '2026-10-29'
 - id: 10.1073/pnas.0609334103
   doi: 10.1073/pnas.0609334103
+  openalex_id: W2121135734
   review: approved
   title: Global mammal distributions, biodiversity hotspots, and conservation
   year: 2006
@@ -58994,7 +59341,8 @@
   authors: Ceballos, Gerardo; Ehrlich, Paul R.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/1698439
   copa: 11606/73
   found_by: copa
   relevance: likely
@@ -59005,6 +59353,7 @@
   added: '2026-10-29'
 - id: 10.1177/194008290900200102
   doi: 10.1177/194008290900200102
+  openalex_id: W2121396061
   review: approved
   title: Is oil palm the next emerging threat to the Amazon?
   year: 2009
@@ -59012,7 +59361,8 @@
   authors: Butler, Rhett A.; Laurance, William F.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://journals.sagepub.com/doi/pdf/10.1177/194008290900200102
   copa: 11606/77
   found_by: copa
   relevance: likely
@@ -59023,6 +59373,7 @@
   added: '2026-10-29'
 - id: 10.1016/s0006-3207(02)00145-3
   doi: 10.1016/s0006-3207(02)00145-3
+  openalex_id: W2096787453
   review: approved
   title: 'Integrity and isolation of Costa Rica’s national parks and biological reserves:
     examining the dynamics of land-cover change'
@@ -59038,11 +59389,13 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Populations & communities; Climate & environmental change; Conservation,
     management & people
   added: '2026-10-29'
 - id: 10.1016/j.landurbplan.2013.11.006
   doi: 10.1016/j.landurbplan.2013.11.006
+  openalex_id: W2097328569
   review: approved
   title: 'Noise pollution in national parks: Soundscape and economic valuation'
   year: 2014
@@ -59050,7 +59403,8 @@
   authors: Diaz-Balteiro, Luis; Merchan, Carlos Iglesias; Soliño, Mario
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: http://hdl.handle.net/20.500.12792/2149
   copa: 11606/91
   found_by: copa
   relevance: likely
@@ -59060,6 +59414,7 @@
   added: '2026-10-29'
 - id: 10.1016/j.foreco.2009.12.005
   doi: 10.1016/j.foreco.2009.12.005
+  openalex_id: W2165755835
   review: approved
   title: Can we really manage tropical forests without knowing the species within?
     Getting back to the basics of forest management through taxonomy
@@ -59267,22 +59622,26 @@
   added: '2026-10-29'
 - id: 10.11646/zootaxa.1016.1.4
   doi: 10.11646/zootaxa.1016.1.4
+  openalex_id: W2306932345
   review: approved
   title: 'Prasmodon zlotnicki, a new Neotropical species of the genus Prasmodon Nixon
     (Braconidae: Microgastrinae) from Costa Rica, with the first host records for
     the genus'
   year: 2005
+  venue: Zootaxa
   authors: Valerio, Alejandro A.; Rodriguez, Josephine J.; Whitfield, James B.; Janzen,
     Daniel H.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://zenodo.org/record/5049304
   copa: 11606/161
   found_by: copa
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Hymenoptera
+  themes: Taxonomy & systematics
   added: '2026-10-29'
 - id: copa:11606/172
   review: approved
@@ -59374,6 +59733,7 @@
   added: '2026-10-29'
 - id: 10.1016/j.gloenvcha.2013.02.011
   doi: 10.1016/j.gloenvcha.2013.02.011
+  openalex_id: W2034400559
   review: approved
   title: 'Linking multi-level governance to local common-pool resource theory using
     fuzzy-set qualitative comparative analysis: Insights from twenty years of biodiversity
@@ -59383,7 +59743,8 @@
   authors: Basurto, Xavier
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: http://hdl.handle.net/10161/11478
   copa: 11606/203
   found_by: copa
   relevance: likely
@@ -59411,6 +59772,7 @@
   added: '2026-10-29'
 - id: 10.1890/1540-9295(2006)004[0141:whcisc]2.0.co;2
   doi: 10.1890/1540-9295(2006)004[0141:whcisc]2.0.co;2
+  openalex_id: W2113285333
   review: approved
   title: Will human-induced changes in seawater chemistry alter the distribution of
     deep-sea scleractinian corals?
@@ -59431,13 +59793,16 @@
   added: '2026-10-29'
 - id: 10.4067/s0718-19572013000100015
   doi: 10.4067/s0718-19572013000100015
+  openalex_id: W2161046897
   review: approved
   title: 'New records of sea anemones (Cnidaria: Anthozoa) from Costa Rica'
   year: 2013
+  venue: Revista de biología marina y oceanografía
   authors: Acuña, Fabián H.; Garese, Agustín; Excoffon, Adriana C.; Cortés, Jorge
   type: article
   language: ot
-  is_oa: false
+  is_oa: true
+  oa_url: http://www.scielo.cl/pdf/revbiolmar/v48n1/art15.pdf
   copa: 11606/217
   found_by: copa
   relevance: likely
@@ -59448,6 +59813,7 @@
   added: '2026-10-29'
 - id: 10.1016/j.aquabot.2014.08.009
   doi: 10.1016/j.aquabot.2014.08.009
+  openalex_id: W1985629741
   review: approved
   title: Seasonal phenology of Sargassum liebmannii J. Agardh (Fucales,Heterokontophyta)
     in an upwelling area of the Eastern Tropical Pacific
@@ -59456,7 +59822,8 @@
   authors: Cortés, Jorge; Samper-Villarreal, Jimena; Bernecker, Andrea
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: http://hdl.handle.net/10669/81015
   copa: 11606/218
   found_by: copa
   relevance: likely
@@ -59483,6 +59850,7 @@
   added: '2026-10-29'
 - id: 10.1126/science.1059199
   doi: 10.1126/science.1059199
+  openalex_id: W2147807123
   review: approved
   title: Historical Overﬁshing and the Recent Collapse of Coastal Ecosystems
   year: 2001
@@ -59521,6 +59889,7 @@
   added: '2026-10-29'
 - id: 10.3354/meps258097
   doi: 10.3354/meps258097
+  openalex_id: W2052001257
   review: approved
   title: Skeletal tumor formations in the massive coral Pavona clavus
   year: 2003
@@ -59528,7 +59897,8 @@
   authors: Gateño, D.; León, A.; Barki, Y.; Cortés, J.; Rinkevich, B.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.int-res.com/articles/meps2003/258/m258p097.pdf
   copa: 11606/276
   found_by: copa
   relevance: likely
@@ -59558,6 +59928,7 @@
   added: '2026-10-29'
 - id: 10.1016/j.jembe.2015.03.018
   doi: 10.1016/j.jembe.2015.03.018
+  openalex_id: W2038621580
   review: approved
   title: Effects of simulated overfishing on the succession of benthic algae and invertebrates
     in an upwelling-influenced coral reef of Pacific Costa Rica
@@ -59567,7 +59938,8 @@
     C.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.sciencedirect.com/science/article/pii/S0022098115000799?via%3Dihub
   copa: 11606/281
   found_by: copa
   relevance: likely
@@ -59578,6 +59950,7 @@
   added: '2026-10-29'
 - id: 10.15517/rbt.v51i3.26388
   doi: 10.15517/rbt.v51i3.26388
+  openalex_id: W1602769457
   review: approved
   title: Lista de especies de moluscos terrestres (Archaeogastropoda, Mesogastropoda,
     Archaeopulmonata, Stylommatophora, Soleolifera) informadas para Costa Rica
@@ -59586,7 +59959,8 @@
   authors: Barrientos, Zaidett
   type: article
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/26388
   copa: 11606/282
   found_by: copa
   relevance: likely
@@ -59597,6 +59971,7 @@
   added: '2026-10-29'
 - id: 10.15517/rbt.v51i3.26363
   doi: 10.15517/rbt.v51i3.26363
+  openalex_id: W1557140128
   review: approved
   title: Aspectos básicos sobre la clasificación, recolección, toma de datos y conservación
     de los moluscos
@@ -59605,16 +59980,19 @@
   authors: Barrientos, Zaidett
   type: article
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/26363
   copa: 11606/283
   found_by: copa
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Mollusca
+  themes: Natural history & behavior
   added: '2026-10-29'
 - id: 10.15517/rbt.v51i3.26387
   doi: 10.15517/rbt.v51i3.26387
+  openalex_id: W1937914276
   review: approved
   title: Estado actual del conocimiento y la conservación de los moluscos continentales
     de Costa Rica
@@ -59623,7 +60001,8 @@
   authors: Barrientos, Zaidett
   type: article
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/26387
   copa: 11606/284
   found_by: copa
   relevance: likely
@@ -59652,6 +60031,7 @@
   added: '2026-10-29'
 - id: 10.15517/rbt.v53i1-2.14556
   doi: 10.15517/rbt.v53i1-2.14556
+  openalex_id: W2112153715
   review: approved
   title: Patterns of cetacean sighting distribution in the Pacific Exclusive Economic
     Zone of Costa Rica based on data collected from 1979-2001
@@ -59661,7 +60041,8 @@
     Sereg, Irena
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/14556
   copa: 11606/292
   found_by: copa
   relevance: likely
@@ -59708,13 +60089,16 @@
   added: '2026-10-29'
 - id: 10.1371/journal.pone.0075432
   doi: 10.1371/journal.pone.0075432
+  openalex_id: W2063250597
   review: approved
   title: A Positive Trajectory for Corals at Little Cayman Island
   year: 2013
+  venue: PLoS ONE
   authors: Manfrino, Carrie; Jacoby, Charles A.; Camp, Emma; Frazer, Thomas K.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0075432&type=printable
   copa: 11606/298
   found_by: copa
   relevance: likely
@@ -59740,6 +60124,7 @@
   added: '2026-10-29'
 - id: 10.1038/scientificamerican0209-52
   doi: 10.1038/scientificamerican0209-52
+  openalex_id: W2022348180
   review: approved
   title: The Origin of the Land under the Sea
   year: 2009
@@ -59757,6 +60142,7 @@
   added: '2026-10-29'
 - id: 10.1126/science.314.5800.757b
   doi: 10.1126/science.314.5800.757b
+  openalex_id: W2149012683
   review: approved
   title: How Protected Are Coral Reefs?
   year: 2006
@@ -59775,6 +60161,7 @@
   added: '2026-10-29'
 - id: 10.15517/rbt.v54i1.26832
   doi: 10.15517/rbt.v54i1.26832
+  openalex_id: W1489789491
   review: approved
   title: 'Los ecosistemas marinos del Pacífico sur de Costa Rica: estado del conocimiento
     y perspectivas de manejo'
@@ -59783,7 +60170,8 @@
   authors: Quesada-Alpízar, Marco A.; Cortés, Jorge
   type: article
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/26832
   copa: 11606/310
   found_by: copa
   relevance: likely
@@ -59794,11 +60182,13 @@
   added: '2026-10-29'
 - id: 10.2307/3558405
   doi: 10.2307/3558405
+  openalex_id: W2090802506
   review: approved
   title: 'Reproductive biology of the dry forest tree Enterolobium cyclocarpum (guanacaste)
     in Costa Rica: a comparison between trees left in pastures and trees in continuous
     forest.'
   year: 2001
+  venue: American Journal of Botany
   authors: Rocha, Oscar; Aguilar, Gabriel
   type: article
   language: en
@@ -60141,6 +60531,7 @@
   added: '2026-10-29'
 - id: 10.14288/1.0221487
   doi: 10.14288/1.0221487
+  openalex_id: W2550819961
   review: approved
   title: Forest fragmentation changes macroinvertebrate community composition in neotropical
     treeholes
@@ -60149,12 +60540,14 @@
   authors: Nicolás-Stella, Angie Jhovanska
   type: dissertation
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.14288/1.0221487
   copa: 11606/364
   found_by: copa
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Species interactions; Populations & communities; Climate & environmental
     change
   added: '2026-10-29'
@@ -60363,14 +60756,17 @@
   added: '2026-10-29'
 - id: 10.5962/p.226658
   doi: 10.5962/p.226658
+  openalex_id: W2787769051
   review: approved
   title: DISTRIBUTIONAL RECORDS OF MAMMALS FROM THE SOUTHWESTERN YUCATAN PENINSULA
     OF MEXICO
   year: 1988
+  venue: Annals of Carnegie Museum
   authors: C. Dowler1, Robert; D. Engstrom, Mark
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/226658
   copa: 11606/389
   found_by: copa
   relevance: likely
@@ -60633,6 +61029,7 @@
   added: '2026-10-29'
 - id: 10.2307/1938076a
   doi: 10.2307/1938076a
+  openalex_id: W2331917521
   review: approved
   title: Costa Rican Natural History
   year: 1983
@@ -60646,6 +61043,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Natural history & behavior
   added: '2026-10-29'
 - id: copa:11606/453
@@ -60767,15 +61165,18 @@
   added: '2026-10-29'
 - id: 10.1073/pnas.1019576108
   doi: 10.1073/pnas.1019576108
+  openalex_id: W2093540905
   review: approved
   title: Benchmark map of forest carbon stocks in tropical regions across three continents
   year: 2010
+  venue: Proceedings of the National Academy of Sciences
   authors: Saatchi, Sassan S.; Harris, Nancy L.; Brown, Sandra; Lefsky, Michael; Mitchard,
     Edward T. A.; Salas, William; Zutta, Brian R.; Buermann, Wolfgang; Lewis, Simon
     L.; Hagen, Stephen; Petrova, Silvia; White, Lee; Silman, Miles; Morel, Alexandra
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/3116381
   copa: 11606/527
   found_by: copa
   relevance: likely
@@ -60879,9 +61280,11 @@
   added: '2026-10-29'
 - id: 10.1017/cbo9780511754821.011
   doi: 10.1017/cbo9780511754821.011
+  openalex_id: W2316312056
   review: approved
   title: 'Hydrologic connectivity: a neglected dimension of conservation biology'
   year: 2006
+  venue: Cambridge University Press eBooks
   authors: Catherine, Pringle; Kevin, R.; Crooks, M.
   type: article
   language: en
@@ -60891,6 +61294,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Actinopterygii
   themes: Ecosystem processes; Conservation, management & people
   added: '2026-10-29'
 - id: copa:11606/613
@@ -60929,15 +61333,18 @@
   added: '2026-10-29'
 - id: 10.5281/zenodo.16575339
   doi: 10.5281/zenodo.16575339
+  openalex_id: W570825412
   review: approved
   title: DNA BARCODES OF CLOSELY RELATED (BUT MORPHOLOGICALLY AND ECOLOGICALLY DISTINCT)
     SPECIES OF SKIPPER BUTTERFLIES (HESPERIIDAE) CAN DIFFER BY ONLY ONE TO THREE NUCLEOTIDES
   year: 2007
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
   authors: Burns, John M.; Janzen, Daniel H.; Hajibabaei, Mehrdad; Hallwachs, Winnie;
     Hebert, Paul D. N.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.5281/zenodo.16575339
   copa: 11606/734
   found_by: copa
   relevance: likely
@@ -60948,9 +61355,11 @@
   added: '2026-10-29'
 - id: 10.2307/2388014
   doi: 10.2307/2388014
+  openalex_id: W2325996964
   review: approved
   title: A Bat-Generated Fig Seed Shadow in Rainforest
   year: 1978
+  venue: Biotropica
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61031,9 +61440,11 @@
   added: '2026-10-29'
 - id: 10.2307/2387912
   doi: 10.2307/2387912
+  openalex_id: W2331104317
   review: approved
   title: How Do Horses Find Their Way Home?
   year: 1978
+  venue: Biotropica
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61043,6 +61454,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Aves
   themes: Species interactions
   added: '2026-10-29'
 - id: copa:11606/1093
@@ -61210,9 +61622,11 @@
   added: '2026-10-29'
 - id: 10.2307/2989793
   doi: 10.2307/2989793
+  openalex_id: W2334662194
   review: approved
   title: What the Tropical Trappers Leave Behind
   year: 1975
+  venue: Biotropica
   authors: Janzen, Daniel H.; Mckey, D.
   type: article
   language: en
@@ -61241,9 +61655,11 @@
   added: '2026-10-29'
 - id: 10.2307/2989630
   doi: 10.2307/2989630
+  openalex_id: W2323307199
   review: approved
   title: Why Tropical Trees Have Rotten Cores
   year: 1976
+  venue: Biotropica
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61254,6 +61670,7 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Plantae
+  themes: Populations & communities
   added: '2026-10-29'
 - id: copa:11606/1186
   review: approved
@@ -61273,11 +61690,13 @@
   added: '2026-10-29'
 - id: 10.1021/ja00524a029
   doi: 10.1021/ja00524a029
+  openalex_id: W2018751999
   review: approved
   title: 2,4-Methanoproline (2-Carboxy-2,4-methanopyrrolidine) and 2,4-Methanoglutamic
     Acid (l-Amino-l ,3-dicarboxycyclobutane) in Seeds of Ateleia herbert smithii Pittier
     (Leguminosae)
   year: 1979
+  venue: Journal of the American Chemical Society
   authors: E., Arthur Bell; M., Yasin Qureshi; Pryce, Robert J.; Janzen, Daniel H.;
     Lemke, Paula; Clardy, Jon
   type: article
@@ -61289,6 +61708,7 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Plantae
+  themes: Natural history & behavior
   added: '2026-10-29'
 - id: copa:11606/1195
   review: approved
@@ -61357,9 +61777,11 @@
   added: '2026-10-29'
 - id: 10.1007/bf00989564
   doi: 10.1007/bf00989564
+  openalex_id: W2016432930
   review: approved
   title: AMMONIA UTILIZATION BY THE BRUCHID BEETLE, Caryedes brasiliensis [BRUCHIDAE]
   year: 1984
+  venue: Journal of Chemical Ecology
   authors: Rosenthal, Gerald A.; Janzen, Daniel H.
   type: article
   language: en
@@ -61370,6 +61792,7 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Coleoptera
+  themes: Species interactions
   added: '2026-10-29'
 - id: copa:11606/1201
   review: approved
@@ -61406,10 +61829,12 @@
   added: '2026-10-29'
 - id: 10.2307/3544443
   doi: 10.2307/3544443
+  openalex_id: W2335673586
   review: approved
   title: Bee arrival at two Costa Rican female Catasetum orchid inflorescences, and
     a hypothesis on euglossine population structure
   year: 1981
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61424,9 +61849,11 @@
   added: '2026-10-29'
 - id: 10.2307/1940441
   doi: 10.2307/1940441
+  openalex_id: W2013212068
   review: approved
   title: Biochemical Ecology of Canavanine-Eating Seed Predators
   year: 1988
+  venue: Ecology
   authors: Bleiler, John A.; Rosenthal, Gerald A.; Janzen, Daniel H.
   type: article
   language: en
@@ -61456,9 +61883,11 @@
   added: '2026-10-29'
 - id: 10.2307/3565305
   doi: 10.2307/3565305
+  openalex_id: W2314751945
   review: approved
   title: Buy Costa Rican beef
   year: 1988
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61488,10 +61917,12 @@
   added: '2026-10-29'
 - id: 10.1002/j.1537-2197.1982.tb13372.x
   doi: 10.1002/j.1537-2197.1982.tb13372.x
+  openalex_id: W2091529288
   review: approved
   title: 'CENIZERO TREE (LEGUMINOSAE: PITHECELLOBIUM SAMAN) DELAYED FRUIT DEVELOPMENT
     IN COSTA RICAN DECIDUOUS FORESTS'
   year: 1982
+  venue: American Journal of Botany
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61664,10 +62095,12 @@
   added: '2026-10-29'
 - id: 10.2307/3544014
   doi: 10.2307/3544014
+  openalex_id: W2329180334
   review: approved
   title: Differential Seed Survival and Passage Rates in Cows and Horses, Surrogate
     Pleistocene Dispersal Agents
   year: 1982
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61698,9 +62131,11 @@
   added: '2026-10-29'
 - id: 10.1086/284208
   doi: 10.1086/284208
+  openalex_id: W1984507052
   review: approved
   title: 'Dispersal of Small Seeds by Big Herbivores: Foliage is the Fruit'
   year: 1983
+  venue: The American Naturalist
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61732,9 +62167,11 @@
   added: '2026-10-29'
 - id: 10.1086/284549
   doi: 10.1086/284549
+  openalex_id: W1999792875
   review: approved
   title: Does a Hectare of Cropland Equal a Hectare of Wild Host Plant?
   year: 1986
+  venue: The American Naturalist
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61831,9 +62268,11 @@
   added: '2026-10-29'
 - id: 10.1016/0031-9422(79)83029-0
   doi: 10.1016/0031-9422(79)83029-0
+  openalex_id: W2022229105
   review: approved
   title: CYANOGENESIS IN ACACIA FARNESIANA
   year: 1979
+  venue: Phytochemistry
   authors: Seigler, David S.; Conn, Eric E.; Dunn, John E.; Janzen, Daniel H.
   type: article
   language: en
@@ -61848,10 +62287,12 @@
   added: '2026-10-29'
 - id: 10.2307/2388595
   doi: 10.2307/2388595
+  openalex_id: W2152204935
   review: approved
   title: How Fast and Why Do Germinating Guanacaste Seeds (Enterolobium cyclocarpum)
     Die Inside Cows and Horses?
   year: 1985
+  venue: Biotropica
   authors: Janzen, Daniel H.; Demment, M. W.; Robertson, J. B.
   type: article
   language: en
@@ -61862,6 +62303,7 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Plantae
+  themes: Species interactions
   added: '2026-10-29'
 - id: copa:11606/1233
   review: approved
@@ -61881,9 +62323,11 @@
   added: '2026-10-29'
 - id: 10.2307/2388172
   doi: 10.2307/2388172
+  openalex_id: W2052304005
   review: approved
   title: How Many Babies Do Figs Pay for Babies?
   year: 1979
+  venue: Biotropica
   authors: Janzen, Daniel H.
   type: article
   language: de
@@ -61898,9 +62342,11 @@
   added: '2026-10-29'
 - id: 10.2307/2387789
   doi: 10.2307/2387789
+  openalex_id: W2332270684
   review: approved
   title: How Many Parents Do the Wasps from a Fig Have?
   year: 1979
+  venue: Biotropica
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -61949,10 +62395,12 @@
   added: '2026-10-29'
 - id: 10.1126/science.217.4557.353
   doi: 10.1126/science.217.4557.353
+  openalex_id: W2030784034
   review: approved
   title: L-Canavanine, a Dietary Nitrogen Source for the Seed Predator Caryedes brasiliensis
     (Bruchidae)
   year: 1982
+  venue: Science
   authors: Rosenthal, Gerald A.; Hughes, Charlie G.; Janzen, Daniel H.
   type: article
   language: en
@@ -62014,10 +62462,12 @@
   added: '2026-10-29'
 - id: 10.2307/1937726
   doi: 10.2307/1937726
+  openalex_id: W2324358312
   review: approved
   title: Enterolobium Cyclocarpum Seed Passage Rate and Survival in Horses, Costa
     Rican Pleistocene Seed Dispersal Agents
   year: 1981
+  venue: Ecology
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62065,9 +62515,11 @@
   added: '2026-10-29'
 - id: 10.1126/science.242.4885.1493-a
   doi: 10.1126/science.242.4885.1493-a
+  openalex_id: W1536077015
   review: approved
   title: Factoring and Cryptography
   year: 1988
+  venue: Science
   authors: Woodwell, G. M.; Janzen, Daniel H.
   type: article
   language: en
@@ -62077,6 +62529,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-29'
 - id: copa:11606/1249
@@ -62161,9 +62614,11 @@
   added: '2026-10-29'
 - id: 10.1038/280010a0
   doi: 10.1038/280010a0
+  openalex_id: W2024951488
   review: approved
   title: How accurate was the carat
   year: 1978
+  venue: Nature
   authors: Janzen, Daniel H.; Barlow, Susan; D. B., Alan
   type: article
   language: en
@@ -62173,6 +62628,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  themes: Conservation, management & people
   added: '2026-10-29'
 - id: copa:11606/1257
   review: approved
@@ -62224,9 +62680,11 @@
   added: '2026-10-29'
 - id: 10.2307/2388218
   doi: 10.2307/2388218
+  openalex_id: W2315868765
   review: approved
   title: Male Dogs Have Fitness
   year: 1985
+  venue: Biotropica
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62236,12 +62694,15 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  themes: Natural history & behavior
   added: '2026-10-29'
 - id: 10.1017/s0266467400000122
   doi: 10.1017/s0266467400000122
+  openalex_id: W2156691129
   review: approved
   title: 'Mangroves: Where''s the Understory?'
   year: 1985
+  venue: Journal of Tropical Ecology
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62306,9 +62767,11 @@
   added: '2026-10-29'
 - id: 10.1126/science.215.4528.19
   doi: 10.1126/science.215.4528.19
+  openalex_id: W2157575440
   review: approved
   title: 'Neotropical Anachronisms: The Fruits the Gomphotheres Ate'
   year: 1982
+  venue: Science
   authors: Janzen, Daniel H.; Martin, Paul S.
   type: article
   language: en
@@ -62323,9 +62786,11 @@
   added: '2026-10-29'
 - id: 10.2307/3565507
   doi: 10.2307/3565507
+  openalex_id: W2324538592
   review: approved
   title: Oh, I Forgot about Zoos
   year: 1987
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62356,9 +62821,11 @@
   added: '2026-10-29'
 - id: 10.2307/3565565
   doi: 10.2307/3565565
+  openalex_id: W2325883238
   review: approved
   title: On Ecological Fitting
   year: 1985
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62368,6 +62835,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: Santa Rosa
+  taxa: Plantae
   themes: Evolution & genetics
   added: '2026-10-29'
 - id: copa:11606/1275
@@ -62387,9 +62855,11 @@
   added: '2026-10-29'
 - id: 10.1007/978-3-642-68153-0_17
   doi: 10.1007/978-3-642-68153-0_17
+  openalex_id: W83370628
   review: approved
   title: Physiological Ecology of Fruits and Their Seeds
   year: 1983
+  venue: Springer eBooks
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62404,10 +62874,12 @@
   added: '2026-10-29'
 - id: 10.2307/3545032
   doi: 10.2307/3545032
+  openalex_id: W2330805924
   review: approved
   title: 'Plant Allelochemicals, Tritrophic Interactions and the Anomalous Diversity
     of Tropical Parasitoids: The "Nasty" Host Hypothesis'
   year: 1992
+  venue: Oikos
   authors: Gauld, Ian D.; Gaston, Kevin J.; Janzen, Daniel H.
   type: article
   language: en
@@ -62438,10 +62910,12 @@
   added: '2026-10-29'
 - id: 10.1007/bf01012365
   doi: 10.1007/bf01012365
+  openalex_id: W2091926326
   review: approved
   title: POTENTIALLY DEFENSIVE PROTEINS IN MATURE SEEDS OF 59 SPECIES OF TROPICAL
     LEGUMINOSAE
   year: 1985
+  venue: Journal of Chemical Ecology
   authors: Janzen, Daniel H.; Clarence, A. Ryan; Liener, Irvin E.; Pearce, G.
   type: article
   language: en
@@ -62456,10 +62930,12 @@
   added: '2026-10-29'
 - id: 10.2307/2388135
   doi: 10.2307/2388135
+  openalex_id: W2334092678
   review: approved
   title: Reduction in Euglossine Bee Species Richness on Isla del Cano, a Costa Rican
     Offshore Island
   year: 1981
+  venue: Biotropica
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62507,9 +62983,11 @@
   added: '2026-10-29'
 - id: 10.2307/3565824
   doi: 10.2307/3565824
+  openalex_id: W2318864191
   review: approved
   title: Science Is Forever
   year: 1986
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62540,9 +63018,11 @@
   added: '2026-10-29'
 - id: 10.2307/3565372
   doi: 10.2307/3565372
+  openalex_id: W2317126078
   review: approved
   title: Seeds as Products
   year: 1986
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62591,9 +63071,11 @@
   added: '2026-10-29'
 - id: 10.2307/2259466
   doi: 10.2307/2259466
+  openalex_id: W2335269188
   review: approved
   title: SPECIFICITY OF SEED-ATTACKING BEETLES IN A COSTA RICAN DECIDUOUS FOREST
   year: 1980
+  venue: Journal of Ecology
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62608,9 +63090,11 @@
   added: '2026-10-29'
 - id: 10.1016/0031-9422(79)83017-4
   doi: 10.1016/0031-9422(79)83017-4
+  openalex_id: W2000804024
   review: approved
   title: 'TETRAHYDROLATHYRINE: A NEW AMINO ACID FROM SEEDS OF LONCHOCARPUS COSTARICENSIS'
   year: 1978
+  venue: Phytochemistry
   authors: Fellows, Línda E.; Bell, Arthur; Lee, Thean S.; Janzen, Daniel H.
   type: article
   language: en
@@ -62655,9 +63139,11 @@
   added: '2026-10-29'
 - id: 10.1146/annurev.ecolsys.17.1.305
   doi: 10.1146/annurev.ecolsys.17.1.305
+  openalex_id: W2143060496
   review: approved
   title: The Future of Tropical Ecology
   year: 1986
+  venue: Annual Review of Ecology and Systematics
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62688,9 +63174,11 @@
   added: '2026-10-29'
 - id: 10.1016/s0031-9422(00)82411-5
   doi: 10.1016/s0031-9422(00)82411-5
+  openalex_id: W1965453981
   review: approved
   title: THE INDOLE ALKALOID, HYPAPHORINE AND PTEROCARPUS SEED PROTECTION
   year: 1982
+  venue: Phytochemistry
   authors: Janzen, Daniel H.; Lynn, David G.; Fellows, Linda E.; H. Winnie
   type: article
   language: en
@@ -62735,10 +63223,12 @@
   added: '2026-10-29'
 - id: 10.2307/1937717
   doi: 10.2307/1937717
+  openalex_id: W2055211437
   review: approved
   title: The Peak in North American Ichneumonid Species Richness Lies Between 38 Degrees
     and 42 Degrees N
   year: 1981
+  venue: Ecology
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62753,9 +63243,11 @@
   added: '2026-10-29'
 - id: 10.1086/284088
   doi: 10.1086/284088
+  openalex_id: W1993621987
   review: approved
   title: The Pleistocene Hunters Had Help
   year: 1983
+  venue: The American Naturalist
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62765,6 +63257,8 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Microorganisms
+  themes: Geology & volcanology
   added: '2026-10-29'
 - id: copa:11606/1305
   review: approved
@@ -62783,9 +63277,11 @@
   added: '2026-10-29'
 - id: 10.2307/3565633
   doi: 10.2307/3565633
+  openalex_id: W2325930401
   review: approved
   title: There are Differences between Tropical and Extra-Tropical National Parks
   year: 1988
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62795,6 +63291,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-29'
 - id: copa:11606/1307
@@ -62832,9 +63329,11 @@
   added: '2026-10-29'
 - id: 10.2307/2387778
   doi: 10.2307/2387778
+  openalex_id: W2314715275
   review: approved
   title: Two Potential Coral Snake Mimics in a Tropical Deciduous Forest
   year: 1980
+  venue: Biotropica
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62845,6 +63344,7 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Reptilia
+  themes: Natural history & behavior
   added: '2026-10-29'
 - id: copa:11606/1311
   review: approved
@@ -62863,10 +63363,12 @@
   added: '2026-10-29'
 - id: 10.1002/j.1537-2197.1982.tb13361.x
   doi: 10.1002/j.1537-2197.1982.tb13361.x
+  openalex_id: W2064832936
   review: approved
   title: 'VARIATION IN AVERAGE SEED SIZE AND FRUIT SEEDINESS IN A FRUIT CROP OF A
     GUANACASTE TREE (LEGUMINOSAE: ENTEROLOBIUM CYCLOCARPUM)'
   year: 1982
+  venue: American Journal of Botany
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62914,9 +63416,11 @@
   added: '2026-10-29'
 - id: 10.2307/20166334
   doi: 10.2307/20166334
+  openalex_id: W2204283289
   review: approved
   title: WHAT IS PHYSIOLOGICAL ECOLOGY?
   year: 1983
+  venue: Bulletin of the Ecological Society of America
   authors: Tracy, C. Richard; Turner, J. Scott
   type: article
   language: en
@@ -62926,21 +63430,27 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes
   added: '2026-10-29'
 - id: 10.1111/j.1558-5646.1980.tb04849.x
   doi: 10.1111/j.1558-5646.1980.tb04849.x
+  openalex_id: W2039913431
   review: approved
   title: When is it Coevolution?
   year: 1980
+  venue: Evolution
   authors: Janzen, Daniel H.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://academic.oup.com/evolut/article-pdf/34/3/611/48055516/evolut0611.pdf
   copa: 11606/1317
   found_by: copa
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Lepidoptera; Hymenoptera; Mammalia; Plantae
   themes: Evolution & genetics
   added: '2026-10-29'
 - id: copa:11606/1318
@@ -62961,9 +63471,11 @@
   added: '2026-10-29'
 - id: 10.2307/3565757
   doi: 10.2307/3565757
+  openalex_id: W2326371869
   review: approved
   title: When, and When Not to Leave
   year: 1987
+  venue: Oikos
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -62978,10 +63490,12 @@
   added: '2026-10-29'
 - id: 10.1093/ee/11.2.373
   doi: 10.1093/ee/11.2.373
+  openalex_id: W2323011987
   review: approved
   title: Why Are Seeds of the Central American Guanacaste Tree, Enterolobium cyclocarpum,
     I Not Attacked by Bruchids2 Except in Panama
   year: 1982
+  venue: Environmental Entomology
   authors: Clarence Dan, Johnson; Janzen, Daniel H.
   type: article
   language: en
@@ -63012,25 +63526,31 @@
   added: '2026-10-29'
 - id: 10.5281/zenodo.16503726
   doi: 10.5281/zenodo.16503726
+  openalex_id: W2964698359
   review: approved
   title: Cicada (Diceroprocta apache (Davis)) mortality by feeding on  Nerium oleander.
   year: 1977
+  venue: Zenodo (CERN European Organization for Nuclear Research)
   authors: Janzen, Daniel H.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.5281/zenodo.16503726
   copa: 11606/1328
   found_by: copa
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Hemiptera
+  themes: Species interactions
   added: '2026-10-29'
 - id: 10.1017/s0376892900006226
   doi: 10.1017/s0376892900006226
+  openalex_id: W2032708649
   review: approved
   title: Defoliation Heterogeneity Over Costa Rican Highways
   year: 1978
+  venue: Environmental Conservation
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63040,6 +63560,8 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
+  themes: Species interactions
   added: '2026-10-29'
 - id: copa:11606/1330
   review: approved
@@ -63103,9 +63625,11 @@
   added: '2026-10-29'
 - id: 10.1002/jps.2600680103
   doi: 10.1002/jps.2600680103
+  openalex_id: W2017553068
   review: approved
   title: Open Letter to Phytochemists
   year: 1978
+  venue: Journal of Pharmaceutical Sciences
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63115,12 +63639,15 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   added: '2026-10-29'
 - id: 10.1086/283526
   doi: 10.1086/283526
+  openalex_id: W1990084515
   review: approved
   title: Reply To Addicott
   year: 1978
+  venue: The American Naturalist
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63133,9 +63660,11 @@
   added: '2026-10-29'
 - id: 10.1086/283464
   doi: 10.1086/283464
+  openalex_id: W2041006234
   review: approved
   title: Reply To Kreulen's Note
   year: 1978
+  venue: The American Naturalist
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63148,9 +63677,11 @@
   added: '2026-10-29'
 - id: 10.1016/0968-0004(80)90169-3
   doi: 10.1016/0968-0004(80)90169-3
+  openalex_id: W2080989969
   review: approved
   title: Herbivores Their Interaction with Secondary Plant Metabolites
   year: 1979
+  venue: Trends in Biochemical Sciences
   authors: Rosenthal, Gerald A.; Janzen, Daniel H.
   type: article
   language: en
@@ -63165,9 +63696,11 @@
   added: '2026-10-29'
 - id: 10.1080/00049188108702798
   doi: 10.1080/00049188108702798
+  openalex_id: W4239081062
   review: approved
   title: REVIEWS AND NOTICES
   year: 1981
+  venue: Australian Geographer
   authors: Janzen, Daniel H.
   type: other
   language: en
@@ -63177,6 +63710,8 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  themes: Natural history & behavior; Climate & environmental change; Conservation,
+    management & people
   added: '2026-10-29'
 - id: copa:11606/1340
   review: approved
@@ -63195,9 +63730,11 @@
   added: '2026-10-29'
 - id: 10.1126/science.258.5085.1071
   doi: 10.1126/science.258.5085.1071
+  openalex_id: W4240314327
   review: approved
   title: 'Yucatan Meteor: The Real Impact'
   year: 1992
+  venue: Science
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63294,14 +63831,17 @@
   added: '2026-10-29'
 - id: 10.11646/zootaxa.4323.1.4
   doi: 10.11646/zootaxa.4323.1.4
+  openalex_id: W2755743256
   review: approved
   title: 'And then there were six: a revision of the genus Phanolinopsis Scheerpeltz
     (Coleoptera: Staphylinidae: Staphylininae)'
   year: 2017
+  venue: Zootaxa
   authors: CHATZIMANOLIS, STYLIANOS
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: http://publication.plazi.org/id/FFD41D6C6304F978BB16FFA5FFEEFF80
   copa: 11606/1349
   found_by: copa
   relevance: likely
@@ -63374,9 +63914,11 @@
   added: '2026-10-29'
 - id: 10.2307/1442051
   doi: 10.2307/1442051
+  openalex_id: W2318758090
   review: approved
   title: Proceedings of the Symposium on the Biology of the California Islands
   year: 1968
+  venue: Copeia
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63387,6 +63929,7 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Plantae
+  themes: Natural history & behavior
   added: '2026-10-29'
 - id: copa:11606/1359
   review: approved
@@ -63438,10 +63981,12 @@
   added: '2026-10-29'
 - id: 10.2307/1934304
   doi: 10.2307/1934304
+  openalex_id: W2025884602
   review: approved
   title: Protection of Barteria (Passifloraceae) By Pachysima Ants (Pseudomyrmecinae)
     in a Nigerian Rain Forest
   year: 1972
+  venue: Ecology
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63487,9 +64032,11 @@
   added: '2026-10-29'
 - id: 10.2307/3294
   doi: 10.2307/3294
+  openalex_id: W2332168561
   review: approved
   title: CHEMICAL DEFENCE IN CENTRAL AMERICAN NON-ANT-ACACIAS
   year: 1973
+  venue: Journal of Animal Ecology
   authors: Rehr, S. S.; Fenny, P. P.; Janzen, Daniel H.
   type: article
   language: en
@@ -63519,10 +64066,12 @@
   added: '2026-10-29'
 - id: 10.1111/j.1365-2311.1975.tb00551.x
   doi: 10.1111/j.1365-2311.1975.tb00551.x
+  openalex_id: W2070500460
   review: approved
   title: A comparison, by sweep sampling, of the arthropod fauna of secondary vegetation
     in Michigan, England and Costa Rica
   year: 1975
+  venue: Transactions of the Royal Entomological Society of London
   authors: Janzen, Daniel H.; M. Pond, Caroline
   type: article
   language: en
@@ -63537,10 +64086,12 @@
   added: '2026-10-29'
 - id: 10.1086/408907
   doi: 10.1086/408907
+  openalex_id: W4213120310
   review: approved
   title: Natural Resources of Humid Tropical Asia. Natural Resources Research, Volume
     XII.
   year: 1975
+  venue: The Quarterly Review of Biology
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63550,6 +64101,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-10-29'
 - id: copa:11606/1372
@@ -63603,9 +64155,11 @@
   added: '2026-10-29'
 - id: 10.2307/1941072
   doi: 10.2307/1941072
+  openalex_id: W2046594968
   review: approved
   title: TWO COSTA RICAN BAT-GENERATED SEED SHADOWS OF ANDIRA INERMIS (LEGUMINOSAE)
   year: 1976
+  venue: Ecology
   authors: Janzen, Daniel H.; Miller, G. A.; Hackforth-Jones, J.; Pond, C. M.; Hooper,
     K.; Janos, D. P.
   type: article
@@ -63621,9 +64175,11 @@
   added: '2026-10-29'
 - id: 10.2307/2387821
   doi: 10.2307/2387821
+  openalex_id: W2320301722
   review: approved
   title: Too-Using by the African Grey Parrot (Psittacus erithacus)
   year: 1976
+  venue: Biotropica
   authors: Janzen, Daniel H.; M. Pond, Caroline
   type: article
   language: en
@@ -63634,6 +64190,7 @@
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
   taxa: Aves
+  themes: Natural history & behavior
   added: '2026-10-29'
 - id: copa:11606/1377
   review: approved
@@ -63669,9 +64226,11 @@
   added: '2026-10-29'
 - id: 10.1126/science.3589661
   doi: 10.1126/science.3589661
+  openalex_id: W1584513180
   review: approved
   title: Conservation and Agricultural Economics
   year: 1987
+  venue: Science
   authors: Janzen, Daniel H.
   type: article
   language: en
@@ -63733,9 +64292,11 @@
   added: '2026-10-29'
 - id: 10.1126/science.1493-d
   doi: 10.1126/science.1493-d
+  openalex_id: W4255314177
   review: approved
   title: CO 2 Reduction and Reforestation
   year: 1988
+  venue: Science
   authors: Woodwell, G. M.; Janzen, Daniel H.; Wilcox, Howard A.; North, Wheeler J.;
     Swartz, James; Hoyer, Horst
   type: article
@@ -63746,6 +64307,7 @@
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae
   themes: Succession & restoration
   added: '2026-10-29'
 - id: copa:11606/1385
@@ -64038,6 +64600,7 @@
   added: '2026-10-29'
 - id: 10.13016/m2ns27
   doi: 10.13016/m2ns27
+  openalex_id: W2746965535
   review: approved
   title: LEATHERBACK TURTLE MOVEMENT AND DISPERSAL FROM NESTING BEACHES IN COSTA RICA
     WITH IMPLICATIONS FOR MANAGEMENT AND CONSERVATION
@@ -64046,7 +64609,8 @@
   authors: Hoover, Aimee Lynn
   type: dissertation
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.13016/m2ns27
   copa: 11606/1568
   found_by: copa
   relevance: likely
@@ -64129,6 +64693,7 @@
   added: '2026-10-29'
 - id: 10.7939/r3-9yn9-jv98
   doi: 10.7939/r3-9yn9-jv98
+  openalex_id: W3217293495
   review: approved
   title: Calibration and Validation of a SWAT model for the quantification of water
     provision ecosystem service for the Conservation Area of Guanacaste
@@ -64137,7 +64702,8 @@
   authors: Baron Ruiz, Oscar Javier
   type: dissertation
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.7939/r3-9yn9-jv98
   copa: 11606/1575
   found_by: copa
   relevance: likely
@@ -64343,6 +64909,7 @@
   added: '2026-10-29'
 - id: 10.5281/zenodo.5042022
   doi: 10.5281/zenodo.5042022
+  openalex_id: W3169829120
   review: approved
   title: 'Chlamydastis Meyrick of Costa Rica: barcodes, biology, and descriptions
     of 36 new species (Lepidoptera: Depressariidae)'
@@ -64352,7 +64919,8 @@
     Daniel H.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: http://publikationen.ub.uni-frankfurt.de/frontdoor/index/index/docId/64356
   copa: 11606/2288
   found_by: copa
   relevance: likely
@@ -64472,6 +65040,7 @@
   added: '2026-10-29'
 - id: 10.57065/shilap.191
   doi: 10.57065/shilap.191
+  openalex_id: W4312965535
   review: approved
   title: 'A new genus and two new species of Tirathabini from the Neotropical region
     (Lepidoptera: Pyralidae: Galleriinae)'
@@ -64480,7 +65049,8 @@
   authors: Becker, V.
   type: article
   language: Sp
-  is_oa: false
+  is_oa: true
+  oa_url: https://shilap.org/revista/article/download/191/163
   copa: 11606/2352
   found_by: copa
   relevance: likely
@@ -64491,6 +65061,7 @@
   added: '2026-10-29'
 - id: 10.57065/shilap.344
   doi: 10.57065/shilap.344
+  openalex_id: W3216832134
   review: approved
   title: 'Notes and new species of the Neotropical genus Nycterotis Felder, 1874 (Lepidoptera:
     Notodontidae, Nystaleinae)'
@@ -64499,7 +65070,8 @@
   authors: Becker, V.
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://shilap.org/revista/article/download/344/336
   copa: 11606/2353
   found_by: copa
   relevance: likely
@@ -64510,6 +65082,7 @@
   added: '2026-10-29'
 - id: 10.1093/biolinnean/blab148
   doi: 10.1093/biolinnean/blab148
+  openalex_id: W4213248602
   review: approved
   title: 'Acoustic clue: bringing echolocation call data into the distribution dilemma
     of Pteronotus (Chiroptera: Mormoopidae) complexes in Central America'
@@ -64566,6 +65139,7 @@
   added: '2026-10-29'
 - id: 10.5479/si.28400228
   doi: 10.5479/si.28400228
+  openalex_id: W4408473133
   review: approved
   title: Catalog of Liverworts (Marchantiophyta) and Hornworts (Anthocerotophyta)
     from Central America and Cocos Island
@@ -64576,12 +65150,14 @@
     Juan Carlos; Rodríguez, Yarency; von Konrat, Matt; Whittemore, Alan
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://doi.org/10.5479/si.28400228
   copa: 11606/2483
   found_by: copa
   relevance: likely
   relevance_reason: in COPA (ACG's repository)
   sectors: ''
+  taxa: Plantae; Fungi
   themes: Taxonomy & systematics
   added: '2026-10-29'
 - id: copa:11606/2484
@@ -65411,7 +65987,8 @@
     Timm; Kaitlin E Lindsay
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: http://hdl.handle.net/1808/29872
   found_by: openalex_core
   relevance: likely
   relevance_reason: sector Murcielago, Murciélago; found by openalex_core
@@ -65711,6 +66288,7 @@
   title: Estudios de los procesos sísmicos y volcánicos en el Rincón de la Vieja (Costa
     Rica)
   year: 2017
+  venue: Investigative News in Education (Universidad de Costa Rica)
   authors: Mauricio Mora Fernández
   type: dissertation
   language: es
@@ -66803,7 +67381,8 @@
   authors: Robert M. Timm; Deedra McClearn
   type: book-chapter
   language: es
-  is_oa: false
+  is_oa: true
+  oa_url: http://hdl.handle.net/1808/4461
   found_by: openalex_core
   relevance: likely
   relevance_reason: sector Murcielago, Murciélago; found by openalex_core
@@ -66914,6 +67493,7 @@
   review: approved
   title: Modelo de Eco Sanidad propuesto para el sector Islas Murciélago
   year: 2004
+  venue: Investigative News in Education (Universidad de Costa Rica)
   authors: Yerko Castillo A.
   type: article
   language: es
@@ -82601,7 +83181,7 @@
   type: article
   language: en
   is_oa: true
-  oa_url: https://doi.org/10.48580/d3tyn.v84
+  oa_url: https://doi.org/10.5281/zenodo.212936
   found_by: copa_private
   relevance: check
   relevance_reason: found by copa_private (COPA restricted collection, DOI matched
@@ -82747,7 +83327,7 @@
   type: article
   language: en
   is_oa: true
-  oa_url: https://doi.org/10.15468/jt8b7q
+  oa_url: https://doi.org/10.5281/zenodo.274674
   found_by: copa_private
   relevance: check
   relevance_reason: found by copa_private (COPA restricted collection, DOI matched
@@ -82871,6 +83451,7 @@
   relevance_reason: found by copa_private (COPA restricted collection, DOI matched
     by title)
   sectors: ''
+  taxa: Plantae
   themes: Conservation, management & people
   added: '2026-11-03'
 - id: 10.1643/0045-8511(2007)7[304:taeotc]2.0.co;2
@@ -84375,7 +84956,8 @@
   authors: Daniel H. Janzen
   type: article
   language: en
-  is_oa: false
+  is_oa: true
+  oa_url: https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=10052&context=condor
   found_by: copa_private
   relevance: check
   relevance_reason: found by copa_private (COPA restricted collection, DOI matched
