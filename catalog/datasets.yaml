@@ -7048,4 +7048,21 @@
   relevance_reason: 19 GBIF records inside ACG
   sectors: ''
   added: '2026-11-02'
+- id: 10.6073/pasta/0e5b7b668100248cc3bdc5d017e4d0a7
+  doi: 10.6073/pasta/0e5b7b668100248cc3bdc5d017e4d0a7
+  review: accepted
+  featured: false
+  category: dataset
+  title: Understory microclimate along a dry-to-wet tropical forest gradient, Area
+    de Conservacion Guanacaste, Costa Rica (2019-2026)
+  creators: Hulshof, Catherine M
+  year: 2026
+  publisher: Environmental Data Initiative
+  url: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.2489.1
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; sector Volcan Cacao
+  sectors: Rincón de la Vieja; Cacao
+  added: '2026-11-09'
 
