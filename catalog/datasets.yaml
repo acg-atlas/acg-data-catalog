@@ -7048,4 +7048,39 @@
   relevance_reason: 19 GBIF records inside ACG
   sectors: ''
   added: '2026-11-02'
+- id: 10.6073/pasta/0e5b7b668100248cc3bdc5d017e4d0a7
+  doi: 10.6073/pasta/0e5b7b668100248cc3bdc5d017e4d0a7
+  review: pending
+  featured: false
+  category: dataset
+  title: Understory microclimate along a dry-to-wet tropical forest gradient, Area
+    de Conservacion Guanacaste, Costa Rica (2019-2026)
+  creators: Hulshof, Catherine M
+  year: 2026
+  publisher: Environmental Data Initiative
+  url: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.2489.1
+  resource_type: Dataset
+  source: datacite
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; sector Volcan Cacao
+  sectors: Rincón de la Vieja; Cacao
+  added: '2026-11-16'
+- id: 10.5519/qd.pyi4qz2z
+  doi: 10.5519/qd.pyi4qz2z
+  review: pending
+  featured: false
+  category: dataset
+  title: Natural History Museum (London) Collection Specimens
+  creators: The Natural History Museum, London
+  year: 2026
+  publisher: Natural History Museum
+  url: https://www.gbif.org/dataset/7e380070-f762-11e1-a439-00145eb45e9a
+  license: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+  resource_type: Dataset/OCCURRENCE
+  source: gbif
+  acg_records: 179
+  relevance: likely
+  relevance_reason: 179 GBIF records inside ACG
+  sectors: ''
+  added: '2026-11-16'
 
