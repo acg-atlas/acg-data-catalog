@@ -62,7 +62,9 @@ list(
   tar_target(papers_tagged,
              tag_papers(papers_scored, papers_scored, read_tag_rules(taxon_terms_file),
                         read_tag_rules(theme_terms_file))),
-  tar_target(papers_queue, new_papers(papers_tagged, papers_curated)),
+  # New papers, with the clearest non-ACG ones auto-excluded (R/papers_screen.R)
+  tar_target(papers_queue, new_papers(papers_tagged, papers_curated) |>
+               auto_screen_papers(papers_curated, gazetteer)),
 
   # Combine, score, queue
   tar_target(candidates,
