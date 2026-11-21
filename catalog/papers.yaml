@@ -344,7 +344,7 @@
 - id: 10.15517/hn8kwk57
   doi: 10.15517/hn8kwk57
   openalex_id: W7208780860
-  review: excluded
+  review: approved
   title: Fishers’ knowledge reveals spatio-temporal dynamics of billfish sport and
     tourist fisheries on the pacific coast of Costa Rica
   year: 2026
@@ -388,7 +388,7 @@
 - id: 10.21203/rs.3.rs-10473055/v1
   doi: 10.21203/rs.3.rs-10473055/v1
   openalex_id: W7171731675
-  review: excluded
+  review: approved
   title: Fruit morphometric diversity, oil content, and fatty acid composition of
     Acrocomia aculeata (Jacq.) Lodd. ex Mart. across eight sites in Costa Rica
   year: 2026
@@ -410,7 +410,7 @@
 - id: 10.1590/scielopreprints.17938
   doi: 10.1590/scielopreprints.17938
   openalex_id: W7214186168
-  review: excluded
+  review: approved
   title: Flujos de gases de efecto invernadero invernales en ejemplares jóvenes de
     Tectona grandis L. f. y Gmelina arborea Roxb. en Costa Rica utilizando la técnica
     de covarianza de remolinos
@@ -496,7 +496,7 @@
 - id: 10.15359/rca.60-1.9
   doi: 10.15359/rca.60-1.9
   openalex_id: W7124135890
-  review: excluded
+  review: approved
   title: Efecto de tres coberturas vivas (Crotalaria juncea L., Pueraria phaseoloides
     (Roxb.) Benth. y Vigna radiata (L.) R. Wilczek) en la interfase planta-suelo de
     una plantación clonal de Tectona grandis L. f.
@@ -518,7 +518,7 @@
 - id: 10.5281/zenodo.21137588
   doi: 10.5281/zenodo.21137588
   openalex_id: W7167074530
-  review: excluded
+  review: approved
   title: Neotrichia munozi Harris & Armitage & Holzenthal 2026, sp. nov.
   year: 2026
   authors: Steven C. Harris; Brian J. Armitage; Ralph W. Holzenthal
@@ -537,7 +537,7 @@
 - id: 10.5281/zenodo.21137582
   doi: 10.5281/zenodo.21137582
   openalex_id: W7167084385
-  review: excluded
+  review: approved
   title: Neotrichia monika Harris & Armitage & Holzenthal 2026, sp. nov.
   year: 2026
   authors: Steven C. Harris; Brian J. Armitage; Ralph W. Holzenthal
@@ -601,7 +601,7 @@
 - id: 10.5281/zenodo.21137594
   doi: 10.5281/zenodo.21137594
   openalex_id: W7167067584
-  review: excluded
+  review: approved
   title: Neotrichia paragancho Harris & Armitage & Holzenthal 2026, sp. nov.
   year: 2026
   authors: Steven C. Harris; Brian J. Armitage; Ralph W. Holzenthal
@@ -618,7 +618,7 @@
   added: '2026-10-24'
 - id: W7154880259
   openalex_id: W7154880259
-  review: excluded
+  review: approved
   title: 'Automated detection of burned areas in Costa Rica: a first approach'
   year: 2026
   venue: Dialnet (Universidad de la Rioja)
@@ -636,7 +636,7 @@
 - id: 10.5281/zenodo.21137601
   doi: 10.5281/zenodo.21137601
   openalex_id: W7167084576
-  review: excluded
+  review: approved
   title: Neotrichia trescuerna Harris & Armitage & Holzenthal 2026, sp. nov.
   year: 2026
   authors: Steven C. Harris; Brian J. Armitage; Ralph W. Holzenthal
@@ -655,7 +655,7 @@
 - id: 10.5281/zenodo.19197533
   doi: 10.5281/zenodo.19197533
   openalex_id: W7140078856
-  review: excluded
+  review: approved
   title: Meteorus mariamartachavarriae Almeida & Shaw & Penteado-Dias & Hallwachs
     & Janzen 2026, sp. nov.
   year: 2026
@@ -675,7 +675,7 @@
 - id: 10.5281/zenodo.19197559
   doi: 10.5281/zenodo.19197559
   openalex_id: W7140123199
-  review: excluded
+  review: approved
   title: Meteorus iankitchingi Almeida & Shaw & Penteado-Dias & Hallwachs & Janzen
     2026, sp. nov.
   year: 2026
@@ -694,7 +694,7 @@
 - id: 10.5281/zenodo.19197522
   doi: 10.5281/zenodo.19197522
   openalex_id: W7140096708
-  review: excluded
+  review: approved
   title: Meteorus iangauldi Almeida & Shaw & Penteado-Dias & Hallwachs & Janzen 2026,
     sp. nov.
   year: 2026
@@ -714,7 +714,7 @@
 - id: 10.5281/zenodo.19197504
   doi: 10.5281/zenodo.19197504
   openalex_id: W7140081675
-  review: excluded
+  review: approved
   title: Meteorus chrisdarlingi Almeida & Shaw & Penteado-Dias & Hallwachs & Janzen
     2026, sp. nov.
   year: 2026
@@ -733,7 +733,7 @@
 - id: 10.5281/zenodo.19197555
   doi: 10.5281/zenodo.19197555
   openalex_id: W7140105220
-  review: excluded
+  review: approved
   title: Meteorus bobkulai Almeida & Shaw & Penteado-Dias & Hallwachs & Janzen 2026,
     sp. nov.
   year: 2026
@@ -752,7 +752,7 @@
 - id: 10.5281/zenodo.19197541
   doi: 10.5281/zenodo.19197541
   openalex_id: W7140097576
-  review: excluded
+  review: approved
   title: Meteorus jennyphillipsae Almeida & Shaw & Penteado-Dias & Hallwachs & Janzen
     2026, sp. nov.
   year: 2026
@@ -772,7 +772,7 @@
 - id: 10.5281/zenodo.19197516
   doi: 10.5281/zenodo.19197516
   openalex_id: W7140077381
-  review: excluded
+  review: approved
   title: Meteorus markshawi Almeida & Shaw & Penteado-Dias & Hallwachs & Janzen 2026,
     sp. nov.
   year: 2026
@@ -791,7 +791,7 @@
 - id: 10.5281/zenodo.19197508
   doi: 10.5281/zenodo.19197508
   openalex_id: W7140121541
-  review: excluded
+  review: approved
   title: Meteorus tomdaleyi Almeida & Shaw & Penteado-Dias & Hallwachs & Janzen 2026,
     sp. nov.
   year: 2026
@@ -810,7 +810,7 @@
 - id: 10.5281/zenodo.19197537
   doi: 10.5281/zenodo.19197537
   openalex_id: W7140081952
-  review: excluded
+  review: approved
   title: Meteorus robertofernandezi Almeida & Shaw & Penteado-Dias & Hallwachs & Janzen
     2026, sp. nov.
   year: 2026
@@ -829,7 +829,7 @@
 - id: 10.5281/zenodo.21630481
   doi: 10.5281/zenodo.21630481
   openalex_id: W7171451026
-  review: excluded
+  review: approved
   title: Aphanogmus liceodosriosi Schneider, Salden & Peters 2026, sp. nov.
   year: 2026
   authors: Jonah A. Schneider; Tobias Salden; Marina Moser; Ralph S. Peters
@@ -847,7 +847,7 @@
 - id: 10.5281/zenodo.18775288
   doi: 10.5281/zenodo.18775288
   openalex_id: W7131427839
-  review: excluded
+  review: approved
   title: Polypedilum (Tripodura) francisae Namayandeh & Vasquez, 2026, sp. nov.
   year: 2026
   authors: Armin Namayandeh; Adrian A. Vasquez
@@ -1294,7 +1294,7 @@
   added: '2026-10-24'
 - id: W7215496901
   openalex_id: W7215496901
-  review: excluded
+  review: approved
   title: La batalla de Santa Rosa
   year: 2025
   venue: Revista del Archivo Nacional
@@ -1373,7 +1373,7 @@
 - id: 10.1002/bes2.2161
   doi: 10.1002/bes2.2161
   openalex_id: W4405990537
-  review: excluded
+  review: approved
   title: Cover
   year: 2025
   venue: Bulletin of the Ecological Society of America
@@ -1415,7 +1415,7 @@
 - id: 10.1590/scielopreprints.12185
   doi: 10.1590/scielopreprints.12185
   openalex_id: W4411234858
-  review: excluded
+  review: approved
   title: Efecto de tres coberturas vivas (Pueraria phaseoloides, Vigna radiata y Crotalaria
     juncea) en la interfase planta-suelo de una plantación clonal de Tectona grandis
     L.f.
@@ -1578,7 +1578,7 @@
 - id: 10.1002/lob.10690
   doi: 10.1002/lob.10690
   openalex_id: W4407069355
-  review: excluded
+  review: approved
   title: 'Institute Profile: Stroud Water Research Center'
   year: 2025
   venue: Limnology and Oceanography Bulletin
@@ -2425,7 +2425,7 @@
 - id: 10.3997/2214-4609.202385025
   doi: 10.3997/2214-4609.202385025
   openalex_id: W4388931149
-  review: approved
+  review: excluded
   title: Costa Rica Country Update
   year: 2023
   venue: EAGE Workshop on Geothermal Energy in Latin America
@@ -2590,7 +2590,7 @@
   added: '2026-10-24'
 - id: W7135293119
   openalex_id: W7135293119
-  review: excluded
+  review: approved
   title: 'El proceso de conformación histórica de un asentamiento humano desde una
     perspectiva socio-ambiental en una zona de transición climática en el Corredor
     Seco Centroamericano (CSC): Santa Cecilia de La Cruz, provincia de Guanacaste,
@@ -3100,7 +3100,7 @@
 - id: 10.12933/therya-22-1158
   doi: 10.12933/therya-22-1158
   openalex_id: W4289274516
-  review: approved
+  review: excluded
   title: Analysis of the male annual antler cycle, reproductive behavior and spotted
     fawn presence in the tropical white-tailed deer
   year: 2022
@@ -3426,7 +3426,7 @@
 - id: 10.1002/ajp.23344
   doi: 10.1002/ajp.23344
   openalex_id: W3214068704
-  review: excluded
+  review: approved
   title: Are demographic correlates of white‐faced capuchin monkey (Cebus capucinus)
     “Gargle and Twargle” vocalization rates consistent with the infanticide risk assessment
     hypothesis?
@@ -5318,7 +5318,7 @@
   added: '2026-10-24'
 - id: W3043528329
   openalex_id: W3043528329
-  review: excluded
+  review: approved
   title: Plant Functional Traits of Carapa guianensis, a Widespread Tropical Tree,
     Adapted to Local Climate Conditions at Two Elevations in Costa Rica
   year: 2019
@@ -5337,7 +5337,7 @@
   added: '2026-10-24'
 - id: W2972129426
   openalex_id: W2972129426
-  review: excluded
+  review: approved
   title: Diagnóstico del Acueducto Comunal de Cuajiniquil de La Cruz de Guanacaste,
     con enfoque de diseño resiliente ante eventos climáticos extremos
   year: 2019
@@ -6041,7 +6041,7 @@
   added: '2026-10-24'
 - id: W2913787101
   openalex_id: W2913787101
-  review: excluded
+  review: approved
   title: Rediseño de red de distribución de aire comprimido en Planta Geotérmica Pailas
     I
   year: 2018
@@ -6171,7 +6171,7 @@
   added: '2026-10-24'
 - id: W3010547507
   openalex_id: W3010547507
-  review: excluded
+  review: approved
   title: Propuesta de sistema de adquisición y transmisión de datos compatible con
     el SCADA Ovation en la planta geotérmica Las Pailas
   year: 2018
@@ -7277,7 +7277,7 @@
 - id: 10.5061/dryad.93463
   doi: 10.5061/dryad.93463
   openalex_id: W2587353227
-  review: excluded
+  review: approved
   title: 'Data from: Female sociality and sexual conflict shape offspring survival
     in a Neotropical primate'
   year: 2017
@@ -8710,7 +8710,7 @@
   added: '2026-10-24'
 - id: W2361422573
   openalex_id: W2361422573
-  review: excluded
+  review: approved
   title: Niveles iniciales de corrosión atmosférica antes de la puesta en marcha de
     la Planta Geotérmica de las Pailas, Guanacaste, Costa Rica
   year: 2015
@@ -10792,7 +10792,7 @@
 - id: 10.15517/rbt.v60i4.2188
   doi: 10.15517/rbt.v60i4.2188
   openalex_id: W2107114197
-  review: excluded
+  review: approved
   title: 'Population assessment of the American crocodile, Crocodylus acutus (Crocodilia:
     Crocodylidae) on the Pacific coast of Costa Rica'
   year: 2012
@@ -18322,7 +18322,7 @@
 - id: 10.1007/bf02255246
   doi: 10.1007/bf02255246
   openalex_id: W2046458046
-  review: excluded
+  review: approved
   title: Species richness in some Neotropical (Costa Rica) and afrotropical (West
     Africa) lotic communities of Chironomidae (Diptera)
   year: 1992
@@ -20675,7 +20675,7 @@
 - id: 10.3389/frish.2026.1916489
   doi: 10.3389/frish.2026.1916489
   openalex_id: W7223169725
-  review: excluded
+  review: approved
   title: 'Bridging coastal aggregation hubs and oceanic sanctuaries: the first multi-scale
     telemetry baseline for the giant manta ray (Mobula birostris) in Central America'
   year: 2026
@@ -21136,7 +21136,7 @@
 - id: 10.64898/2026.01.16.699994
   doi: 10.64898/2026.01.16.699994
   openalex_id: W7125350158
-  review: excluded
+  review: approved
   title: Gain and loss of gut symbionts during stingless bee diversification is linked
     to host group size
   year: 2026
@@ -22043,7 +22043,7 @@
 - id: 10.1007/s10764-025-00522-1
   doi: 10.1007/s10764-025-00522-1
   openalex_id: W4415952556
-  review: excluded
+  review: approved
   title: 'The Network Structure of Social Play: Insights into Group Cohesion and Dynamics
     from Mantled Howler Monkeys (Alouatta palliata)'
   year: 2025
@@ -22062,7 +22062,7 @@
   added: '2026-10-24'
 - id: W7135252278
   openalex_id: W7135252278
-  review: excluded
+  review: approved
   title: Análisis del nemabioma gastrointestinal de cánidos silvestres y domésticos
     de Costa Rica
   year: 2025
@@ -23244,7 +23244,7 @@
 - id: 10.15446/rev.fac.cienc.v13n2.111362
   doi: 10.15446/rev.fac.cienc.v13n2.111362
   openalex_id: W4406982684
-  review: excluded
+  review: approved
   title: INVENTARIOS DE MARIPOSAS (LEPIDOPTERA PAPILIONOIDEA) DE BOSQUE SECO TROPICAL
     EN COLOMBIA Y COSTA RICA METODOLOGÍAS, PERSPECTIVAS E INFORMACIÓN DERIVADA
   year: 2024
@@ -23508,7 +23508,7 @@
 - id: 10.11646/zootaxa.5471.3.8
   doi: 10.11646/zootaxa.5471.3.8
   openalex_id: W4399828585
-  review: excluded
+  review: approved
   title: 'New World Orphanostigma Guenée, 1854, including a new species from Costa
     Rica (Lepidoptera: Crambidae: Spilomelinae)'
   year: 2024
@@ -25068,7 +25068,7 @@
 - id: 10.5281/zenodo.7710036
   doi: 10.5281/zenodo.7710036
   openalex_id: W4323651022
-  review: excluded
+  review: approved
   title: 'A new species of Biclonuncaria Razowski and Becker, 1993 (Lepidoptera: Tortricidae:
     Polyorthini) from Costa Rica'
   year: 2023
@@ -25297,7 +25297,7 @@
 - id: 10.1007/s10071-023-01807-9
   doi: 10.1007/s10071-023-01807-9
   openalex_id: W4383621076
-  review: excluded
+  review: approved
   title: Social information facilitates learning about novel food sources in adult
     flower-visiting bats
   year: 2023
@@ -25530,7 +25530,7 @@
 - id: 10.15517/re.v0i47.58054
   doi: 10.15517/re.v0i47.58054
   openalex_id: W4390494431
-  review: excluded
+  review: approved
   title: 'Factores sociales, políticos y económicos en el desarrollo de una comunidad
     fronteriza: Santa Cecilia de La Cruz, Costa Rica (1900-2023)'
   year: 2023
@@ -25758,7 +25758,7 @@
 - id: 10.4236/ae.2023.112009
   doi: 10.4236/ae.2023.112009
   openalex_id: W4367330576
-  review: excluded
+  review: approved
   title: 'Description of Four New Species for the Genus Damasippus Stål, 1875 (Phasmida:
     Prisopodidae)'
   year: 2023
@@ -26127,7 +26127,7 @@
 - id: 10.3897/zookeys.1183.111330
   doi: 10.3897/zookeys.1183.111330
   openalex_id: W4388454063
-  review: excluded
+  review: approved
   title: 'Name game conundrum: identical specific epithets in Microgastrinae (Hymenoptera,
     Braconidae)'
   year: 2023
@@ -27233,7 +27233,7 @@
 - id: 10.18174/577989
   doi: 10.18174/577989
   openalex_id: W4306407768
-  review: excluded
+  review: approved
   title: 'Decolonizing surf tourism: alternatives to development, surfer subjectivity,
     and surfscape commons governance'
   year: 2022
@@ -28940,7 +28940,7 @@
 - id: 10.32991/2237-2717.2021v11i2.p173-213
   doi: 10.32991/2237-2717.2021v11i2.p173-213
   openalex_id: W3194498906
-  review: excluded
+  review: approved
   title: Incendiarismo y Pirocultura en el Bosque Tropical Seco de Costa Rica. La
     Historia del Fuego como Historia Aplicada
   year: 2021
@@ -29235,7 +29235,7 @@
 - id: 10.15517/rbt.v69isuppl.2.48307
   doi: 10.15517/rbt.v69isuppl.2.48307
   openalex_id: W4200067938
-  review: excluded
+  review: approved
   title: Projected Climate Changes of CMIP5 models in La Cruz, Guanacaste, Costa Rica
   year: 2021
   venue: Revista de Biología Tropical
@@ -29293,7 +29293,7 @@
 - id: 10.15517/rbt.v69isuppl.2.48319
   doi: 10.15517/rbt.v69isuppl.2.48319
   openalex_id: W4200047616
-  review: excluded
+  review: approved
   title: 'New hosts and morphological data for the Star pearlfish Carapus mourlani
     (Ophidiiformes: Carapidae) from collections made in the North Pacific coast of
     Costa Rica'
@@ -31690,7 +31690,7 @@
 - id: 10.17348/jbrit.v13.i1.844
   doi: 10.17348/jbrit.v13.i1.844
   openalex_id: W2964651019
-  review: excluded
+  review: approved
   title: 'New records of Phaseolus microcarpus (Leguminosae: Phaseoleae) for Costa
     Rica'
   year: 2019
@@ -32920,7 +32920,7 @@
 - id: 10.3897/zookeys.838.29635
   doi: 10.3897/zookeys.838.29635
   openalex_id: W2919049913
-  review: excluded
+  review: approved
   title: Cryptic diversity in Lithobates warszewitschii (Amphibia, Anura, Ranidae)
   year: 2019
   venue: ZooKeys
@@ -33788,7 +33788,7 @@
 - id: 10.15517/rbt.v66i1.33300
   doi: 10.15517/rbt.v66i1.33300
   openalex_id: W2890414136
-  review: excluded
+  review: approved
   title: 'Cuando la conservación no puede seguir el ritmo del desarrollo: Estado de
     salud de los ecosistemas coralinos del Pacífico Norte de Costa Rica'
   year: 2018
@@ -34004,7 +34004,7 @@
 - id: 10.1111/gcb.14416
   doi: 10.1111/gcb.14416
   openalex_id: W2885447614
-  review: excluded
+  review: approved
   title: Resilience of seed production to a severe El Niño‐induced drought across
     functional groups and dispersal types
   year: 2018
@@ -34167,7 +34167,7 @@
   added: '2026-10-24'
 - id: W2936318254
   openalex_id: W2936318254
-  review: excluded
+  review: approved
   title: Ecology and Evolution of Lepidoptera-Microbe Symbiosis
   year: 2018
   venue: CU Scholar (University of Colorado Boulder)
@@ -34359,7 +34359,7 @@
 - id: 10.1007/978-3-319-63236-0_13
   doi: 10.1007/978-3-319-63236-0_13
   openalex_id: W2769115232
-  review: excluded
+  review: approved
   title: Debt-for-Nature Swaps
   year: 2017
   venue: Springer eBooks
@@ -36003,7 +36003,7 @@
 - id: 10.7717/peerj.2422
   doi: 10.7717/peerj.2422
   openalex_id: W2341377025
-  review: excluded
+  review: approved
   title: Effect of fragmentation on the Costa Rican dry forest avifauna
   year: 2016
   venue: PeerJ
@@ -36811,7 +36811,7 @@
 - id: 10.1038/srep31469
   doi: 10.1038/srep31469
   openalex_id: W2516303435
-  review: excluded
+  review: approved
   title: A Comparative Analysis of Sonic Defences in Bombycoidea Caterpillars
   year: 2016
   venue: Scientific Reports
@@ -37473,7 +37473,7 @@
 - id: 10.1002/ajp.22400
   doi: 10.1002/ajp.22400
   openalex_id: W2159374015
-  review: excluded
+  review: approved
   title: Quality and overlap of individual core areas are related to group tenure
     in female spider monkeys
   year: 2015
@@ -37757,7 +37757,7 @@
 - id: 10.15517/rbt.v62i4.20041
   doi: 10.15517/rbt.v62i4.20041
   openalex_id: W1757276496
-  review: excluded
+  review: approved
   title: Compilación y análisis de las investigaciones científicas sobre temas marinos
     y atmosféricos en el Pacífico Norte de Costa Rica
   year: 2015
@@ -37931,7 +37931,7 @@
 - id: 10.1016/j.beproc.2015.09.013
   doi: 10.1016/j.beproc.2015.09.013
   openalex_id: W2190865797
-  review: excluded
+  review: approved
   title: 'Dynamic sexual dichromatism produces a sex signal in an explosively breeding
     Neotropical toad: A model presentation experiment'
   year: 2015
@@ -38327,7 +38327,7 @@
 - id: 10.15517/rbt.v60i2.19997
   doi: 10.15517/rbt.v60i2.19997
   openalex_id: W1921196312
-  review: excluded
+  review: approved
   title: 'Small-scale estimation of relative abundance for the coastal spotted dolphins
     (Stenella attenuata) in Costa Rica: the effect of habitat and seasonality'
   year: 2015
@@ -38635,7 +38635,7 @@
 - id: 10.15517/rbt.v62i4.20038
   doi: 10.15517/rbt.v62i4.20038
   openalex_id: W2115234719
-  review: excluded
+  review: approved
   title: Actividades pesqueras dependientes de la ictiofauna en el Pacífico Norte
     de Costa Rica
   year: 2015
@@ -38874,7 +38874,7 @@
   added: '2026-10-24'
 - id: W2280981507
   openalex_id: W2280981507
-  review: excluded
+  review: approved
   title: Patterns in Neotropical Collembola Diversity and Morphology along an Elevation
     Gradient
   year: 2015
@@ -39044,7 +39044,7 @@
   added: '2026-10-24'
 - id: W1492520160
   openalex_id: W1492520160
-  review: excluded
+  review: approved
   title: 'Monitoreo de procesos de ecológicos del Bosque Seco Tropical: Aplicaciones
     de sensores remotos para estimaciones a nivel de paisaje y el cambio global'
   year: 2014
@@ -40410,7 +40410,7 @@
 - id: 10.36487/acg_rep/1352_52_whitbread-abrutat
   doi: 10.36487/acg_rep/1352_52_whitbread-abrutat
   openalex_id: W2606702131
-  review: excluded
+  review: approved
   title: Lessons for the mining industry from non-mining landscape restoration experiences
   year: 2013
   venue: Mine closure
@@ -42886,7 +42886,7 @@
 - id: 10.11646/zootaxa.3137.1.4
   doi: 10.11646/zootaxa.3137.1.4
   openalex_id: W2187173195
-  review: excluded
+  review: approved
   title: 'Chewing lice of the genus Myrsidea (Phthiraptera: Menoponidae) from New
     World warblers (Passeriformes: Parulidae) from Costa Rica, with descriptions of
     four new species'
@@ -45108,7 +45108,7 @@
 - id: 10.1073/pnas.0812303106
   doi: 10.1073/pnas.0812303106
   openalex_id: W2118218146
-  review: excluded
+  review: approved
   title: Extensions and evaluations of a general quantitative theory of forest structure
     and dynamics
   year: 2009
@@ -45382,7 +45382,7 @@
 - id: 10.1676/07-165.1
   doi: 10.1676/07-165.1
   openalex_id: W1970237018
-  review: excluded
+  review: approved
   title: Relationship between Species Richness of Excavator Birds and Cavity–adopters
     in Seven Tropical Forests in Costa Rica
   year: 2009
@@ -45687,7 +45687,7 @@
 - id: 10.15517/rbt.v57i3.5469
   doi: 10.15517/rbt.v57i3.5469
   openalex_id: W1978933795
-  review: excluded
+  review: approved
   title: 'Los manglares de Costa Rica: el Pacífico norte'
   year: 2008
   venue: Revista de Biología Tropical
@@ -47466,7 +47466,7 @@
   added: '2026-10-24'
 - id: W3048412475
   openalex_id: W3048412475
-  review: excluded
+  review: approved
   title: 'A biodiversity study of high temperature mud pool microbial communities:
     implications of regional/geographical isolation and endemism'
   year: 2006
@@ -48765,7 +48765,7 @@
 - id: 10.21248/contrib.entomol.53.1.1-69
   doi: 10.21248/contrib.entomol.53.1.1-69
   openalex_id: W2941162991
-  review: excluded
+  review: approved
   title: Black fungus gnats of Central America. Part I. (Diptera, Sciaridae).
   year: 2003
   venue: Contributions to Entomology
@@ -48885,7 +48885,7 @@
 - id: 10.1104/pp.103.023879
   doi: 10.1104/pp.103.023879
   openalex_id: W2119126375
-  review: excluded
+  review: approved
   title: Stomatal Closure during Leaf Dehydration, Correlation with Other Leaf Physiological
     Traits
   year: 2003
@@ -71995,7 +71995,7 @@
 - id: 10.57065/shilap.1067
   doi: 10.57065/shilap.1067
   openalex_id: W7117763857
-  review: excluded
+  review: approved
   title: 'A review of the Neotropical Apatelodidae genus Prothysana Walker, 1855 (Lepidoptera:
     Bombycoidea)'
   year: 2025
@@ -72886,7 +72886,7 @@
 - id: 10.1371/journal.pone.0321338
   doi: 10.1371/journal.pone.0321338
   openalex_id: W4413367098
-  review: excluded
+  review: approved
   title: Cooperative behaviors and social interactions in the carnivorous bat Vampyrum
     spectrum
   year: 2025
@@ -73514,7 +73514,7 @@
 - id: 10.26451/abc.11.01.01.2024
   doi: 10.26451/abc.11.01.01.2024
   openalex_id: W4391934402
-  review: excluded
+  review: approved
   title: The Platyrrhine Primate Cebus imitator Uses Gaze to Manipulate and Withdraw
     Food to the Mouth
   year: 2024
@@ -74048,7 +74048,7 @@
 - id: 10.1007/s10329-023-01115-3
   doi: 10.1007/s10329-023-01115-3
   openalex_id: W4390701639
-  review: excluded
+  review: approved
   title: Through cross-disciplinary collaboration
   year: 2024
   venue: Primates
@@ -74319,7 +74319,7 @@
 - id: 10.1098/rspb.2024.0659
   doi: 10.1098/rspb.2024.0659
   openalex_id: W4401726305
-  review: excluded
+  review: approved
   title: Widespread cultural change in declining populations of Amazon parrots
   year: 2024
   venue: Proceedings of the Royal Society B Biological Sciences
@@ -78792,7 +78792,7 @@
   added: '2026-11-02'
 - id: W2902790001
   openalex_id: W2902790001
-  review: excluded
+  review: approved
   title: 'Cannibalism by large tadpoles of Rhinophrynus dorsalis (Anura: Rhinophrynidae)'
   year: 2018
   venue: Americanae (AECID Library)
@@ -79686,7 +79686,7 @@
   added: '2026-11-02'
 - id: W2799921752
   openalex_id: W2799921752
-  review: excluded
+  review: approved
   title: 'Reflexiones sobre los retos de la degradación y la desertificación en las
     zonas secas de Centroamérica:: ¿Cómo adaptarnos para proteger nuestro Patrimonio
     Natural y Cultural?'
@@ -82494,7 +82494,7 @@
 - id: 10.18845/tm.v25i4.620
   doi: 10.18845/tm.v25i4.620
   openalex_id: W1696255588
-  review: excluded
+  review: approved
   title: Recursos hídricos de la Cuenca Alta del Río Tempisque, Costa Rica (Nota técnica)
   year: 2012
   venue: Revista Tecnología en Marcha
@@ -83339,7 +83339,7 @@
 - id: 10.1038/climate.2010.38
   doi: 10.1038/climate.2010.38
   openalex_id: W2079498811
-  review: excluded
+  review: approved
   title: Confronting the biodiversity crisis
   year: 2010
   venue: Nature Climate Change
@@ -83711,7 +83711,7 @@
   added: '2026-11-02'
 - id: W2596621553
   openalex_id: W2596621553
-  review: excluded
+  review: approved
   title: Effect of Land Use, Climate and Soil Structure on Soil Organic Carbon in
     Costa Rican Ecoregions
   year: 2009
@@ -83987,7 +83987,7 @@
 - id: 10.22201/ib.20078706e.2008.001.520
   doi: 10.22201/ib.20078706e.2008.001.520
   openalex_id: W2173122844
-  review: excluded
+  review: approved
   title: Una especie nueva de Paraheligmonella (Nematoda, Heligmonellidae), parásita
     de Sylvilagus fl oridanus (Leporidae) en Costa Rica
   year: 2008
@@ -84751,7 +84751,7 @@
 - id: 10.22201/ib.20078706e.2006.002.339
   doi: 10.22201/ib.20078706e.2006.002.339
   openalex_id: W1943620417
-  review: excluded
+  review: approved
   title: 'Filogenia, flexibilidad ecológica y digéneos de pulmones: ayudando a resolver
     la crisis de las enfermedades infecciosas emergentes'
   year: 2006
@@ -85662,7 +85662,7 @@
   added: '2026-11-02'
 - id: W7223630536
   openalex_id: W7223630536
-  review: excluded
+  review: approved
   title: Isolation, characterization, and synthesis of ant-repellent compounds from
     selected Costa Rican plant species
   year: 1984
@@ -88139,7 +88139,7 @@
 - id: 10.15517/737pzs57
   doi: 10.15517/737pzs57
   openalex_id: W7226028938
-  review: pending
+  review: approved
   title: Some nemerteans of the coast of Guanacaste, North Pacific Costa Rica
   year: 2026
   venue: Revista de Biología Tropical
@@ -88159,7 +88159,7 @@
 - id: 10.15517/29j0jp96
   doi: 10.15517/29j0jp96
   openalex_id: W7226039838
-  review: pending
+  review: approved
   title: Contributions of the BioMar-ACG Project to the exploration and cataloging
     of marine macroalgae in the North Pacific of Costa Rica
   year: 2026
@@ -88180,7 +88180,7 @@
   added: '2026-11-16'
 - id: W3144068076
   openalex_id: W3144068076
-  review: pending
+  review: excluded
   title: 'Diversidad, preferencias alimentarias y prevalencia viral en mosquitos (Diptera:
     Culicidae) en dos zonas endémicas a arbovirus zoonóticos de Costa Rica'
   year: 2020
@@ -88200,7 +88200,7 @@
   added: '2026-11-16'
 - id: W2992531257
   openalex_id: W2992531257
-  review: pending
+  review: excluded
   title: MURCIÉLAGOS de la región del Golfo Dulce, Puntarenas, Costa Rica
   year: 2019
   authors: Elène Haave Audet; Gloriana Chaverri; Doris Audet; Manuel Sánchez; Andrew
@@ -88217,7 +88217,7 @@
 - id: 10.7208/chicago/9780226121642.003.0010
   doi: 10.7208/chicago/9780226121642.003.0010
   openalex_id: W2590159781
-  review: pending
+  review: approved
   title: 'Biodiversity Conservation History and Future in Costa Rica: The Case of
     Area de Conservacion Guanacaste (ACG)'
   year: 2016
@@ -88235,7 +88235,7 @@
   added: '2026-11-16'
 - id: W2611794777
   openalex_id: W2611794777
-  review: pending
+  review: excluded
   title: Evaluación del saneamiento ambiental sostenible en las zonas atendidas por
     ASADAs en el Cantón de Oreamuno
   year: 2016
@@ -88254,7 +88254,7 @@
   added: '2026-11-16'
 - id: W2931067232
   openalex_id: W2931067232
-  review: pending
+  review: excluded
   title: Registros herpetológicos de Isla Chira, Costa Rica / Herpetological records
     from Chira Island, Costa Rica
   year: 2013
@@ -88273,7 +88273,7 @@
   added: '2026-11-16'
 - id: W7198301573
   openalex_id: W7198301573
-  review: pending
+  review: excluded
   title: Procesamiento espectral y temporal en el sistema auditivo de murciélagos
     con diferentes estrategias de ecolocalización
   year: 2009
@@ -88292,7 +88292,7 @@
   added: '2026-11-16'
 - id: W160767538
   openalex_id: W160767538
-  review: pending
+  review: excluded
   title: Evaluación de la calidad del agua como base para la formulación del plan
     de cogestión del recurso hídrico en la microcuenca de la quebrada Victoria, Costa
     Rica
@@ -88313,7 +88313,7 @@
   added: '2026-11-16'
 - id: W7157510718
   openalex_id: W7157510718
-  review: pending
+  review: approved
   title: Costa Rican spiny pocket mouse
   year: 2006
   venue: American Museum Novitates
@@ -88331,7 +88331,7 @@
 - id: 10.5281/zenodo.16122820
   doi: 10.5281/zenodo.16122820
   openalex_id: W2729863137
-  review: pending
+  review: approved
   title: 'Pan-neotropical genus Venada (Hesperiidae: Pyrginae) is not monotypic: Four
     new species occur on one volcano in the Area De Conservacion Guanacaste, Costa
     Rica'
@@ -88353,7 +88353,7 @@
 - id: 10.1646/q1571
   doi: 10.1646/q1571
   openalex_id: W2147325905
-  review: pending
+  review: excluded
   title: Effects of Forest Fragmentation on Pollinator Activity and Consequences for
     Plant Reproductive Success and Mating Patterns in Bat-pollinated Bombacaceous
     Trees1
@@ -88376,7 +88376,7 @@
 - id: 10.1111/j.1096-3642.1994.tb01477.x
   doi: 10.1111/j.1096-3642.1994.tb01477.x
   openalex_id: W2062202610
-  review: pending
+  review: excluded
   title: 'The classification, evolution and biology of the Costa Rican species of
     Cryptophion (Hymenoptera: Ichneumonidae)'
   year: 1994
@@ -88395,7 +88395,7 @@
   added: '2026-11-16'
 - id: W2288066505
   openalex_id: W2288066505
-  review: pending
+  review: excluded
   title: Caracterización de la composición química de procedencias y familias de Gliricidia
     sepium (Jacq.) Walp de México, América Central y Panamá
   year: 1989
@@ -88414,7 +88414,7 @@
   added: '2026-11-16'
 - id: W1845002328
   openalex_id: W1845002328
-  review: pending
+  review: excluded
   title: Repertorio Americano. Edición del 1-NOVIEMBRE-1920
   year: 1920
   venue: Repertorio Americano
@@ -88432,7 +88432,7 @@
 - id: 10.18845/tm.v39i6.8570
   doi: 10.18845/tm.v39i6.8570
   openalex_id: W7151576757
-  review: pending
+  review: excluded
   title: Análisis florístico y estructural del bosque tropical en el Parque Nacional
     Palo Verde, Costa Rica
   year: 2026
@@ -88453,7 +88453,7 @@
 - id: 10.1093/gbe/evag022
   doi: 10.1093/gbe/evag022
   openalex_id: W7127069629
-  review: pending
+  review: approved
   title: Tachinid Endoparasitoid Flies do not Rely on Domesticated Viruses, Unlike
     Multiple Hymenopteran Lineages
   year: 2026
@@ -88474,7 +88474,7 @@
 - id: 10.22458/urj.v18i1.6742
   doi: 10.22458/urj.v18i1.6742
   openalex_id: W7225293812
-  review: pending
+  review: excluded
   title: 'Susceptibilidad de cinco cultivares de pepino (Cucumis sativus) al ataque
     de Diaphania nitidalis (Lepidoptera: Crambidae)'
   year: 2026
@@ -88494,7 +88494,7 @@
 - id: 10.1007/s10764-026-00597-4
   doi: 10.1007/s10764-026-00597-4
   openalex_id: W7225461032
-  review: pending
+  review: approved
   title: Lost calls vary with individual identity but not dominance rank in male white-faced
     capuchins (Cebus imitator)
   year: 2026
@@ -88515,7 +88515,7 @@
 - id: 10.1002/ecog.08572
   doi: 10.1002/ecog.08572
   openalex_id: W4417045880
-  review: pending
+  review: excluded
   title: DNA barcoding of more than one million insect specimens indicates that at
     least one third of California's insect biodiversity remains undiscovered
   year: 2026
@@ -88555,7 +88555,7 @@
 - id: 10.1186/s12864-026-13235-3
   doi: 10.1186/s12864-026-13235-3
   openalex_id: W7172482526
-  review: pending
+  review: excluded
   title: Incidence and attributes of chimeric COI and 18S rDNA sequences derived from
     nematode-infected arthropods
   year: 2026
@@ -88576,7 +88576,7 @@
 - id: 10.22458/urj.v18i1.6694
   doi: 10.22458/urj.v18i1.6694
   openalex_id: W7225634666
-  review: pending
+  review: excluded
   title: Participación ciudadana y evaluación de integridad ecológica en corredores
     biológicos con un índice compuesto
   year: 2026
@@ -88596,7 +88596,7 @@
 - id: 10.15517/3bqqkx82
   doi: 10.15517/3bqqkx82
   openalex_id: W7226023603
-  review: pending
+  review: approved
   title: 'First record and range extension of Metachromadora (Metachromadora) chandleri
     (Chitwood, 1952) Timm, 1961 (Nematoda: Desmodoridae) from the Pacific coast of
     Costa Rica, with comments on its taxonomical status'
@@ -88617,7 +88617,7 @@
 - id: 10.64898/2026.11.11.766018
   doi: 10.64898/2026.11.11.766018
   openalex_id: W7226006486
-  review: pending
+  review: approved
   title: Pervasive ethanol in the fruits and floral nectars consumed by tropical frugivores
   year: 2026
   venue: bioRxiv (Cold Spring Harbor Laboratory)
@@ -88648,7 +88648,7 @@
 - id: 10.1002/oik.12297
   doi: 10.1002/oik.12297
   openalex_id: W7207651653
-  review: pending
+  review: excluded
   title: Rainforest conversion to monoculture plantations restructures functional
     communities of braconid parasitoid wasps
   year: 2026
@@ -88671,7 +88671,7 @@
 - id: 10.5194/bg-23-7787-2026
   doi: 10.5194/bg-23-7787-2026
   openalex_id: W7140823906
-  review: pending
+  review: approved
   title: Divergent mercury accumulation dynamics in tropical dry and moist broadleaf
     forests
   year: 2026
@@ -88693,7 +88693,7 @@
 - id: 10.1111/btp.70293
   doi: 10.1111/btp.70293
   openalex_id: W7223260103
-  review: pending
+  review: approved
   title: 'Microhabitat Selection of the Tropical Rattlesnake Crotalus simus (Serpentes:
     Viperidae) at the Southernmost Extent of Its Distribution'
   year: 2026
@@ -88714,7 +88714,7 @@
 - id: 10.3389/ffgc.2026.1881338
   doi: 10.3389/ffgc.2026.1881338
   openalex_id: W7202278206
-  review: pending
+  review: excluded
   title: 'Tree growth in a neotropical dry forest and its dependence on functional
     traits and soil properties: key roles for tree size and wood density'
   year: 2026
@@ -88736,7 +88736,7 @@
 - id: 10.1186/s40850-026-00267-1
   doi: 10.1186/s40850-026-00267-1
   openalex_id: W7162198742
-  review: pending
+  review: excluded
   title: 'From scat to seedling: seasonal variation in seed deposition and emergence
     by chacma baboons (Papio ursinus) in a semi-arid South African savanna'
   year: 2026
@@ -88756,7 +88756,7 @@
 - id: 10.3897/zookeys.1286.193282
   doi: 10.3897/zookeys.1286.193282
   openalex_id: W7171446115
-  review: pending
+  review: approved
   title: 'kretschmanni’s global relatives: The Aphanogmus species with spiny sternite
     females (Hymenoptera, Ceraphronidae)'
   year: 2026
@@ -88776,7 +88776,7 @@
 - id: 10.1002/ecy.70400
   doi: 10.1002/ecy.70400
   openalex_id: W7160694518
-  review: pending
+  review: approved
   title: Colonization and extinction mediate environmental effects on the phylogenetic
     diversity of invertebrate communities
   year: 2026
@@ -88796,7 +88796,7 @@
 - id: 10.11606/1678-9857.ra.222636
   doi: 10.11606/1678-9857.ra.222636
   openalex_id: W7225710558
-  review: pending
+  review: excluded
   title: Cultura dos macacos-prego
   year: 2026
   venue: Revista de Antropologia
@@ -88815,7 +88815,7 @@
 - id: 10.1002/ece3.74108
   doi: 10.1002/ece3.74108
   openalex_id: W7171926273
-  review: pending
+  review: excluded
   title: 'Chiroptera Personality—A Guide for Assessing Personality Variation in Bats:
     Ecological, Methodological and Statistical Considerations'
   year: 2026
@@ -88835,7 +88835,7 @@
 - id: 10.1098/rspb.2025.0645
   doi: 10.1098/rspb.2025.0645
   openalex_id: W4413345200
-  review: pending
+  review: approved
   title: 'Dominance rank, facial morphology and testes size in male white-faced capuchins:
     evidence for pre- and post-mating competition'
   year: 2025
@@ -88858,7 +88858,7 @@
 - id: 10.1093/aesa/saaf016
   doi: 10.1093/aesa/saaf016
   openalex_id: W4412612041
-  review: pending
+  review: excluded
   title: 'On the identity of the type species of Parasa (Lepidoptera: Limacodidae):
     investigations into the Nearctic Parasa chloris and related taxa'
   year: 2025
@@ -88877,7 +88877,7 @@
   added: '2026-11-16'
 - id: W7111835937
   openalex_id: W7111835937
-  review: pending
+  review: excluded
   title: Nematodes parasites of passeriform birds from Northeastern Argentina
   year: 2025
   venue: Revista Argentina de Parasitología
@@ -88896,7 +88896,7 @@
 - id: 10.3897/zookeys.1255.150586
   doi: 10.3897/zookeys.1255.150586
   openalex_id: W4415025969
-  review: pending
+  review: excluded
   title: 'The Bolboceratidae, Geotrupidae (Coleoptera, Scarabaeoidea), and Scarabaeinae
     (Coleoptera, Scarabaeoidea, Scarabaeidae) fauna of Honduras: Taxonomy and distribution'
   year: 2025
@@ -88917,7 +88917,7 @@
 - id: 10.1002/ece3.72547
   doi: 10.1002/ece3.72547
   openalex_id: W4416771285
-  review: pending
+  review: excluded
   title: 'Predicting Potential Range Shifts and Molecular Approaches in Four Diolcogaster
     Ashmead Species (Hymenoptera: Braconidae, Microgastrinae)'
   year: 2025
@@ -88938,7 +88938,7 @@
 - id: 10.1093/plankt/fbaf065
   doi: 10.1093/plankt/fbaf065
   openalex_id: W7118579322
-  review: pending
+  review: excluded
   title: Effect of salinity on the feeding behavior of Cordylophora caspia (Pallas,
     1771) (Hydrozoa)
   year: 2025
@@ -88958,7 +88958,7 @@
 - id: 10.3897/zookeys.1227.130467
   doi: 10.3897/zookeys.1227.130467
   openalex_id: W4407364064
-  review: pending
+  review: excluded
   title: DNA barcoding, integrative taxonomy, citizen science, and Bush Blitz surveys
     combine to reveal 34 new species of Apanteles (Hymenoptera, Braconidae, Microgastrinae)
     in Australia
@@ -88982,7 +88982,7 @@
 - id: 10.3390/insects16040340
   doi: 10.3390/insects16040340
   openalex_id: W4408810096
-  review: pending
+  review: excluded
   title: Patterns and Mechanisms of Niche Partitioning Between Related Parasitoids
     (Hymenoptera) Sharing the Same Host Species
   year: 2025
@@ -89002,7 +89002,7 @@
 - id: 10.48550/arxiv.2510.27408
   doi: 10.48550/arxiv.2510.27408
   openalex_id: W7103894660
-  review: pending
+  review: approved
   title: 'Estimation of aboveground biomass in a tropical dry forest: An intercomparison
     of airborne, unmanned, and space laser scanning'
   year: 2025
@@ -89024,7 +89024,7 @@
 - id: 10.5281/zenodo.14662419
   doi: 10.5281/zenodo.14662419
   openalex_id: W4406877106
-  review: pending
+  review: excluded
   title: 'Genomic analysis reveals hidden species diversity in Emesis Fabricius (Lepidoptera:
     Riodinidae)'
   year: 2024
@@ -89044,7 +89044,7 @@
 - id: 10.3897/zookeys.1188.112516
   doi: 10.3897/zookeys.1188.112516
   openalex_id: W4390741606
-  review: pending
+  review: excluded
   title: 'Scratching the tip of the iceberg: integrative taxonomy reveals 30 new species
     records of Microgastrinae (Braconidae) parasitoid wasps for Germany, including
     new Holarctic distributions'
@@ -89066,7 +89066,7 @@
 - id: 10.1007/s42995-024-00223-3
   doi: 10.1007/s42995-024-00223-3
   openalex_id: W4400050344
-  review: pending
+  review: excluded
   title: Exploring the biogeography, morphology, and phylogeny of the condylostomatid
     ciliates (Alveolata, Ciliophora, Heterotrichea), with establishment of four new
     Condylostoma species and a revision including redescriptions of five species found
@@ -89088,7 +89088,7 @@
 - id: 10.3897/mycokeys.100.106810
   doi: 10.3897/mycokeys.100.106810
   openalex_id: W4388628060
-  review: pending
+  review: excluded
   title: Taxonomy and phylogeny of the genus Ganoderma (Polyporales, Basidiomycota)
     in Costa Rica
   year: 2023
@@ -89109,7 +89109,7 @@
 - id: 10.3897/zookeys.1175.105068
   doi: 10.3897/zookeys.1175.105068
   openalex_id: W4385878622
-  review: pending
+  review: approved
   title: A revision of the parasitoid wasp genus Alphomelon Mason with the description
     of 30 new species (Hymenoptera, Braconidae)
   year: 2023
@@ -89132,7 +89132,7 @@
 - id: 10.54140/raop.v5i2.71
   doi: 10.54140/raop.v5i2.71
   openalex_id: W7165058442
-  review: pending
+  review: excluded
   title: Caracterización del zoobentos asociado a la macroalga Colpomenia sinuosa
     en el litoral rocoso de Barbasquillo, Manabí, Ecuador
   year: 2023
@@ -89152,7 +89152,7 @@
 - id: 10.3389/fmicb.2023.1123790
   doi: 10.3389/fmicb.2023.1123790
   openalex_id: W4327713676
-  review: pending
+  review: excluded
   title: Using simulated wildland fire to assess microbial survival at multiple depths
     from biocrust and bare soils
   year: 2023
@@ -89173,7 +89173,7 @@
 - id: 10.3897/zookeys.1115.75538
   doi: 10.3897/zookeys.1115.75538
   openalex_id: W4289313894
-  review: pending
+  review: excluded
   title: Morphological, molecular, and life cycle study of a new species of Oligogonotylus
     Watson, 1976 (Digenea, Cryptogonimidae) from Colombia
   year: 2022
@@ -89193,7 +89193,7 @@
 - id: 10.7717/peerj.13647
   doi: 10.7717/peerj.13647
   openalex_id: W4285593264
-  review: pending
+  review: excluded
   title: Temperature regulation in the Balkan spadefoot ( Pelobates balcanicus Karaman,
     1928) at the beginning of nocturnal activity
   year: 2022
@@ -89214,7 +89214,7 @@
 - id: 10.3897/zookeys.1123.86704
   doi: 10.3897/zookeys.1123.86704
   openalex_id: W4302008039
-  review: pending
+  review: excluded
   title: A DNA barcode library for katydids, cave crickets, and leaf-rolling crickets
     (Tettigoniidae, Rhaphidophoridae and Gryllacrididae) from Zhejiang Province, China
   year: 2022
@@ -89234,7 +89234,7 @@
 - id: 10.1098/rsos.211819
   doi: 10.1098/rsos.211819
   openalex_id: W4281774422
-  review: pending
+  review: excluded
   title: Captive Asian short-clawed otters ( Aonyx cinereus ) learn to exploit unfamiliar
     natural prey
   year: 2022
@@ -89255,7 +89255,7 @@
 - id: 10.3897/zookeys.1111.77541
   doi: 10.3897/zookeys.1111.77541
   openalex_id: W4285042725
-  review: pending
+  review: excluded
   title: Caddisflies (Trichoptera) checklist and a new species of Helicopsyche von
     Siebold, 1856, from the Brejo de Altitude de Triunfo, a relict rainforest within
     the Caatinga domain, Northeast Brazil
@@ -89276,7 +89276,7 @@
 - id: 10.1094/phyto-03-22-0096-rvw
   doi: 10.1094/phyto-03-22-0096-rvw
   openalex_id: W4283159801
-  review: pending
+  review: excluded
   title: 'Virion-Associated Nucleic Acid-Based Metagenomics: A Decade of Advances
     in Molecular Characterization of Plant Viruses'
   year: 2022
@@ -89302,7 +89302,7 @@
 - id: 10.3897/zookeys.1013.55600
   doi: 10.3897/zookeys.1013.55600
   openalex_id: W3127124614
-  review: pending
+  review: approved
   title: Minimalist revision and description of 403 new species in 11 subfamilies
     of Costa Rican braconid parasitoid wasps, including host records for 219 species
   year: 2021
@@ -89327,7 +89327,7 @@
 - id: 10.3897/zookeys.1075.72197
   doi: 10.3897/zookeys.1075.72197
   openalex_id: W4200187534
-  review: pending
+  review: approved
   title: 'Addendum to a minimalist revision of Costa Rican Braconidae: 28 new species
     and 23 host records'
   year: 2021
@@ -89350,7 +89350,7 @@
 - id: 10.3897/phytokeys.177.64465
   doi: 10.3897/phytokeys.177.64465
   openalex_id: W3161423316
-  review: pending
+  review: excluded
   title: Taxonomic revision of Martinella Baill. (Bignonieae, Bignoniaceae)
   year: 2021
   venue: PhytoKeys
@@ -89369,7 +89369,7 @@
 - id: 10.3897/zookeys.1061.67458
   doi: 10.3897/zookeys.1061.67458
   openalex_id: W3204221111
-  review: pending
+  review: excluded
   title: 'Cotesia cassina sp. nov. from southwestern Colombia: a new gregarious microgastrine
     wasp (Hymenoptera, Braconidae) reared from the pest species Opsiphanes cassina
     Felder & Felder (Lepidoptera, Nymphalidae) feeding on Elaeis oil palm trees (Arecaceae)'
@@ -89391,7 +89391,7 @@
 - id: 10.1128/mra.00553-21
   doi: 10.1128/mra.00553-21
   openalex_id: W3205249397
-  review: pending
+  review: excluded
   title: Draft Genome Sequences of Two Cyanobacteria Leptolyngbya spp. Isolated from
     Microbial Mats in Miravalles Thermal Spring, Costa Rica
   year: 2021
@@ -89412,7 +89412,7 @@
 - id: 10.3897/phytokeys.178.64564
   doi: 10.3897/phytokeys.178.64564
   openalex_id: W3171280860
-  review: pending
+  review: excluded
   title: Two new species of Otoba (Myristicaceae) from Colombia
   year: 2021
   venue: PhytoKeys
@@ -89431,7 +89431,7 @@
 - id: 10.3897/zookeys.1024.56927
   doi: 10.3897/zookeys.1024.56927
   openalex_id: W3137098069
-  review: pending
+  review: excluded
   title: The Brachiacantha Dejean, 1837 (Coleoptera, Coccinellidae) of Central America
   year: 2021
   venue: ZooKeys
@@ -89451,7 +89451,7 @@
 - id: 10.3897/zookeys.1011.57302
   doi: 10.3897/zookeys.1011.57302
   openalex_id: W3122798249
-  review: pending
+  review: excluded
   title: Description of a new species, Sillago nigrofasciata sp. nov. (Perciformes,
     Sillaginidae) from the southern coast of China
   year: 2021
@@ -89471,7 +89471,7 @@
 - id: 10.7717/peerj.11157
   doi: 10.7717/peerj.11157
   openalex_id: W3156348218
-  review: pending
+  review: excluded
   title: A DNA barcode library for the butterflies of North America
   year: 2021
   venue: PeerJ
@@ -89492,7 +89492,7 @@
   added: '2026-11-16'
 - id: W3200913950
   openalex_id: W3200913950
-  review: pending
+  review: excluded
   title: The overlooked dimensions of domestic parrot poaching in the Neotropics
   year: 2021
   venue: RIO (Universidad Pablo de Olavide)
@@ -89511,7 +89511,7 @@
 - id: 10.3897/zookeys.920.39128
   doi: 10.3897/zookeys.920.39128
   openalex_id: W3013674775
-  review: pending
+  review: excluded
   title: Annotated and illustrated world checklist of Microgastrinae parasitoid wasps
     (Hymenoptera, Braconidae)
   year: 2020
@@ -89532,7 +89532,7 @@
 - id: 10.3897/zookeys.964.56131
   doi: 10.3897/zookeys.964.56131
   openalex_id: W3082385990
-  review: pending
+  review: approved
   title: A revision of the Aleiodes bakeri (Brues) species subgroup of the A. seriatus
     species group with the descriptions of 18 new species from the Neotropical Region
   year: 2020
@@ -89552,7 +89552,7 @@
 - id: 10.3897/zookeys.953.50709
   doi: 10.3897/zookeys.953.50709
   openalex_id: W3046008023
-  review: pending
+  review: excluded
   title: Synopsis of fruit-piercing moths of the genus Eudocima (Lepidoptera, Erebidae)
     from Colombia
   year: 2020
@@ -89573,7 +89573,7 @@
 - id: 10.3897/zookeys.918.49729
   doi: 10.3897/zookeys.918.49729
   openalex_id: W3010877607
-  review: pending
+  review: excluded
   title: New species and new records of Trigonalyidae (Hymenoptera) from Tibet, China
   year: 2020
   venue: ZooKeys
@@ -89592,7 +89592,7 @@
 - id: 10.5281/zenodo.4565148
   doi: 10.5281/zenodo.4565148
   openalex_id: W3087766841
-  review: pending
+  review: excluded
   title: 'On speciation and hybridization among closely related species: establishing
     an experimental breeding lineage between two species of Automeris Hübner moths
     (Lepidoptera: Saturniidae) and implications for taxonomy'
@@ -89613,7 +89613,7 @@
 - id: 10.3897/bdj.8.e58841
   doi: 10.3897/bdj.8.e58841
   openalex_id: W3108212973
-  review: pending
+  review: excluded
   title: DNA barcodes for Aotearoa New Zealand Pyraloidea (Lepidoptera)
   year: 2020
   venue: Biodiversity Data Journal
@@ -89631,7 +89631,7 @@
   added: '2026-11-16'
 - id: W3213978926
   openalex_id: W3213978926
-  review: pending
+  review: excluded
   title: De la década perdida al hundimiento de América Latina
   year: 2020
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -89647,7 +89647,7 @@
   added: '2026-11-16'
 - id: W3137390521
   openalex_id: W3137390521
-  review: pending
+  review: excluded
   title: Costa Rica frente a las elecciones en los EE.UU., la necesidad de observar
     más allá de las formas
   year: 2020
@@ -89664,7 +89664,7 @@
   added: '2026-11-16'
 - id: W3119340264
   openalex_id: W3119340264
-  review: pending
+  review: excluded
   title: 'Estados Unidos e Irán: causas y consecuencias del escalamiento de una relación
     adversa'
   year: 2020
@@ -89681,7 +89681,7 @@
   added: '2026-11-16'
 - id: W3125842816
   openalex_id: W3125842816
-  review: pending
+  review: excluded
   title: El confinamiento y la crisis social en los EE. UU. 2020
   year: 2020
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -89697,7 +89697,7 @@
   added: '2026-11-16'
 - id: W3109714010
   openalex_id: W3109714010
-  review: pending
+  review: excluded
   title: La pandemia ha profundizado la crisis de los ciudadanos
   year: 2020
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -89714,7 +89714,7 @@
 - id: 10.3897/bdj.8.e47255
   doi: 10.3897/bdj.8.e47255
   openalex_id: W3002351086
-  review: pending
+  review: excluded
   title: 'The Swedish Malaise Trap Project: A 15 Year Retrospective on a Countrywide
     Insect Inventory'
   year: 2020
@@ -89734,7 +89734,7 @@
   added: '2026-11-16'
 - id: W3011043031
   openalex_id: W3011043031
-  review: pending
+  review: excluded
   title: Sensibilización de los estudiantes de los grados quinto y sexto de la institución
     educativa Jorge Eliécer Gaitán, en la protección de los recursos naturales y el
     medio ambiente, a través de los procesos de enseñanza aprendizaje generados en
@@ -89755,7 +89755,7 @@
 - id: 10.1073/pnas.1821304116
   doi: 10.1073/pnas.1821304116
   openalex_id: W2922510034
-  review: pending
+  review: approved
   title: Genomes of skipper butterflies reveal extensive convergence of wing patterns
   year: 2019
   venue: Proceedings of the National Academy of Sciences
@@ -89774,7 +89774,7 @@
   added: '2026-11-16'
 - id: W2997314407
   openalex_id: W2997314407
-  review: pending
+  review: excluded
   title: La otra mirada de Javier Segura.
   year: 2019
   venue: Revista En Bomba
@@ -89792,7 +89792,7 @@
 - id: 10.3897/zookeys.841.33549
   doi: 10.3897/zookeys.841.33549
   openalex_id: W2943735700
-  review: pending
+  review: excluded
   title: Four new species of Philoplitis Nixon (Braconidae, Microgastrinae) with an
     updated key and illustrations of all described species
   year: 2019
@@ -89813,7 +89813,7 @@
 - id: 10.3897/zookeys.817.30119
   doi: 10.3897/zookeys.817.30119
   openalex_id: W2909490025
-  review: pending
+  review: excluded
   title: A survey of parasitoids from Greece with new associations
   year: 2019
   venue: ZooKeys
@@ -89833,7 +89833,7 @@
 - id: 10.3897/phytokeys.134.37979
   doi: 10.3897/phytokeys.134.37979
   openalex_id: W2981681015
-  review: pending
+  review: excluded
   title: A taxonomic synopsis of Virola (Myristicaceae) in Mesoamerica, including
     six new species
   year: 2019
@@ -89853,7 +89853,7 @@
 - id: 10.3897/zookeys.818.30448
   doi: 10.3897/zookeys.818.30448
   openalex_id: W2914796923
-  review: pending
+  review: excluded
   title: A pictorial key to differentiate the recently detected exotic Haemaphysalis
     longicornis Neumann, 1901 (Acari, Ixodidae) from native congeners in North America
   year: 2019
@@ -89874,7 +89874,7 @@
 - id: 10.3897/zookeys.883.37586
   doi: 10.3897/zookeys.883.37586
   openalex_id: W2982544329
-  review: pending
+  review: excluded
   title: A new species of the live-bearing fish genus Poeciliopsis from northern Mexico
     (Cyprinodontiformes, Poeciliidae)
   year: 2019
@@ -89893,7 +89893,7 @@
   added: '2026-11-16'
 - id: W3214319870
   openalex_id: W3214319870
-  review: pending
+  review: excluded
   title: Movilidad humana centroamericana y la respuesta ante la vulnerabilidad, discriminación
     y exclusión
   year: 2019
@@ -89911,7 +89911,7 @@
   added: '2026-11-16'
 - id: W3153762831
   openalex_id: W3153762831
-  review: pending
+  review: excluded
   title: Chiapas y la independencia centroamericana
   year: 2019
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -89929,7 +89929,7 @@
 - id: 10.3897/zookeys.821.31782
   doi: 10.3897/zookeys.821.31782
   openalex_id: W2914966384
-  review: pending
+  review: excluded
   title: A revision of the new genus Amiga Nakahara, Willmott & Espeland, gen. n.,
     described for Papilio arnaca Fabricius, 1776 (Lepidoptera, Nymphalidae, Satyrinae)
   year: 2019
@@ -89949,7 +89949,7 @@
   added: '2026-11-16'
 - id: W3092789766
   openalex_id: W3092789766
-  review: pending
+  review: excluded
   title: Disentangling Species Boundaries and the Evolution of Habitat Specialization
     for the Ecologically Diverse Mite Family Acaridae
   year: 2019
@@ -89969,7 +89969,7 @@
 - id: 10.5287/ora-8jpgezd9g
   doi: 10.5287/ora-8jpgezd9g
   openalex_id: W7116785766
-  review: pending
+  review: excluded
   title: Endemism hotspots in the flora of Belize
   year: 2019
   venue: Oxford University Research Archive (ORA) (University of Oxford)
@@ -89989,7 +89989,7 @@
 - id: 10.3897/zookeys.788.21222
   doi: 10.3897/zookeys.788.21222
   openalex_id: W2896123465
-  review: pending
+  review: approved
   title: 'A review of Leucosigma Druce, 1908: a newly discovered case of fern-feeding
     and descriptions of three new species (Lepidoptera, Noctuidae)'
   year: 2018
@@ -90009,7 +90009,7 @@
   added: '2026-11-16'
 - id: W3163429831
   openalex_id: W3163429831
-  review: pending
+  review: approved
   title: 'Aplicación de modelos de nicho ecológico para la identificación potencial
     de procesos de especiación críptica en Adelpha basiloides (Lepidoptera: Nymphalidae)
     en el territorio de Costa Rica.'
@@ -90030,7 +90030,7 @@
 - id: 10.3897/zookeys.740.242226
   doi: 10.3897/zookeys.740.242226
   openalex_id: W2789754391
-  review: pending
+  review: excluded
   title: A new species of Cotesia Cameron (Hymenoptera, Braconidae, Microgastrinae)
     reared from the hickory horned devil, Citheronia regalis, and luna moth, Actias
     luna, in east Texas
@@ -90050,7 +90050,7 @@
   added: '2026-11-16'
 - id: W2913055799
   openalex_id: W2913055799
-  review: pending
+  review: excluded
   title: 'Integrative Taxonomy - A Novel Approach toBiological Studies In: ICAR Sponsored
     Winter School on Recent Advances in Fishery Biology Techniques for Biodiversity
     Evaluation and Conservation, 1-21 December 2018, Kochi.'
@@ -90072,7 +90072,7 @@
 - id: 10.3934/genet.2018.1.1
   doi: 10.3934/genet.2018.1.1
   openalex_id: W2783524852
-  review: pending
+  review: excluded
   title: Our love-hate relationship with DNA barcodes, the Y2K problem, and the search
     for next generation barcodes
   year: 2018
@@ -90092,7 +90092,7 @@
 - id: 10.2478/helm-2018-0032
   doi: 10.2478/helm-2018-0032
   openalex_id: W2899426480
-  review: pending
+  review: excluded
   title: 'Helminth community dynamics in a population of Pseudopaludicola pocoto (Leptodactylidae:
     Leiuperinae) from Northeast-Brazilian'
   year: 2018
@@ -90112,7 +90112,7 @@
 - id: 10.24310/abm.v42i1.3027
   doi: 10.24310/abm.v42i1.3027
   openalex_id: W2793853005
-  review: pending
+  review: excluded
   title: Novedades en Jamesonia y Tryonia (Pteridaceae) para el Neotrópico.
   year: 2018
   venue: Acta Botanica Malacitana
@@ -90131,7 +90131,7 @@
 - id: 10.1098/rsos.181002
   doi: 10.1098/rsos.181002
   openalex_id: W2809293513
-  review: pending
+  review: excluded
   title: Habitual stone-tool-aided extractive foraging in white-faced capuchins, Cebus
     capucinus
   year: 2018
@@ -90152,7 +90152,7 @@
 - id: 10.3897/zookeys.807.29430
   doi: 10.3897/zookeys.807.29430
   openalex_id: W2905527950
-  review: pending
+  review: excluded
   title: A DNA barcode reference library of Neuroptera (Insecta, Neuropterida) from
     Beijing
   year: 2018
@@ -90171,7 +90171,7 @@
   added: '2026-11-16'
 - id: W3195595496
   openalex_id: W3195595496
-  review: pending
+  review: excluded
   title: Bolitoglossa subpalmata (Plethodontidae) Filogenia y modelamiento de nicho
     ecológico presente-futuro.
   year: 2018
@@ -90191,7 +90191,7 @@
 - id: 10.3897/zookeys.730.22869
   doi: 10.3897/zookeys.730.22869
   openalex_id: W2783164270
-  review: pending
+  review: excluded
   title: Ten unique and charismatic new species of Microgastrinae wasps (Hymenoptera,
     Braconidae) from North America
   year: 2018
@@ -90210,7 +90210,7 @@
   added: '2026-11-16'
 - id: W3107677808
   openalex_id: W3107677808
-  review: pending
+  review: excluded
   title: Principal reto de la nueva administración
   year: 2018
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -90227,7 +90227,7 @@
   added: '2026-11-16'
 - id: W3156481263
   openalex_id: W3156481263
-  review: pending
+  review: excluded
   title: El país que recibe la administración Alvarado Quesada
   year: 2018
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -90244,7 +90244,7 @@
   added: '2026-11-16'
 - id: W3153956639
   openalex_id: W3153956639
-  review: pending
+  review: excluded
   title: Abstencionismo fue el gran ganador... Y, ¿quién es esa gente?
   year: 2018
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -90262,7 +90262,7 @@
 - id: 10.1016/b978-0-12-805306-5.00027-4
   doi: 10.1016/b978-0-12-805306-5.00027-4
   openalex_id: W2898425064
-  review: pending
+  review: excluded
   title: Sphenisciformes, Gaviiformes, Podicipediformes, Procellariiformes, and Pelecaniformes
   year: 2018
   venue: Elsevier eBooks
@@ -90281,7 +90281,7 @@
 - id: 10.5281/zenodo.3697061
   doi: 10.5281/zenodo.3697061
   openalex_id: W3146178128
-  review: pending
+  review: excluded
   title: 'Dasymutilla Ashmead (Hymenoptera, Mutillidae) in Panama: new species, sex
     associations and seasonal flight activity'
   year: 2018
@@ -90302,7 +90302,7 @@
 - id: 10.3897/zookeys.750.23536
   doi: 10.3897/zookeys.750.23536
   openalex_id: W2801911542
-  review: pending
+  review: approved
   title: A taxonomic study of Costa Rican Leptodrepana with the description of twenty-four
     new species (Hymenoptera, Braconidae, Cheloninae)
   year: 2018
@@ -90323,7 +90323,7 @@
 - id: 10.3897/phytokeys.76.10298
   doi: 10.3897/phytokeys.76.10298
   openalex_id: W2577174676
-  review: pending
+  review: excluded
   title: Two new species and a new combination in Protium (Burseraceae) from Costa
     Rica
   year: 2017
@@ -90343,7 +90343,7 @@
 - id: 10.7717/peerj.2892
   doi: 10.7717/peerj.2892
   openalex_id: W2580113918
-  review: pending
+  review: excluded
   title: An examination of factors potentially influencing birth distributions in
     golden snub-nosed monkeys (Rhinopithecus roxellana)
   year: 2017
@@ -90364,7 +90364,7 @@
 - id: 10.3897/zookeys.682.13016
   doi: 10.3897/zookeys.682.13016
   openalex_id: W2728335220
-  review: pending
+  review: excluded
   title: Systematics and biology of Cotesia typhae sp. n. (Hymenoptera, Braconidae,
     Microgastrinae), a potential biological control agent against the noctuid Mediterranean
     corn borer, Sesamia nonagrioides
@@ -90388,7 +90388,7 @@
 - id: 10.3958/059.042.0127
   doi: 10.3958/059.042.0127
   openalex_id: W2594901453
-  review: pending
+  review: excluded
   title: Coffea arabicaL. (Rubiaceae) as a New Host Plant Record for an Inchworm at
     Coatepec, Veracruz, México
   year: 2017
@@ -90408,7 +90408,7 @@
   added: '2026-11-16'
 - id: W2905806460
   openalex_id: W2905806460
-  review: pending
+  review: excluded
   title: Estudio fenológico y propagación de Bursera graveolens (Kunth) Triana & Planch,
     en la comunidad de Malvas, cantón Zapotillo, provincia de Loja
   year: 2017
@@ -90430,7 +90430,7 @@
 - id: 10.3897/zookeys.691.14491
   doi: 10.3897/zookeys.691.14491
   openalex_id: W2748791259
-  review: pending
+  review: excluded
   title: An annotated and illustrated checklist of Microgastrinae wasps (Hymenoptera,
     Braconidae) from the Canadian Arctic Archipelago and Greenland
   year: 2017
@@ -90452,7 +90452,7 @@
 - id: 10.3897/bdj.5.e19840
   doi: 10.3897/bdj.5.e19840
   openalex_id: W2742187597
-  review: pending
+  review: excluded
   title: 'Close congruence between Barcode Index Numbers (bins) and species boundaries
     in the Erebidae (Lepidoptera: Noctuoidea) of the Iberian Peninsula'
   year: 2017
@@ -90473,7 +90473,7 @@
 - id: 10.24275/uam/izt/dcbs/hidro/2017v27n2/coria
   doi: 10.24275/uam/izt/dcbs/hidro/2017v27n2/coria
   openalex_id: W2894186860
-  review: pending
+  review: excluded
   title: The relationship between the massive nesting of the olive ridley sea turtle
     (Lepidochelys olivacea) and the local physical environment at La Escobilla, Oaxaca,
     Mexico, during 2005
@@ -90494,7 +90494,7 @@
   added: '2026-11-16'
 - id: W3131472360
   openalex_id: W3131472360
-  review: pending
+  review: excluded
   title: 'Desempleo: un problema estructural en Costa Rica'
   year: 2017
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -90510,7 +90510,7 @@
   added: '2026-11-16'
 - id: W3162498617
   openalex_id: W3162498617
-  review: pending
+  review: excluded
   title: Por qué es importante la Semana de Ciencias Sociales
   year: 2017
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -90526,7 +90526,7 @@
   added: '2026-11-16'
 - id: W3210982510
   openalex_id: W3210982510
-  review: pending
+  review: excluded
   title: 'La historia interminable: El huracán Kattie y la coyuntura de emergencia
     nacional de 1955'
   year: 2017
@@ -90543,7 +90543,7 @@
   added: '2026-11-16'
 - id: W3155756817
   openalex_id: W3155756817
-  review: pending
+  review: excluded
   title: Panorama complejo marcado por el proceso electoral
   year: 2017
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -90560,7 +90560,7 @@
 - id: 10.7717/peerj.3753
   doi: 10.7717/peerj.3753
   openalex_id: W2751307911
-  review: pending
+  review: excluded
   title: 'Fourteen new species of Oecetis McLachlan, 1877 (Trichoptera: Leptoceridae)
     from the Neotropical region'
   year: 2017
@@ -90580,7 +90580,7 @@
 - id: 10.1111/zoj.12442
   doi: 10.1111/zoj.12442
   openalex_id: W2776632419
-  review: pending
+  review: excluded
   title: 'Phylogeny of Sicariidae spiders (Araneae: Haplogynae), with a monograph
     on Neotropical Sicarius'
   year: 2017
@@ -90600,7 +90600,7 @@
 - id: 10.3897/zookeys.698.13366
   doi: 10.3897/zookeys.698.13366
   openalex_id: W2756201922
-  review: pending
+  review: excluded
   title: New species of Trigonalyidae (Hymenoptera) from NW China
   year: 2017
   venue: ZooKeys
@@ -90618,7 +90618,7 @@
   added: '2026-11-16'
 - id: W2790486347
   openalex_id: W2790486347
-  review: pending
+  review: excluded
   title: Evaluación de la zona de amortiguamiento en áreas protegidas :caso de Reserva
     Natural Absoluta Cabo Blanco
   year: 2017
@@ -90637,7 +90637,7 @@
 - id: 10.3897/zookeys.621.7565
   doi: 10.3897/zookeys.621.7565
   openalex_id: W2528912749
-  review: pending
+  review: excluded
   title: Checklist and identification key of Anomalini (Coleoptera, Scarabaeidae,
     Rutelinae) of Costa Rica
   year: 2016
@@ -90657,7 +90657,7 @@
 - id: 10.3897/zookeys.617.9178
   doi: 10.3897/zookeys.617.9178
   openalex_id: W2520118757
-  review: pending
+  review: excluded
   title: Five new species of Trigonopeltastes Burmeister and Schaum from Central America
     with new country records for other New World Trichiini (Coleoptera, Scarabaeidae,
     Cetoniinae)
@@ -90678,7 +90678,7 @@
 - id: 10.3897/zookeys.63.10480
   doi: 10.3897/zookeys.63.10480
   openalex_id: W2549848298
-  review: pending
+  review: excluded
   title: 'A biodiversity hotspot for Microgastrinae (Hymenoptera, Braconidae) in North
     America: annotated species checklist for Ottawa, Canada'
   year: 2016
@@ -90698,7 +90698,7 @@
 - id: 10.3897/zookeys.637.10148
   doi: 10.3897/zookeys.637.10148
   openalex_id: W2558848537
-  review: pending
+  review: excluded
   title: New synonyms in the highly diverse caddisfly genus Smicridea (Trichoptera,
     Hydropsychidae)
   year: 2016
@@ -90718,7 +90718,7 @@
 - id: 10.3897/zookeys.628.9805
   doi: 10.3897/zookeys.628.9805
   openalex_id: W2540681413
-  review: pending
+  review: approved
   title: New taxa, including three new genera show uniqueness of Neotropical Nepticulidae
     (Lepidoptera)
   year: 2016
@@ -90738,7 +90738,7 @@
 - id: 10.1093/jisesa/iew018
   doi: 10.1093/jisesa/iew018
   openalex_id: W2344518318
-  review: pending
+  review: excluded
   title: 'Selaginellaand the Satyr:Euptychia westwoodi(Lepidoptera: Nymphalidae) Oviposition
     Preference and Larval Performance'
   year: 2016
@@ -90758,7 +90758,7 @@
 - id: 10.3897/zookeys.584.8319
   doi: 10.3897/zookeys.584.8319
   openalex_id: W2342972266
-  review: pending
+  review: excluded
   title: Keylimepie peckorum gen. n. and sp. n., (Hymenoptera, Braconidae) from southern
     Florida, U.S., the first known brachypterous member of the subfamily Microgastrinae
   year: 2016
@@ -90778,7 +90778,7 @@
 - id: 10.1093/jhered/esw071
   doi: 10.1093/jhered/esw071
   openalex_id: W2527725307
-  review: pending
+  review: excluded
   title: Population Genetics of Overwintering Monarch Butterflies,Danaus plexippus(Linnaeus),
     from Central Mexico Inferred from Mitochondrial DNA and Microsatellite Markers
   year: 2016
@@ -90800,7 +90800,7 @@
 - id: 10.3897/zookeys.581.7910
   doi: 10.3897/zookeys.581.7910
   openalex_id: W2337359054
-  review: pending
+  review: excluded
   title: A revision of the genus Muricea Lamouroux, 1821 (Anthozoa, Octocorallia)
     in the eastern Pacific. Part II
   year: 2016
@@ -90820,7 +90820,7 @@
 - id: 10.3897/zookeys.584.6320
   doi: 10.3897/zookeys.584.6320
   openalex_id: W2345113147
-  review: pending
+  review: excluded
   title: 'A new species of alpine Apenetretus Kurnakov from Taiwan: evidences from
     DNA barcodes and morphological characteristics (Coleoptera, Carabidae, Patrobini)'
   year: 2016
@@ -90839,7 +90839,7 @@
   added: '2026-11-16'
 - id: W3163121811
   openalex_id: W3163121811
-  review: pending
+  review: excluded
   title: Los cubanos y una política migratoria multilateral
   year: 2016
   venue: Repositorio Académico Institucional de la Universidad Nacional
@@ -90855,7 +90855,7 @@
 - id: 10.3897/bdj.4.e7720
   doi: 10.3897/bdj.4.e7720
   openalex_id: W2418036052
-  review: pending
+  review: excluded
   title: Taxonomic revision of Rochefortia Sw. (Ehretiaceae, Boraginales)
   year: 2016
   venue: Biodiversity Data Journal
@@ -90874,7 +90874,7 @@
 - id: 10.3897/zookeys.565.6797
   doi: 10.3897/zookeys.565.6797
   openalex_id: W2310592398
-  review: pending
+  review: excluded
   title: An illustrated guide to the identification of the known species of Diatraea
     Guilding (Lepidoptera, Crambidae, Crambinae) based on genitalia
   year: 2016
@@ -90894,7 +90894,7 @@
 - id: 10.3897/zookeys.566.6982
   doi: 10.3897/zookeys.566.6982
   openalex_id: W4243011752
-  review: pending
+  review: approved
   title: Revision of the genus Menevia Schaus, 1928 (Lepidoptera, Mimallonoidea, Mimallonidae)
     with the description of 11 new species
   year: 2016
@@ -90914,7 +90914,7 @@
 - id: 10.3897/zookeys.523.6088
   doi: 10.3897/zookeys.523.6088
   openalex_id: W2130169801
-  review: pending
+  review: excluded
   title: Checklist of the helminth parasites of the genus Profundulus Hubbs, 1924
     (Cyprinodontiformes, Profundulidae), an endemic family of freshwater fishes in
     Middle-America
@@ -90937,7 +90937,7 @@
 - id: 10.48550/arxiv.1507.00913
   doi: 10.48550/arxiv.1507.00913
   openalex_id: W744862910
-  review: pending
+  review: excluded
   title: Fine-grained Recognition Datasets for Biodiversity Analysis
   year: 2015
   venue: arXiv (Cornell University)
@@ -90956,7 +90956,7 @@
 - id: 10.3897/zookeys.537.6090
   doi: 10.3897/zookeys.537.6090
   openalex_id: W2179231672
-  review: pending
+  review: approved
   title: Three new species of Hagnagora Druce, 1885 (Lepidoptera, Geometridae, Larentiinae)
     from Ecuador and Costa Rica and a concise revision of the genus
   year: 2015
@@ -90975,7 +90975,7 @@
   added: '2026-11-16'
 - id: W1846489479
   openalex_id: W1846489479
-  review: pending
+  review: approved
   title: 'Aparente falta de evidencia sobre agentes infecciosos seleccionados de loras
     frente amarilla: implicaciones para los procesos de liberación'
   year: 2015
@@ -90996,7 +90996,7 @@
 - id: 10.3897/zookeys.482.8144
   doi: 10.3897/zookeys.482.8144
   openalex_id: W1967254690
-  review: pending
+  review: excluded
   title: A new species of Paracreptotrema (Digenea, Plagiorchiformes, Allocreadiidae)
     infecting two species of poeciliids in Río Malila of the Río Pánuco basin, Hidalgo,
     México, with a key to the species of the genus
@@ -91018,7 +91018,7 @@
 - id: 10.3897/zookeys.520.10134
   doi: 10.3897/zookeys.520.10134
   openalex_id: W1808782357
-  review: pending
+  review: excluded
   title: Male secondary sexual structures and the systematics of the Thereus oppia
     species group (Lepidoptera, Lycaenidae, Eumaeini)
   year: 2015
@@ -91038,7 +91038,7 @@
 - id: 10.3897/zookeys.499.8360
   doi: 10.3897/zookeys.499.8360
   openalex_id: W2002856975
-  review: pending
+  review: excluded
   title: A revision of the Neotropical caddisfly genus Leucotrichia Mosely, 1934 (Hydroptilidae,
     Leucotrichiinae)
   year: 2015
@@ -91057,7 +91057,7 @@
   added: '2026-11-16'
 - id: W2413937618
   openalex_id: W2413937618
-  review: pending
+  review: excluded
   title: 'APORTES DE LOS ACTORES LOCALES PARA UNA AGENDA BINACIONAL DE DESARROLLO
     LOCAL TRANSFRONTERIZO: SITUACIONES PROBLEMÁTICAS EN LAS COMUNIDADES FRONTERIZAS
     COSTARRICENSES CON NICARAGUA'
@@ -91077,7 +91077,7 @@
 - id: 10.3897/bdj.3.e6313
   doi: 10.3897/bdj.3.e6313
   openalex_id: W1902517437
-  review: pending
+  review: excluded
   title: 'Biodiversity inventories in high gear: DNA barcoding facilitates a rapid
     biotic survey of a temperate nature reserve'
   year: 2015
@@ -91116,7 +91116,7 @@
   added: '2026-11-16'
 - id: W3163960456
   openalex_id: W3163960456
-  review: pending
+  review: excluded
   title: PROBABILISTIC REPRESENTATION OF PERCEIVED TOOL AFFORDANCES FOR ROBOT TOOL
     USE
   year: 2015
@@ -91134,7 +91134,7 @@
   added: '2026-11-16'
 - id: W2802477685
   openalex_id: W2802477685
-  review: pending
+  review: excluded
   title: Sistema para la organización, recuperación y difusión de la información de
     los expedientes sobre daños al ambiente tramitados por el Tribunal Ambiental Administrativo
     de Costa Rica
@@ -91154,7 +91154,7 @@
 - id: 10.1206/3819.1
   doi: 10.1206/3819.1
   openalex_id: W1980359766
-  review: pending
+  review: excluded
   title: The Goblin Spider GenusCostarina(Araneae, Oonopidae), Part 3
   year: 2014
   venue: American Museum Novitates
@@ -91173,7 +91173,7 @@
 - id: 10.1098/rspb.2014.1264
   doi: 10.1098/rspb.2014.1264
   openalex_id: W1979266533
-  review: pending
+  review: excluded
   title: 'From global change to a butterfly flapping: biophysics and behaviour affect
     tropical climate change impacts'
   year: 2014
@@ -91195,7 +91195,7 @@
 - id: 10.3897/zookeys.462.7647
   doi: 10.3897/zookeys.462.7647
   openalex_id: W2067674164
-  review: pending
+  review: excluded
   title: 'Circanota: a new genus of Sparganothini from the Neotropics, and its two
     new species (Lepidoptera, Tortricidae)'
   year: 2014
@@ -91215,7 +91215,7 @@
 - id: 10.11575/prism/26721
   doi: 10.11575/prism/26721
   openalex_id: W1036785004
-  review: pending
+  review: approved
   title: 'Landscapes of change: the ecology of white-faced capuchins over space and
     time'
   year: 2014
@@ -91236,7 +91236,7 @@
 - id: 10.5287/ora-e9vdwqnjk
   doi: 10.5287/ora-e9vdwqnjk
   openalex_id: W2520875602
-  review: pending
+  review: excluded
   title: 'Jaguars and people: a range-wide review of human-wildlife conflict'
   year: 2014
   venue: Oxford University Research Archive (ORA) (University of Oxford)
@@ -91256,7 +91256,7 @@
 - id: 10.3897/zookeys.375.6222
   doi: 10.3897/zookeys.375.6222
   openalex_id: W2037814167
-  review: pending
+  review: excluded
   title: Systematics of the Neotropical genus Catharylla Zeller (Lepidoptera, Pyralidae
     s. l., Crambinae)
   year: 2014
@@ -91276,7 +91276,7 @@
 - id: 10.13918/j.issn.2095-8137.2014.6.474
   doi: 10.13918/j.issn.2095-8137.2014.6.474
   openalex_id: W329645629
-  review: pending
+  review: excluded
   title: Birth seasonality and pattern in black-and-white snub-nosed monkeys (Rhinopithecus
     bieti) at Mt. Lasha, Yunnan.
   year: 2014
@@ -91297,7 +91297,7 @@
 - id: 10.3897/bdj.2.e1067
   doi: 10.3897/bdj.2.e1067
   openalex_id: W1979133611
-  review: pending
+  review: excluded
   title: 'Towards the conservation of parasitoid wasp species in Canada: Preliminary
     assessment of Microgastrinae (Hymenoptera: Braconidae)'
   year: 2014
@@ -91317,7 +91317,7 @@
   added: '2026-11-16'
 - id: W1533381603
   openalex_id: W1533381603
-  review: pending
+  review: excluded
   title: 'JOAQUÍN ALVARADO GARCÍA (1954-1997): GUARDAPARQUE POR SIEMPRE'
   year: 2014
   venue: Biocenosis
@@ -91335,7 +91335,7 @@
 - id: 10.3897/zookeys.415.7113
   doi: 10.3897/zookeys.415.7113
   openalex_id: W2014039461
-  review: pending
+  review: excluded
   title: 'Editorial: Third International Tenebrionoidea Symposium'
   year: 2014
   venue: ZooKeys
@@ -91353,7 +91353,7 @@
   added: '2026-11-16'
 - id: W3152359741
   openalex_id: W3152359741
-  review: pending
+  review: excluded
   title: Identificación taxonómica y descripciones botánicas de 50 especies del jardin
     botánico y campus de la Universidad Nacional de Ucayali
   year: 2014
@@ -91373,7 +91373,7 @@
 - id: 10.15017/1470556
   doi: 10.15017/1470556
   openalex_id: W3032164113
-  review: pending
+  review: excluded
   title: EXERGY ANALYSIS OF POWER PLANT AND EVALUATION OF SILICA SCALING POTENTIAL
     FOR OPTIMUM UTILIZATION OF HIGH TEMPERATURE GEOTHERMAL FLUID
   year: 2014
@@ -91393,7 +91393,7 @@
 - id: 10.3897/zookeys.423.7536
   doi: 10.3897/zookeys.423.7536
   openalex_id: W2020286871
-  review: pending
+  review: excluded
   title: A revision of the Neotropical species of Bolitogyrus Chevrolat, a geographically
     disjunct lineage of Staphylinini (Coleoptera, Staphylinidae)
   year: 2014
@@ -91413,7 +91413,7 @@
 - id: 10.3897/zookeys.436.5766
   doi: 10.3897/zookeys.436.5766
   openalex_id: W2114339483
-  review: pending
+  review: excluded
   title: The genus Cephaloleia Chevrolat, 1836 (Coleoptera, Chrysomelidae, Cassidinae)
   year: 2014
   venue: ZooKeys
@@ -91432,7 +91432,7 @@
 - id: 10.3897/zookeys.302.4962
   doi: 10.3897/zookeys.302.4962
   openalex_id: W2070267298
-  review: pending
+  review: approved
   title: Three new species in the genus Wilkinsonellus (Braconidae, Microgastrinae)
     from the Neotropics, and the first host record for the genus
   year: 2013
@@ -91452,7 +91452,7 @@
 - id: 10.3897/zookeys.299.4359
   doi: 10.3897/zookeys.299.4359
   openalex_id: W1969364683
-  review: pending
+  review: excluded
   title: Six new species of Cymatodera from Mexico and Central America and the retention
     of Cymatodera obliquefasciata as a valid name (Cleridae, Tillinae)
   year: 2013
@@ -91472,7 +91472,7 @@
 - id: 10.3897/zookeys.365.5879
   doi: 10.3897/zookeys.365.5879
   openalex_id: W2037569036
-  review: pending
+  review: excluded
   title: DNA barcodes identify Central-Asian Colias butterflies (Lepidoptera, Pieridae)
   year: 2013
   venue: ZooKeys
@@ -91491,7 +91491,7 @@
 - id: 10.3897/zookeys.291.3744
   doi: 10.3897/zookeys.291.3744
   openalex_id: W1966057823
-  review: pending
+  review: approved
   title: Phylogenetic systematics of Schacontia Dyar with descriptions of eight new
     species (Lepidoptera, Crambidae)
   year: 2013
@@ -91511,7 +91511,7 @@
 - id: 10.3897/phytokeys.29.6004
   doi: 10.3897/phytokeys.29.6004
   openalex_id: W2039874812
-  review: pending
+  review: excluded
   title: A synopsis of the New World species of Drypetes section Drypetes (Putranjivaceae)
     with asymmetrical fruits, including description of a new species
   year: 2013
@@ -91530,7 +91530,7 @@
   added: '2026-11-16'
 - id: W2891661807
   openalex_id: W2891661807
-  review: pending
+  review: excluded
   title: Bioma enero 2013
   year: 2013
   venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
@@ -91549,7 +91549,7 @@
   added: '2026-11-16'
 - id: W2602032946
   openalex_id: W2602032946
-  review: pending
+  review: excluded
   title: Cambios del hábitat disponible de especies arbóreas por efectos del cambio
     climático y su influencia en la conservación y provisión de servicios ecosistémicos
     en dos ecorregiones de Costa Rica
@@ -91570,7 +91570,7 @@
   added: '2026-11-16'
 - id: W235912732
   openalex_id: W235912732
-  review: pending
+  review: approved
   title: Hacienda Santa Rosa. De fortín a patrimonio de la humanidad
   year: 2012
   venue: Investigative News in Education (Universidad de Costa Rica)
@@ -91588,7 +91588,7 @@
 - id: 10.5281/zenodo.5175675
   doi: 10.5281/zenodo.5175675
   openalex_id: W1573854319
-  review: pending
+  review: excluded
   title: 'First U.S. records of Amorbia concavana (Zeller) (Lepidoptera: Tortricidae)'
   year: 2012
   venue: Insecta mundi
@@ -91607,7 +91607,7 @@
 - id: 10.3897/zookeys.222.3375
   doi: 10.3897/zookeys.222.3375
   openalex_id: W2077363543
-  review: pending
+  review: excluded
   title: Review of the species level taxonomy of the neotropical butterfly genus Oenomaus
     (Lycaenidae, Theclinae, Eumaeini)
   year: 2012
@@ -91626,7 +91626,7 @@
   added: '2026-11-16'
 - id: W658983015
   openalex_id: W658983015
-  review: pending
+  review: excluded
   title: Colonization history and origin of the Galapagos flycatcher (Myiarchus magnirostris)
     and its parasites
   year: 2012
@@ -91645,7 +91645,7 @@
   added: '2026-11-16'
 - id: W1514375956
   openalex_id: W1514375956
-  review: pending
+  review: excluded
   title: 'ESTUDIO SOBRE EL GÉNERO ANCYLURIS HÜBNER 1819 EN COLOMBIA Y DESCRIPCIÓN
     DE NUEVOS TAXA (LEPIDÓPTERA: RIODINIDAE)'
   year: 2012
@@ -91665,7 +91665,7 @@
 - id: 10.3897/zookeys.244.3950
   doi: 10.3897/zookeys.244.3950
   openalex_id: W2033122343
-  review: pending
+  review: excluded
   title: A new species of blunt-headed vine snake (Colubridae, Imantodes) from the
     Chocó region of Ecuador
   year: 2012
@@ -91685,7 +91685,7 @@
   added: '2026-11-16'
 - id: W1540950558
   openalex_id: W1540950558
-  review: pending
+  review: excluded
   title: Contribución al conocimiento de la biología de la tortuga negra (Rhinoclemmys
     funerea) y la tortuga roja (R. pulcherrima manni) en Costa Rica
   year: 2012
@@ -91706,7 +91706,7 @@
 - id: 10.3114/sim.2011.68.01
   doi: 10.3114/sim.2011.68.01
   openalex_id: W2022509834
-  review: pending
+  review: excluded
   title: Tropical species of Cladobotryum and Hypomyces producing red pigments
   year: 2011
   venue: Studies in Mycology
@@ -91725,7 +91725,7 @@
 - id: 10.3897/zookeys.149.1519
   doi: 10.3897/zookeys.149.1519
   openalex_id: W2056150710
-  review: pending
+  review: excluded
   title: A new species of Elasmia Möschler from New Mexico and Texas, and a new subspecies
     of Elasmia mandela (Druce) from Texas and Oklahoma (Lepidoptera, Notodontidae,
     Nystaleinae)
@@ -91745,7 +91745,7 @@
   added: '2026-11-16'
 - id: W2165775818
   openalex_id: W2165775818
-  review: pending
+  review: excluded
   title: 'COSTA RICA: ANÁLISIS DE LA INCIDENCIA ESPACIAL DE INUNDACIONES Y DESLIZAMIENTOS
     POR PROVINCIAS Y CANTONES, AÑOS 2000 - 2006.'
   year: 2011
@@ -91763,7 +91763,7 @@
   added: '2026-11-16'
 - id: W2755869263
   openalex_id: W2755869263
-  review: pending
+  review: excluded
   title: 'Principios y práctica de la restauración del paisaje forestal : estudios
     de caso en las zonas secas de América Latina'
   year: 2011
@@ -91782,7 +91782,7 @@
   added: '2026-11-16'
 - id: W2226395076
   openalex_id: W2226395076
-  review: pending
+  review: excluded
   title: 'Una mirada a los Parques Nacionales en el mundo. Caso: Parques nacionales
     en Venezuela y en el Estado Mérida'
   year: 2011
@@ -91800,7 +91800,7 @@
   added: '2026-11-16'
 - id: W1470452224
   openalex_id: W1470452224
-  review: pending
+  review: excluded
   title: 'SEÑALIZACIÓN TURÍSTICA EN COSTA RICA: HACIA UN MODELO ATRACTIVO Y RESPONSABLE
     EN CONDICIONES DE COMPETITIVIDAD Y SOSTENIBILIDAD'
   year: 2011
@@ -91819,7 +91819,7 @@
 - id: 10.1111/j.1526-100x.2009.00638.x
   doi: 10.1111/j.1526-100x.2009.00638.x
   openalex_id: W2125151018
-  review: pending
+  review: excluded
   title: Are Socioeconomic Benefits of Restoration Adequately Quantified? A Meta-analysis
     of Recent Papers (2000-2008) inRestoration Ecologyand 12 Other Scientific Journals
   year: 2010
@@ -91839,7 +91839,7 @@
   added: '2026-11-16'
 - id: W1556465970
   openalex_id: W1556465970
-  review: pending
+  review: excluded
   title: EVALUACIÓN DEL RIESGO ANTE INCENDIOS FORESTALES EN LA CUENCA DEL RÍO TEMPISQUE,
     COSTA RICA
   year: 2010
@@ -91859,7 +91859,7 @@
   added: '2026-11-16'
 - id: W2602165662
   openalex_id: W2602165662
-  review: pending
+  review: excluded
   title: The Skipper Butterﬂies (Hesperiidae) of Trinidad Part 17, Hesperiinae, Anthoptini
     and the Remainder of Evans’ Genera Group I
   year: 2010
@@ -91878,7 +91878,7 @@
   added: '2026-11-16'
 - id: W2116203620
   openalex_id: W2116203620
-  review: pending
+  review: approved
   title: UNA NUEVA ESPECIE DE XYLOPHRAGMA (BIGNONIACEAE) DE COSTA RICA
   year: 2009
   venue: Caldasia
@@ -91896,7 +91896,7 @@
   added: '2026-11-16'
 - id: W92548054
   openalex_id: W92548054
-  review: pending
+  review: excluded
   title: 'Citheronia lobesis Rothschild, 1907 (Saturniidae: Ceratocampinae) new pest
     of Guava, Psidium guajava L., in Baralt Co. Zulia state, Venezuela.'
   year: 2009
@@ -91915,7 +91915,7 @@
   added: '2026-11-16'
 - id: W1607234646
   openalex_id: W1607234646
-  review: pending
+  review: excluded
   title: Territorio de coyotes, agroecosistemas y cambio tecnológico en una región
     cafetalera de Costa Rica
   year: 2009
@@ -91935,7 +91935,7 @@
 - id: 10.24382/3488
   doi: 10.24382/3488
   openalex_id: W1780392632
-  review: pending
+  review: excluded
   title: THE SUSTAINABILITY OF SURFING TOURISM AT REMOTE DESTINATIONS
   year: 2009
   venue: OpenGrey (Institut de l'Information Scientifique et Technique)
@@ -91953,7 +91953,7 @@
 - id: 10.3114/sim.2008.60.01
   doi: 10.3114/sim.2008.60.01
   openalex_id: W2103461354
-  review: pending
+  review: excluded
   title: A monograph of the entomopathogenic genera Hypocrella, Moelleriella, and
     Samuelsia gen. nov. (Ascomycota, Hypocreales, Clavicipitaceae), and their aschersonia-like
     anamorphs in the Neotropics
@@ -91973,7 +91973,7 @@
   added: '2026-11-16'
 - id: W2104579178
   openalex_id: W2104579178
-  review: pending
+  review: excluded
   title: Conflictos socio-ambientales y recursos hídricos en Guanacaste. Una descripción
     desde el cambio en el estilo de desarroll o (1997-2006).
   year: 2008
@@ -91992,7 +91992,7 @@
 - id: 10.1111/j.1365-2699.2008.01951.x
   doi: 10.1111/j.1365-2699.2008.01951.x
   openalex_id: W2104736218
-  review: pending
+  review: excluded
   title: 'A macroevolutionary mosaic: episodic host‐switching, geographical colonization
     and diversification in complex host–parasite systems'
   year: 2008
@@ -92010,7 +92010,7 @@
   added: '2026-11-16'
 - id: W2759460901
   openalex_id: W2759460901
-  review: pending
+  review: excluded
   title: Preliminary Notes on Tachinidae Reared from Lepidoptera in the Ecuadorian
     Andes
   year: 2007
@@ -92030,7 +92030,7 @@
 - id: 10.3406/revec.2007.1348
   doi: 10.3406/revec.2007.1348
   openalex_id: W4312883478
-  review: pending
+  review: excluded
   title: Mode de colonisation de la savane arborée par des plantes de forêt tropicale
     sèche en Nouvelle-Calédonie
   year: 2007
@@ -92050,7 +92050,7 @@
 - id: 10.3390/md503071
   doi: 10.3390/md503071
   openalex_id: W2099425583
-  review: pending
+  review: excluded
   title: 'Cytoskyrins and Cytosporones Produced by Cytospora sp. CR200: Taxonomy,
     Fermentation and Biological Activities'
   year: 2007
@@ -92069,7 +92069,7 @@
   added: '2026-11-16'
 - id: W2345709565
   openalex_id: W2345709565
-  review: pending
+  review: excluded
   title: En busca de Karl Hoffmann
   year: 2006
   venue: Lankesteriana
@@ -92087,7 +92087,7 @@
 - id: 10.48550/arxiv.astro-ph/0610100
   doi: 10.48550/arxiv.astro-ph/0610100
   openalex_id: W1615938455
-  review: pending
+  review: excluded
   title: This paper has been withdrawn
   year: 2006
   venue: arXiv (Cornell University)
@@ -92104,7 +92104,7 @@
   added: '2026-11-16'
 - id: W1639709606
   openalex_id: W1639709606
-  review: pending
+  review: excluded
   title: El Cuaternario en Costa Rica. Proposición cronológica
   year: 2006
   venue: Americanae (AECID Library)
@@ -92121,7 +92121,7 @@
   added: '2026-11-16'
 - id: W2345362261
   openalex_id: W2345362261
-  review: pending
+  review: excluded
   title: Una gran novedad en la literatura orquideológica neotropical, más allá de
     la taxonomía
   year: 2006
@@ -92140,7 +92140,7 @@
   added: '2026-11-16'
 - id: W2917394461
   openalex_id: W2917394461
-  review: pending
+  review: excluded
   title: 'Bios: The Biology Department Newsletter - Fall 2006'
   year: 2006
   venue: John Spoor Broome Library Institutional Repository (California State University)
@@ -92158,7 +92158,7 @@
   added: '2026-11-16'
 - id: W1669513940
   openalex_id: W1669513940
-  review: pending
+  review: excluded
   title: 'Rothschildia lebeau, una bella mariposa nocturna: Observar de cerca lo que
     usualmente pasamos inadvertido'
   year: 2005
@@ -92178,7 +92178,7 @@
 - id: 10.33885/sf.2005.3.940
   doi: 10.33885/sf.2005.3.940
   openalex_id: W2947287993
-  review: pending
+  review: excluded
   title: Lista de los hongos poliporoides de Costa Rica
   year: 2005
   venue: Revista mexicana de micología
@@ -92196,7 +92196,7 @@
   added: '2026-11-16'
 - id: W3160004850
   openalex_id: W3160004850
-  review: pending
+  review: excluded
   title: Propagación de Zamia skinneri Warszewicz, una planta tropical ornamental
     en peligro de extinción
   year: 2005
@@ -92216,7 +92216,7 @@
 - id: 10.1007/978-1-59259-976-9_15
   doi: 10.1007/978-1-59259-976-9_15
   openalex_id: W134469804
-  review: pending
+  review: excluded
   title: Novel Natural Products From Rainforest Endophytes
   year: 2005
   venue: Humana Press eBooks
@@ -92235,7 +92235,7 @@
 - id: 10.11575/prism/16747
   doi: 10.11575/prism/16747
   openalex_id: W2979265149
-  review: pending
+  review: approved
   title: The function and mechanisms of alarm calls, lost calls and close contact
     calls in the white-faced capuchin (Cebus capucinus)
   year: 2004
@@ -92255,7 +92255,7 @@
 - id: 10.1093/jis/14.1.91
   doi: 10.1093/jis/14.1.91
   openalex_id: W2053323613
-  review: pending
+  review: excluded
   title: 'Review: Hamas: Political Thought and Practice Khaled Hroub'
   year: 2003
   venue: Journal of Islamic Studies
@@ -92274,7 +92274,7 @@
 - id: 10.11575/prism/13745
   doi: 10.11575/prism/13745
   openalex_id: W2792861030
-  review: pending
+  review: excluded
   title: The effect of a major hurricane on the diet, activity and food supply of
     alouatta pigra in Southern Belize
   year: 2003
@@ -92293,7 +92293,7 @@
   added: '2026-11-16'
 - id: W2102844923
   openalex_id: W2102844923
-  review: pending
+  review: excluded
   title: Changes in composition and structure of a tropical dry forest following intermittent
     cattle grazing.
   year: 2002
@@ -92312,7 +92312,7 @@
   added: '2026-11-16'
 - id: W1513893456
   openalex_id: W1513893456
-  review: pending
+  review: excluded
   title: TRAYECTORIA SOCIO-POLÍTICA DEL MOVIMIENTO AMBIENTALISTA EN COSTA RICA (1980-2001)
   year: 2002
   venue: InterSedes
@@ -92329,7 +92329,7 @@
   added: '2026-11-16'
 - id: W1491782150
   openalex_id: W1491782150
-  review: pending
+  review: approved
   title: '[Phytogeography of dry ecosystems in the ignimbrite meseta of Guanacaste,
     Costa Rica].'
   year: 2001
@@ -92349,7 +92349,7 @@
 - id: 10.1093/auk/118.4.958
   doi: 10.1093/auk/118.4.958
   openalex_id: W2173050096
-  review: pending
+  review: excluded
   title: GEOGRAPHICAL VARIATION IN THE CONTACT CALLS OF ORANGE-FRONTED PARAKEETS
   year: 2001
   venue: The Auk
@@ -92367,7 +92367,7 @@
   added: '2026-11-16'
 - id: W1658695001
   openalex_id: W1658695001
-  review: pending
+  review: excluded
   title: 'A key to the adult Costa Rican "helicopter" damselflies (Odonata: Pseudostigmatidae)
     with notes on their phenology and life zone preferences.'
   year: 2001
@@ -92387,7 +92387,7 @@
 - id: 10.1111/j.1095-8312.2001.tb01307.x
   doi: 10.1111/j.1095-8312.2001.tb01307.x
   openalex_id: W2140511515
-  review: pending
+  review: excluded
   title: The relationship between fruit production and primate abundance in Neotropical
     communities
   year: 2001
@@ -92406,7 +92406,7 @@
 - id: 10.1007/s001140100251
   doi: 10.1007/s001140100251
   openalex_id: W2124576585
-  review: pending
+  review: excluded
   title: A new type of exocrine gland and its function in mass recruitment in the
     ant Cylindromyrmex whymperi (Formicidae, Cerapachyinae)
   year: 2001
@@ -92426,7 +92426,7 @@
   added: '2026-11-16'
 - id: W1743649122
   openalex_id: W1743649122
-  review: pending
+  review: excluded
   title: 'Historical review and public health incidence of Hylesia metabus (Cramer)
     (Lepidoptera: Saturniidae) in Venezuela'
   year: 2001
@@ -92445,7 +92445,7 @@
   added: '2026-11-16'
 - id: W2225737676
   openalex_id: W2225737676
-  review: pending
+  review: excluded
   title: Range extension of the mitosporic fungus Virgatospora echinofibrosa (Hyphomycetes)
     to Brazil
   year: 2001
@@ -92465,7 +92465,7 @@
 - id: 10.1079/9780851995243.0209
   doi: 10.1079/9780851995243.0209
   openalex_id: W4246223006
-  review: pending
+  review: excluded
   title: Arthropod pests.
   year: 2001
   venue: CABI Publishing eBooks
@@ -92483,7 +92483,7 @@
   added: '2026-11-16'
 - id: W7225216408
   openalex_id: W7225216408
-  review: pending
+  review: excluded
   title: ISOLATION AND CHARACTERIZATION OF ANTIMICROBIAL COMPOUNDS FROM GALENIA AFRICANA
   year: 2001
   venue: UWC Research Repository (University of the Western Cape)
@@ -92501,7 +92501,7 @@
   added: '2026-11-16'
 - id: W2156492771
   openalex_id: W2156492771
-  review: pending
+  review: excluded
   title: 'LA VEGETACIÓN DE AMÉRICA CENTRAL: CARACTERÍSTICAS, TRANSFORMACIONES Y PROTECCIÓN'
   year: 1997
   venue: Americanae (AECID Library)
@@ -92520,7 +92520,7 @@
 - id: 10.1111/j.1096-3642.1996.tb01260.x
   doi: 10.1111/j.1096-3642.1996.tb01260.x
   openalex_id: W2061245247
-  review: pending
+  review: excluded
   title: 'Phylogeny of the Neotropical moth tribe Josiini (Notodontidae: Dioptinae):
     a hidden case of Müllerian mimicry'
   year: 1996
@@ -92539,7 +92539,7 @@
 - id: 10.11575/prism/21050
   doi: 10.11575/prism/21050
   openalex_id: W579759775
-  review: pending
+  review: excluded
   title: An ecotourism strategy for the Osoyoos region of British Columbia
   year: 1994
   venue: Libraries and Cultural Resources (University of Calgary)
@@ -92556,7 +92556,7 @@
   added: '2026-11-16'
 - id: W2101907147
   openalex_id: W2101907147
-  review: pending
+  review: excluded
   title: 'La Naturaleza y su conservación en Iberoamérica: el caso de Costa Rica'
   year: 1992
   venue: RACO (Revistes Catalanes amb Accés Obert) (Consorci de Serveis Universitaris
@@ -92575,7 +92575,7 @@
 - id: 10.11575/prism/22451
   doi: 10.11575/prism/22451
   openalex_id: W2789777690
-  review: pending
+  review: excluded
   title: Translocation of mantled howling monkeys (alouatta palliata) in Guanacaste,
     Costa Rica
   year: 1991
@@ -92595,7 +92595,7 @@
 - id: 10.18225/ci.inf..v10i1.161
   doi: 10.18225/ci.inf..v10i1.161
   openalex_id: W1940105393
-  review: pending
+  review: excluded
   title: A produção científica brasileira segundo os dados do I.S.I. - III. C.I. E.
     N. C. I. A /Brasil um catálogo multiindexado sobre a produção científica brasileira
     de circulação internacional
