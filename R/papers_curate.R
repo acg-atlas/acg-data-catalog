@@ -62,7 +62,9 @@ new_papers <- function(scored, curated) {
 append_pending_papers <- function(path, curated, new, today = Sys.Date()) {
   if (nrow(new)) {
     add <- new |>
-      dplyr::mutate(review = "pending", added = as.character(today)) |>
+      dplyr::mutate(review = if ("review" %in% names(new)) dplyr::coalesce(review, "pending")
+                             else "pending",
+                    added = as.character(today)) |>
       conform_papers()
     curated <- dplyr::bind_rows(curated, add)
   }

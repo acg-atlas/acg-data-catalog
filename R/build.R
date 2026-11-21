@@ -49,10 +49,16 @@ review_summary <- function(new, path, papers = NULL, skipped = NULL) {
                "|---|---|---|---|", tbl)
   }
   if (!is.null(papers) && nrow(papers) > 0) {
+    review <- if ("review" %in% names(papers)) papers$review else rep("pending", nrow(papers))
+    todo <- papers[review == "pending", ]
     lines <- c(lines, "",
-      sprintf("## %d new paper(s) in `catalog/papers.yaml`", nrow(papers)), "",
-      sprintf("%d likely, %d check. Review in bulk with `scripts/review_papers_export.R`.",
-              sum(papers$relevance == "likely"), sum(papers$relevance == "check")))
+      sprintf("## %d new paper(s) to review in `catalog/papers.yaml`", nrow(todo)), "",
+      sprintf("%d likely, %d check. Review with `source(\"scripts/start_review.R\")`.",
+              sum(todo$relevance == "likely"), sum(todo$relevance == "check")))
+    n_auto <- sum(review == "excluded")
+    if (n_auto > 0) lines <- c(lines, "",
+      sprintf(paste("%d more were auto-excluded (duplicates, or no ACG place, region",
+                    "or author in title or abstract); see `relevance_reason`."), n_auto))
   }
   writeLines(lines, path)
   path

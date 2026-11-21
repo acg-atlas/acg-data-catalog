@@ -17,4 +17,5 @@ for (s in skipped) cat("::warning title=Source skipped::", s, "\n", sep = "")
 
 papers <- tar_read(papers_queue)
 append_pending_papers("catalog/papers.yaml", tar_read(papers_curated), papers)
-message(nrow(papers), " new pending paper", ifelse(nrow(papers) == 1, "", "s"))
+message(sum(papers$review == "pending"), " new pending paper(s), ",
+        sum(papers$review == "excluded"), " auto-excluded")

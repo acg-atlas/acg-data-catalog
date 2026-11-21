@@ -68,7 +68,11 @@ openalex_works <- function(query, api_key = Sys.getenv("OPENALEX_API_KEY"),
 # tagging sectors, never used as search terms. In OpenAlex titles+abstracts
 # with "Costa Rica" (Oct 2026): Horizontes 185 (Spanish "horizons"), Santa
 # Elena 176 (mostly Monteverde), San Gerardo 56 (de Dota), Brasilia 55.
+# Murciélago is also Spanish for "bat"; Pocosol and Cuajiniquil are mostly
+# the farming towns (Santa Rosa de Pocosol, San Carlos; Cuajiniquil, La Cruz):
+# every core-search hit on them in the Oct-Nov 2026 reviews was excluded.
 ambiguous_terms <- c("Horizontes", "San Cristobal", "San Cristóbal", "Junquillal",
+                     "Murcielago", "Murciélago", "Pocosol", "Cuajiniquil",
                      "Mundo Nuevo", "Estacion San Gerardo", "Estación San Gerardo",
                      "Estacion Brasilia", "Estación Brasilia", "Peninsula Santa Elena",
                      "Península Santa Elena")
