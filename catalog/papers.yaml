@@ -92612,4 +92612,4427 @@
   sectors: ''
   themes: Taxonomy & systematics
   added: '2026-11-16'
+- id: 10.1029/2026jb034412
+  doi: 10.1029/2026jb034412
+  openalex_id: W7236107111
+  review: pending
+  title: Degassing Mechanisms of Rincón de la Vieja Volcano, Costa Rica
+  year: 2026
+  venue: Journal of Geophysical Research Solid Earth
+  authors: Jéssica Salas-Navarro; Henriette Bakkar; Alejandro Rodriguez; J. Maarten
+    de Moor; John Stix; Christoph Kern; Javier F. Pacheco; Geoffroy Avard
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2026JB034412
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: names Rincon de la Vieja; found by openalex_core; openalex_fulltext
+  sectors: Rincón de la Vieja
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: 10.7939/85799
+  doi: 10.7939/85799
+  openalex_id: W7235065713
+  review: pending
+  title: Applications of SLAM LiDAR in Tropical Dry Forest Liana Research
+  year: 2026
+  venue: 'ERA: Education and Research Archive (University of Alberta)'
+  authors: Andre Truksa
+  type: other
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.7939/85799
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
+    openalex_fulltext
+  sectors: Santa Rosa
+  taxa: Plantae
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: W7233664261
+  openalex_id: W7233664261
+  review: pending
+  title: Plan de Mejora Técnico-Administrativo para la Ganadería El Coyolar de Santa
+    Rosa en Los Ángeles de Tilarán, Guanacaste
+  year: 2022
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Gustavo Rivera-Sánchez; Jose Daniel Contreras-Abellán
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/a6dbb0c4-f1f0-4120-ad7c-4877b562dfbe/download
+  found_by: openalex_core
+  relevance: likely
+  relevance_reason: sector Santa Rosa; found by openalex_core
+  sectors: Santa Rosa
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W7233634321
+  openalex_id: W7233634321
+  review: pending
+  title: Organización de la señalética turística en las rutas 219 y 230 del distrito
+    de Santa Rosa de Oreamuno de Cartago, para el desarrollo turístico, a partir de
+    la estancia del visitante durante los meses de julio a noviembre del 2022
+  year: 2022
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Vasti Naharai Beita-Sánchez; Andrés Josué Navarro-Molina; Yemnury Lineth
+    Solís-Varela
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/7788c12b-cdb0-42fd-9c89-3de1e13bb991/download
+  found_by: openalex_core
+  relevance: likely
+  relevance_reason: sector Santa Rosa; found by openalex_core
+  sectors: Santa Rosa
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: W7233691645
+  openalex_id: W7233691645
+  review: pending
+  title: Desarrollo de un sistema para el monitoreo en tiempo real de las secadoras
+    mecánicas de café de la Compañía Santa Rosa Limitada
+  year: 2021
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Luis Eduardo Sánchez-Madriz
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/89b2655a-76f1-4270-a119-aa25831ba2ed/download
+  found_by: openalex_core
+  relevance: likely
+  relevance_reason: sector Santa Rosa; found by openalex_core
+  sectors: Santa Rosa
+  added: '2026-11-23'
+- id: 10.1130/abs/2019am-338264
+  doi: 10.1130/abs/2019am-338264
+  openalex_id: W2985844904
+  review: pending
+  title: PETIT-SPOT SUBMARINE VOLCANOES AS A GEOLOGICAL PERTURBATION OF SUBDUCTING
+    PLATE
+  year: 2019
+  venue: Abstracts with programs - Geological Society of America
+  authors: Naoto Hirano; Taku Yutani; Shunta Sakai
+  type: conference-abstract
+  language: en
+  is_oa: false
+  found_by: openalex_core
+  relevance: likely
+  relevance_reason: sector Santa Rosa; found by openalex_core
+  sectors: Santa Rosa
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: 10.14907/primate.30.0_41_1
+  doi: 10.14907/primate.30.0_41_1
+  openalex_id: W2526697809
+  review: pending
+  title: Male reproductive success in white-faced capuchins
+  year: 2014
+  authors: Eva C. Wikberg; Katharine M. Jack; Linda Marie Fedigan; Fernando A. Campos;
+    Akiko Sato; Mackenzie L. Bergstrom; Tomohide Hiwatashi; Shoji Kawamura
+  type: article
+  language: en
+  is_oa: false
+  found_by: openalex_core
+  relevance: likely
+  relevance_reason: sector Santa Rosa; found by openalex_core
+  sectors: Santa Rosa
+  taxa: Mammalia
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: 10.14907/primate.26.0.468.0
+  doi: 10.14907/primate.26.0.468.0
+  openalex_id: W2526493719
+  review: pending
+  title: CHALLENGING ADVANTAGE OF TRICHROMACY IN FRUIT FORAGING BEHAVIOR OF WILD SPIDER
+    MONKEYS
+  year: 2010
+  venue: Primate Research Supplement International Primatological Society
+  authors: Chihiro Hiramatsu; Amanda Dawn Melin; Filippo Aureli; Colleen M. Schaffner;
+    Misha Vorobyev; Shoji Kawamura
+  type: conference-abstract
+  language: en
+  is_oa: false
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
+    openalex_fulltext
+  sectors: Santa Rosa
+  taxa: Mammalia; Plantae
+  themes: Evolution & genetics; Natural history & behavior; Ecosystem processes
+  added: '2026-11-23'
+- id: 10.14907/primate.26.0.471.0
+  doi: 10.14907/primate.26.0.471.0
+  openalex_id: W2610995571
+  review: pending
+  title: A POPULATION GENETIC TEST OF BALANCING SELECTION FOR COLOR VISION VARIATION
+    IN NEW WORLD MONKEYS
+  year: 2010
+  venue: Primate Research Supplement International Primatological Society
+  authors: Shoji Kawamura; Tomohide Hiwatashi; Yoji Okabe; T. Tsutsui; Chihiro Hiramatsu;
+    Amanda Dawn Melin; Hiroki Oota; Colleen M. Schaffner; Filippo Aureli; Linda Marie
+    Fedigan; Hideki Innan
+  type: conference-abstract
+  language: en
+  is_oa: false
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
+    openalex_fulltext
+  sectors: Santa Rosa
+  taxa: Mammalia
+  themes: Evolution & genetics; Populations & communities
+  added: '2026-11-23'
+- id: W2288382032
+  openalex_id: W2288382032
+  review: pending
+  title: Environmental correlates to amphibian and reptile diversity in Costa Rica
+  year: 2009
+  venue: OakTrust (Texas A&M University Libraries)
+  authors: David Laurencio
+  type: dissertation
+  language: en
+  is_oa: false
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: names Area de Conservacion Guanacaste; found by openalex_core;
+    openalex_fulltext
+  sectors: ''
+  taxa: Reptilia; Amphibia
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: 10.5281/zenodo.16330950
+  doi: 10.5281/zenodo.16330950
+  openalex_id: W2507235674
+  review: excluded
+  title: 'What''s in a name? Lepidoptera: Hesperiidae: Pyrginae: Telemiades Hübner
+    1819 [Pyrdalus mabille 1903] : New combinations Telemiades corbulo (Stoll) and
+    Telemiades oiclus (Mabille)-and more'
+  year: 2005
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: John M. Burns; Daniel H. Janzen
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/40833
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: 'auto-excluded: duplicate of a listed paper; names Area de Conservacion
+    Guanacaste; found by openalex_core; openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.1644/1383961
+  doi: 10.1644/1383961
+  openalex_id: W2180449193
+  review: pending
+  title: 'Bat Man in the Tropics: Chasing el Duende'
+  year: 2004
+  venue: Journal of Mammalogy
+  authors: Don E. Wilson
+  type: book-review
+  language: en
+  is_oa: false
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: names Santa Rosa National Park; sector Santa Rosa; found by openalex_core;
+    openalex_fulltext
+  sectors: Santa Rosa
+  taxa: Mammalia
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.2307/4084619
+  doi: 10.2307/4084619
+  openalex_id: W2313787020
+  review: pending
+  title: Territoriality in a Nectar Feeding Northern Oriole in Costa Rica
+  year: 1975
+  venue: The Auk
+  authors: Douglas W. Schemske
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://digitalcommons.usf.edu/context/auk/article/19809/viewcontent/COMPLIANT_auk__vol92__iss3__25.pdf
+  found_by: openalex_core; openalex_fulltext
+  relevance: likely
+  relevance_reason: names Guanacaste National Park; sector Santa Rosa; found by openalex_core;
+    openalex_fulltext
+  sectors: Guanacaste; Santa Rosa
+  taxa: Diptera; Plantae
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: W7233682930
+  openalex_id: W7233682930
+  review: pending
+  title: 'Chaparrastique : semanario católico, vol. 42, no. 2150 (1957-02-23)'
+  year: 1957
+  venue: Repositorio Institucional UCA (Universidad Centroamericana José Simeón Cañas)
+  authors: ''
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://repositorio.uca.edu.sv/bitstreams/cc643348-374f-421b-99d6-c8e372962dc9/download
+  found_by: openalex_core
+  relevance: likely
+  relevance_reason: sector Santa Rosa; found by openalex_core
+  sectors: Santa Rosa
+  added: '2026-11-23'
+- id: 10.1038/s41598-026-79937-6
+  doi: 10.1038/s41598-026-79937-6
+  openalex_id: W7235766478
+  review: excluded
+  title: Tropical stem efflux decreases under elevated canopy CO2 independent of dark
+    leaf respiration
+  year: 2026
+  venue: Scientific Reports
+  authors: Gabriela Shirkey; Gaku Yokoyama; Lianlei Fu; Ashley Agatep; Manuel E. Camacho;
+    Gabriella R. Dauber; C. D. Deering; Christopher E. Doughty; Javier F. Espeleta;
+    Holland Hatch; Mengqi Jia; Kate Nelson; Alexandria Lynn Pivovaroff; Sally van
+    Riper; F. M. Schwandner; Matthew Snyder; César Terrer; Jose D. Vargas Murillo;
+    Cassandra A. Zalman; Gregory R. Goldsmith; Christine S. O’Connell; Joshua B. Fisher
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.nature.com/articles/s41598-026-79937-6_reference.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: 10.66264/npeir184
+  doi: 10.66264/npeir184
+  openalex_id: W7236753305
+  review: pending
+  title: Stories of disappearance revealed through thirty-five years of caterpillar
+    collection in a tropical forest fragment
+  year: 2026
+  venue: Journal of Lost Species
+  authors: Lee A. Dyer; Grant L. Gentry; Humberto Garcia Lopez; Lora A. Richards
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://journaloflostspecies.org/index.php/jls/article/download/41/35
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Populations & communities; Climate & environmental change
+  added: '2026-11-23'
+- id: 10.1007/s10329-026-01304-w
+  doi: 10.1007/s10329-026-01304-w
+  openalex_id: W7234180766
+  review: excluded
+  title: “Normality” in diversity
+  year: 2026
+  venue: Primates
+  authors: Shoji Kawamura
+  type: editorial
+  language: en
+  is_oa: true
+  oa_url: https://link.springer.com/content/pdf/10.1007/s10329-026-01304-w.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: not a research paper; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: 10.29298/rmcf.v17i98.1682
+  doi: 10.29298/rmcf.v17i98.1682
+  openalex_id: W7236865407
+  review: excluded
+  title: La vegetación urbana en la conservación de la riqueza y diversidad de mariposas
+    diurnas en Ciudad Victoria, Tamaulipas
+  year: 2026
+  venue: Revista mexicana de ciencias forestales
+  authors: Santiago Niño-Maldonado; Vannia del Carmen Gómez-Moreno; Jesús Lumar Reyes‐Muñoz;
+    José Norberto Lucio-García; Sandra Aurora Esquivel-Niño
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://cienciasforestales.inifap.gob.mx/index.php/forestales/article/download/1682/4273
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Natural history & behavior; Populations & communities
+  added: '2026-11-23'
+- id: 10.5281/zenodo.18990261
+  doi: 10.5281/zenodo.18990261
+  openalex_id: W7135101794
+  review: excluded
+  title: Three butterfly genera across the Central Texas Suture Zone
+  year: 2026
+  venue: PubMed
+  authors: Qian Cong; Jing Zhang; Jinhui Shen; Leina Song; Nick V. Grishin
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13048338/pdf/nihms-2161297.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics; Evolution & genetics
+  added: '2026-11-23'
+- id: 10.1371/journal.pone.0359333
+  doi: 10.1371/journal.pone.0359333
+  openalex_id: W7236040667
+  review: pending
+  title: A step-by-step protocol for surveying bromeliad micro-ecosystems and their
+    associated invertebrate communities
+  year: 2026
+  venue: PLoS ONE
+  authors: Nadia Páez; Sarah M Ravoth; Pierre Rogy; Pablo Sandoval‐Acuña; Natalie
+    Elena Westwood; Rachel R. Leong; Diane S. Srivastava
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0359333&type=printable
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes
+  added: '2026-11-23'
+- id: 10.1002/fee.70085
+  doi: 10.1002/fee.70085
+  openalex_id: W4411248707
+  review: excluded
+  title: Historical and potential future importance of marine megafauna subsidies
+    to terrestrial ecosystems
+  year: 2026
+  venue: Frontiers in Ecology and the Environment
+  authors: Francis D. Gerraty; Charles A. Braman; Jenifer E. Dugan; Kathleen Elder;
+    Kyle Emery; Benjamin S. Halpern; Walter N. Heady; Elizabeth H. T. Hiroyasu; Grace
+    Lewin; Erica S. Nielsen; Ruth Y. Oliver; Mark Reynolds; Alex S. Wegmann; Raimy
+    C Williams; Rae Wynn‐Grant; Hillary S. Young; Zoe L. Zilz
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/fee.70085
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: duplicate of a listed paper; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia; Reptilia
+  themes: Populations & communities; Conservation, management & people
+  added: '2026-11-23'
+- id: 10.48204/3072-9629.6955
+  doi: 10.48204/3072-9629.6955
+  openalex_id: W4408025847
+  review: pending
+  title: Contexto Regional y Planificación del Desarrollo en la Región Chorotega,
+    Costa Rica
+  year: 2025
+  venue: Vinculación universidad y sociedad
+  authors: Marta Vargas Venegas; Michael Steven Arroyo-Zeledón; Alejandra Ávila Artavia;
+    Arianna Aguilar-Ellis; Fernando Sáenz-Ségura; Christian Golcher Benavides
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.up.ac.pa/index.php/vinculacion_universidad_sociedad/article/download/6955/5334
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Natural history & behavior; Conservation, management & people
+  added: '2026-11-23'
+- id: 10.3897/dez.72.142960
+  doi: 10.3897/dez.72.142960
+  openalex_id: W4408217429
+  review: pending
+  title: Discovery of the Old World genus Rogas Nees (Hymenoptera, Braconidae, Rogadinae)
+    in the New World by DNA barcoding
+  year: 2025
+  venue: Deutsche Entomologische Zeitschrift
+  authors: Donаld L. J. Quicke; Michael J. Sharkey; Daniel H. Janzen; Winnie Hallwachs;
+    Buntika Areekul Butcher
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://dez.pensoft.net/article/142960/download/pdf/
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.3897/jhr.98.138425
+  doi: 10.3897/jhr.98.138425
+  openalex_id: W4408218781
+  review: excluded
+  title: Apanteles piceotrichosus Blanchard (Hymenoptera, Braconidae), first record
+    from México, new molecular and biological data
+  year: 2025
+  venue: Journal of Hymenoptera Research
+  authors: Susana Eva Rodríguez-Rodríguez; José Fernández-Triana; José Refugio Lomelí-Flores;
+    Marcelino Martínez-Núñez; Esteban Rodríguez‐Leyva; Héctor González‐Hernández;
+    Julio S. Bernal
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://jhr.pensoft.net/article/138425/download/pdf/
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Species interactions
+  added: '2026-11-23'
+- id: 10.14483/23448350.23463
+  doi: 10.14483/23448350.23463
+  openalex_id: W7154506542
+  review: excluded
+  title: Humedad del suelo y su relación con la cantidad de lluvia en la zona cafetera
+    central de Colombia
+  year: 2025
+  venue: Revista Científica
+  authors: Luz Adriana Lince-Salazar; Ninibeth Gibelli Sarmiento-Herrera
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.udistrital.edu.co/index.php/revcie/article/download/23463/21354
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: 10.3390/d17030190
+  doi: 10.3390/d17030190
+  openalex_id: W4408189568
+  review: pending
+  title: Integrative Taxonomy of Costa Rican Tetrigidae (Orthoptera) Reveals Eight
+    New Species
+  year: 2025
+  venue: Diversity
+  authors: Niko Kasalo; Daniel H. Janzen; Winnie Hallwachs; Allison Brown; Martin
+    Husemann; Mathias Vielsäcker; Tomislav Domazet‐Lošo; Damjan Franjević; Madan Subedi;
+    Domagoj Bogić; Josip Skejo
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.mdpi.com/1424-2818/17/3/190/pdf?version=1741322584
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Insecta
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: W7233679350
+  openalex_id: W7233679350
+  review: excluded
+  title: La incidencia del uso de la tierra de la Ciudad de Liberia como material
+    constructivo en el desempeño higrotérmico de los espacios internos mediante técnicas
+    de simulación
+  year: 2025
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Dominique Chang-Albizurez; Enmanuel Salazar-Ceciliano; Rosa-Elena Malavassi-Aguilar;
+    Edwin Esquivel-Segura; Adrián Quesada-Martínez; Arnoldo Gadea-Rivas
+  type: other
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/e46a8148-f59b-4c04-a2ac-3c8ef4083fcc/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: not a research paper; found by openalex_fulltext'
+  sectors: ''
+  added: '2026-11-23'
+- id: 10.3390/parasitologia5010008
+  doi: 10.3390/parasitologia5010008
+  openalex_id: W4407585073
+  review: pending
+  title: 'Diversity of Parasites in Two Sympatric Species of Brazilian Tetras (Characiformes:
+    Acestrorhamphidae) in the Caatinga Domain, Northeastern Brazil'
+  year: 2025
+  venue: Parasitologia
+  authors: Bruno Anderson Fernandes da Silva; Julia Martini Falkenberg; Fábio Hideki
+    Yamada
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.3390/parasitologia5010008
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Nematoda; Platyhelminthes; Actinopterygii
+  themes: Species interactions; Populations & communities
+  added: '2026-11-23'
+- id: 10.64338/im.1116.fewep
+  doi: 10.64338/im.1116.fewep
+  openalex_id: W4412677851
+  review: pending
+  title: 'Cleidecosta hallwachsae Johnson, new species, the first of the genus from
+    North America (Coleoptera: Elateridae: Euplinthini)'
+  year: 2025
+  venue: Insecta mundi
+  authors: Paul J. Johnson
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://publikationen.ub.uni-frankfurt.de/files/74784/1116_Johnson_2025.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Coleoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.3389/ffgc.2025.1457762
+  doi: 10.3389/ffgc.2025.1457762
+  openalex_id: W4408134855
+  review: pending
+  title: 'Enhanced flight planning and calibration for UAV based thermal imaging:
+    implications for canopy temperature and transpiration analysis'
+  year: 2025
+  venue: Frontiers in Forests and Global Change
+  authors: Malkin Gerchow; Kathrin Kühnhammer; Alberto Iraheta; John David Marshall;
+    Matthias Beyer
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2025.1457762/pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes
+  added: '2026-11-23'
+- id: 10.22458/urj.v16i1.5260
+  doi: 10.22458/urj.v16i1.5260
+  openalex_id: W4401246424
+  review: pending
+  title: Distancia a la vegetación, trazado de la carretera y atropello de vertebrados
+    silvestres en Puntarenas, Costa Rica
+  year: 2024
+  venue: UNED Research Journal
+  authors: Federico Granados-Rodríguez; Carolina Esquivel; José Pablo Barquero González;
+    Gabriela Quesada-Ávila; Javier Tenorio-Brenes
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.uned.ac.cr/index.php/cuadernos/article/download/5260/7753
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Amphibia
+  themes: Species interactions
+  added: '2026-11-23'
+- id: W7233625079
+  openalex_id: W7233625079
+  review: pending
+  title: Análisis filogenético para individuos de Ocotea monteverdensis W. C. Burger
+    (Lauraceae) en dos sitios de Costa Rica
+  year: 2024
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Cristina Estrada-Porras
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/694e3b36-eace-4336-bab5-b5190434ebde/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics
+  added: '2026-11-23'
+- id: 10.24857/rgsa.v18n12-005
+  doi: 10.24857/rgsa.v18n12-005
+  openalex_id: W4405050752
+  review: excluded
+  title: Exploratory Methodology for Sustainability Assessment in Tourist Destination
+    Planning
+  year: 2024
+  venue: Revista de Gestão Social e Ambiental
+  authors: Maria Carmen Pardo-López; Mónica Cecilia Cortés García
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://rgsa.openaccesspublications.org/rgsa/article/download/10164/5140
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.1101/2024.10.28.618575
+  doi: 10.1101/2024.10.28.618575
+  openalex_id: W4403912757
+  review: excluded
+  title: 'TaxonGPT: Taxonomic Classification Using Generative Artificial Intelligence'
+  year: 2024
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+  authors: Haoyuan Huang; Teng Li; Zhixuan Wang; David S. Seldon; Allen G. Rodrigo
+  type: preprint
+  language: en
+  is_oa: true
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/10/29/2024.10.28.618575.full.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.1007/s00445-024-01761-5
+  doi: 10.1007/s00445-024-01761-5
+  openalex_id: W4400424872
+  review: excluded
+  title: Generation of deposit-derived pyroclastic density currents by repeated crater
+    rim failures at Stromboli Volcano (Italy)
+  year: 2024
+  venue: Bulletin of Volcanology
+  authors: Federico Di Traglia; P. Berardino; L. Borselli; Pierfrancesco Calabria;
+    Sonia Calvari; Daniele Casalbore; Nicola Casagli; Francesco Casu; Francesco Latino
+    Chiocci; Riccardo Civico; Walter De Cesare; Claudio De Luca; Matteo Del Soldato;
+    Antonietta M. Esposito; Carmen Esposito; Massimiliano Favalli; Alessandro Fornaciai;
+    Flora Giudicepietro; Teresa Gracchi; Riccardo Lanari; Giovanni Macedonio; Fernando
+    Monterroso; Antonio Natale; Teresa Nolesini; Stefano Perna; Tullio Ricci; Claudia
+    Romagnoli; Guglielmo Rossi; Carlo Tacconi Stefanelli
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.1007/s00445-024-01761-5
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Populations & communities; Geology & volcanology
+  added: '2026-11-23'
+- id: 10.55924/ucireg.v3i1.34
+  doi: 10.55924/ucireg.v3i1.34
+  openalex_id: W4396589660
+  review: pending
+  title: Primer registro de depredación de la rana Smilisca baudinii (Hylidae) por
+    Geranospiza caerulescens (Accipitridae)
+  year: 2024
+  venue: Revista REGENERATIO
+  authors: Adminuci Adminuci; Javier Tenorio Brenes
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://regeneratio.uci.ac.cr/index.php/regeneratio/article/download/34/19
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Amphibia
+  themes: Species interactions
+  added: '2026-11-23'
+- id: 10.37486/2675-1305.ec06013
+  doi: 10.37486/2675-1305.ec06013
+  openalex_id: W4399872837
+  review: pending
+  title: 'Merocoris (Corynocoris) distinctus Dallas, 1852 (Coreidae: Meropachyinae:
+    Merocorini): first record for Costa Rica with a unique case of thanatosis'
+  year: 2024
+  venue: Entomological Communications
+  authors: Andrey J. Peraza-Sánchez
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.entomologicalcommunications.org/index.php/entcom/article/download/ec06013/222
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Hemiptera
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: 10.5772/intechopen.1007485
+  doi: 10.5772/intechopen.1007485
+  openalex_id: W4404243415
+  review: excluded
+  title: 'Insects in Anthropocene: Decline, Stress Factors, and Conservation Advice'
+  year: 2024
+  venue: IntechOpen eBooks
+  authors: Sigmund Hågvar; Frode Ødegaard
+  type: book-chapter
+  language: en
+  is_oa: true
+  oa_url: https://www.intechopen.com/citation-pdf-url/1207483
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Insecta
+  themes: Species interactions; Populations & communities; Climate & environmental
+    change
+  added: '2026-11-23'
+- id: 10.22458/urj.v16i1.5322
+  doi: 10.22458/urj.v16i1.5322
+  openalex_id: W4401451970
+  review: pending
+  title: 'Insights into the human-jaguar Panthera onca (Carnivora: Felidae) interactions
+    in Tortuguero National Park, Costa Rica'
+  year: 2024
+  venue: UNED Research Journal
+  authors: Stephanny Arroyo-Arce; Ian Thomson
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://revistas.uned.ac.cr/index.php/cuadernos/article/download/5322/7766
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior; Species interactions; Populations & communities
+  added: '2026-11-23'
+- id: 10.3390/su162210004
+  doi: 10.3390/su162210004
+  openalex_id: W4404487674
+  review: excluded
+  title: 'Advancing Sustainable Agriculture: Potential of Life Story Strategies of
+    Solitary and Gregarious Microgastrinae Parasitoids (Hymenoptera: Braconidae) to
+    Enhance Biological Control'
+  year: 2024
+  venue: Sustainability
+  authors: Vladimir Žikić; José Fernández-Triana; Aleksandra Trajković; Maja Lazarević
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.mdpi.com/2071-1050/16/22/10004/pdf?version=1731746467
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Natural history & behavior; Species interactions; Ecosystem processes
+  added: '2026-11-23'
+- id: 10.1186/s40623-024-01984-y
+  doi: 10.1186/s40623-024-01984-y
+  openalex_id: W4396517495
+  review: excluded
+  title: Heat transport process associated with the 2021 eruption of Aso volcano revealed
+    by thermal and gas monitoring
+  year: 2024
+  venue: Earth Planets and Space
+  authors: Shohei Narita; Akihiko Yokoo; Takahiro Ohkura; Masaaki Morita; Toshiya
+    Mori; Shin Yoshikawa
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://earth-planets-space.springeropen.com/counter/pdf/10.1186/s40623-024-01984-y
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Ecosystem processes; Geology & volcanology
+  added: '2026-11-23'
+- id: 10.5852/ejt.2024.942.2581
+  doi: 10.5852/ejt.2024.942.2581
+  openalex_id: W4399980293
+  review: pending
+  title: Twenty-one new species of the Neotropical rove beetle genus Neolindus Scheerpeltz
+    (Coleoptera, Staphylinidae, Paederinae)
+  year: 2024
+  venue: European Journal of Taxonomy
+  authors: Yoan Camilo Guzmán Sarmiento; Alexandra Tokareva; Katarzyna Koszela; Dagmara
+    Żyła
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://europeanjournaloftaxonomy.eu/index.php/ejt/article/download/2581/11745
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Coleoptera
+  themes: Taxonomy & systematics; Populations & communities
+  added: '2026-11-23'
+- id: 10.18845/tramarcsh.v12i1.7089
+  doi: 10.18845/tramarcsh.v12i1.7089
+  openalex_id: W7233599665
+  review: pending
+  title: 'ARQUEOTURISMO EN COSTA RICA: UN PRODUCTO TURÍSTICO PARA LA DIVERSIFICACIÓN
+    Y LA VALORIZACIÓN DEL PATRIMONIO CULTURAL'
+  year: 2024
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Luis Humberto Gutiérrez Galera
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.tec.ac.cr/index.php/trama/article/download/7089/6884
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Microorganisms
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.32942/x24318
+  doi: 10.32942/x24318
+  openalex_id: W4399815932
+  review: pending
+  title: IUCN Red List of Ecosystems, Mangroves of the Tropical East Pacific
+  year: 2024
+  venue: EcoEvoRxiv
+  authors: Cristian Camilo Montes-Chaura; Orlando Rangel; JP Caicedo-García; Sonia
+    Pardo Spiess; Luis Chasqui; Denisse Viviana Cortés Castillo; Andrés E. Fraiz-Toma;
+    Héctor Aponte; Paola Calle; Adolfo Quesada‐Román; Juan F. Blanco; Laura Lozano-Arias;
+    Diana Romero-D’Achiardi; Tania Carolina Hoyos-Ruiz; Carlos Troche-Souza; Natalia
+    Molina-Moreira; Cristian Tovilla Hernández; Juan Felipe Lazarus; Paula Cristina
+    Sierra‐Correa; Diana Di Nitto; Alba Katherine Calles Procel; Ena Lucia Suarez
+  type: preprint
+  language: en
+  is_oa: true
+  oa_url: https://ecoevorxiv.org/repository/object/7259/download/13869/
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.1186/s40517-024-00290-w
+  doi: 10.1186/s40517-024-00290-w
+  openalex_id: W4396844675
+  review: excluded
+  title: Evolution of worldwide geothermal power 2020–2023
+  year: 2024
+  venue: Geothermal Energy
+  authors: Luis Carlos Gutiérrez-Negrín
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://geothermal-energy-journal.springeropen.com/counter/pdf/10.1186/s40517-024-00290-w
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics; Geology & volcanology
+  added: '2026-11-23'
+- id: W7233688852
+  openalex_id: W7233688852
+  review: pending
+  title: Instalaciones de investigación y atención de visitantes del Parque Nacional
+    Manuel Antonio
+  year: 2024
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Josué Vega-Brenes
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/f50842c5-4237-41c3-b0ca-7f57f13e5f41/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W7233672401
+  openalex_id: W7233672401
+  review: pending
+  title: Principales limitantes al proceso de regeneración natural de una comunidad
+    vegetal en la Estación Experimental Forestal Horizontes, Guanacaste, Costa Rica
+  year: 2023
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Ángeles Nicole Aguilar-Román
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/6f472d14-1df9-4761-a9b0-72a1f548761c/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: sector Horizontes; found by openalex_fulltext
+  sectors: Horizontes
+  taxa: Plantae
+  themes: Populations & communities; Succession & restoration
+  added: '2026-11-23'
+- id: W7233663058
+  openalex_id: W7233663058
+  review: pending
+  title: Uso del Escáner Láser Terrestre (TLS) para la caracterización estructural
+    de bosque seco tropical y plantaciones forestales en Costa Rica
+  year: 2023
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: José Orlando Jiménez-Méndez
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/4b984308-0372-456a-bcb4-b0b34b6e25ca/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: 10.1002/aqc.3995
+  doi: 10.1002/aqc.3995
+  openalex_id: W4385791405
+  review: excluded
+  title: Conservation‐relevant reproductive parameters from long‐term tagging of two
+    globally important sea turtle nesting aggregations in Central Africa
+  year: 2023
+  venue: Aquatic Conservation Marine and Freshwater Ecosystems
+  authors: Paolo Casale; Gaspard Abitsi; Pierre Didier Agamboué; Eric Augowet Bonguno;
+    Jean Pierre Bayet; Alexis Billes; Abdon Bitsindou; Tim Collins; Philip D. Doherty;
+    François Edgard Faure; Jacques Fretey; Philippe du Plessis; Alain Gibudi; Brendan
+    John Godley; Judicaël Regis Kema Kema; Brice Didier Koumba Mabert; François Boussamba;
+    Pierre Brice Maganga; Jean Churley Manfoumbi; Bienvenue Ondo Ndong; Kristian Metcalfe;
+    Gianna Minton; Gil Avery Mounguengui Mounguengui; Solange Ngouessono; Jacob Nzegoue;
+    Carmen Karen Kouerey Oliwina; Richard J. Parnell; Sandrine Ricois; Dominique Roumet;
+    Guy‐Philippe Sounguet; Dominic Tilley; Hilde Vanleeuwe; Bas Verhage; LEE J. T.
+    WHITE; Matthew J. Witt; Wynand Viljoen; Ángela Formia
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aqc.3995
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Reptilia
+  themes: Natural history & behavior; Populations & communities
+  added: '2026-11-23'
+- id: W7233642703
+  openalex_id: W7233642703
+  review: pending
+  title: Estructura, composición florística y conectividad estructural del bosque
+    en un gradiente altitudinal del Corredor Biológico Alexander Skutch, Pérez Zeledón,
+    Costa Rica
+  year: 2023
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Yoselyn Vargas-Gómez
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/163f8bb8-6718-4ec8-b73d-b65cdb16570e/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W7233693382
+  openalex_id: W7233693382
+  review: pending
+  title: Regeneración natural de tres especies forestales con poblaciones reducidas
+    en Monteverde, Costa Rica
+  year: 2023
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: María Catalina Solano-Pereira
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/efc64296-3124-4cf2-aec9-bf436578ed95/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Succession & restoration
+  added: '2026-11-23'
+- id: W7233628642
+  openalex_id: W7233628642
+  review: pending
+  title: Validación de la cobertura forestal clasificada en el mapa de tipos de bosque
+    y otras tierras 2021 del SINAC para el Área Conservación Tempisque, Guanacaste,
+    Costa Rica
+  year: 2023
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Iván Mauricio Leiva-Godínez
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/f998a464-4a7d-4583-a21e-61eca3d05453/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Succession & restoration
+  added: '2026-11-23'
+- id: W7233683311
+  openalex_id: W7233683311
+  review: pending
+  title: Técnicas de recubrimiento de semillas forestales para su uso en dispersión
+    artificial para la restauración ecológica en el bosque seco, Costa Rica
+  year: 2023
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: María Stefannie Chavarría-Barquero
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/3b014fc8-882a-4f22-a9bb-19b84cb11ad2/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Succession & restoration
+  added: '2026-11-23'
+- id: 10.26512/patryter.v6i12.44067
+  doi: 10.26512/patryter.v6i12.44067
+  openalex_id: W4399147368
+  review: excluded
+  title: Análisis de la integración territorial de Centroamérica por la Ruta Colonial
+    y de los Volcanes
+  year: 2023
+  venue: PatryTer
+  authors: José Alberto Garibay Gómez
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://periodicos.unb.br/index.php/patryter/article/download/44067/37007
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Natural history & behavior; Conservation, management & people; Geology &
+    volcanology
+  added: '2026-11-23'
+- id: W7233666157
+  openalex_id: W7233666157
+  review: pending
+  title: Propuesta de mejoras para la implementación del monitoreo de residuos sólidos
+    mediante el PRONAMEC en las áreas marinas protegidas de Costa Rica
+  year: 2022
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Sofía Fallas-Flores
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/d50fd4f6-916d-43b3-b2a7-142e1ce161fb/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W7233625414
+  openalex_id: W7233625414
+  review: pending
+  title: Dispositivo de administración de visitantes para la gestión inteligente de
+    parques nacionales
+  year: 2022
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Gerson Chaves-Varela
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/3357e3c7-e078-4956-bd3a-32ded075970e/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W7233642165
+  openalex_id: W7233642165
+  review: excluded
+  title: Análisis de comunidades biológicas en suelos de plantaciones de piña en la
+    Región Huetar Norte, como opción para controles alternativos de patologías
+  year: 2022
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Tomás De Jesús Guzmán-Hernández; Ingrid Varela‐Benavides; Fabián Echeverría-Beirute;
+    Zulay Castro-Jiménez; Jose Pablo Jiménez-Madrigal; Reyes Peña‐Santiago
+  type: other
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/fbe997ec-f489-45f5-aa54-eb16b61c3de0/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: not a research paper; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae; Microorganisms
+  themes: Populations & communities; Ecosystem processes
+  added: '2026-11-23'
+- id: W7233664209
+  openalex_id: W7233664209
+  review: pending
+  title: Estructura poblacional de Podocarpus guatemalensis (Standl.) (Podocarpaceae)
+    en bosques intervenidos de Boca Tapada, Pital de San Carlos, Alajuela, Costa Rica
+  year: 2022
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Andrés Mauricio Coto-Molina
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/9d7fd76b-b8af-4b8a-bcea-428d568351ba/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.1016/j.ecolind.2022.109506
+  doi: 10.1016/j.ecolind.2022.109506
+  openalex_id: W4297991861
+  review: excluded
+  title: 'Tropical and subtropical dendrochronology: Approaches, applications, and
+    prospects'
+  year: 2022
+  venue: Ecological Indicators
+  authors: Adolfo Quesada‐Román; Juan Antonio Ballesteros‐Cánovas; Scott St. George;
+    Markus Stoffel
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.1016/j.ecolind.2022.109506
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae; Microorganisms
+  themes: Ecosystem processes; Climate & environmental change
+  added: '2026-11-23'
+- id: W7233684659
+  openalex_id: W7233684659
+  review: pending
+  title: 'Restauración ecológica en el Parque Nacional Isla del Coco: evaluación del
+    efecto de diferentes tratamientos en la regeneración del bosque'
+  year: 2022
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Luis Guillermo Acosta-Vargas
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/6227ccea-a924-4454-89ad-0b33f82fad89/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Succession & restoration
+  added: '2026-11-23'
+- id: W7135353557
+  openalex_id: W7135353557
+  review: pending
+  title: Diseño e implementación de un geovisor que muestre el alcance geográfico
+    de los proyectos ejecutados por el Programa de las Naciones Unidas para el Desarrollo
+    (PNUD) en Costa Rica durante los años 2020 y 2021
+  year: 2022
+  venue: Investigative News in Education (Universidad de Costa Rica)
+  authors: Jéssica Francini Acuña Piedra
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://www.kerwa.ucr.ac.cr/bitstreams/6f095ed5-fb95-4be5-a4fc-2a3c5d12058e/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Natural history & behavior; Conservation, management & people
+  added: '2026-11-23'
+- id: W7233682327
+  openalex_id: W7233682327
+  review: pending
+  title: Plan de Negocios y Plan de Mercadeo para Agencia Promotora de Actividades
+    Turísticas Ruta Norte
+  year: 2022
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Gustavo Arias-Castro; Rechel Cortés-González; Kelsey Espinoza-Mendoza
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/9926fa3e-3090-4b03-aa8b-05defb3a777d/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W7233638109
+  openalex_id: W7233638109
+  review: pending
+  title: Estructura horizontal, dinámica y composición de una cronosecuencia de bosque
+    seco tropical secundario de distintas fases sucesionales en la Estación Experimental
+    Forestal Horizontes, Guanacaste, Costa Rica.
+  year: 2021
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Josué Jesús Pacheco-Quesada
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/73aa735d-f12d-44bc-8e63-d27caeb0e442/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: sector Horizontes; found by openalex_fulltext
+  sectors: Horizontes
+  taxa: Plantae
+  themes: Succession & restoration
+  added: '2026-11-23'
+- id: W7233655654
+  openalex_id: W7233655654
+  review: pending
+  title: Visualización de datos sobre la recolección de muestras de especies del reino
+    Plantae del Museo Nacional de Costa Rica durante el periodo 1887 al 2020
+  year: 2021
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Marcelo Vargas-Lobo
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/48ac4989-d88c-4122-8f89-60fd37fe6ab6/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.1590/1678-4766e2021027
+  doi: 10.1590/1678-4766e2021027
+  openalex_id: W3209331589
+  review: excluded
+  title: 'Immature stages of Nisoniades macarius (Hesperiidae: Pyrginae: Carcharodini):
+    biology, morphology and behavior'
+  year: 2021
+  venue: Iheringia Série Zoologia
+  authors: Alana M.da Silva; Adalberto Dantas de Medeiros; Solange Maria Kerpel
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.1590/1678-4766e2021027
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera; Arachnida
+  themes: Natural history & behavior; Species interactions
+  added: '2026-11-23'
+- id: 10.5852/ejt.2021.744.1305
+  doi: 10.5852/ejt.2021.744.1305
+  openalex_id: W3154072655
+  review: excluded
+  title: Taxonomic study of the genus Microplitis Förster, 1862 (Hymenoptera, Braconidae,
+    Microgastrinae) from Iran
+  year: 2021
+  venue: European Journal of Taxonomy
+  authors: Parisa Abdoli; Ali Asghar Talebi; José Fernández-Triana; Samira Farahani
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://europeanjournaloftaxonomy.eu/index.php/ejt/article/download/1305/3955
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.70675/448972a0zafa4z40b8zaf67z99e45bca005c
+  doi: 10.70675/448972a0zafa4z40b8zaf67z99e45bca005c
+  openalex_id: W7149449519
+  review: excluded
+  title: The evolution of reproductive seasonality in large tropical terrestrial monkeys
+  year: 2021
+  venue: theses.fr (ABES)
+  authors: Jules Dezeure
+  type: dissertation
+  language: fr
+  is_oa: true
+  oa_url: https://theses.hal.science/tel-03341215v1/document
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Evolution & genetics; Natural history & behavior; Populations & communities
+  added: '2026-11-23'
+- id: 10.35249/rche.46.3.20.08
+  doi: 10.35249/rche.46.3.20.08
+  openalex_id: W3082721246
+  review: pending
+  title: Catálogo de los tipos de Hemiptera (Insecta) depositados en el Museo Nacional
+    de Costa Rica
+  year: 2020
+  venue: REVISTA CHILENA DE ENTOMOLOGÍA
+  authors: María Gabriela Carmona-Ríos
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://www.biotaxa.org/rce/article/download/64187/62995
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Hemiptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.35249/rche.46.4.20.15
+  doi: 10.35249/rche.46.4.20.15
+  openalex_id: W3115756098
+  review: pending
+  title: 'New Tachinidae parasitoid records for Mesomphaliini (Coleoptera: Chrysomelidae:
+    Cassidinae) in the Neotropical region'
+  year: 2020
+  venue: REVISTA CHILENA DE ENTOMOLOGÍA
+  authors: Ronaldo Toma; Thiago Marinho Alvarenga
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biotaxa.org/rce/article/download/66247/64596
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Diptera; Coleoptera
+  themes: Species interactions
+  added: '2026-11-23'
+- id: W3083584728
+  openalex_id: W3083584728
+  review: excluded
+  title: 'An investigation on the helminth parasites of Caspian turtle (Mauremys caspica)
+    with a taxonomic note on recovered Falcaustra Lane, 1915 (Nematoda: Kathlaniidae)
+    and Spiroxys Schneider, 1866 species (Nematoda: Gnathostomatidae)'
+  year: 2020
+  venue: International journal of aquatic biology
+  authors: Ehsan Rakhshandehroo; Amin Gholamhosseini; A Ahmadi; Mostafa Rakhshaninejad;
+    Amir Ali Heidari
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://ij-aquaticbiology.com/index.php/ijab/article/view/851
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Nematoda; Reptilia
+  themes: Taxonomy & systematics; Species interactions; Ecosystem processes
+  added: '2026-11-23'
+- id: W3188412183
+  openalex_id: W3188412183
+  review: excluded
+  title: Guía metodológica para la identificación y valoración de los bienes y servicios
+    que brinda la biodiversidad y los recursos naturales
+  year: 2020
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Moreno Díaz; Mary Luz
+  type: book
+  language: es
+  is_oa: true
+  oa_url: http://hdl.handle.net/11056/19036
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Populations & communities; Conservation, management & people
+  added: '2026-11-23'
+- id: 10.26049/vz70-2-2020-02
+  doi: 10.26049/vz70-2-2020-02
+  openalex_id: W4320234904
+  review: excluded
+  title: 'Taxonomic revision and comments on two groups of the genus Coniophanes (Squamata:
+    Dipsadidae)'
+  year: 2020
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  authors: Ricardo Palacios-Aguilar; Oscar Alberto Flores-Villela
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://zenodo.org/records/7024232/files/VZ_article_30060.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Reptilia; Amphibia; Actinopterygii
+  themes: Taxonomy & systematics; Populations & communities
+  added: '2026-11-23'
+- id: W3012419603
+  openalex_id: W3012419603
+  review: excluded
+  title: Área de vida, uso de hábitat y ciclo reproductivo de Caiman latirostris (Crododylia,
+    Alligatoridae) en Provincia de Santa Fe, Argentina.
+  year: 2020
+  venue: Americanae (AECID Library)
+  authors: Thiago Costa Gonçalves Portelinha
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: http://hdl.handle.net/11086/14678
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Reptilia
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: 10.24384/x9hg-sw26
+  doi: 10.24384/x9hg-sw26
+  openalex_id: W3183754669
+  review: excluded
+  title: 'Lemurs as protectors of the forest: Red-collared brown lemur seed dispersal,
+    forest regeneration, and local livelihoods in the littoral forest fragments of
+    southeastern Madagascar'
+  year: 2020
+  venue: Radar (Oxford Brookes University)
+  authors: Elena Račevska
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.24384/x9hg-sw26
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior; Climate & environmental change; Conservation,
+    management & people
+  added: '2026-11-23'
+- id: W3168631722
+  openalex_id: W3168631722
+  review: pending
+  title: Centro de Atención Temporal para personas Migrantes en condición de tránsito
+    por Costa Rica, ubicado en Las Tablillas, Los Chiles, Alajuela
+  year: 2020
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Carlos-Adrián Vargas-Alfaro
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/61e2dc26-2281-446d-be1c-6c278c6120b8/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  added: '2026-11-23'
+- id: 10.70675/0f7afe0bzb6b9z4993z9410z8cc46797da3e
+  doi: 10.70675/0f7afe0bzb6b9z4993z9410z8cc46797da3e
+  openalex_id: W7149439836
+  review: excluded
+  title: Étude de la diversité et de la structure des communautés virales à l’échelle
+    des agro-écosystèmes. Le modèle épidémiologique des mastrévirus des Poaceae à
+    La Réunion
+  year: 2020
+  venue: theses.fr (ABES)
+  authors: Sohini Claverie
+  type: dissertation
+  language: fr
+  is_oa: true
+  oa_url: https://tel.archives-ouvertes.fr/tel-03336540/document
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Microorganisms
+  themes: Evolution & genetics
+  added: '2026-11-23'
+- id: 10.1016/j.rbe.2019.05.001
+  doi: 10.1016/j.rbe.2019.05.001
+  openalex_id: W2947209609
+  review: excluded
+  title: 'First record of Cotesia scotti ( ) (Hymenoptera: Braconidae: Microgastrinae)
+    comb. nov. parasitising Spodoptera cosmioides (Walk, 1858) and Spodoptera eridania
+    (Stoll, 1782) (Lepidoptera: Noctuidae) in Brazil'
+  year: 2019
+  venue: Revista Brasileira de Entomologia
+  authors: Josiane Garcia de Freitas; Tamara Akemi Takahashi; Lara Leal Figueiredo;
+    Paulo Marçal Fernandes; Luiza Figueiredo Camargo; Isabela Midori Watanabe; Luís
+    A. Foerster; José Fernández-Triana; Eduardo Mitio Shimbori
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.1016/j.rbe.2019.05.001
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera; Hymenoptera
+  themes: Species interactions
+  added: '2026-11-23'
+- id: 10.2478/frp-2019-0021
+  doi: 10.2478/frp-2019-0021
+  openalex_id: W3033129701
+  review: excluded
+  title: 'DNA barcoding: A practical tool for the taxonomy and species identification
+    of entomofauna'
+  year: 2019
+  venue: Forest Research Papers
+  authors: Iwona Szyp-Borowska; Katarzyna Sikora
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.2478/frp-2019-0021
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Insecta
+  themes: Taxonomy & systematics; Populations & communities
+  added: '2026-11-23'
+- id: 10.26049/asp77-1-2019-07
+  doi: 10.26049/asp77-1-2019-07
+  openalex_id: W3109281957
+  review: excluded
+  title: 'The phylogenetic systematics of Spilomelinae and Pyraustinae (Lepidoptera:
+    Pyraloidea: Crambidae) inferred from DNA and morphology'
+  year: 2019
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  authors: Richard Mally; James E. Hayden; Christoph Neinhuis; Bjarte Henry Jordal;
+    Matthias Nuß
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://zenodo.org/record/7519775
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics; Evolution & genetics
+  added: '2026-11-23'
+- id: W2991474571
+  openalex_id: W2991474571
+  review: pending
+  title: Diagnóstico técnico y Análisis de costos para la Rehabilitación de la Red
+    Ferroviaria en la Sección El Yas – Turrialba
+  year: 2019
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Gerardo Sequeira-Pereira
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/16464d14-a337-4367-96c5-01b7d3ff2274/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  added: '2026-11-23'
+- id: 10.1007/s13127-019-00406-2
+  doi: 10.1007/s13127-019-00406-2
+  openalex_id: W2965109093
+  review: excluded
+  title: 'Molecular and morphological recognition of species boundaries in the neglected
+    ant genus Brachymyrmex (Hymenoptera: Formicidae): toward a taxonomic revision'
+  year: 2019
+  venue: Organisms Diversity & Evolution
+  authors: Claudia Ortiz-Sepulveda; Bert Van Bocxlaer; Andrés D. Meneses; Fernando
+    Fernández
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://hal.archives-ouvertes.fr/hal-02323851
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.57800/faunitaxys-7(15)
+  doi: 10.57800/faunitaxys-7(15)
+  openalex_id: W4206857180
+  review: excluded
+  title: 'Classification, natural history, and evolution of the subfamily Peloniinae
+    Opitz (Coleoptera: Cleroidea: Cleridae). Part XV. Taxonomic revision of the new
+    world genus Cregya Leconte'
+  year: 2019
+  venue: Faunitaxys
+  authors: Weston Opitz
+  type: article
+  language: it
+  is_oa: true
+  oa_url: https://hal.archives-ouvertes.fr/hal-03456107
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Coleoptera
+  themes: Taxonomy & systematics; Evolution & genetics; Natural history & behavior
+  added: '2026-11-23'
+- id: 10.3390/insects11010009
+  doi: 10.3390/insects11010009
+  openalex_id: W2996566684
+  review: pending
+  title: 'Taxonomic Revision of Neotropical Downeshelea Wirth and Grogan Predaceous
+    Midges (Diptera: Ceratopogonidae)'
+  year: 2019
+  venue: Insects
+  authors: Maria Clara Alves Santarém; Art Borkent; Maria Luiza Felippe-Bauer
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.mdpi.com/2075-4450/11/1/9/pdf?version=1578541797
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Diptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: W2999637582
+  openalex_id: W2999637582
+  review: pending
+  title: 'Anàlisi i Diagnosi dels Espais Naturals Protegits de Costa Rica: El cas
+    del Parque Nacional Braulio Carrillo i la Reserva Forestal Grecia'
+  year: 2019
+  venue: RECERCAT (Consorci de Serveis Universitaris de Catalunya)
+  authors: Roger Compte Roca
+  type: dissertation
+  language: ca
+  is_oa: true
+  oa_url: https://dugi-doc.udg.edu/bitstream/10256/17057/1/CompteRocaRoger_Treball.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: W2937980682
+  openalex_id: W2937980682
+  review: pending
+  title: Plan de restauración ecológica en la finca La Lucha, San Cristóbal de Desamparados,
+    San José Costa Rica.
+  year: 2018
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Gabriela Porras-Mora
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/7b9d4a23-2ec4-462b-819f-67127e67a87d/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: sector San Cristobal, San Cristóbal; found by openalex_fulltext
+  sectors: San Cristóbal
+  taxa: Plantae
+  themes: Succession & restoration
+  added: '2026-11-23'
+- id: W2974927979
+  openalex_id: W2974927979
+  review: excluded
+  title: 'Revisão sistemática do gênero Myiobius Gray, 1839 (Aves: Onychorhynchidae)'
+  year: 2018
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Saulo Borges de Azevedo
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: http://repositorio.ufpa.br/jspui/handle/2011/11518
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Aves
+  themes: Evolution & genetics
+  added: '2026-11-23'
+- id: 10.70675/33ec0be6z4b07z444bzab72zf3340b11409e
+  doi: 10.70675/33ec0be6z4b07z444bzab72zf3340b11409e
+  openalex_id: W7148681817
+  review: pending
+  title: 'Qualité des eaux d’une rivière urbaine : Suivi réglementaire versus Perception
+    des riverains Le cas du río Liberia (Costa Rica)'
+  year: 2018
+  venue: theses.fr (ABES)
+  authors: Christian Phillipe Golcher Benavides
+  type: dissertation
+  language: fr
+  is_oa: true
+  oa_url: https://pastel.hal.science/tel-02619537/document
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Microorganisms
+  themes: Ecosystem processes; Conservation, management & people
+  added: '2026-11-23'
+- id: 10.5343/bms.2017.1026
+  doi: 10.5343/bms.2017.1026
+  openalex_id: W2791438395
+  review: excluded
+  title: Cuban land use and conservation, from rainforests to coral reefs
+  year: 2018
+  venue: Bulletin of Marine Science
+  authors: Gillian L. Galford; Margarita Fernandez; Joe Roman; Irene Monasterolo;
+    Sonya Ahamed; Greg J. Fiske; Patricia González Hernández; Les Kaufman
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.5343/bms.2017.1026
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Cnidaria
+  themes: Ecosystem processes; Climate & environmental change; Conservation, management
+    & people
+  added: '2026-11-23'
+- id: 10.31219/osf.io/bvq2j
+  doi: 10.31219/osf.io/bvq2j
+  openalex_id: W4245131715
+  review: excluded
+  title: Trait-based ecology of terrestrial arthropods
+  year: 2018
+  venue: OSF Preprints (OSF Preprints)
+  authors: Mark K. L. Wong; Benoît Guénard; Owen T. Lewis
+  type: preprint
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.31219/osf.io/bvq2j
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: duplicate of a listed paper; found by openalex_fulltext'
+  sectors: ''
+  taxa: Arthropoda
+  themes: Species interactions; Populations & communities; Ecosystem processes
+  added: '2026-11-23'
+- id: W7233686271
+  openalex_id: W7233686271
+  review: excluded
+  title: Manual de curso geografía turística de Alá
+  year: 2018
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: David Arias-Hidalgo
+  type: other
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/aca8b97a-1140-4520-8413-6a88d21e68a1/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: not a research paper; found by openalex_fulltext'
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2954583271
+  openalex_id: W2954583271
+  review: pending
+  title: Creación de un servicio de hospedaje eco amigable de turismo rural y actividades
+    de aventura en la zona de Bijagua de Upala
+  year: 2018
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: María Lisseth Madrigal-Zúñiga
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/71473cd7-4e19-4078-bd61-845732e4138e/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2767301227
+  openalex_id: W2767301227
+  review: pending
+  title: Evaluación de cinco tratamientos aplicados a las especies forestales utilizadas
+    en la restauración de bosques de la estación experimental Forestal Horizontes,
+    Guanacaste, Costa Rica
+  year: 2017
+  venue: Americanae (AECID Library)
+  authors: Alberto Rico Urones
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: http://hdl.handle.net/11056/14137
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: sector Horizontes; found by openalex_fulltext
+  sectors: Horizontes
+  taxa: Hemiptera; Mammalia; Reptilia; Plantae; Fungi
+  themes: Ecosystem processes; Succession & restoration; Conservation, management
+    & people
+  added: '2026-11-23'
+- id: 10.1016/j.rbe.2017.08.004
+  doi: 10.1016/j.rbe.2017.08.004
+  openalex_id: W2753606800
+  review: excluded
+  title: 'Elbella luteizona (Mabille, 1877) (Lepidoptera, Hesperiidae: Pyrginae) in
+    Brazilian Cerrado: larval morphology, diet, and shelter architecture'
+  year: 2017
+  venue: Revista Brasileira de Entomologia
+  authors: Cintia Lepesqueur; Marina Neis; Neuza A. P. Silva; Thayane Pereira; Hanna
+    Pâmela A. Rodrigues; Tácito Barbosa Trindade; Ivone R. Diniz
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.sciencedirect.com/science/article/pii/S0085562617300936/pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Natural history & behavior; Species interactions; Populations & communities
+  added: '2026-11-23'
+- id: W2965698086
+  openalex_id: W2965698086
+  review: pending
+  title: Proyecto genera artículos científicos, tesis de grado y posgrado y participación
+    de estudiantes
+  year: 2017
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Marcela Guzmán-Ovares
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.tec.ac.cr/index.php/investiga_tec/article/download/2375/2164
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: W2788080337
+  openalex_id: W2788080337
+  review: pending
+  title: Línea base de información geográfica para el "sistema para la gestión y manejo
+    de incidentes por incendios forestales", Región Chorotega, Costa Rica
+  year: 2017
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Sara Elena Molina-Quesada
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/a6075a3b-dd53-402d-98b8-48894ecc3d45/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2625102094
+  openalex_id: W2625102094
+  review: excluded
+  title: 'Ocean Atlas : facts and figures about our relationship with the ocean'
+  year: 2017
+  venue: Helmholtz Centre for Ocean Research Kiel (GEOMAR)
+  authors: Jens Ambsdorf; Anja Engel; Jörg Grabe; Ulrike Kronfeld-Goharani; Mojib
+    Latif; Mark Lenz; Heike K. Lotze; Nele Matz‐Lück; Alexander Müller; Barbara Neumann;
+    Konrad Ott; Sven Petersen; Martin F. Quaas; Thorsten B. H. Reusch; Ulf Riebesell;
+    Carsten Schulz; Barbara Unmüßig; Sebastian Unger; Martin H. Visbeck; Martin Wahl;
+    Klaus Wallmann; Lara Wodtke
+  type: report
+  language: en
+  is_oa: true
+  oa_url: http://oceanrep.geomar.de/38239/1/ocean-atlas.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2938556908
+  openalex_id: W2938556908
+  review: excluded
+  title: The effects of habitat disturbance on the populations of Geoffroy's Spider
+    Monkeys in the Yucatan Península
+  year: 2017
+  venue: DSpace (Universidad Veracruzana)
+  authors: Denise Spaan
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: http://cdigital.uv.mx/handle/123456789/48371
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: W2797594275
+  openalex_id: W2797594275
+  review: excluded
+  title: Centroamérica. Agua, cultura y territorio [libro completo].
+  year: 2017
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Juan Ramón Rodríguez-Mateo
+  type: book
+  language: es
+  is_oa: true
+  oa_url: https://rio.upo.es/bitstreams/afb0e157-3752-4f84-83f9-e5347dd5dfe9/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Microorganisms
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: W2554875235
+  openalex_id: W2554875235
+  review: pending
+  title: Análisis del cambio de cobertura forestal 2005-2015 en Guanacaste, Costa
+    Rica.
+  year: 2016
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Andrea Tapia-Arenas
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/80891bda-20f5-4c83-a12a-280cf8896c32/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2598302296
+  openalex_id: W2598302296
+  review: pending
+  title: Propuesta de interpretación ambiental de historia natural en el sendero Las
+    Súrtubas del Parque Nacional del Agua Juan Castro Blanco, Estación Biológica Volcán
+    Viej
+  year: 2016
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Ronny Josué Morales-Mesén
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/42633f33-1026-40e4-97ca-fc45183f84f0/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Natural history & behavior; Conservation, management & people; Geology &
+    volcanology
+  added: '2026-11-23'
+- id: W2601425217
+  openalex_id: W2601425217
+  review: pending
+  title: 'Cultural evolution in rufous-and-white wrens (Thryophilus rufalbus): Insights
+    from acoustic and genetic analyses'
+  year: 2016
+  venue: Scholarship at UWindsor (University of Windsor)
+  authors: Brendan A. Graham
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://hdl.handle.net/20.500.14776/6269
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Aves
+  themes: Evolution & genetics; Natural history & behavior; Ecosystem processes
+  added: '2026-11-23'
+- id: 10.1016/j.rbe.2016.10.002
+  doi: 10.1016/j.rbe.2016.10.002
+  openalex_id: W2548126122
+  review: excluded
+  title: Immature stages of Temenis laothoe meridionalis Ebert (Lepidoptera, Nymphalidae,
+    Biblidinae)
+  year: 2016
+  venue: Revista Brasileira de Entomologia
+  authors: Lucy Mila Garcia Salik; Fernando Maia Silva Dias; Eduardo Carneiro dos
+    Santos; Mirna Martins Casagrande; Olaf Hermann Hendrik Mielke
+  type: article
+  language: fr
+  is_oa: true
+  oa_url: https://doi.org/10.1016/j.rbe.2016.10.002
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: 10.5281/zenodo.155309
+  doi: 10.5281/zenodo.155309
+  openalex_id: W3095383433
+  review: excluded
+  title: Taxonomic revision of the Spilomelinae (Lepidoptera, Pyralidae s. l.) of
+    the Galápagos Islands, Ecuador
+  year: 2016
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  authors: Bernard Landry
+  type: article
+  language: fr
+  is_oa: true
+  oa_url: https://zenodo.org/record/155309
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: W2750781856
+  openalex_id: W2750781856
+  review: pending
+  title: Plan estratégico de desarrollo de productos que asistan y ayuden a localizar
+    a la persona extraviada en zonas boscosas de Costa Rica
+  year: 2016
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Juan Pablo Zúñiga-Solano
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/d181e2dc-1417-4194-be56-f6319bfafecf/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2414134241
+  openalex_id: W2414134241
+  review: excluded
+  title: Clustering High Dimensional Categorical Data via Topographical Features
+  year: 2016
+  venue: International Conference on Machine Learning
+  authors: Chao Chen; Novi Quadrianto
+  type: conference-paper
+  language: en
+  is_oa: true
+  oa_url: http://sro.sussex.ac.uk/id/eprint/61285/1/CheQua16.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: 10.1177/1934578x1601100947
+  doi: 10.1177/1934578x1601100947
+  openalex_id: W2926432019
+  review: excluded
+  title: Recent Advances of Total Syntheses of Diterpenoids Starting from Carvone
+  year: 2016
+  venue: Natural Product Communications
+  authors: Hisahiro Hagiwara
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://journals.sagepub.com/doi/pdf/10.1177/1934578X1601100947
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  added: '2026-11-23'
+- id: 10.11575/prism/26183
+  doi: 10.11575/prism/26183
+  openalex_id: W2612546016
+  review: excluded
+  title: Fission-Fusion Dynamics in Spider Monkeys in Belize
+  year: 2016
+  venue: Libraries and Cultural Resources (University of Calgary)
+  authors: Kayla S. Hartwell
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.11575/prism/26183
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Evolution & genetics; Natural history & behavior
+  added: '2026-11-23'
+- id: 10.1139/gen-2015-0229
+  doi: 10.1139/gen-2015-0229
+  openalex_id: W2339932279
+  review: excluded
+  title: The use of DNA barcodes in food web construction—terrestrial and aquatic
+    ecologists unite!
+  year: 2016
+  venue: Genome
+  authors: Tomas V. Roslin; Sanna Majaneva
+  type: review
+  language: en
+  is_oa: true
+  oa_url: https://www.nrcresearchpress.com/doi/pdf/10.1139/gen-2015-0229
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Taxonomy & systematics; Species interactions
+  added: '2026-11-23'
+- id: W2577370651
+  openalex_id: W2577370651
+  review: pending
+  title: 'El Ecoturismo en Cuba: evolución y perspectivas de futuro : una interpretación
+    a partir de una comparativa con Costa Rica'
+  year: 2016
+  venue: RECERCAT (Consorci de Serveis Universitaris de Catalunya)
+  authors: Tahidelys Durán Lorenzo
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://dugi-doc.udg.edu/bitstream/10256/13386/1/DuranLorenzoTahidelysMagdiela_Treball.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Evolution & genetics
+  added: '2026-11-23'
+- id: W2610718680
+  openalex_id: W2610718680
+  review: pending
+  title: Distribución y estructura horizontal de seis especies de árboles maderables
+    en los bosques de la zona norte de Costa Rica
+  year: 2016
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Marvin Vinicio Lizano-López
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/59255227-481a-49fb-a196-64d66e6c0181/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.15517/rbt.v21i1.26200
+  doi: 10.15517/rbt.v21i1.26200
+  openalex_id: W2599123027
+  review: pending
+  title: The nest architecture of stingless bees with special reference to those of
+    Costa Rica (Hymenoptera, Apidae)
+  year: 2016
+  venue: Revista de Biología Tropical
+  authors: Alvaro Wille; Charles Duncan Michener
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/26200
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Natural history & behavior; Species interactions
+  added: '2026-11-23'
+- id: W7233649122
+  openalex_id: W7233649122
+  review: excluded
+  title: Revista Tecnología en Marcha. Número Especial Movilidad Estudiantil 3
+  year: 2016
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Revista Tecnología en marcha
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.tec.ac.cr/index.php/tec_marcha/article/download/2906/pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Microorganisms
+  added: '2026-11-23'
+- id: 10.14907/primate.31.0_65_2
+  doi: 10.14907/primate.31.0_65_2
+  openalex_id: W2511557517
+  review: pending
+  title: 果実の物性と採食行動の関連から見た野生オマキザル（Cebus capucinus）の果実採食に有効な感覚の再考
+  year: 2015
+  authors: 正二 河村; Amanda Dawn Melin; Mika Shirasu; 松下 裕香; 櫻井 児太摩; Mackenzie L. Bergstrom;
+    Linda Marie Fedigan; 和成 東原
+  type: article
+  language: ja
+  is_oa: false
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: W2274852929
+  openalex_id: W2274852929
+  review: pending
+  title: Acoustic and Visual Signals of Species Discrimination in Competing Neotropical
+    Wrens
+  year: 2015
+  venue: Scholarship at UWindsor (University of Windsor)
+  authors: Kristina G. Hick
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://hdl.handle.net/20.500.14776/5038
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Aves
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2398008496
+  openalex_id: W2398008496
+  review: pending
+  title: Cultivo de especies maderables nativas de alto valor para pequeños y medianos
+    productores
+  year: 2015
+  venue: Americanae (AECID Library)
+  authors: Olman Murillo‐Gamboa; Yorleny Badilla‐Valverde; Fabiana Rojas-Parajeles;
+    Gustavo Torres-Córdoba; Dorian Carvajal‐Vanegas; Rodolfo Canessa-Mora
+  type: report
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/6438
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.1080/00222933.2014.909061
+  doi: 10.1080/00222933.2014.909061
+  openalex_id: W2016257855
+  review: pending
+  title: 'MeteorusHaliday (Hymenoptera: Braconidae) parasitoids of Pyralidae: description
+    and biology of two new species and first record ofMeteorus desmiaeZitani, 1998
+    from Ecuador'
+  year: 2014
+  venue: Journal of Natural History
+  authors: Helmuth Aguirre; Scott Richard Shaw
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.tandfonline.com/doi/pdf/10.1080/00222933.2014.909061?needAccess=true&role=button
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera; Hymenoptera
+  themes: Taxonomy & systematics; Species interactions
+  added: '2026-11-23'
+- id: W70202209
+  openalex_id: W70202209
+  review: pending
+  title: Combustibles forestales superficiales y riesgo de incendio en tres estadios
+    de sucesión de bosques en el Parque Nacional Palo Verde, Costa Rica.
+  year: 2014
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Pedro Andrey Rojas-Chaves
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/9764feae-4d38-4a82-bf10-624f8f4e2140/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Succession & restoration; Conservation, management & people
+  added: '2026-11-23'
+- id: W1901964689
+  openalex_id: W1901964689
+  review: pending
+  title: Desarrollo de fuentes de energías limpias en Costa Rica.
+  year: 2014
+  venue: Americanae (AECID Library)
+  authors: Carlos Roldán-Villalobos
+  type: report
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/3367
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W1262830055
+  openalex_id: W1262830055
+  review: pending
+  title: Interacciones insecto-planta en una leguminosa de bosque seco tropical bajo
+    tres coberturas con diferente perturbación Coello, Tolima, Colombia
+  year: 2014
+  venue: Repositorio Institucional (Pontificia Universidad Javeriana)
+  authors: López Galván; Ana Carolina
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: http://hdl.handle.net/10554/15012
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Insecta; Plantae
+  themes: Species interactions; Populations & communities; Climate & environmental
+    change
+  added: '2026-11-23'
+- id: W3120976045
+  openalex_id: W3120976045
+  review: excluded
+  title: estrutura da comunidade de primatas na região do Tepequém, Roraima, Amazônia
+    brasileira
+  year: 2014
+  venue: Americanae (AECID Library)
+  authors: Antônio Rossano Mendes Pontes
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: https://repositorio.ufpe.br/handle/123456789/11777
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia; Plantae
+  themes: Populations & communities; Ecosystem processes
+  added: '2026-11-23'
+- id: W7119351211
+  openalex_id: W7119351211
+  review: excluded
+  title: Population density of felids and the terrestrial mammals richness in southern
+    Amazonia.
+  year: 2014
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Cristiano Trapé Trinca
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: https://repositorio.ufpb.br/jspui/bitstream/tede/4147/1/arquivototal.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: W1943115374
+  openalex_id: W1943115374
+  review: excluded
+  title: ANÁLISE COMPARATIVA DE TÉCNICAS DE RECUPERAÇÃO AMBIENTAL EM ÁREAS DEGRADADAS
+    NO MUNICÍPIO DE BOFETE/SP
+  year: 2014
+  venue: Americanae (AECID Library)
+  authors: Karen Regina Castelli
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: https://repositorio.unesp.br/server/api/core/bitstreams/a84a9054-2c3d-482a-99bf-f3d7916e5598/content
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Succession & restoration
+  added: '2026-11-23'
+- id: 10.11588/heidok.00016832
+  doi: 10.11588/heidok.00016832
+  openalex_id: W2902578974
+  review: pending
+  title: Erneuerbare Energien in Städten Zentralamerikas - die Elektrizitätsmärkte
+    von Costa Rica und Nicaragua im Vergleich. Eine Mehr-Ebenen-Analyse der Rahmenbedingungen
+  year: 2014
+  venue: heiDOK (Heidelberg University)
+  authors: Bernd Lämmlin
+  type: dissertation
+  language: de
+  is_oa: true
+  oa_url: http://archiv.ub.uni-heidelberg.de/volltextserver/16832/1/Dissertation%20_Bernd%20L%C3%A4mmlin.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Fungi
+  themes: Climate & environmental change
+  added: '2026-11-23'
+- id: W2781674623
+  openalex_id: W2781674623
+  review: excluded
+  title: Valoración y Planificación del Recurso Hídrico en la cuenca alta y canal
+    principal del río Tempisque
+  year: 2013
+  venue: Americanae (AECID Library)
+  authors: Julio César Calvo-Alvarado; John E. Jackson; Isabel Guzmán Guzmán; Ana
+    Julieta Calvo‐Obando; Cesar Dionisio Jiménez‐Rodríguez; Dorian Carvajal‐Vanegas;
+    Oscar Arias-Rodríguez
+  type: report
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/3137
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: duplicate of a listed paper; found by openalex_fulltext'
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: W2617920250
+  openalex_id: W2617920250
+  review: pending
+  title: Estudio base para el monitoreo ecológico de especies conspicuas de aves y
+    mamíferos en la Estación Biológica Sirena, Parque Nacional Corcovado, Puntarenas,
+    Costa Rica
+  year: 2013
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Tatiana Lucía Loayza-Aguilar
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/cc3b2f19-a59b-40eb-8580-b674a6ab3ab8/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia; Aves
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: 10.3390/geosciences3030585
+  doi: 10.3390/geosciences3030585
+  openalex_id: W2003721388
+  review: pending
+  title: 'Evaluating Complex Magma Mixing via Polytopic Vector Analysis (PVA) in the
+    Papagayo Tuff, Northern Costa Rica: Processes that Form Continental Crust'
+  year: 2013
+  venue: Geosciences
+  authors: David W. Szymanski; Lina C. Patino; Thomas A. Vogel; Guillermo Alvarado
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.mdpi.com/2076-3263/3/3/585/pdf?version=1378124986
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: W2910967400
+  openalex_id: W2910967400
+  review: excluded
+  title: Bioma Marzo 2013
+  year: 2013
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Bioma
+  type: article
+  language: it
+  is_oa: true
+  oa_url: http://ri.ues.edu.sv/3173/
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera; Arachnida; Crustacea; Reptilia; Amphibia
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: 10.1002/ece3.547
+  doi: 10.1002/ece3.547
+  openalex_id: W2020392101
+  review: pending
+  title: Population genetic patterns among social groups of the endangered Central
+    American spider monkey (Ateles geoffroyi) in a human‐dominated landscape
+  year: 2013
+  venue: Ecology and Evolution
+  authors: Suzanne Hagell; Amy V. Whipple; Carol L. Chambers
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ece3.547
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Evolution & genetics; Natural history & behavior; Conservation, management
+    & people
+  added: '2026-11-23'
+- id: W2797116841
+  openalex_id: W2797116841
+  review: pending
+  title: Modelo de Priorización de Obras Geotécnicas para la Intervención y Mantenimiento
+    de Obras de Infraestructura Vial del CONAVI
+  year: 2013
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Gabriel Enrique Calvo-Vargas
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/f4feba68-930e-4c07-b14d-6ae18dcb8141/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  added: '2026-11-23'
+- id: W2791969411
+  openalex_id: W2791969411
+  review: pending
+  title: Propuesta Piloto de un Directorio Forestal Productivo para Belice, Guatemala,
+    Nicaragua, Costa Rica y Panamá.
+  year: 2013
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Andrea Molina-Alcázar
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/863993dd-cc02-4ea2-86c7-dc8cfab41ad4/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2334195786
+  openalex_id: W2334195786
+  review: pending
+  title: Blackness and mestizaje in Mexico and Central America
+  year: 2013
+  venue: HAL
+  authors: Élisabeth Cunin; Odile Hoffmann
+  type: book
+  language: en
+  is_oa: true
+  oa_url: https://hal.archives-ouvertes.fr/hal-01287674
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: W132653777
+  openalex_id: W132653777
+  review: pending
+  title: 'Sustainable development in ecotourism : Tour operators managing the economic,
+    social and environmental concerns of sustainable development in Costa Rica'
+  year: 2013
+  venue: DiVA at Umeå University (Umeå University)
+  authors: Frida Eriksson; Matilda Lidström
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-79524
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Natural history & behavior; Conservation, management & people
+  added: '2026-11-23'
+- id: W3161298666
+  openalex_id: W3161298666
+  review: excluded
+  title: Exploración bibliográfica sobre el cuento erudito costarricense
+  year: 2013
+  venue: Repositorio Académico Institucional de la Universidad Nacional
+  authors: Aracelly Ugalde Víquez; Margarita Rojas González; Rafael Pérez Miguel;
+    Kevin Porras; Aymara Lezama C.; Nancy Hernández Maroto; Rodolfo Corrales Solano
+  type: other
+  language: es
+  is_oa: true
+  oa_url: http://hdl.handle.net/11056/19465
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: not a research paper; found by openalex_fulltext'
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2267689205
+  openalex_id: W2267689205
+  review: pending
+  title: Crecimiento diamétrico del bosque seco tropical en tres estadios sucesionales,
+    Parque Estadual da Mata Seca, Estado de Minas Gerais, Brasil.
+  year: 2012
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Sofía Calvo-Rodríguez
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/8d13b40e-a990-48e0-80d4-d26b2ef18f0b/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Succession & restoration
+  added: '2026-11-23'
+- id: 10.1177/194008291200500207
+  doi: 10.1177/194008291200500207
+  openalex_id: W2181354642
+  review: pending
+  title: Distribution, Abundance, and Spatial Ecology of the Critically Endangered
+    Ecuadorian Capuchin ( Cebus Albifrons Aequatorialis )
+  year: 2012
+  venue: Tropical Conservation Science
+  authors: Katharine M. Jack; Fernando A. Campos
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://journals.sagepub.com/doi/pdf/10.1177/194008291200500207
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior; Populations & communities; Conservation, management
+    & people
+  added: '2026-11-23'
+- id: W2626890236
+  openalex_id: W2626890236
+  review: excluded
+  title: Aspectos biológicos de Heliopetes arsalte (LINNAEUS, 1758) (Hesperiidae,
+    Pyrginae) em cerrado do Distrito Federal
+  year: 2012
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Neuza Aparecida Pereira Silva; Eliezer B. Araújo; Olaf Hermann Hendrik
+    Mielke; Helena Castanheira de Morais
+  type: article
+  language: pt
+  is_oa: true
+  oa_url: http://repositorio.unb.br/handle/10482/12182
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Species interactions
+  added: '2026-11-23'
+- id: 10.1673/031.012.10601
+  doi: 10.1673/031.012.10601
+  openalex_id: W2015729962
+  review: excluded
+  title: 'Under Cover of Darkness, Caterpillars Take Flight: The Immature Stages and
+    Feeding Ecology of the Glasswinged Butterfly,Oleria baizanain Eastern Ecuador'
+  year: 2012
+  venue: Journal of insect science/Journal of Insect Science
+  authors: Thomas R. Walla; Harold Francis Greeney
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://academic.oup.com/jinsectscience/article-pdf/12/1/106/18150644/jis12-0106.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: 10.1673/031.012.7401
+  doi: 10.1673/031.012.7401
+  openalex_id: W2120452510
+  review: pending
+  title: Immature Stages of the Neotropical Cracker Butterfly,Hamadryas epinome
+  year: 2012
+  venue: Journal of Insect Science
+  authors: Luis Anderson Ribeiro Leite; Fernando Maia Silva Dias; Eduardo Carneiro
+    dos Santos; Mirna Martins Casagrande; Olaf Hermann Hendrik Mielke
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://academic.oup.com/jinsectscience/article-pdf/12/1/74/8000316/jis12-0074.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: 10.1673/031.012.5201
+  doi: 10.1673/031.012.5201
+  openalex_id: W2000139662
+  review: pending
+  title: Morphology and Behavior of the Early Stages of the Skipper,Urbanus esmeraldus,
+    onUrera baccifera, an Ant—Visited Host Plant
+  year: 2012
+  venue: Journal of Insect Science
+  authors: Alice Ramos de Moraes; Harold Francis Greeney; Paulo S. Oliveira; Eduardo
+    P. Barbosa; André Victor Lucci Freitas
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://academic.oup.com/jinsectscience/article-pdf/12/1/52/18150399/jis12-0052.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera; Hymenoptera; Plantae
+  themes: Natural history & behavior; Species interactions
+  added: '2026-11-23'
+- id: W2480697359
+  openalex_id: W2480697359
+  review: excluded
+  title: Domestic 'laker' ships as a potential pathway of nonindigenous species in
+    the Great Lakes
+  year: 2012
+  venue: Scholarship at UWindsor (University of Windsor)
+  authors: Abisola A. Adebayo
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://hdl.handle.net/20.500.14776/5952
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.2744/ccb-0959.1
+  doi: 10.2744/ccb-0959.1
+  openalex_id: W2003702560
+  review: pending
+  title: Olive Ridley Mass Nesting Ecology and Egg Harvest at Ostional Beach, Costa
+    Rica
+  year: 2012
+  venue: Chelonian Conservation and Biology
+  authors: Roldán Arturo Valverde; Carlos M. Orrego; Mark T. Tordoir; Flor M. Gómez;
+    Diana S. Solís; Ricardo A. Hernández; Gredy B. Gómez; Laura Brenes Chaves; José
+    P. Baltodano; Luis G. Fonseca; James Robert Spotila
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.2744/ccb-0959.1
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Reptilia
+  themes: Natural history & behavior; Populations & communities; Conservation, management
+    & people
+  added: '2026-11-23'
+- id: 10.1111/j.1570-7458.2012.01307.x
+  doi: 10.1111/j.1570-7458.2012.01307.x
+  openalex_id: W2127015706
+  review: excluded
+  title: Phylogenetics and population genetics of the Eurasian parasitoid M acrocentrus
+    cingulum based on mitochondrial and nuclear loci
+  year: 2012
+  venue: Entomologia Experimentalis et Applicata
+  authors: Benjamin Pélissié; Sergine Ponsard; Denis Bourguet; Gaël J. Kergoat
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://hal.inrae.fr/hal-02650544/document
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera; Hymenoptera; Plantae
+  themes: Evolution & genetics; Species interactions; Populations & communities
+  added: '2026-11-23'
+- id: W2743424470
+  openalex_id: W2743424470
+  review: excluded
+  title: 'O pluralismo jurídico e efetividade jurídica na relação entre proteção ambiental
+    e investimentos estrangeiros: os casos Santa Elena, Metalclad e Tecmed = Legal
+    pluralism and legal effectiveness in the relationship between environmental protection
+    and foreign investment: Santa Elena, Metalclad and Tecmed cases'
+  year: 2012
+  venue: Americanae (AECID Library)
+  authors: Gabriela Garcia Batista Lima
+  type: article
+  language: pt
+  is_oa: true
+  oa_url: http://bdjur.stj.jus.br/dspace/handle/2011/59677
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.14288/1.0072604
+  doi: 10.14288/1.0072604
+  openalex_id: W2418257864
+  review: pending
+  title: Losses of rare forest invertebrates and divergent rates of litter decomposition
+    under different land uses
+  year: 2012
+  venue: cIRcle (University of British Columbia)
+  authors: Melissa Erin Cuke
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: http://hdl.handle.net/2429/41564
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Ecosystem processes; Climate & environmental
+    change
+  added: '2026-11-23'
+- id: W2788324603
+  openalex_id: W2788324603
+  review: pending
+  title: Modelo experto para el análisis de la adopción de árboles en pasturas del
+    trópico seco de Nicaragua
+  year: 2012
+  venue: Americanae (AECID Library)
+  authors: Salazar Oviedo; G Alvaro
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: http://hdl.handle.net/11554/5342
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: 10.1673/031.012.2501
+  doi: 10.1673/031.012.2501
+  openalex_id: W2059538472
+  review: excluded
+  title: 'Faunistic Catalog of the Caddisflies (Insecta: Trichoptera) of Parque Nacional
+    do Itatiaia and its Surroundings in Southeastern Brazil'
+  year: 2012
+  venue: Journal of Insect Science
+  authors: Leandro Lourenço Dumas; Jorge Luiz Nessimian
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://academic.oup.com/jinsectscience/article-pdf/12/1/25/18149924/jis12-0025.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Trichoptera
+  themes: Taxonomy & systematics; Populations & communities
+  added: '2026-11-23'
+- id: W411800793
+  openalex_id: W411800793
+  review: pending
+  title: Ecología del paisaje y caracterización de la cobertura forestal, según piso
+    altitudinal de la microcuenca del río La Balsa, Costa Rica, para establecer criterios
+    para el manejo integrado de cuencas.
+  year: 2012
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Marilyn Ortega-Rivera
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/cc490099-19cb-48b5-ba60-9e3acf901b34/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W622374422
+  openalex_id: W622374422
+  review: pending
+  title: Análisis y comparación de la biomasa aérea de la cobertura forestal según
+    zona de vida y tipo de bosque para costa rica
+  year: 2011
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Ulate Quesada; Carmen Amelia
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/8ccf5d0f-e6d7-4fc7-a2b0-015ce768d6f6/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W590987405
+  openalex_id: W590987405
+  review: pending
+  title: Caracterización de la flora y estructura de un bosque transicional húmedo
+    a seco, Miramar, Puntarenas Costa Rica
+  year: 2011
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Massiel Zamora-Ávila
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/0da1fa99-4e8d-4956-928e-e7c22c1917b3/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.5962/p.266499
+  doi: 10.5962/p.266499
+  openalex_id: W2924964729
+  review: excluded
+  title: Host plants of Lycaenidae on inflorescences in the central Brazilian cerrado
+  year: 2011
+  venue: Journal of Research on the Lepidoptera
+  authors: Neuza A. P. Silva; Marcelo Duarte; Ivone R. Diniz; Helena Castanheira de
+    Morais
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/266499
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera; Plantae
+  themes: Species interactions; Populations & communities
+  added: '2026-11-23'
+- id: W3143286764
+  openalex_id: W3143286764
+  review: pending
+  title: The vocal behaviour and reproductive strategies of a neotropical duetting
+    wren
+  year: 2011
+  venue: Scholarship at UWindsor (University of Windsor)
+  authors: Sarah B. Douglas
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://hdl.handle.net/20.500.14776/7009
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Aves
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: W2276088341
+  openalex_id: W2276088341
+  review: pending
+  title: Biologia de lagartas de Lycaenidae em inflorescências de plantas no cerrado
+    do Brasil Central
+  year: 2011
+  venue: Americanae (AECID Library)
+  authors: Neuza Aparecida Pereira Silva
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: http://repositorio.unb.br/handle/10482/8918
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera; Reptilia; Plantae
+  themes: Species interactions
+  added: '2026-11-23'
+- id: W2565417704
+  openalex_id: W2565417704
+  review: pending
+  title: Monitoreo de la calidad del agua y caracterización de los bosques de la cuenca
+    del Río Carbón
+  year: 2011
+  venue: Americanae (AECID Library)
+  authors: Marvin Castillo-Ugalde; Julio César Calvo-Alvarado
+  type: report
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/3101
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: W786865994
+  openalex_id: W786865994
+  review: excluded
+  title: Incentivos y barreras para la inversión en plantaciones forestales en Costa
+    Rica.
+  year: 2011
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Umaña Picado; Randy Antonio
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/f39a7bfd-5409-4f04-8e09-e1d78e464043/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: duplicate of a listed paper; found by openalex_fulltext'
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.3417/2007115
+  doi: 10.3417/2007115
+  openalex_id: W2147277867
+  review: pending
+  title: 'Chromosomes of Neotropical Rubiaceae. I: Rubioideae1'
+  year: 2010
+  venue: Annals of the Missouri Botanical Garden
+  authors: Michael Kiehn
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/390539
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: W843149946
+  openalex_id: W843149946
+  review: pending
+  title: Condición silvicultural y propiedades físicas y generales de la madera de
+    Enterolobium cyclocarpum y Samanea saman en plantaciones mixtas de 19 años con
+    especies nativas, en la Estación Experimental Forestal Horizontes, Liberia, Guanacaste
+  year: 2010
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: María Fernanda Obando-Picado
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/2f8a1f5e-ac09-499a-9cf2-0af70822ef65/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: sector Horizontes; found by openalex_fulltext
+  sectors: Horizontes
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W624130768
+  openalex_id: W624130768
+  review: pending
+  title: Rescate de especies forestales en peligro crítico de extinción en Costa Rica
+  year: 2010
+  venue: Americanae (AECID Library)
+  authors: Eugenio Corea-Arias; Roberto Cordero; Elizabeth Arnáez-Serrano; Ileana
+    Moreira-González; Ana Abdelnour-Esquivel; Fiorella Donato Calderón; Oldemar Baeza;
+    Wilson Azofeifa-Delgado
+  type: report
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/5774
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: W2519424106
+  openalex_id: W2519424106
+  review: pending
+  title: Estrategias para la conservación de poblaciones de mamíferos silvestres en
+    rutas turísticas de acceso al cantón de Sarapiquí
+  year: 2010
+  venue: Americanae (AECID Library)
+  authors: Vanessa Carvajal Alfaro; Fátima Díaz-Quesada; Roberto Gallardo-Loría
+  type: report
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/6281
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Species interactions
+  added: '2026-11-23'
+- id: W2292860362
+  openalex_id: W2292860362
+  review: pending
+  title: Estudio hidrogeológico integral de las comunidades del Jobo y Soley, La Cruz,
+    Guanacaste
+  year: 2010
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Erick Orozco; Maritta Alvarado Velas; Jorge Suárez; Celia E. Monge; Ana
+    Pamela Paz García; Marta Chaves; Michell Arias
+  type: report
+  language: es
+  is_oa: true
+  oa_url: http://hdl.handle.net/10669/11296
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Populations & communities; Geology & volcanology
+  added: '2026-11-23'
+- id: W597260857
+  openalex_id: W597260857
+  review: pending
+  title: Bases para el conocimiento para contribuir al fortalecimiento y consolidación
+    del corredor biológico Las Morochas; Guanacaste, Costa Rica
+  year: 2010
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Arianne M. Gómez-Gómez
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/2b5b95e7-bed2-4b56-b254-c9e1bc724e23/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Species interactions
+  added: '2026-11-23'
+- id: W2593300584
+  openalex_id: W2593300584
+  review: pending
+  title: IModelo teórico determinístico para análisis de la disponibilidad estacional
+    del agua en cuencas hidrográficas con datos discretos de caudales
+  year: 2010
+  venue: Americanae (AECID Library)
+  authors: Luis Carlos Vargas-Fallas
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/5856
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W190543354
+  openalex_id: W190543354
+  review: excluded
+  title: 'Características da planta hospedeira, ontogênese e comportamento alimentar
+    das larvas de Heliconius erato phyllis (Fabricius, 1775) (Lepidoptera: Nymphalidae)'
+  year: 2010
+  venue: Americanae (AECID Library)
+  authors: Ábner Elpino-Campos
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: http://hdl.handle.net/10183/21422
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera; Plantae
+  themes: Species interactions
+  added: '2026-11-23'
+- id: W3208916886
+  openalex_id: W3208916886
+  review: excluded
+  title: Bosque, cobertura y recursos forestales 2008
+  year: 2009
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Julio Calvo
+  type: book
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/20.500.12337/473
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.20381/ruor-12438
+  doi: 10.20381/ruor-12438
+  openalex_id: W2228862150
+  review: pending
+  title: Taxonomy, systematics and DNA barcoding of selected Penicillium groups
+  year: 2009
+  venue: uO Research (University of Ottawa)
+  authors: Karol Geraldina Rivera
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.20381/ruor-12438
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera; Fungi
+  themes: Taxonomy & systematics; Evolution & genetics; Populations & communities
+  added: '2026-11-23'
+- id: 10.5281/zenodo.189523
+  doi: 10.5281/zenodo.189523
+  openalex_id: W4291300111
+  review: excluded
+  title: 'A new hidden species of the Cymothoe caenis - complex (Lepidoptera: Nymphalidae)
+    from western Africa'
+  year: 2009
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  authors: Robin van Velzen; Torben Bjerregaard Larsen; Freek T. Bakker
+  type: article
+  language: en
+  is_oa: false
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: duplicate of a listed paper; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: W2271320415
+  openalex_id: W2271320415
+  review: excluded
+  title: Ecologia e comportamento de Alouatta guariba clamitans Cabrera, 1940, em
+    um fragmento de mata de araucária na serra gaúcha
+  year: 2009
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Guilherme Brambatti Guzzo
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: http://tede2.pucrs.br/tede2/handle/tede/162
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Climate & environmental change
+  added: '2026-11-23'
+- id: 10.1111/j.1096-3642.2008.00503.x
+  doi: 10.1111/j.1096-3642.2008.00503.x
+  openalex_id: W2011787392
+  review: pending
+  title: NeotropicalCopestylum(Diptera, Syrphidae) breeding in Agavaceae and Cactaceae
+    including seven new species
+  year: 2009
+  venue: Zoological Journal of the Linnean Society
+  authors: Graham E. Rotheray; Ma Ángeles Marcos-García; Geoff Hancock; Celeste Pérez‐Bañón;
+    Chris T. Maier
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://zenodo.org/records/5443474/files/source.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Diptera
+  themes: Taxonomy & systematics; Natural history & behavior
+  added: '2026-11-23'
+- id: W622446029
+  openalex_id: W622446029
+  review: pending
+  title: Estudio de la diversidad de hongos y bacterias asociados al intestino de
+    larvas de coleópteros y determinación de sus propiedades lignocelulíticas
+  year: 2009
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Angélica Acuña-González
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/d096a720-501d-461c-95cb-d6589c231cfa/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Coleoptera; Fungi; Microorganisms
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: W2249504040
+  openalex_id: W2249504040
+  review: excluded
+  title: 'Dieta e comportamento de um grupo de Alouatta guariba clamitans Cabrera,
+    1940 : uma relação de causa e efeito?'
+  year: 2009
+  venue: Americanae (AECID Library)
+  authors: Flávia Koch de Vasconcellos
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: http://tede2.pucrs.br/tede2/handle/tede/168
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Climate & environmental change
+  added: '2026-11-23'
+- id: 10.15517/rbt.v57i0.21274
+  doi: 10.15517/rbt.v57i0.21274
+  openalex_id: W2105723161
+  review: pending
+  title: Plants and butterflies of a small urban preserve in the Central Valley of
+    Costa Rica
+  year: 2009
+  venue: Americanae (AECID Library)
+  authors: Kenji Nishida; Ichiro Nakamura; Carlos O. Morales
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/21274
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera; Plantae
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.7282/t3jm29s2
+  doi: 10.7282/t3jm29s2
+  openalex_id: W2246365871
+  review: pending
+  title: Geochemistry of Southeastern Nicaragua lavas and mantle xenoliths from Cerro
+    Mercedes, Costa Rica
+  year: 2009
+  venue: Rutgers University Community Repository (Rutgers University)
+  authors: F. N. Lindsay
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.7282/t3jm29s2
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Chondrichthyes
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: 10.1016/j.aquatox.2008.05.004
+  doi: 10.1016/j.aquatox.2008.05.004
+  openalex_id: W2142235486
+  review: excluded
+  title: Maternal transfer of trace elements in leatherback turtles (Dermochelys coriacea)
+    of French Guiana
+  year: 2008
+  venue: Aquatic Toxicology
+  authors: Elodie Guirlet; Krishna Das; Marc Girondot
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://orbi.uliege.be/bitstream/2268/1344/1/2008%20Aquat%20Tox.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Reptilia
+  added: '2026-11-23'
+- id: W1672405207
+  openalex_id: W1672405207
+  review: pending
+  title: Cambio de la cobertura de la tierra para el Área de ConservaciónTempisque
+    1998-2003, Guanacaste, Costa Rica.
+  year: 2008
+  venue: Americanae (AECID Library)
+  authors: Rebeca Cordero-Montoya; Heiner Acebedo Mairena; Julio César Calvo-Alvarado
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.tec.ac.cr/index.php/kuru/article/view/410
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: W2265112265
+  openalex_id: W2265112265
+  review: excluded
+  title: 'The ecology of the lowland tapir in Madre de Dios, Peru: Using new technologies
+    to study large rainforest mammals'
+  year: 2008
+  venue: OakTrust (Texas A&M University Libraries)
+  authors: Mathias W. Tobler
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://oaktrust.library.tamu.edu/bitstreams/38c9821b-f4c8-4c4c-93f0-2b174560b896/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: W1124639133
+  openalex_id: W1124639133
+  review: pending
+  title: Cambio de la cobertura de la tierra para el Área de Conservación Tempisque,
+    período 1998-2003. Proyecto ECOMAPAS
+  year: 2008
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Rebeca Cordero-Montoya
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/f346ac17-3adf-4253-8450-851525c2a41b/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: W121839939
+  openalex_id: W121839939
+  review: pending
+  title: Transformaciones físicas y socioeconómicas a causa de la implantación turística
+    en la localidad de Tamarindo, Costa Rica
+  year: 2008
+  venue: RECERCAT (Consorci de Serveis Universitaris de Catalunya)
+  authors: Antoni Camps Garmón; Albert Montserrat Royuela; Carlos Porras Ruiz; Arnau
+    Rovira Planas
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://dugi-doc.udg.edu/bitstream/10256/1073/1/1%20MEMORIA.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.3417/2007016
+  doi: 10.3417/2007016
+  openalex_id: W2135146109
+  review: excluded
+  title: Plant Paleoecology in Deep Time1
+  year: 2008
+  venue: Annals of the Missouri Botanical Garden
+  authors: William A. DiMichele; Robert A. Gastaldo
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/390612
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Populations & communities; Climate & environmental change; Geology & volcanology
+  added: '2026-11-23'
+- id: W2762764462
+  openalex_id: W2762764462
+  review: pending
+  title: Educadoras y educadores inolvidables
+  year: 2008
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Chaves Salas; Ana Lupita Chaves Salas
+  type: book
+  language: es
+  is_oa: true
+  oa_url: http://repositorio.inie.ucr.ac.cr/handle/123456789/449
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: 10.25911/5d7a26a4621d6
+  doi: 10.25911/5d7a26a4621d6
+  openalex_id: W1892641295
+  review: excluded
+  title: The Nutritional Ecology of Spider Monkeys (Ateles chamek) in the Context
+    of Reduced- Impact Logging
+  year: 2008
+  venue: ANU Open Research (Australian National University)
+  authors: Felton, Annika Maria
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.25911/5d7a26a4621d6
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior; Species interactions; Populations & communities
+  added: '2026-11-23'
+- id: 10.1016/j.cub.2007.08.056
+  doi: 10.1016/j.cub.2007.08.056
+  openalex_id: W2914930209
+  review: excluded
+  title: Hidden gems
+  year: 2007
+  venue: Current Biology
+  authors: Nigel R. Williams
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://www.cell.com/article/S0960982207019124/pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.1016/j.cub.2007.08.055
+  doi: 10.1016/j.cub.2007.08.055
+  openalex_id: W4248802392
+  review: excluded
+  title: Bye Baiji?
+  year: 2007
+  venue: Current Biology
+  authors: Florian Maderspacher
+  type: article
+  language: en
+  is_oa: true
+  oa_url: http://www.cell.com/article/S0960982207019112/pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Actinopterygii
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.3406/revec.2007.1357
+  doi: 10.3406/revec.2007.1357
+  openalex_id: W4298445388
+  review: excluded
+  title: The biogeography of large islands, or how does the size of the ecological
+    theater affect the evolutionary play ?
+  year: 2007
+  venue: Revue d Écologie (La Terre et La Vie)
+  authors: Egbert Giles Leigh; Annette Hladik; Claude Marcel Hladik; Alison Jolly
+  type: article
+  language: fr
+  is_oa: true
+  oa_url: https://hal.archives-ouvertes.fr/hal-00283373/document
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Diptera; Mammalia; Reptilia; Plantae
+  themes: Evolution & genetics; Natural history & behavior; Species interactions
+  added: '2026-11-23'
+- id: W7236547149
+  openalex_id: W7236547149
+  review: excluded
+  title: Global Trends in Coastal Tourism
+  year: 2007
+  venue: OakTrust (Texas A&M University Libraries)
+  authors: Martha Honey; David Krantz
+  type: report
+  language: en
+  is_oa: true
+  oa_url: https://oaktrust.library.tamu.edu/bitstreams/d7e6803c-3630-4cac-8095-24a1297273cc/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W199978424
+  openalex_id: W199978424
+  review: excluded
+  title: História natural e morfologia dos estágios imaturos de Theope thestias Hewitson,
+    1860 (Lepidoptera, Riodinidae) com ênfase na mirmecofilia
+  year: 2006
+  venue: Americanae (AECID Library)
+  authors: Lucas Augusto Kaminski
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: http://hdl.handle.net/10183/8341
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Natural history & behavior; Conservation, management & people
+  added: '2026-11-23'
+- id: 10.15517/rbt.v53i1-2.14559
+  doi: 10.15517/rbt.v53i1-2.14559
+  openalex_id: W2147873807
+  review: pending
+  title: '[Occurrence and behavioral patterns of the spotted coastal dolphin Stenella
+    attenuata (Cetacea: delphinidae) in the Gulf of Papagayo, Costa Rica].'
+  year: 2005
+  venue: PubMed
+  authors: Laura Johanna May-Collado; Álvaro Ramírez
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/14559
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior; Species interactions
+  added: '2026-11-23'
+- id: W2396464356
+  openalex_id: W2396464356
+  review: pending
+  title: '[Natural helminth infection in Sicalis flaveola (Linnaeus, 1766), by Acuaria
+    mayori Lent, Freitas and Proença, 1945 (Nematoda: Acuarioidea) in Brazil].'
+  year: 2005
+  venue: Revista Brasileira de Parasitologia Veterinária/Brazilian Journal of Veterinary
+    Parasitology
+  authors: Maria L. de A. Rodrigues; Luis Campili Pereira; Roberto Magalhães Pinto;
+    Fernanda Lins; Mônica Guedes Riehl Vaz; Ana Paula Martinez de Abreu; Paulo César
+    A. de Souza
+  type: article
+  language: pt
+  is_oa: true
+  oa_url: https://www.arca.fiocruz.br/handle/icict/38709
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Nematoda
+  themes: Species interactions
+  added: '2026-11-23'
+- id: 10.1111/j.1550-7408.2005.05202008.x
+  doi: 10.1111/j.1550-7408.2005.05202008.x
+  openalex_id: W2135221019
+  review: pending
+  title: 'A Microbial Observatory of Caterpillars: Isolation and Molecular Characterization
+    of Protists Associated with the Saturniid Moth Caterpillar Rothschildia lebeau1,2'
+  year: 2005
+  venue: Journal of Eukaryotic Microbiology
+  authors: Linda Amaral‐Zettler; Abby D. Laatsch; Erik Zettler; Thomas A. Nerad; JEFFREY
+    COLE; Felipe Chavarría; Joel Díaz; Daniel H. Janzen; Ana Sittenfeld; Olivia U.
+    Mason; Anna‐Louise Reysenbach
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1550-7408.2005.05202008.x
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera; Microorganisms
+  themes: Evolution & genetics
+  added: '2026-11-23'
+- id: W1482812417
+  openalex_id: W1482812417
+  review: pending
+  title: Prehensile Tail Use during Feeding and Foraging of White-faced capuchins,
+    Cebus capucinus
+  year: 2005
+  venue: The Knowledge Bank (The Ohio State University)
+  authors: Ryan Covey
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: http://hdl.handle.net/1811/5877
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Mammalia
+  themes: Natural history & behavior
+  added: '2026-11-23'
+- id: W3121865355
+  openalex_id: W3121865355
+  review: excluded
+  title: Análise do manejo florestal de "Baixo impacto" e da caça de subsistência
+    sobre uma comunidade de primatas na Floresta Estadual de Antimary (Acre, Brasil).
+  year: 2005
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Armando Muniz Calouro
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: https://repositorio.ufscar.br/handle/20.500.14289/1896
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia
+  themes: Populations & communities; Conservation, management & people
+  added: '2026-11-23'
+- id: W2955515522
+  openalex_id: W2955515522
+  review: excluded
+  title: Efeito da fragmentação Florestal sobre borboletas (Lepidoptera, Hesperiidae)
+    associada à formiga-de-correição Eciton burchelli (Hymenoptera, Formicidae, Ecitoninae).
+  year: 2004
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  authors: Rosamary Silva Vieira
+  type: dissertation
+  language: pt
+  is_oa: true
+  oa_url: https://repositorio.ufscar.br/handle/20.500.14289/1832
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera; Hymenoptera
+  themes: Climate & environmental change
+  added: '2026-11-23'
+- id: W2291754020
+  openalex_id: W2291754020
+  review: excluded
+  title: Environmental heterogeneity shapes genetic diversity through gene flow in
+    Araucaria araucana forest ecosystems in Argentina
+  year: 2004
+  venue: CGSPace A Repository of Agricultural Research Outputs (Consultative Group
+    for International Agricultural Research)
+  authors: Sam Yeaman; Andy Jarvis
+  type: book-chapter
+  language: en
+  is_oa: true
+  oa_url: https://hdl.handle.net/10568/55522
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Evolution & genetics; Populations & communities
+  added: '2026-11-23'
+- id: 10.1046/j.1365-3040.2003.00998.x
+  doi: 10.1046/j.1365-3040.2003.00998.x
+  openalex_id: W2158081728
+  review: pending
+  title: 'Water relations of tropical dry forest flowers: pathways for water entry
+    and the role of extracellular polysaccharides'
+  year: 2003
+  venue: Plant Cell & Environment
+  authors: Saharah Moon Chapotin; Noel Michele Holbrook; Suzanne R. Morse; Marco Gutiérrez
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1046/j.1365-3040.2003.00998.x
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: W2587227343
+  openalex_id: W2587227343
+  review: pending
+  title: Plan de mercadeo para el polo turístico Caño Negro– Río Celeste, Región Huetar
+    Norte – Costa Rica
+  year: 2003
+  venue: Americanae (AECID Library)
+  authors: Patricia Lopez-Lascarez; Ronald Mejías-Ugalde; Rose Marie Vélez-Alfaro
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/2820
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: 10.3406/revec.2003.5328
+  doi: 10.3406/revec.2003.5328
+  openalex_id: W2230597181
+  review: excluded
+  title: 'Biologie de la reproduction d’une espèce menacée de l’île de la Réunion
+    (Corymborkis corymbis : Orchidaceae) : implications pour sa conservation'
+  year: 2003
+  venue: Revue d Écologie (La Terre et La Vie)
+  authors: Sophie Legras; Claire Micheneau; Joël Dupont; Thierry Pailler
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://hal.archives-ouvertes.fr/hal-03529949
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Natural history & behavior; Conservation, management & people
+  added: '2026-11-23'
+- id: W7113255181
+  openalex_id: W7113255181
+  review: excluded
+  title: Brief Descriptions of the 754 properties inscribed on the World Heritage
+    List
+  year: 2003
+  venue: Lirias
+  authors: Mario Santana Quintero
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://lirias.kuleuven.be/bitstream/123456789/265992/1/133247e.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Mammalia; Plantae
+  themes: Ecosystem processes
+  added: '2026-11-23'
+- id: W248515022
+  openalex_id: W248515022
+  review: pending
+  title: Estudio de especies forestales con poblaciones reducidas o en peligro de
+    extinción
+  year: 2003
+  venue: Americanae (AECID Library)
+  authors: Ruperto Quesada‐Monge; Kenner Gerardo Quirós-Brenes
+  type: report
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/2238/5791
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Conservation, management & people
+  added: '2026-11-23'
+- id: W2242753838
+  openalex_id: W2242753838
+  review: excluded
+  title: Diversity of geometrid moths in a montane rainforest in Ecuador
+  year: 2002
+  venue: EPub Bayreuth (University of Bayreuth)
+  authors: Gunnar Brehm
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://epub.uni-bayreuth.de/1012/1/Dissertation_Gunnar_Brehm.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Populations & communities
+  added: '2026-11-23'
+- id: W4405129071
+  openalex_id: W4405129071
+  review: excluded
+  title: 'Request handbook for the simulation of the SVO mission on ORFEO: Space Volcano
+    Observatory'
+  year: 2002
+  venue: HAL
+  authors: S. Quéré; Yvan Trembley; Pierre Briole
+  type: report
+  language: en
+  is_oa: true
+  oa_url: https://hal.science/hal-04821277v1/file/20020729-svo_orfeo_simu_v1.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: W2275163610
+  openalex_id: W2275163610
+  review: pending
+  title: Insectos y ácaros dañinos a la yuca y su control
+  year: 2002
+  venue: CGSPace A Repository of Agricultural Research Outputs (Consultative Group
+    for International Agricultural Research)
+  authors: Bernardo Arias V.; Octavio Vargas H.; Jesús A. Reyes Q; José María Guerrero;
+    Anthony Charles Bellotti
+  type: book-chapter
+  language: es
+  is_oa: true
+  oa_url: https://hdl.handle.net/10568/55244
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Insecta
+  themes: Evolution & genetics; Populations & communities
+  added: '2026-11-23'
+- id: 10.5424/741
+  doi: 10.5424/741
+  openalex_id: W1825604298
+  review: pending
+  title: Tropical forests and the emerging CO2 market
+  year: 2001
+  venue: Forest Systems
+  authors: R. Castro; Sergio Geovanni Castañeda Cordero
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://fs.revistas.csic.es/index.php/fs/article/download/741/738
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Ecosystem processes; Climate & environmental change
+  added: '2026-11-23'
+- id: W2097716076
+  openalex_id: W2097716076
+  review: pending
+  title: 'Distribution, habitat and behavior of grasshopper sparrows, Ammodramus savannarum
+    (Passeriformes: Emberizidae) in northeastern Nicaragua.'
+  year: 2001
+  venue: PubMed
+  authors: Nidia Arguedas
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/18124
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Insecta; Plantae
+  themes: Natural history & behavior; Populations & communities; Conservation, management
+    & people
+  added: '2026-11-23'
+- id: 10.5281/zenodo.16644175
+  doi: 10.5281/zenodo.16644175
+  openalex_id: W2230341849
+  review: pending
+  title: The octandrous and dodecandrous species of Topobea (Melastomataceae) in Mexico
+    and Central America
+  year: 2001
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Frank Almeda
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/53015
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae; Fungi
+  themes: Taxonomy & systematics; Populations & communities; Ecosystem processes
+  added: '2026-11-23'
+- id: W2733984170
+  openalex_id: W2733984170
+  review: pending
+  title: Evaluación de la actividad in vitro del género Hypocrea contra dos hongos
+    fitopatógenos de importancia agrícola (Fusarium sp y Mycena citricolor)
+  year: 2000
+  venue: TEC repository (Technological Institute of Costa Rica)
+  authors: Andrea Porras‐Alfaro
+  type: dissertation
+  language: es
+  is_oa: true
+  oa_url: https://repositoriotec.tec.ac.cr/bitstreams/5b7cfbf0-57cf-4028-a307-68480d0b89bb/download
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Fungi
+  themes: Species interactions
+  added: '2026-11-23'
+- id: 10.1046/j.1365-2656.1998.00197.x
+  doi: 10.1046/j.1365-2656.1998.00197.x
+  openalex_id: W2085373964
+  review: pending
+  title: Host‐specificity of folivorous insects in a moist tropical forest
+  year: 1998
+  venue: Journal of Animal Ecology
+  authors: John A. Barone
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1046/j.1365-2656.1998.00197.x
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Insecta
+  themes: Species interactions
+  added: '2026-11-23'
+- id: 10.5962/bhl.part.22802
+  doi: 10.5962/bhl.part.22802
+  openalex_id: W2616119876
+  review: pending
+  title: Nomenclatural and taxonomic notes on Costa Rican Araceae
+  year: 1997
+  venue: Phytologia
+  authors: Michael H. Grayum
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.5962/bhl.part.22802
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae; Fungi
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.5281/zenodo.16476937
+  doi: 10.5281/zenodo.16476937
+  openalex_id: W2521463411
+  review: pending
+  title: 'An Analysis of the Genus Stenomacra Stal with Description of Four New Species,
+    and Some Taxonomic Rearrangements (Hemiptera: Heteroptera; Largidae)'
+  year: 1997
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Harry Brailovsky; Cristina Mayorga
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/180819
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Hemiptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.5281/zenodo.16571221
+  doi: 10.5281/zenodo.16571221
+  openalex_id: W2947905985
+  review: pending
+  title: 'Genitalia and the proper genus: Codatractus gets mysie and uvydixa - in
+    a compact cyda group - as well as a Hysterectomy, while Cephise gets part of Polythrix
+    (Hesperiidae: Pyrginae)'
+  year: 1996
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Burns, John McLauren
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/80625
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics; Evolution & genetics; Natural history & behavior
+  added: '2026-11-23'
+- id: 10.5281/zenodo.16296850
+  doi: 10.5281/zenodo.16296850
+  openalex_id: W2054711897
+  review: excluded
+  title: 'Taxonomic Characterization of Some Live-stem Inhabiting Azteca (Hymenoptera:
+    Formicidae) in Costa Rica, with Special Reference to the Ants of Cordia (Boraginaceae)
+    and Triplaris (Polygonaceae)'
+  year: 1996
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: John T. Longino
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/28114
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: duplicate of a listed paper; found by openalex_fulltext'
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics; Natural history & behavior; Populations & communities
+  added: '2026-11-23'
+- id: 10.5281/zenodo.15907538
+  doi: 10.5281/zenodo.15907538
+  openalex_id: W2612168059
+  review: pending
+  title: 'A new genus and species of Entedoninae (Hymenoptera: Eulophidae) from North
+    and Central America'
+  year: 1994
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Michael E. Schauff; Carl M. Yoshimoto; Christer Hansson
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/54699
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Hymenoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.5281/zenodo.16504262
+  doi: 10.5281/zenodo.16504262
+  openalex_id: W3175049073
+  review: pending
+  title: Cladistic analysis of the genera of the subfamily Arsenurinae (Saturniidae)
+  year: 1993
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Richard S. Peigler
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/80739
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Evolution & genetics
+  added: '2026-11-23'
+- id: 10.5287/ora-r1zybe1wb
+  doi: 10.5287/ora-r1zybe1wb
+  openalex_id: W2285259110
+  review: pending
+  title: The systematics of Emerald moths (Geometridae, Geometrinae)
+  year: 1993
+  venue: Oxford University Research Archive (ORA) (University of Oxford)
+  authors: Mark A. Cook
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: https://ora.ox.ac.uk/objects/uuid:5bb206c0-7249-49c0-b1f6-ede2edec7045/files/m31c3563b3944df40ed98347c6cf56104
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.2307/3391496
+  doi: 10.2307/3391496
+  openalex_id: W2035857338
+  review: pending
+  title: New Species of the Fern Genus Elaphoglossum from Mesoamerica
+  year: 1992
+  venue: Novon A Journal for Botanical Nomenclature
+  authors: John T. Mickel
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/2547
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.2307/2399343
+  doi: 10.2307/2399343
+  openalex_id: W2065025409
+  review: pending
+  title: 'A Revision of Mesoamerican Psychotria Subgenus Psychotria (Rubiaceae), Part
+    I: Introduction and Species 1-16'
+  year: 1989
+  venue: Annals of the Missouri Botanical Garden
+  authors: Clement W. Hamilton
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/5334
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics; Natural history & behavior
+  added: '2026-11-23'
+- id: 10.5962/bhl.part.24329
+  doi: 10.5962/bhl.part.24329
+  openalex_id: W2420770291
+  review: excluded
+  title: New species and combinations in the genus Scaphyglottis (Orchidaceae)
+  year: 1988
+  venue: Phytologia
+  authors: Bryan Adams
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/24329
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.5281/zenodo.16165611
+  doi: 10.5281/zenodo.16165611
+  openalex_id: W2214617568
+  review: pending
+  title: 'Revision of the weevil genus Loncophorus Chevrolat (Coleoptera: Curculionidae,
+    Anthonominae)'
+  year: 1988
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Wayne E. Clark
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/204425
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Coleoptera
+  themes: Taxonomy & systematics; Evolution & genetics
+  added: '2026-11-23'
+- id: 10.5962/bhl.title.156482
+  doi: 10.5962/bhl.title.156482
+  openalex_id: W575108141
+  review: pending
+  title: Scorpions (Arachnida) from Costa Rica /
+  year: 1987
+  venue: Texas Tech University Press eBooks
+  authors: Óscar F. Francke; Scott A. Stockwell
+  type: book
+  language: en
+  is_oa: true
+  oa_url: https://doi.org/10.5962/bhl.title.156482
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Arachnida
+  themes: Taxonomy & systematics; Populations & communities
+  added: '2026-11-23'
+- id: 10.2307/2399320
+  doi: 10.2307/2399320
+  openalex_id: W2000217349
+  review: excluded
+  title: A Revision of Dilodendron (Sapindaceae)
+  year: 1987
+  venue: Annals of the Missouri Botanical Garden
+  authors: A. H. Gentry; Julián A. Steyermark
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/19333
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae; Fungi
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.5281/zenodo.13404517
+  doi: 10.5281/zenodo.13404517
+  openalex_id: W2522929758
+  review: pending
+  title: A New Subspecies Of The Pit Viper Agkistrodon bilineatus Reptilia Viperidae
+    From Central America
+  year: 1984
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Roger Conant
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/43804
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Reptilia
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: W2944391091
+  openalex_id: W2944391091
+  review: pending
+  title: RESPONSES BY BUTTERFLIES TO SEASONAL CONDITIONS IN LOWLAND GUANACASTE PROVINCE
+    COSTA-RICA
+  year: 1981
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: A. M. Young
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/81197
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.5281/zenodo.16139040
+  doi: 10.5281/zenodo.16139040
+  openalex_id: W2750001767
+  review: pending
+  title: 'Notes on the flora of Costa Rica, 5: A new species of Coccoloba and new
+    records of Polygonaceae'
+  year: 1981
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: William C. Burger
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/part/33012
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
+- id: 10.2307/2398784
+  doi: 10.2307/2398784
+  openalex_id: W2066379442
+  review: excluded
+  title: 'A Systematic Study of the Genus Lasiacis (Gramineae: Paniceae)'
+  year: 1978
+  venue: Annals of the Missouri Botanical Garden
+  authors: Gerrit Davidse
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/13550
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Plantae
+  themes: Taxonomy & systematics; Natural history & behavior
+  added: '2026-11-23'
+- id: W2415298860
+  openalex_id: W2415298860
+  review: pending
+  title: '[Quality of the water and public health in the Central American isthmus].'
+  year: 1976
+  venue: PubMed
+  authors: C Donato
+  type: article
+  language: es
+  is_oa: true
+  oa_url: https://revistas.ucr.ac.cr/index.php/rbt/article/view/25914
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Populations & communities; Ecosystem processes
+  added: '2026-11-23'
+- id: 10.5962/p.351764
+  doi: 10.5962/p.351764
+  openalex_id: W4321468270
+  review: excluded
+  title: Volcanic Rocks of Aitape, New Guinea.
+  year: 1954
+  venue: Proceedings of the Royal Society of Queensland
+  authors: George. Baker
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/partpdf/351764
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: 10.2307/196656
+  doi: 10.2307/196656
+  openalex_id: W2795950935
+  review: pending
+  title: The Rio San Juan de Nicaragua
+  year: 1889
+  venue: Journal of the American Geographical Society of New York
+  authors: Robert E. Peary
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://archive.org/download/jstor-196656/196656.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: found by openalex_fulltext
+  sectors: ''
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: 10.1080/14786442708674418
+  doi: 10.1080/14786442708674418
+  openalex_id: W1990476288
+  review: excluded
+  title: XXII. On the volcanos of Guatemala
+  year: 1827
+  venue: The Philosophical Magazine
+  authors: M. De Humboldt
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://archive.org/download/crossref-pre-1909-scholarly-works/10.1080%252F14786442608674043.zip/10.1080%252F14786442708674418.pdf
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  themes: Geology & volcanology
+  added: '2026-11-23'
+- id: W7139846939
+  openalex_id: W7139846939
+  review: pending
+  title: 'THE NATURE AND SOURCE OF MAJOR MAGMATIC VOLATILES: OPEN-VENT DEGASSING VOLCANOES
+    IN THE CENTRAL AMERICAN VOLCANIC ARC'
+  venue: Nova Science Publishers (Nova Science Publishers, Inc.)
+  authors: Philippe Robidoux
+  type: dissertation
+  language: en
+  is_oa: true
+  oa_url: http://hdl.handle.net/10447/163138
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: sector San Cristobal, San Cristóbal; found by openalex_fulltext
+  sectors: San Cristóbal
+  themes: Natural history & behavior; Ecosystem processes; Geology & volcanology
+  added: '2026-11-23'
+- id: W7233632820
+  openalex_id: W7233632820
+  review: excluded
+  title: Taxonomic report of the International Lepidoptera Survey
+  venue: Biodiversity Heritage Library (Smithsonian Institution)
+  authors: Ronald R. Gatrelle; International Lepidoptera Survey.
+  type: article
+  language: en
+  is_oa: true
+  oa_url: https://www.biodiversitylibrary.org/itempdf/355020
+  found_by: openalex_fulltext
+  relevance: check
+  relevance_reason: 'auto-excluded: no ACG place, region or author; found by openalex_fulltext'
+  sectors: ''
+  taxa: Lepidoptera
+  themes: Taxonomy & systematics
+  added: '2026-11-23'
 
