@@ -160,7 +160,7 @@
   added: '2026-10-24'
 - id: 10.5061/dryad.xwdbrv1ff
   doi: 10.5061/dryad.xwdbrv1ff
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: Admixture in Africanized honey bees (Apis mellifera) from Panamá to San Diego,
@@ -654,7 +654,7 @@
   added: '2026-10-24'
 - id: 10.5281/zenodo.15144984
   doi: 10.5281/zenodo.15144984
-  review: excluded
+  review: approved
   featured: false
   category: dataset
   title: 'Table 1 in A remarkable new genus and species of Euryproctini (Hymenoptera:
@@ -7085,7 +7085,7 @@
   added: '2026-11-16'
 - id: 10.5519/qd.4g3wikra
   doi: 10.5519/qd.4g3wikra
-  review: pending
+  review: approved
   featured: false
   category: dataset
   title: Natural History Museum (London) Collection Specimens
